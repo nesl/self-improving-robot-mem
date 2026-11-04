@@ -56,7 +56,7 @@ NAMES = ["last-seen", "last-seen, updated nightly", "claim store", "claim store 
 COLOR = {"last-seen": "#000000", "last-seen, updated nightly": "#999999",
          "claim store": "#0072B2", "claim store + today's sightings": "#4A9FD8",
          "claim store + history": "#9CCBEB", "ACE-style": "#CC79A7"}
-FORBIDDEN = [r"\bnotes\b", r"history only", r"history and", r"notes hidden"]
+FORBIDDEN = [r"\bnotes\b", r"\bnote\b", r"history only", r"history and", r"notes hidden"]
 # a distinct dash pattern and marker per method, so every figure still reads in greyscale
 DASH = {"last-seen": (0, (5.0, 1.6)), "last-seen, updated nightly": (0, (2.6, 1.6)),
         "claim store": (0, (1.0, 1.1)), "claim store + today's sightings": (0, (3.0, 1.0, 1.0, 1.0)),
@@ -590,7 +590,7 @@ NIGHT13 = ("Tomas is unwell and staying home. Expect him in bedroom_1 or living 
 NIGHT14 = ("Tomas works from the office during the day (seen 14:08)… The 'unwell' "
            "hypothesis from Day 13 is not supported by Day 14 activity.")
 GLASS = "Tomas's glass is on the bedroom nightstand during the day (seen 08:07-15:12)."
-DAY14 = ("11 of 11 questions about his moved objects answered in a room the note named: "
+DAY14 = ("11 of 11 questions about his moved objects answered in a room the prediction named: "
          "7 in bedroom_1, 4 in the living room.")
 TOLD = R / "wave_the_family_reads_the_log/cells/ours_told_and_asked_what_changes/hh_s2_t03"
 
