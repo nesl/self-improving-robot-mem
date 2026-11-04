@@ -47,5 +47,31 @@
   "other": 35
  },
  "count_printed_if_segment_height_pt_at_least": 8.4,
+ "condition_colours": {
+  "always true": {
+   "fill": "#009E73",
+   "count_ink": "#1d2422",
+   "contrast": 4.62,
+   "white_would_be": 3.42
+  },
+  "a time of day": {
+   "fill": "#E69F00",
+   "count_ink": "#1d2422",
+   "contrast": 7.02,
+   "white_would_be": 2.25
+  },
+  "a person home or away": {
+   "fill": "#D55E00",
+   "count_ink": "#1d2422",
+   "contrast": 4.09,
+   "white_would_be": 3.87
+  },
+  "other": {
+   "fill": "#BBBBBB",
+   "count_ink": "#1d2422",
+   "contrast": 8.24,
+   "white_would_be": 1.92
+  }
+ },
  "note": "The 'ACE-style' bar is the ten-household reduced ACE arm (claim_store_told_if_it_was_right); the 'claim store' bar is the older-code incremental_edits cell, as in the current figure."
 }

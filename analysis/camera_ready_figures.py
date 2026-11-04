@@ -209,22 +209,34 @@ def handle(name, lw=1.15, ms=3.0):
                       markeredgewidth=0.5, label=name)
 
 
+def pdf_text(pdf):
+    import subprocess
+    out = subprocess.run(["pdftotext", "-raw", str(pdf), "-"], capture_output=True, text=True,
+                         check=True).stdout
+    return " ".join(out.split())
+
+
+def check_words(pdf, reject=True):
+    """Fail loudly if the PDF's text holds a forbidden word; the PDF is renamed *.REJECTED.pdf."""
+    import re
+    flat = pdf_text(pdf)
+    for pat in FORBIDDEN:
+        hit = re.search(pat, flat, re.I)
+        if hit:
+            if reject:
+                pdf.rename(pdf.with_suffix(".REJECTED.pdf"))
+            raise Mismatch(f"{pdf.name} contains forbidden text {pat!r} ({hit.group(0)!r}) in: {flat[:200]!r}")
+    print(f"  ok  pdftotext: none of {', '.join(FORBIDDEN)} in {pdf.name}")
+    return flat
+
+
 def save(fig, stem, payload, size):
     OUT.mkdir(parents=True, exist_ok=True)
     w, h = fig.get_size_inches()
     assert abs(w - size[0]) < 1e-9 and abs(h - size[1]) < 1e-9, (stem, w, h)
     fig.savefig(OUT / f"{stem}.pdf")
     plt.close(fig)
-    import re
-    import subprocess
-    text = subprocess.run(["pdftotext", "-raw", str(OUT / f"{stem}.pdf"), "-"], capture_output=True,
-                          text=True, check=True).stdout
-    flat = " ".join(text.split())
-    for pat in FORBIDDEN:
-        if re.search(pat, flat, re.I):
-            (OUT / f"{stem}.pdf").rename(OUT / f"{stem}.REJECTED.pdf")
-            raise Mismatch(f"{stem}.pdf contains forbidden text {pat!r}: {flat[:200]!r}")
-    print(f"  ok  pdftotext: no {', '.join(FORBIDDEN)} in {stem}.pdf")
+    check_words(OUT / f"{stem}.pdf")
     payload = {"figure_file": f"{stem}.pdf", "size_in": list(size), **payload}
     (OUT / f"{stem}.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n")
     print(f"  wrote {OUT / stem}.pdf and .json")
@@ -504,16 +516,43 @@ def figure_3():
 
 
 # ===================================================================== Figure 4 (figureA2)
+# CONDITION COLOURS (Oliver, 2026-11-04: the greys were jarring). Okabe-Ito hues that no method
+# uses now that the history arms are gone, and a light grey for the catch-all. The three hues pass
+# the dataviz validator (light mode, all pairs: worst CVD dE 11.0 deutan, #D55E00 vs #009E73).
+COUNT_INK = "#1d2422"
+
+
+def _lum(h):
+    c = [int(h.lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4)]
+    c = [x / 12.92 if x <= 0.04045 else ((x + 0.055) / 1.055) ** 2.4 for x in c]
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]
+
+
+def contrast(a, b):
+    hi, lo = sorted((_lum(a), _lum(b)), reverse=True)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def count_ink(fill):
+    """The in-segment count colour: white or dark ink, whichever has the higher WCAG contrast.
+    (Measured: on #009E73 white 3.42 vs ink 4.62; on #D55E00 white 3.87 vs ink 4.09; on #E69F00
+    white 2.25 vs ink 7.02; on #BBBBBB white 1.92 vs ink 8.24. So dark ink wins on all four.)"""
+    return max(("#FFFFFF", COUNT_INK), key=lambda ink: contrast(fill, ink))
+
+
+_FILLS = [("always", "always true", "#009E73"), ("a time of day", "a time of day", "#E69F00"),
+          ("a person home or away", "a person home or away", "#D55E00"), ("other", "other", "#BBBBBB")]
+CONDITIONS = [(k, label, fill, count_ink(fill)) for k, label, fill in _FILLS]
+CONDITION_CONTRAST = {label: {"fill": fill, "count_ink": ink, "contrast": round(contrast(fill, ink), 2),
+                              "white_would_be": round(contrast(fill, "#FFFFFF"), 2)}
+                      for _, label, fill, ink in CONDITIONS}
 def figure_4():
     print("\nFigure 4: figureA2_what_the_notes_held.pdf")
     audit = json.load(open(os.environ.get("NIGHT31_AUDIT", R / "paper/night31_audit.json")))
     # the bars are the cells the current figure draws (the ten-household overnight_wave arms);
     # its "ACE-Style Playbook" bar is the reduced ACE arm, claim_store_told_if_it_was_right
     bars = [("claim store", "claim store"), ("ACE-style", "reduced ACE")]
-    conds = [("always", "always true", "#3b3b3b", "white"),
-             ("a time of day", "a time of day", "#7d7d7d", "white"),
-             ("a person home or away", "a person home or away", "#b8b8b8", INK),
-             ("other", "other", "#e0e0e0", INK)]
+    conds = CONDITIONS
     counts = {m: {k: audit["by_arm"][key].get(k, 0) for k, *_ in conds} for m, key in bars}
     totals = {m: sum(v.values()) for m, v in counts.items()}
     want = {"claim store": 170, "ACE-style": 114}
@@ -573,6 +612,7 @@ def figure_4():
         "total_over_both_bars": sum(totals.values()),
         "by_condition_over_both_bars": by_condition,
         "count_printed_if_segment_height_pt_at_least": SMALL * 1.2,
+        "condition_colours": CONDITION_CONTRAST,
         "note": "The 'ACE-style' bar is the ten-household reduced ACE arm (claim_store_told_if_it_was_right); "
                 "the 'claim store' bar is the older-code incremental_edits cell, as in the current figure.",
     }
@@ -590,8 +630,11 @@ NIGHT13 = ("Tomas is unwell and staying home. Expect him in bedroom_1 or living 
 NIGHT14 = ("Tomas works from the office during the day (seen 14:08)… The 'unwell' "
            "hypothesis from Day 13 is not supported by Day 14 activity.")
 GLASS = "Tomas's glass is on the bedroom nightstand during the day (seen 08:07-15:12)."
+# Oliver, 2026-11-04: "the note named" became "the prediction named" (no "note" in any figure)
 DAY14 = ("11 of 11 questions about his moved objects answered in a room the prediction named: "
          "7 in bedroom_1, 4 in the living room.")
+DAY14_EXPECTED = ("11 of 11 questions about his moved objects answered in a room the prediction "
+                  "named: 7 in bedroom_1, 4 in the living room.")
 TOLD = R / "wave_the_family_reads_the_log/cells/ours_told_and_asked_what_changes/hh_s2_t03"
 
 
@@ -623,6 +666,9 @@ def figure_5_checks():
         if len(day14) != 11 or c != collections.Counter({"bedroom_1": 7, "living": 4}):
             raise Mismatch(f"day 14 {what}s: {dict(c)} of {len(day14)}, expected 7 bedroom_1 + 4 living of 11")
     print("  ok  day 14: 11 questions on Tomas's moved objects, 7 bedroom_1 + 4 living (true and answered room)")
+    if DAY14 != DAY14_EXPECTED:
+        raise Mismatch(f"middle box text is {DAY14!r}, expected {DAY14_EXPECTED!r}")
+    print("  ok  middle box text is the 'prediction named' wording")
     return {"omitted_by_the_ellipsis": omitted, "day14_true_rooms": dict(true_rooms),
             "day14_answer_rooms": dict(answer_rooms), "day14_objects": sorted(tomas)}
 
@@ -732,24 +778,528 @@ def figure_5():
     payload["boxes"].append(payload.pop("box3"))
     del t2
     save(fig, "figure3_told_the_cause", payload, (W, H))
+    if " ".join(DAY14.split()) not in pdf_text(OUT / "figure3_told_the_cause.pdf"):
+        raise Mismatch("the new middle-box wording is not in the written PDF")
+    print("  ok  the PDF prints the 'prediction named' wording")
     return payload
 
 
-def main() -> int:
+# ===================================================================== POSTER SET
+# The same four figures laid out again at poster size (Oliver, 2026-11-04): figures 2, 3 and 5 at
+# 11.5 in wide and figure 4 at 7.1 in, 24 pt body text and nothing below 20 pt, lines about 3 pt.
+# Laid out from measured text, not scaled: Figure 2's two panels are stacked, ticks are thinned,
+# Figure 5's boxes are sized to their wrapped text. The plotted values are read back from the
+# paper set's JSON files, and every value the brief lists is asserted again on what is drawn.
+# The whole-run dot values are recomputed from the cells, because the JSON keeps two decimals and
+# 76.85 would print as 76.8 where the paper prints 76.9 (76.855).
+POSTER = R / "paper/figures/poster"
+
+
+class Poster:
+    def __init__(self, width, width_fig4, font):
+        self.W, self.W4, self.F = width, width_fig4, font
+        self.k = font / 24.0
+        self.S = 20.0 * self.k                 # the smallest text: 20 pt at a 24 pt body
+        self.LW = 3.0 * self.k
+        self.MS = 8.0 * self.k
+        self.DOT = 13.0 * self.k
+        self.TICK = 7.0 * self.k
+        self.THIN = 1.3 * self.k               # spines, ticks, brackets, box outlines
+
+    def describe(self):
+        return {"body_pt": self.F, "smallest_pt": self.S, "line_pt": self.LW, "marker_pt": self.MS,
+                "width_in_figs_2_3_5": self.W, "width_in_fig_4": self.W4}
+
+
+def apply_poster_style(P):
     apply_style()
-    makers = {"figure2": figure_2, "figure3": figure_3, "figure4": figure_4, "figure5": figure_5}
-    # `--only figure2 [figure3 ...]` draws just those (brief numbering); the default draws all four
-    only = sys.argv[sys.argv.index("--only") + 1:] if "--only" in sys.argv else list(makers)
-    report = {k: makers[k]() for k in only}
-    if STALE_LOCKS:
-        print(f"\n  {len(STALE_LOCKS)} stale RUNNING.lock files on finished cells were ignored")
-    if "figure3" not in report:
+    plt.rcParams.update({
+        "font.size": P.F, "axes.labelsize": P.F, "axes.titlesize": P.F,
+        "xtick.labelsize": P.F, "ytick.labelsize": P.F, "legend.fontsize": P.F,
+        "axes.linewidth": P.THIN, "xtick.major.width": P.THIN, "ytick.major.width": P.THIN,
+        "xtick.major.size": P.TICK, "ytick.major.size": P.TICK,
+        "xtick.major.pad": 4 * P.k, "ytick.major.pad": 4 * P.k, "axes.labelpad": 6 * P.k,
+    })
+
+
+_RULER = {}
+
+
+def measure(text, size, weight="normal", style="normal", linespacing=1.2):
+    """(width, height) in inches of `text` as drawn, from a scratch canvas."""
+    if "fig" not in _RULER:
+        _RULER["fig"] = plt.figure(figsize=(4, 4))
+    fig = _RULER["fig"]
+    t = fig.text(0, 0, text, fontsize=size, fontweight=weight, style=style, linespacing=linespacing)
+    bb = t.get_window_extent(fig.canvas.get_renderer())
+    t.remove()
+    return bb.width / fig.dpi, bb.height / fig.dpi
+
+
+def wrap_measured(text, width_in, size, weight="normal", style="normal"):
+    words, lines, cur = text.split(" "), [], ""
+    for w in words:
+        trial = w if not cur else cur + " " + w
+        if measure(trial, size, weight, style)[0] <= width_in or not cur:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = w
+    lines.append(cur)
+    return "\n".join(lines)
+
+
+def inch_axes(fig, x0, y0, w, h):
+    W, H = fig.get_size_inches()
+    return fig.add_axes([x0 / W, y0 / H, w / W, h / H])
+
+
+def layout_check(fig, name, min_size):
+    """Nothing clipped at the canvas edge, no two text items overlapping, no text below min_size."""
+    fig.canvas.draw()
+    r = fig.canvas.get_renderer()
+    items = []
+    for t in fig.findobj(matplotlib.text.Text):
+        if not t.get_visible() or not t.get_text().strip():
+            continue
+        bb = t.get_window_extent(r)
+        if bb.width == 0 or bb.height == 0:
+            continue
+        if t.get_fontsize() < min_size - 1e-6:
+            raise Mismatch(f"{name}: {t.get_text()[:30]!r} is {t.get_fontsize():.1f} pt, below {min_size}")
+        items.append((t.get_text(), bb))
+    fb = fig.bbox
+    for text, bb in items:
+        if bb.x0 < fb.x0 - 0.5 or bb.y0 < fb.y0 - 0.5 or bb.x1 > fb.x1 + 0.5 or bb.y1 > fb.y1 + 0.5:
+            raise Mismatch(f"{name}: {text[:30]!r} is clipped by the canvas edge")
+    for i in range(len(items)):
+        for j in range(i + 1, len(items)):
+            a, b = items[i][1], items[j][1]
+            if (min(a.x1, b.x1) - max(a.x0, b.x0) > 1.0 and min(a.y1, b.y1) - max(a.y0, b.y0) > 1.0):
+                raise Mismatch(f"{name}: {items[i][0][:30]!r} overlaps {items[j][0][:30]!r}")
+    print(f"  ok  {name}: {len(items)} text items, none clipped, none overlapping, none below {min_size:g} pt")
+
+
+def poster_save(fig, stem, payload, P, min_size):
+    layout_check(fig, stem, min_size)
+    POSTER.mkdir(parents=True, exist_ok=True)
+    (POSTER / "png_150dpi").mkdir(exist_ok=True)
+    pdf = POSTER / f"{stem}_poster.pdf"
+    w, h = fig.get_size_inches()
+    fig.savefig(pdf)
+    plt.close(fig)
+    check_words(pdf)
+    import subprocess
+    subprocess.run(["pdftoppm", "-r", "150", "-png", "-singlefile", str(pdf),
+                    str(POSTER / "png_150dpi" / f"{stem}_poster")], check=True)
+    payload = {"figure_file": pdf.name, "size_in": [round(w, 3), round(h, 3)], "poster": P.describe(),
+               **payload}
+    (POSTER / f"{stem}_poster.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False) + "\n")
+    print(f"  wrote {pdf} ({w:.2f} x {h:.2f} in), .json and png_150dpi/{stem}_poster.png")
+
+
+def paper_json(stem):
+    path = OUT / f"{stem}.json"
+    if not path.exists():
+        raise FileNotFoundError(f"{path}: draw the paper set first")
+    return json.load(open(path))
+
+
+def poster_line(ax, days, values, name, P):
+    xs = [d for d, v in zip(days, values) if v is not None]
+    ys = [v for v in values if v is not None]
+    face = "white" if name == "last-seen, updated nightly" else COLOR[name]
+    edge = "#6a9fc4" if name == "claim store + history" else COLOR[name]
+    # dash patterns are in units of the line width, so they scale with it
+    ax.plot(xs, ys, color=COLOR[name], linestyle=DASH[name], lw=P.LW, marker=MARK[name], ms=P.MS,
+            markerfacecolor=face, markeredgecolor=edge, markeredgewidth=1.0 * P.k, zorder=4,
+            dash_capstyle="butt")
+
+
+def poster_handle(name, P):
+    face = "white" if name == "last-seen, updated nightly" else COLOR[name]
+    edge = "#6a9fc4" if name == "claim store + history" else COLOR[name]
+    return plt.Line2D([], [], color=COLOR[name], linestyle=DASH[name], lw=P.LW, marker=MARK[name],
+                      ms=P.MS, markerfacecolor=face, markeredgecolor=edge,
+                      markeredgewidth=1.0 * P.k, label=name)
+
+
+POSTER_HEADROOM = 116
+
+
+def poster_ill(ax, spans, P):
+    for first, last in spans:
+        ax.axvspan(first - 0.5, last + 0.5, color=SHADE, lw=0, zorder=0)
+        ax.text((first + last) / 2, POSTER_HEADROOM - 1.5, "ill", ha="center", va="top",
+                fontsize=P.S, color=MUTED, zorder=1)
+    ax.set_ylim(0, POSTER_HEADROOM)
+    ax.spines["left"].set_bounds(0, 100)
+
+
+def poster_figure_2(P):
+    print("\nPoster Figure 2: figureA1_first_illness_poster.pdf")
+    J = paper_json("figureA1_first_illness")
+    homes = D.HOMES_10
+    rows_named = [r for r in J["right_panel"]["rows_top_to_bottom"]]
+    order = [None if r is None else r["method"] for r in rows_named]
+    if order != ["claim store + history", "claim store + today's sightings", "claim store", None,
+                 "last-seen", "last-seen, updated nightly"]:
+        raise Mismatch(f"row order in the paper JSON is {order}")
+    whole = {}
+    for n in [o for o in order if o]:
+        c, a = ARMS_10[n]
+        whole[n] = pct([r for h in homes for r in rows(c, a, h)])
+        if abs(round(whole[n], 2) - rows_named[order.index(n)]["value"]) > 0.006:
+            raise Mismatch(f"{n}: recomputed {whole[n]} differs from the paper JSON")
+    for n, v in {"claim store + history": 84.1, "claim store + today's sightings": 79.9,
+                 "claim store": 75.8, "last-seen": 82.1}.items():
+        check(f"whole-run first room right, {n}", whole[n], v)
+    st = J["right_panel"]["steps"]
+    s1 = st["claim store -> claim store + today's sightings"]
+    s2 = st["claim store + today's sightings -> claim store + history"]
+    for label, got, want in (("step 1 mean", s1["mean"], 4.1), ("step 1 2 SE", s1["two_se"], 2.8),
+                             ("step 2 mean", s2["mean"], 4.2), ("step 2 2 SE", s2["two_se"], 3.0)):
+        check(label, got, want)
+    left = J["left_panel"]
+    left_names = ["last-seen", "claim store", "claim store + history"]
+    if list(left["lines"]) != left_names:
+        raise Mismatch(f"left lines in the paper JSON are {list(left['lines'])}")
+
+    F, S, W = P.F, P.S, P.W
+    pad = 0.12 * P.k
+    # --- vertical budget, in inches from the top
+    leg_h = measure("Ag", F)[1] * 1.6
+    ylab = "first room right,\nmoved objects (%)"
+    ylab_w = measure(ylab, F)[1]                       # rotated: its height is its width on the page
+    ytick_w = measure("100", F)[0]
+    xaxis_h = measure("31", F)[1] + measure("day", F)[1] + P.TICK / 72 + 0.22 * P.k
+    top_h = 3.6 * P.k
+    row_pitch = measure("Ag", F)[1] * 1.75
+    dot_h = row_pitch * len(order)
+    gap = 0.45 * P.k
+    H = pad + leg_h + top_h + xaxis_h + gap + dot_h + xaxis_h + pad
+    fig = plt.figure(figsize=(W, H))
+
+    # --- top: by day on the moved objects
+    lm = pad + ylab_w + ytick_w + 0.25 * P.k
+    axT = inch_axes(fig, lm, H - pad - leg_h - top_h, W - lm - 0.3 * P.k, top_h)
+    poster_ill(axT, [(14, 23)], P)
+    days = left["days"]
+    for n in left_names:
+        poster_line(axT, days, left["lines"][n]["values"], n, P)
+    axT.set_xlim(0.5, 31.5)
+    axT.set_yticks([0, 50, 100])
+    axT.set_xticks([1, 14, 24, 31])
+    axT.set_xlabel("day")
+    axT.set_ylabel(ylab)
+    fig.legend(handles=[poster_handle(n, P) for n in left_names], loc="upper center", ncol=3,
+               bbox_to_anchor=(0.5 + (lm - 0.3 * P.k) / W / 2, 1 - pad / H), handlelength=2.4,
+               handletextpad=0.5, columnspacing=1.6, borderaxespad=0.0, fontsize=F)
+
+    # --- bottom: the dot plot, its own width budget from measured text
+    names = [o for o in order if o]
+    label_w = max(measure(n, F)[0] for n in names)
+    value_w = max(measure(f"{whole[n]:.1f}", F)[0] for n in names)
+    step_txt = [f"+{s1['mean']:.1f} ± {s1['two_se']:.1f}", f"+{s2['mean']:.1f} ± {s2['two_se']:.1f}"]
+    step_w = max(measure(t, S)[0] for t in step_txt)
+    x0 = pad + label_w + 0.2 * P.k
+    off = 0.12 * P.k                                   # dot to its value label
+    bgap, btick, tgap = 0.14 * P.k, 0.16 * P.k, 0.1 * P.k
+    right_need = off + value_w + bgap + tgap + step_w + pad + 0.05
+    frac = (max(whole[n] for n in names[:3]) - 70) / 20
+    A = min((W - x0 - right_need) / frac, W - x0 - 0.3 * P.k)
+    axB = inch_axes(fig, x0, pad + xaxis_h, A, dot_h)
+    ypos = {n: i for i, n in enumerate(order) if n}
+    labels = {}
+    for n, y in ypos.items():
+        axB.plot([70, whole[n]], [y, y], color="#e2e2e2", lw=P.THIN, zorder=1)
+        face = "white" if n == "last-seen, updated nightly" else COLOR[n]
+        axB.plot([whole[n]], [y], marker=MARK[n], ms=P.DOT, color=COLOR[n], markerfacecolor=face,
+                 markeredgecolor=COLOR[n] if n != "claim store + history" else "#6a9fc4",
+                 markeredgewidth=1.6 * P.k, zorder=4, linestyle="none", clip_on=False)
+        labels[n] = axB.annotate(f"{whole[n]:.1f}", (whole[n], y), xytext=(off * 72 + P.DOT / 2, 0),
+                                 textcoords="offset points", ha="left", va="center", fontsize=F,
+                                 annotation_clip=False)
+    axB.set_ylim(len(order) - 0.5, -0.5)
+    axB.set_yticks([ypos[n] for n in ypos])
+    axB.set_yticklabels(names)
+    axB.tick_params(axis="y", length=0)
+    axB.set_xlim(70, 90)
+    axB.set_xticks([70, 80, 90])
+    axB.set_xticks([75, 85], minor=True)
+    axB.tick_params(axis="x", which="minor", length=P.TICK * 0.6, width=P.THIN)
+    axB.set_xlabel("first room right, whole run (%)")
+    axB.spines["left"].set_visible(False)
+    fig.canvas.draw()
+    inv = axB.transData.inverted()
+    right_px = max(labels[n].get_window_extent().x1 for n in names[:3])
+    bx = inv.transform((right_px + bgap * fig.dpi, 0))[0]
+    tick = bx - inv.transform((right_px + (bgap - btick) * fig.dpi, 0))[0]
+    g = 0.08
+
+    def bracket(y_a, y_b, text):
+        top, bot = min(y_a, y_b), max(y_a, y_b)
+        axB.plot([bx - tick, bx, bx, bx - tick], [top + g, top + g, bot - g, bot - g], color=MUTED,
+                 lw=P.THIN, solid_capstyle="butt", zorder=3, clip_on=False)
+        axB.annotate(text, (bx, (top + bot) / 2), xytext=(tgap * 72, 0), textcoords="offset points",
+                     ha="left", va="center", fontsize=S, annotation_clip=False)
+    bracket(ypos["claim store"], ypos["claim store + today's sightings"], step_txt[0])
+    bracket(ypos["claim store + today's sightings"], ypos["claim store + history"], step_txt[1])
+
+    payload = {"layout": "the paper's two panels stacked: by-day lines above, the dot plot below",
+               "values_from": str(OUT / "figureA1_first_illness.json"),
+               "left_panel": left,
+               "right_panel": {"rows_top_to_bottom": [None if n is None else
+                                                      {"method": n, "value": round(whole[n], 3),
+                                                       "printed": f"{whole[n]:.1f}"} for n in order],
+                               "steps_printed": step_txt}}
+    poster_save(fig, "figureA1_first_illness", payload, P, S)
+
+
+def poster_figure_3(P):
+    print("\nPoster Figure 3: figure2_both_illnesses_poster.pdf")
+    J = paper_json("figure2_both_illnesses")
+    order = ["last-seen", "claim store", "ACE-style"]
+    if list(J["lines"]) != order:
+        raise Mismatch(f"lines in the paper JSON are {list(J['lines'])}")
+    # the drops, recomputed from the drawn curves against the paper JSON
+    days = J["days"]
+    for n in order:
+        line = J["lines"][n]["values"]
+        for onset, before in ((14, range(10, 14)), (32, range(28, 32))):
+            base = statistics.mean(line[days.index(d)] for d in before)
+            drop = base - line[days.index(onset)]
+            if abs(drop - J["drops"][n][f"day{onset}"]["drop"]) > 0.02:
+                raise Mismatch(f"{n} day {onset}: drop {drop:.2f} on the drawn curve, JSON "
+                               f"{J['drops'][n][f'day{onset}']['drop']}")
+        print(f"  ok  {n:12s} drops on the drawn curve: day 14 {J['drops'][n]['day14']['drop']:.1f}, "
+              f"day 32 {J['drops'][n]['day32']['drop']:.1f}")
+    F, S, W = P.F, P.S, P.W
+    pad = 0.12 * P.k
+    leg_h = measure("Ag", F)[1] * 1.6
+    ylab = "first room right (%)"
+    lm = pad + measure(ylab, F)[1] + measure("100", F)[0] + 0.25 * P.k
+    xaxis_h = measure("49", F)[1] + measure("day", F)[1] + P.TICK / 72 + 0.22 * P.k
+    ax_h = 3.4 * P.k
+    H = pad + leg_h + ax_h + xaxis_h + pad
+    fig = plt.figure(figsize=(W, H))
+    ax = inch_axes(fig, lm, pad + xaxis_h, W - lm - 0.3 * P.k, ax_h)
+    poster_ill(ax, [(14, 23), (32, 41)], P)
+    for n in order:
+        poster_line(ax, days, J["lines"][n]["values"], n, P)
+    ax.set_xlim(0.5, 49.5)
+    ax.set_xticks([1, 14, 24, 32, 42, 49])
+    ax.set_yticks([0, 50, 100])
+    ax.set_xlabel("day")
+    ax.set_ylabel(ylab)
+    fig.legend(handles=[poster_handle(n, P) for n in order], loc="upper center", ncol=3,
+               bbox_to_anchor=(0.5 + (lm - 0.3 * P.k) / W / 2, 1 - pad / H), handlelength=2.4,
+               handletextpad=0.5, columnspacing=1.8, borderaxespad=0.0, fontsize=F)
+    payload = {"values_from": str(OUT / "figure2_both_illnesses.json"),
+               "days": days, "lines": J["lines"], "drops": J["drops"]}
+    poster_save(fig, "figure2_both_illnesses", payload, P, S)
+
+
+def poster_figure_4(P):
+    print("\nPoster Figure 4: figureA2_what_the_notes_held_poster.pdf")
+    J = paper_json("figureA2_what_the_notes_held")
+    bars = list(J["bars"])
+    if bars != ["claim store", "ACE-style"]:
+        raise Mismatch(f"bars in the paper JSON are {bars}")
+    counts = {m: J["bars"][m]["counts"] for m in bars}
+    totals = {m: sum(counts[m].values()) for m in bars}
+    check("claim store total", totals["claim store"], 170, tol=0)
+    check("ACE-style total", totals["ACE-style"], 114, tol=0)
+    check("total over the two bars", sum(totals.values()), 284, tol=0)
+    for m, k, v in (("claim store", "always", 65), ("claim store", "a time of day", 77),
+                    ("claim store", "other", 28), ("ACE-style", "always", 49),
+                    ("ACE-style", "a time of day", 46), ("ACE-style", "a person home or away", 12)):
+        check(f"{m}, {k}", counts[m][k], v, tol=0)
+    conds = CONDITIONS
+    F, S, W = P.F, P.S, P.W4
+    pad = 0.12 * P.k
+    leg_h = measure("Ag", S)[1] * 1.5 * 2 + 0.1 * P.k          # two rows
+    ylab = "Entries (count)"
+    lm = pad + measure(ylab, F)[1] + measure("200", F)[0] + 0.25 * P.k
+    xaxis_h = measure("ACE-style", F)[1] + 0.3 * P.k
+    ax_h = 4.2 * P.k
+    H = pad + leg_h + 0.15 * P.k + ax_h + xaxis_h + pad
+    fig = plt.figure(figsize=(W, H))
+    ax = inch_axes(fig, lm, pad + xaxis_h, W - lm - 0.2 * P.k, ax_h)
+    ymax = 200
+    ax.set_ylim(0, ymax)
+    ax.set_xlim(-0.6, len(bars) - 0.4)
+    pt_per = ax_h * 72 / ymax
+    xs = list(range(len(bars)))
+    bottoms = [0] * len(bars)
+    printed = {m: {} for m in bars}
+    for key, label, colour, ink in conds:
+        vals = [counts[m][key] for m in bars]
+        ax.bar(xs, vals, bottom=bottoms, color=colour, width=0.5, lw=1.0 * P.k, edgecolor="white",
+               label=label, zorder=3)
+        for x, v, b, m in zip(xs, vals, bottoms, bars):
+            if v and v * pt_per >= S * 1.25:
+                ax.text(x, b + v / 2, str(v), ha="center", va="center", fontsize=S, color=ink, zorder=4)
+                printed[m][key] = v
+        bottoms = [b + v for b, v in zip(bottoms, vals)]
+    for x, m in zip(xs, bars):
+        ax.annotate(str(totals[m]), (x, totals[m]), xytext=(0, 5 * P.k), textcoords="offset points",
+                    ha="center", va="bottom", fontsize=F)
+    ax.set_xticks(xs)
+    ax.set_xticklabels(bars)
+    ax.tick_params(axis="x", length=0)
+    ax.set_yticks([0, 100, 200])
+    ax.set_ylabel(ylab)
+    ax.yaxis.grid(True, color="#e6e6e6", lw=P.THIN, zorder=0)
+    ax.set_axisbelow(True)
+    fig.legend(*ax.get_legend_handles_labels(), loc="upper center", ncol=2,
+               bbox_to_anchor=(0.5 + (lm - 0.2 * P.k) / W / 2, 1 - pad / H), handlelength=1.0,
+               handletextpad=0.4, columnspacing=1.2, labelspacing=0.3, borderaxespad=0.0, fontsize=S)
+    payload = {"values_from": str(OUT / "figureA2_what_the_notes_held.json"),
+               "bars": {m: {"counts": counts[m], "total": totals[m], "printed_inside": printed[m]}
+                        for m in bars},
+               "total_over_both_bars": sum(totals.values()),
+               "count_printed_if_segment_height_pt_at_least": S * 1.25,
+               "condition_colours": CONDITION_CONTRAST}
+    poster_save(fig, "figureA2_what_the_notes_held", payload, P, S)
+
+
+def poster_figure_5(P):
+    print("\nPoster Figure 5: figure3_told_the_cause_poster.pdf")
+    J = paper_json("figure3_told_the_cause")
+    heads = [b["heading"] for b in J["boxes"]]
+    q13, day14, box3 = J["boxes"][0]["quote"], J["boxes"][1]["text"], J["boxes"][2]
+    for label, got, want in (("night 13 quote", q13, NIGHT13), ("day 14 text", day14, DAY14_EXPECTED),
+                             ("retraction", box3["retraction"], NIGHT14), ("glass", box3["glass"], GLASS)):
+        if got != want:
+            raise Mismatch(f"poster {label} differs from the paper figure's")
+    print("  ok  the three quotes and the middle text are the paper figure's, character for character")
+    F, S, W = P.F, P.S, P.W
+    LS = 1.3
+    margin, gap, pad = 0.04, 0.5 * P.k, 0.16 * P.k
+    avail = W - 2 * margin - 2 * gap
+
+    def content(i, w):
+        """Wrapped pieces of box i at box width w, and the height they need (inches)."""
+        inner = w - 2 * pad
+        # each heading on two lines, broken at its colon ("Night 14:" / "the update removes it");
+        # a width that cannot hold either half on one line is ruled out (no orphaned words)
+        first, rest = heads[i].split(": ", 1)
+        if max(measure(first + ":", F, "bold")[0], measure(rest, F, "bold")[0]) > inner:
+            return None, None, None, float("inf")
+        head = first + ":\n" + rest
+        parts = [("head", head, F, "bold", "normal")]
+        if i == 0:
+            parts.append(("body", wrap_measured(q13, inner, F, style="italic"), F, "normal", "italic"))
+        elif i == 1:
+            parts.append(("body", wrap_measured(day14, inner, F), F, "normal", "normal"))
+        else:
+            parts.append(("body", wrap_measured(box3["retraction"], inner, F, style="italic"), F, "normal", "italic"))
+            parts.append(("label", box3["label"], S, "normal", "normal"))
+            parts.append(("body", wrap_measured(box3["glass"], inner, F, style="italic"), F, "normal", "italic"))
+        hs = [measure(t, sz, wt, st, LS)[1] for _, t, sz, wt, st in parts]
+        sep = [0.12 * P.k] + [0.1 * P.k] * (len(parts) - 2)
+        return parts, hs, sep, sum(hs) + sum(sep) + 2 * pad
+
+    # box widths that make the tallest box as short as possible (a 0.1 in grid)
+    best = None
+    step = 0.1
+    w1 = 2.0
+    while w1 < avail - 4.0:
+        w2 = 2.0
+        while w1 + w2 < avail - 2.0:
+            w3 = avail - w1 - w2
+            hmax = max(content(0, w1)[3], content(1, w2)[3], content(2, w3)[3])
+            if hmax < float("inf") and (best is None or hmax < best[0] - 1e-9):
+                best = (hmax, [w1, w2, w3])
+            w2 += step
+        w1 += step
+    if best is None:
+        raise Mismatch("poster figure 5: no box widths fit the headings on two lines")
+    box_h, widths = best
+    H = box_h + 2 * margin
+    fig = plt.figure(figsize=(W, H))
+    T = fig.dpi_scale_trans
+    lefts = [margin, margin + widths[0] + gap, margin + widths[0] + widths[1] + 2 * gap]
+    accent = "#6f6f6f"
+    placed = []
+    for i in range(3):
+        fig.patches.append(FancyBboxPatch((lefts[i], margin), widths[i], box_h, transform=T,
+                                          boxstyle=f"round,pad=0,rounding_size={0.05 * P.k}",
+                                          facecolor="#fbfbfa", edgecolor=accent, lw=1.8 * P.k))
+        parts, hs, sep, _ = content(i, widths[i])
+        y = H - margin - pad
+        for j, ((kind, text, sz, wt, st), h) in enumerate(zip(parts, hs)):
+            colour = MUTED if kind == "label" else INK
+            fig.text(lefts[i] + pad, y, text, transform=T, ha="left", va="top", fontsize=sz,
+                     fontweight=wt, style=st, color=colour, linespacing=LS)
+            if kind == "label":
+                lw_ = measure(text, sz)[0]
+                fig.lines.append(plt.Line2D([lefts[i] + pad + lw_ + 0.12 * P.k, lefts[i] + widths[i] - pad],
+                                            [y - h / 2] * 2, transform=T, color="#d6d6d6", lw=P.THIN))
+            y -= h + (sep[j] if j < len(sep) else 0)
+        placed.append(i)
+    for i in range(2):
+        fig.patches.append(matplotlib.patches.FancyArrowPatch(
+            (lefts[i] + widths[i] + 0.07 * P.k, margin + box_h / 2),
+            (lefts[i + 1] - 0.07 * P.k, margin + box_h / 2), transform=T,
+            arrowstyle=f"-|>,head_width={9 * P.k},head_length={14 * P.k}", mutation_scale=1.0,
+            color="#4a4a48", lw=3.0 * P.k))
+    fig.canvas.draw()
+    px = fig.dpi
+    for t in fig.texts:
+        bb = t.get_window_extent()
+        x0, x1, y0, y1 = bb.x0 / px, bb.x1 / px, bb.y0 / px, bb.y1 / px
+        i = max(j for j in range(3) if x0 >= lefts[j] - 1e-6)
+        if x1 > lefts[i] + widths[i] - pad / 2 or y0 < margin + pad / 2 or y1 > margin + box_h:
+            raise Mismatch(f"poster figure 5: text runs out of box {i + 1}: {t.get_text()[:40]!r}")
+    payload = {"values_from": str(OUT / "figure3_told_the_cause.json"),
+               "box_widths_in": [round(w, 2) for w in widths], "boxes": J["boxes"]}
+    poster_save(fig, "figure3_told_the_cause", payload, P, S)
+
+
+def main() -> int:
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--only", nargs="+", choices=["figure2", "figure3", "figure4", "figure5"],
+                    help="draw only these (brief numbering); default all four")
+    ap.add_argument("--poster", action="store_true",
+                    help="draw the poster set into figures/poster/ (from the paper set's JSON)")
+    ap.add_argument("--poster-only", action="store_true", help="the poster set only, not the paper set")
+    ap.add_argument("--poster-width", type=float, default=11.5, help="poster width of figures 2, 3, 5 (in)")
+    ap.add_argument("--poster-width-fig4", type=float, default=7.1, help="poster width of figure 4 (in)")
+    ap.add_argument("--poster-font", type=float, default=24.0,
+                    help="poster body text (pt); the smallest text is 20/24 of it, lines 3/24 of it")
+    ap.add_argument("--check-words", action="store_true",
+                    help="only run the forbidden-word check on every PDF in camera_ready/ and poster/")
+    args = ap.parse_args()
+    if args.check_words:
+        pdfs = sorted(OUT.glob("*.pdf")) + sorted(POSTER.glob("*.pdf"))
+        for pdf in pdfs:
+            check_words(pdf, reject=False)
+        print(f"  {len(pdfs)} PDFs checked")
         return 0
-    d = report["figure3"]["drops"]
-    print("\nFigure 3 drops (points below the method's own mean over the 4 preceding days):")
-    for n, v in d.items():
-        print(f"  {n:18s} day 14 {v['day14']['drop']:5.1f} (2 SE {v['day14']['two_se']:4.1f})   "
-              f"day 32 {v['day32']['drop']:5.1f} (2 SE {v['day32']['two_se']:4.1f})")
+    only = args.only or ["figure2", "figure3", "figure4", "figure5"]
+    report = {}
+    if not args.poster_only:
+        apply_style()
+        makers = {"figure2": figure_2, "figure3": figure_3, "figure4": figure_4, "figure5": figure_5}
+        report = {k: makers[k]() for k in only}
+        if STALE_LOCKS:
+            print(f"\n  {len(STALE_LOCKS)} stale RUNNING.lock files on finished cells were ignored")
+    if args.poster or args.poster_only:
+        P = Poster(args.poster_width, args.poster_width_fig4, args.poster_font)
+        apply_poster_style(P)
+        posters = {"figure2": poster_figure_2, "figure3": poster_figure_3,
+                   "figure4": poster_figure_4, "figure5": poster_figure_5}
+        for k in only:
+            posters[k](P)
+    if "figure3" in report:
+        d = report["figure3"]["drops"]
+        print("\nFigure 3 drops (points below the method's own mean over the 4 preceding days):")
+        for n, v in d.items():
+            print(f"  {n:18s} day 14 {v['day14']['drop']:5.1f} (2 SE {v['day14']['two_se']:4.1f})   "
+                  f"day 32 {v['day32']['drop']:5.1f} (2 SE {v['day32']['two_se']:4.1f})")
     return 0
 
 
