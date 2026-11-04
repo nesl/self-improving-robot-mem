@@ -1,0 +1,1015 @@
+{
+ "household": "hh_s151_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 16,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Bathroom: Dana's razor, skincare, and toiletry bag are on the sink/shelf. Towels are on the rack. This setup is stable throughout the day.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Consistent across 8 sightings. Distinguishes their specific spots.",
+     "was": {
+      "statement": "Dana's towel is on the bathroom shelf (not rack) after 08:35. Felix's towel is on the rack. Dana was in the bathroom at 08:35.",
+      "holds_under": "Dana has used the bathroom and left her towel on the shelf.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The initial observation of Dana's towel on the shelf was a transient state before it was moved to the rack, likely during morning routine.",
+     "was": {
+      "statement": "Dana's towel is on the bathroom shelf; Felix's is on the rack. Stable all day. Dana's toiletries (razor, skincare, bag) are also on the shelf/sink. Felix has no other items in the bathroom.",
+      "holds_under": "Always, unless someone moves them.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 shows Dana's towel moved from rack to shelf between 07:31 and 09:12, and stayed there.",
+     "was": {
+      "statement": "Dana's towel moved from shelf to rack between 07:00 and 07:43. By 07:43, both towels are on the rack. This is the stable state for the rest of the day. Dana's toiletries remain on the shelf.",
+      "holds_under": "Stable from 07:43 onwards on Day 9.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Razor location changed in the morning and stayed consistent.",
+     "was": {
+      "statement": "Dana's towel is on the bathroom shelf from 09:12 onwards on Day 12. It was on the rack at 07:31 but moved to shelf by 09:12. Felix's towel remains on rack.",
+      "holds_under": "Day 12 Bathroom State",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Consolidates Dana's item locations. Razor/towel/toiletry in bathroom. Meds/vitamins in bedroom. These are her 'home base' items.",
+     "was": {
+      "statement": "Dana's razor moved from bathroom shelf to sink between 07:05 and 08:07 on Day 13. It remains on the sink for the rest of the day. Dana's towel remains on the shelf.",
+      "holds_under": "Day 13.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Updated towel location and added vitamins location based on Day 15 sightings.",
+     "was": {
+      "statement": "Dana's razor is on bathroom sink. Her towel is on bathroom shelf. Her medication/vitamins are on bedroom nightstand (seen 15:56). Her toiletry bag is on bathroom sink.",
+      "holds_under": "Day 14. Bathroom items are static. Bedroom items seen mid-day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Updated location of razor and soap dispenser based on Day 16 sightings.",
+     "was": {
+      "statement": "Dana's razor, toiletry bag, and soap dispenser are on the bathroom sink. Her skincare is on the bathroom shelf. Her towel is on the towel rack (moved from shelf by 09:58). Her vitamins are on the kitchen counter.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Razor moved from shelf to cabinet between 07:00 and 07:58. Other items stable.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink (moved from shelf by 08:29). Skincare and toiletry bag are on the bathroom shelf. Towel is on the rack. Soap dispenser is on the sink.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Items remained in the same spots from 07:02 to 12:16. The previous note about the razor moving was incorrect or refers to a transient state not seen today.",
+     "was": {
+      "statement": "Dana's razor is on the medicine cabinet (moved from shelf by 07:58). Skincare and toiletry bag are on the bathroom shelf. Towel is on the rack. Soap dispenser is on the sink.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Kitchen: Felix's glass, plate, and bowl are on the cupboard. Mug is on the sink. Vitamins are on the counter. Dog items are on the floor/counter. This is the standard daytime arrangement.",
+   "holds_under": "Daytime (before 21:00)",
+   "supporting_observation_ids": [
+    "sighting_0171",
+    "sighting_0186",
+    "sighting_0174",
+    "sighting_0185",
+    "sighting_0262",
+    "sighting_0263"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "The 20:09 snapshot shows a distinct reorganization of kitchen items compared to the 16:19 snapshot, indicating a specific cleaning or tidying event occurred in the evening.",
+     "was": {
+      "statement": "Kitchen items shift from counter to sink between 17:13 and 20:56 (cutting board, knife, pan, pot). Felix's mug appears at sink at 20:56. Suggests cooking/cleaning activity in the evening.",
+      "holds_under": "Evening hours, post-dinner.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The note was cut off and the specific item movements were inconsistent with the data (e.g., dog_bowl stayed on floor). The core insight is the general tidying pattern.",
+     "was": {
+      "statement": "Evening kitchen reset (approx 18:40-20:09): Items moved from floor/dish_rack/drawer to cupboard/sink/counter. Specifically: dog_bowl floor->cupboard, cutting_board dish_rack->cupboard, knife drawer->sink, pan/pot cupboard->counter. Suggests",
+      "holds_under": "Evening cleaning routine in kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Observed transition from active to storage spots between 15:47 and 21:18.",
+     "was": {
+      "statement": "Evening kitchen reset (approx 18:40-20:09): Items moved from floor/dish_rack/drawer to cupboard/sink/counter. Specifically: dog_bowl floor->cupboard, cutting_board dish_rack->cupboard, knife drawer->sink, pan/pot cupboard->counter. Suggests",
+      "holds_under": "When the kitchen is being tidied in the evening, items are moved from active surfaces (floor, sink, counter) to storage.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "At 22:59, many items that were on the sink/counter all day (glasses, plates, bowls, knife) were found in the cupboard/drawer/dish_rack. This indicates a specific end-of-day tidying routine.",
+     "was": {
+      "statement": "Kitchen items are in 'active' spots (sink/counter/floor) during the day. In the evening (after ~19:00), they are moved to 'storage' spots (cupboard/pantry/dish_rack). E.g., dog_food_bag floor->pantry, plate_dana sink->dish_rack. This is a '",
+      "holds_under": "Evening routine (post-dinner) in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Clarifies that the 'reset' is not a full move to cupboards, but a specific reorganization to the sink area, possibly for cleaning or drying.",
+     "was": {
+      "statement": "Kitchen items move from active spots (sink/counter) to storage (cupboard/dish_rack) in the late evening (after ~22:00). This is a nightly reset. During the day, items remain in active spots. Felix is often present during this reset.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Captures the specific transition of items from active use to storage/cleanup spots in the evening.",
+     "was": {
+      "statement": "Kitchen items are in active spots (sink/counter) during the day. By 22:05, many items (cutting board, knife, pan, pot, snack bowl) have moved to the sink, while others (kettle, knife block, toaster, vitamins) remain on the counter. This is",
+      "holds_under": "Late evening reset pattern.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updated to reflect Day 12 sightings where items moved from counter to sink/pantry between 15:17 and 20:19.",
+     "was": {
+      "statement": "Kitchen items shift from counter to sink in the evening (19:43-20:45). Cutting board, knife, and snack bowl moved to sink. Pot moved to pantry. Dog food bag moved from pantry to floor. Glass/plate Felix disappeared by 20:45, replaced by Dan",
+      "holds_under": "Evening routine (post-dinner cleanup)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Observed consistent movement of cooking items from counter to sink/table between 16:11 and 19:48.",
+     "was": {
+      "statement": "Kitchen items shift from counter to sink in the evening (15:17-20:19). Pan, pot, and snack bowl moved to sink. Recipe book moved to pantry. Dog food/bowl remain on floor. Glass/plate Felix not seen in kitchen.",
+      "holds_under": "Evening kitchen state",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Refines previous claim about evening shifts. Most items are stable; only specific personal items (mug, plate, glass) move to sink/dish rack in evening.",
+     "was": {
+      "statement": "Kitchen items shift from counter to sink/table in the evening (16:11-19:48). Pan, pot, cutting board, knife, and recipe book move. Dog food/bowl remain on floor/pantry. Mug Felix appears at sink in evening.",
+      "holds_under": "Evening hours (16:00-20:00) on Day 13.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Noted disappearance of Felix's glass, plate, and vitamins from the kitchen between 10:04 and 16:19.",
+     "was": {
+      "statement": "Kitchen items are mostly static on counters/cupboards. Evening shifts: Mug Felix appears at sink (19:09). Plate Felix moves to sink (17:21). Glass Dana appears in dish rack (17:21). Dog items remain on floor.",
+      "holds_under": "Day 14 observations. Items like cutting board, kettle, toaster remain on counter. Cupboard items (pan, pot, plates) stay",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix was in kitchen at 21:37. Items shifted from morning positions. Glass and plate moved.",
+     "was": {
+      "statement": "Kitchen items are static. Felix's glass, plate, and vitamins were on the counter/cupboard at 10:04 but are gone by 16:19. Mug Felix remains on pantry shelf. Dog items on floor.",
+      "holds_under": "Day 16",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Consistent in 11:02 and 12:16 checks. Changes in the evening (21:39) suggest a cleanup or shift in activity.",
+     "was": {
+      "statement": "Kitchen: Felix's glass is on the sink (was cupboard/counter earlier). Felix's plate is on the cupboard (was sink). Felix's vitamins are on the counter. Mug Felix is on the sink. Dog items on floor/table.",
+      "holds_under": "Evening",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 2,
+     "time": 257400,
+     "into_working_memory": true
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Living room is static: magazines, remote, and tissues on coffee table/couch. No movement observed between 17:13 and 21:02. Suggests it is a resting area, not an active workspace.",
+   "holds_under": "Evening hours.",
+   "supporting_observation_ids": [
+    "sighting_0199",
+    "sighting_0200",
+    "sighting_0203",
+    "sighting_0282",
+    "sighting_0283",
+    "sighting_0286"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Felix's office items (laptop, headphones, pen, textbook, mug) are NOT in the office on Day 12. Office contains only plant_pot_3. Felix is not seen in office. His mug is in kitchen dish rack.",
+   "holds_under": "Day 12 Office State",
+   "supporting_observation_ids": [
+    "sighting_0735",
+    "sighting_0736",
+    "sighting_0737",
+    "sighting_0738",
+    "sighting_0740",
+    "sighting_0741"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Consistent presence of Felix and his work items in the office during evening checks.",
+     "was": {
+      "statement": "Felix works in the office in the evening (seen 20:12). His items (laptop, charger, headphones, pen, textbook) are on the office desk. Dana is in bedroom_1 at the same time.",
+      "holds_under": "Evening hours (approx 20:00 onwards).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updated sighting times to match Day 7 data (20:59). Confirmed Felix's presence and item locations.",
+     "was": {
+      "statement": "Felix works in the office in the evening. His items (laptop, headphones, pen, textbook) are on the office desk. He is seen there at 15:47, 21:18, and 21:44. His mug is often in the kitchen sink, suggesting he drinks there while working or",
+      "holds_under": "Evening hours when Felix is working.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Updates the location of Felix at the end of the day based on the 22:05 sighting in the living room.",
+     "was": {
+      "statement": "Felix works in the office in the evening. His items (laptop, headphones, pen, textbook) are on the desk. He is seen there at 20:59. His mug is often in the kitchen sink, suggesting he drinks there while working or moves between rooms.",
+      "holds_under": "Evening hours when Felix is working",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updates location of Felix's mug from kitchen to office based on 22:01 sightings. Confirms office as his evening workspace.",
+     "was": {
+      "statement": "Felix works in the office in the evening. His items (laptop, headphones, pen, textbook) appear on the desk by 20:12. He is seen in the living room at 22:05, suggesting he finished work or took a break. His mug remains in the kitchen sink.",
+      "holds_under": "Evening routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 shows office is empty of Felix's work items, contradicting previous belief that he works there in the evening.",
+     "was": {
+      "statement": "Felix works in the office in the evening. His items (laptop, headphones, pen, textbook, mug) are on the desk from ~20:00 onwards. He is seen in the living room at 22:01, suggesting he finished work or took a break. His mug is in the office,",
+      "holds_under": "Evening hours (post-20:00) when Felix is working or has just finished.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 4,
+     "time": 430200,
+     "into_working_memory": true
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Dana spends afternoons/evenings in the living room. Her mug, book, and plate are on the coffee table/couch. She is seen there from 19:08 to 21:39.",
+   "holds_under": "Afternoon and Evening",
+   "supporting_observation_ids": [
+    "sighting_0741",
+    "sighting_0742",
+    "sighting_0744",
+    "sighting_0745",
+    "sighting_0746",
+    "sighting_0743"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana is explicitly seen in the living room at 21:44, and her items are consistent with this location.",
+     "was": {
+      "statement": "Dana is in bedroom_1 in the evening (seen 20:12, 21:15). Her items (laptop, charger, pen, book) are on the desk/bed. She has an ironing board on the floor and yoga mat in wardrobe.",
+      "holds_under": "Evening hours (approx 20:00 onwards).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Corrected location from living room to kitchen based on Day 7 sightings at 20:59 and 22:59 where Dana was present in the kitchen.",
+     "was": {
+      "statement": "Dana is in the living room in the late evening (seen 21:18, 21:44). Her jacket is on the armchair. Her plates/glasses are in the kitchen dish rack. She is not in the office or bedroom during these late checks.",
+      "holds_under": "Late evening (after 21:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Corrects the previous assumption that Dana was in the kitchen; she was actually in the living room at 20:12.",
+     "was": {
+      "statement": "Dana is in the kitchen in the late evening (seen 20:59, 22:59). Her mug is in the kitchen sink. She is not in the office or living room during these specific late checks, though her magazine remains in the living room.",
+      "holds_under": "Late evening hours",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updated timestamp to 20:19 based on Day 12 sighting where Dana was present in living room.",
+     "was": {
+      "statement": "Dana is seen in the living room at 20:12. Her magazine is consistently on the coffee table. She is not seen in the kitchen or office during the late evening checks (20:12, 22:05), though her items remain in the kitchen.",
+      "holds_under": "Evening routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Dana was physically present in the kitchen at 19:18, unlike Day 12 where she was in the living room.",
+     "was": {
+      "statement": "Dana is seen in living room at 20:19. Her magazine is on coffee table. She is not seen in kitchen/office in late evening. Her items (bowl, mug, vitamins) remain in kitchen.",
+      "holds_under": "Day 12 Evening State",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Updates location of Dana and her items. She is in living room, not kitchen. Her book and mug are with her in living room.",
+     "was": {
+      "statement": "Dana is seen in kitchen at 19:18. Her magazine is on living room coffee table. Her items (bowl, mug, vitamins) remain in kitchen. She is not seen in office.",
+      "holds_under": "Evening of Day 13.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Updated mug location to reflect movement from coffee table to armchair.",
+     "was": {
+      "statement": "Dana is in living room in evening (17:21, 19:09). Her mug moves from coffee table to side table. Her book moves from nightstand (bedroom) to couch. She is not in kitchen or office in evening.",
+      "holds_under": "Day 14 evening. Dana is seen in living room. Her items follow her or are left there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Confirmed Dana's presence and item locations in the living room at 14:32 and 16:19.",
+     "was": {
+      "statement": "Dana is in the living room in the evening (17:22, 19:11). Her mug is on the coffee table (17:22) then armchair (19:11). Her book is on the couch. She is not in the kitchen or office in the evening.",
+      "holds_under": "Evening hours",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana seen in living at 17:43. Remote location changed. Mug and book consistent.",
+     "was": {
+      "statement": "Dana is in the living room in the afternoon/evening. Her mug, book, and plate are on the coffee table/couch. She is not in the kitchen or office.",
+      "holds_under": "Afternoon/Evening",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana is physically present in the living room in the evening sightings. Her items are consistently there.",
+     "was": {
+      "statement": "Dana is in the living room in the afternoon/evening. Her mug and book are on the coffee table/couch. Remote moved from TV stand to coffee table by 17:43. She is not in the kitchen.",
+      "holds_under": "Afternoon/Evening",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 4,
+     "time": 430200,
+     "into_working_memory": true
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Vacuum cleaner was on the living room floor at 14:25 but was gone by 22:01. It is not present in the evening. This suggests it was used or stored during the day and is not part of the evening state.",
+   "holds_under": "Daytime (around 14:25).",
+   "supporting_observation_ids": [
+    "sighting_1688"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Corrects the previous note which claimed the vacuum appeared at 22:05. It was actually present at 14:25 and absent by 22:01. Moves to archive as it is a transient daytime event.",
+     "was": {
+      "statement": "A vacuum_cleaner_shared appeared on the living room floor at 22:05. It was not present at 20:12. Felix was in the living room at 22:05, suggesting he may have been cleaning or preparing to clean.",
+      "holds_under": "Late evening activity.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 9,
+     "time": 862200,
+     "into_working_memory": true
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Felix works in the office in the late afternoon/evening. His laptop, headphones, mug, and textbook are on the desk. He is seen there at 16:42 and 21:39.",
+   "holds_under": "Late Afternoon and Evening",
+   "supporting_observation_ids": [
+    "sighting_2561",
+    "sighting_2511",
+    "sighting_2508"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Updated Felix's location and item status based on Day 16 sightings.",
+     "was": {
+      "statement": "Felix's glass appears in the kitchen dish rack in the evening (19:11). His mug and bowl are on the kitchen cupboard. He is not seen in the living room or bathroom in the evening.",
+      "holds_under": "Evening hours",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix seen in kitchen at 21:37 with water bottle. Not seen elsewhere in evening.",
+     "was": {
+      "statement": "Felix is in the living room at 14:32. His glass, plate, and vitamins are not in the kitchen after 16:19. His mug is on the pantry shelf. He is not seen in the bathroom in the evening.",
+      "holds_under": "Day 16",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix is physically present in the office during these times. His work items are set up on the desk.",
+     "was": {
+      "statement": "Felix is in the kitchen in the evening (21:37). His water bottle is on the sink. He is not seen in the bathroom or living room in the evening.",
+      "holds_under": "Evening",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "into_working_memory": true
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Dana's bedroom is bedroom_1. Her desk holds laptop, headphones, pen. Nightstand holds glass, medication, vitamins, water bottle. Bed holds charger. Wardrobe holds iron, yoga mat. Ironing board on floor.",
+   "holds_under": "Dana is in bedroom_1 or preparing to leave/return.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Felix's office is the office room. His mug and plant_pot_3 are on the desk. He is often found in the kitchen or office during the day.",
+   "holds_under": "Felix is working or relaxing in the office.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Kitchen cupboard is the storage spot for bowls, lunchboxes, mugs, pans, pots, plates, snack bowls, and dusters. Counter holds kettle, toaster, knife block, cutting board, vitamins, plant_pot_2. Pantry holds recipe book, glasses.",
+   "holds_under": "Always, unless being used.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Bathroom: Shelf holds Dana's skincare, toiletry bag, towel, laundry basket. Medicine cabinet holds first aid kit, Dana's medication, razor. Sink holds soap, toothbrush holder. Towel rack holds Felix's towel.",
+   "holds_under": "Standard daily state. Razor is in the cabinet, not the sink.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated to reflect that razor is on sink, not shelf, and medication is in cabinet, not shelf, based on consistent sightings.",
+     "was": {
+      "statement": "Bathroom shelf holds Dana's razor, skincare, toiletry bag, and shared laundry basket. Medicine cabinet holds first aid kit. Sink holds soap and toothbrush holder. Towel rack holds both towels.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Correcting location of razor_dana which was previously noted as sink but is consistently in medicine cabinet.",
+     "was": {
+      "statement": "Bathroom: Shelf holds Dana's skincare, toiletry bag, towel, and shared laundry basket. Medicine cabinet holds first aid kit and Dana's medication. Sink holds razor, soap, toothbrush holder. Towel rack holds Felix's towel.",
+      "holds_under": "Steady state; Dana present in morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Living room: Coffee table holds candle, tissue box, magazines (Dana & Felix). Couch holds blanket, cushion_1. Armchair holds cushion_2. Side table holds lamp, plant_pot_1. Bookshelf holds speaker. Floor holds dog toy. TV stand holds remote.",
+   "holds_under": "Standard evening state. Book_dana is not here; it is in bedroom_1.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Updated to reflect evening state where Dana is present. Her mug and book are in the living room, not the bedroom. This contrasts with her daytime location in bedroom_1.",
+     "was": {
+      "statement": "Living room coffee table holds remote, magazines (Dana & Felix), candle, tissue box. Couch holds blanket and cushion_1. Armchair holds cushion_2. Side table holds lamp and plant_pot_1. Bookshelf holds speaker. Floor holds book_dana and dog_",
+      "holds_under": "Always, unless items are moved for cleaning or use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated to reflect that Dana's plate and mug are not in the living room in the evening, unlike previous days or assumptions. The core furniture arrangement remains stable.",
+     "was": {
+      "statement": "Living room: Coffee table holds candle, tissue box, magazines (Dana & Felix), and Dana's mug. Couch holds blanket and cushion_1. Armchair holds cushion_2 and Dana's book. Side table holds lamp and plant_pot_1. Bookshelf holds speaker. Floor",
+      "holds_under": "living",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Book_dana was found in bedroom_1 at 21:18, not in living. Remote is on TV stand, not coffee table.",
+     "was": {
+      "statement": "Living room: Coffee table holds candle, tissue box, magazines (Dana & Felix), remote. Couch holds blanket, cushion_1, Dana's book. Armchair holds cushion_2. Side table holds lamp, plant_pot_1. Bookshelf holds speaker. Floor holds dog toy. (",
+      "holds_under": "Evening hours (after 14:00) when Dana is home. Plate_dana and Mug_dana are absent from living room in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Dana's vitamins are on the kitchen table. Felix's vitamins are on the kitchen counter. Dana's water bottle is not currently in the kitchen.",
+   "holds_under": "Evening routine, items present in kitchen",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Previous note about morning movement is less relevant for current state. Evening positions are consistent across 20:02 and 21:15.",
+     "was": {
+      "statement": "Dana's vitamins are in the kitchen counter in the morning, but move to her bedroom nightstand by late morning. Felix's vitamins remain in the kitchen counter.",
+      "holds_under": "Morning routine vs. later in the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Updated to reflect that Dana's water bottle was not seen in the kitchen today, unlike previous days. Vitamins locations remain consistent.",
+     "was": {
+      "statement": "Dana's vitamins are on the kitchen table in the evening. Felix's vitamins are on the kitchen counter. Dana's water bottle appears on the kitchen counter in the evening.",
+      "holds_under": "Evening hours (post-18:00).",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Dana's mug is in the kitchen cupboard in the morning, but moves to the living room couch by afternoon. Felix's mug is in the office desk in the afternoon.",
+   "holds_under": "Morning vs. Afternoon.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Felix's mug is on the office desk during the day. In the evening, it is found in the kitchen (sink or cupboard). He likely drinks from it in the office then takes it to the kitchen.",
+   "holds_under": "Felix is working in the office during the day and relaxing in the kitchen in the evening.",
+   "supporting_observation_ids": [
+    "sighting_4094",
+    "sighting_4157",
+    "sighting_4175"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to reflect that the mug moves from office to kitchen in the evening, consistent with Felix's location changes.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during the day (15:35) but is found in the kitchen sink/cupboard in the evening (20:02/21:15). He likely drinks from it in the office then takes it to the kitchen.",
+      "holds_under": "Daily cycle.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

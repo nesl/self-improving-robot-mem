@@ -1,0 +1,2107 @@
+{
+ "household": "hh_s32_t03",
+ "arm": "memory-guided search with the log and notes about the routine",
+ "how_memory_is_written": "the log and notes about the routine",
+ "written_up_to_day": 31,
+ "next_claim_number": 21,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Leo is working in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk. He was seen in the office at 10:35.",
+   "holds_under": "When Leo is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0072",
+    "sighting_0073",
+    "sighting_0074",
+    "sighting_0075",
+    "sighting_0076",
+    "sighting_0077"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Leo's work setup has moved from the office to his bedroom desk, indicating a change in his work location or routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are consistently on the office desk during work hours (12:14-15:38).",
+      "holds_under": "When Leo is working or present in the office during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Claim 0001 is factually incorrect based on Day 4 sightings. Leo's work items are in the office, not bedroom_1. Bedroom_1 contains leisure items (book, journal).",
+     "was": {
+      "statement": "Leo works in bedroom_1. His laptop, charger, headphones, notebook, pen, and mug are on the bedroom_1 desk during work hours. The office desk is currently empty of his personal items.",
+      "holds_under": "When Leo is working during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Leo's charger and pen are back on the office desk, contradicting the specific 'left behind' notes from Day 4. This supports the general routine that his work gear stays in the office.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk during work hours. Bedroom_1 is for rest/leisure.",
+      "holds_under": "When Leo is working during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Confirm Leo's workspace setup in the office.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk during work hours. Bedroom_1 is for rest/leisure.",
+      "holds_under": "When Leo is working during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's pen is not in the office, contradicting the claim that it is there during work hours.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk during work hours. Bedroom_1 is for rest/leisure.",
+      "holds_under": "When Leo is working during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo was seen in bedroom_1 at 11:53 and living at 16:06. He is not in the office. His work items are not in the office.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, and pen are not currently in the office. Bedroom_1 is for rest/leisure.",
+      "holds_under": "When Leo is working during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo was seen in bedroom_1, not the office. His work items are not in the office.",
+     "was": {
+      "statement": "Leo works in the office, but today he was in bedroom_1 and living. His laptop, charger, headphones, notebook, and pen are not in the office.",
+      "holds_under": "When Leo is not working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo is back in the office working. His laptop, charger, headphones, notebook, pen, and mug are all on the office desk. This contradicts the previous state where he was in bedroom_1.",
+     "was": {
+      "statement": "Leo was in bedroom_1 today. His laptop, charger, headphones, notebook, and pen are not in the office. He is not working in the office today.",
+      "holds_under": "When Leo is not working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's office setup is confirmed stable across two sightings today (11:44, 15:54).",
+     "was": {
+      "statement": "Leo is working in the office. His laptop, charger, headphones, notebook, pen, and mug are on the office desk. He was seen in the office at 13:47.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location of Leo's work items to reflect current state in office.",
+     "was": {
+      "statement": "Leo is working in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk. He was seen in the office at 11:44 and 15:54.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update Leo's office presence: Seen at 16:04, confirming he is working there.",
+     "was": {
+      "statement": "Leo is working in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk. He was seen in the office at 10:20 and 18:01.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Leo's workspace is confirmed active today. His items are on the office desk, not the kitchen.",
+     "was": {
+      "statement": "Leo is working in the office. His laptop, charger, headphones, notebook, pen, mug, and water bottle are on the office desk. He was seen in the office at 16:04.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "The dog bowl is on the kitchen floor. The dog food bag is on the kitchen floor. The dog is kept in the kitchen.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0108",
+    "sighting_0088"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The dog food bag has moved from the chair to the pantry shelf. The dog bowl remains on the floor. This updates the dog's storage locations.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog bowl is on the kitchen floor and the food bag is on the kitchen chair.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "The dog bowl is on the sink and food bag on the chair, not the floor/pantry shelf as previously noted. This suggests the dog's feeding area has shifted or items are being moved.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog bowl is on the kitchen floor and the food bag is on the pantry shelf.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Update location of dog items to match today's observation.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog bowl is currently on the sink and the food bag is on the chair. Previous locations were floor and pantry shelf.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Update dog item locations; food bag moved from chair to floor, bowl moved from floor to dish rack.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog bowl is currently on the kitchen floor and the food bag is on the pantry shelf. Previous locations included sink and chair.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that the dog food bag has moved from the floor to the pantry shelf.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog food bag is currently on the kitchen floor. The dog bowl is currently in the dish rack. Previous locations included sink and chair.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The dog bowl and food bag are in their standard kitchen locations.",
+     "was": {
+      "statement": "The dog is kept in the kitchen. The dog food bag is currently on the pantry shelf. The dog bowl is on the kitchen floor. Previous locations included sink and chair for the bowl.",
+      "holds_under": "Always, as the dog's primary area.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update dog food bag location. It moved from pantry to floor.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor. The dog food bag is on the pantry shelf. The dog is kept in the kitchen.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "The dog food bag is on the pantry shelf, not the floor. The dog bowl is on the floor.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor. The dog food bag is on the kitchen floor. The dog is kept in the kitchen.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of dog food bag; it moved from pantry shelf to kitchen floor.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor. The dog food bag is on the pantry shelf. The dog is kept in the kitchen.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Aisha's glass, plate, bowl, and mug are on the kitchen cupboard. Her water bottle is in the dish rack. This is her current storage spot.",
+   "holds_under": "When Aisha is not actively dining at the table.",
+   "supporting_observation_ids": [
+    "sighting_0097",
+    "sighting_0101",
+    "sighting_0102",
+    "sighting_0104"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Confirm Aisha's kitchen storage habits.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, glass, mug, plate) are stored on the kitchen cupboard, not the counter or table.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Update Aisha's kitchen item locations; water bottle moved from dish rack to cupboard.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, glass, mug, plate) are stored on the kitchen cupboard, not the counter or table.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Aisha's glass is on the cupboard, not the kitchen table, as she is present in the kitchen but not using it.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, water bottle) are stored on the kitchen cupboard. Her glass is on the kitchen table. Her plate is on the pantry shelf.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Aisha's items moved from the cupboard to the table, indicating she is eating or using them at the table.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are stored on the kitchen cupboard. Her water bottle is not in the kitchen. She is present in the kitchen but not using her items.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Aisha's items moved from cupboard to table, and she is present. This contradicts the previous pattern of cupboard storage.",
+     "was": {
+      "statement": "Aisha's glass, plate, and water bottle are on the kitchen table. Her bowl and mug are on the cupboard. She is present in the kitchen, likely eating or drinking at the table.",
+      "holds_under": "When Aisha is in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Aisha's items moved from the table to the cupboard, contradicting the previous claim that they were on the table when she was present.",
+     "was": {
+      "statement": "Aisha's glass, plate, water bottle, bowl, and mug are on the kitchen table. She is present in the kitchen, likely eating or drinking. Her items are no longer on the cupboard.",
+      "holds_under": "When Aisha is in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Aisha's items moved from cupboard to table/sink, contradicting claim_0003.",
+     "was": {
+      "statement": "Aisha's glass, plate, water bottle, bowl, and mug are on the kitchen cupboard. Her items are no longer on the table or sink.",
+      "holds_under": "When Aisha is not actively using her items in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Aisha's items have moved from the table/sink to the cupboard, indicating a change in her storage or activity pattern.",
+     "was": {
+      "statement": "Aisha's glass, plate, water bottle, and bowl are on the kitchen table. Her mug is on the kitchen sink. This is her active dining spot.",
+      "holds_under": "When Aisha is in the kitchen for meals or snacks.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Aisha's items have moved from cupboard to table/dish rack. Vitamins are on the table, not counter.",
+     "was": {
+      "statement": "Aisha's glass, plate, bowl, mug, and snack bowl are on the kitchen cupboard. Her vitamins are on the kitchen counter. This is her current storage spot.",
+      "holds_under": "When Aisha is not actively dining at the table.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update Aisha's item locations. Her items are now on the cupboard, not the table.",
+     "was": {
+      "statement": "Aisha's glass and plate are on the kitchen cupboard. Her bowl, mug, vitamins, and tablet are on the kitchen table. This is her current storage spot.",
+      "holds_under": "When Aisha is not actively dining at the table.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update location of Aisha's items to reflect they are now on the cupboard, not just 'storage spot'.",
+     "was": {
+      "statement": "Aisha's glass, plate, bowl, mug, and vitamins are on the kitchen cupboard. Her water bottle is in the dish rack. This is her current storage spot.",
+      "holds_under": "When Aisha is not actively dining at the table.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Aisha's items remain in their standard storage spots on the cupboard and dish rack.",
+     "was": {
+      "statement": "Aisha's glass, plate, bowl, mug, and vitamins are on the kitchen cupboard. Her water bottle is in the dish rack. This is her current storage spot.",
+      "holds_under": "When Aisha is not actively dining at the table.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of Aisha's items; they moved from sink to cupboard between 09:45 and 18:47.",
+     "was": {
+      "statement": "Aisha's glass, plate, bowl, and mug are on the kitchen cupboard. Her water bottle is in the dish rack. This is her current storage spot.",
+      "holds_under": "When Aisha is not actively dining at the table.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Elena's bowl and mug are on the kitchen cupboard. Her glass is on the kitchen table. Her notebook is not in the kitchen.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0098",
+    "sighting_0103"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Elena's kitchen items (bowl, mug, plate, glass) are consistently on the sink, not the cupboard as previously noted. This is a distinct storage habit from Aisha.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug) are stored on the kitchen cupboard, similar to Aisha.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Elena's glass moved from the cupboard (08:10) to the kitchen table (12:39). This contradicts the previous note that her items are on the sink.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug, plate, glass) are stored on the kitchen sink, not the cupboard.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Elena's glass is on the sink, consistent with her other items (bowl, mug, plate) being on the sink/cupboard. Claim_0004 said glass was on cupboard/table, but today it is on sink.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug, plate) are stored on the kitchen sink. Her glass has been seen on both the cupboard and the kitchen table, suggesting it is moved when in use.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Elena's glass and plate are on the table, not the cupboard/sink as previously noted. Suggests active use or meal prep.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug, plate) are stored on the kitchen cupboard. Her glass is on the sink. Items are moved between cupboard and sink when in use.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Update Elena's kitchen item locations based on evening sightings; her items are now in the dish rack/sink, not the cupboard/table as previously noted.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug) are stored on the kitchen cupboard. Her glass and plate are currently on the kitchen table, likely for use. Items move between cupboard and table/sink when in use.",
+      "holds_under": "When not in use, items are on the cupboard.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Elena's items are currently on the kitchen table, not in the dish rack/sink, as she is present in the kitchen.",
+     "was": {
+      "statement": "Elena's kitchen items (bowl, mug, plate) are currently in the dish rack or sink. Her glass is on the sink. They move from the cupboard to these spots when in use or after washing.",
+      "holds_under": "When items are in use or recently washed.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Elena's items moved from the table to the sink, indicating she is washing up or preparing food, rather than just eating.",
+     "was": {
+      "statement": "Elena's bowl, mug, plate, and glass are currently on the kitchen table. She is present in the kitchen. Items move to the table when she is using them or eating there.",
+      "holds_under": "When Elena is in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Elena's items moved from cupboard to sink, and she is present. This contradicts the previous pattern of cupboard storage.",
+     "was": {
+      "statement": "Elena's bowl and mug are on the kitchen sink. Her plate and glass are on the cupboard. She is present in the kitchen, likely cleaning or cooking.",
+      "holds_under": "When Elena is in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Elena's items moved from the sink to the cupboard, contradicting the previous claim that they were on the sink.",
+     "was": {
+      "statement": "Elena's bowl, mug, plate, and glass are on the kitchen sink. She is present in the kitchen, likely cleaning or preparing food. Her items are no longer on the cupboard.",
+      "holds_under": "When Elena is in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Elena's items moved from cupboard to table/sink, contradicting claim_0004.",
+     "was": {
+      "statement": "Elena's bowl, mug, plate, and glass are on the kitchen cupboard. Her items are no longer on the sink or table.",
+      "holds_under": "When Elena is not actively using her items in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Elena's items have moved from the table/sink to the cupboard/table mix, and she was present in the kitchen.",
+     "was": {
+      "statement": "Elena's bowl, glass, and plate are on the kitchen table. Her mug is on the kitchen sink. She is sharing the table with Aisha.",
+      "holds_under": "When Elena is in the kitchen for meals or snacks.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Elena's items have moved. Bowl is on table, but glass, mug, and plate are now on the sink. Notebook is on the table.",
+     "was": {
+      "statement": "Elena's bowl and mug are on the kitchen cupboard. Her glass and plate are on the kitchen table. She was in the kitchen at 18:57.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update Elena's item locations. Her bowl and mug are on the table, others on cupboard.",
+     "was": {
+      "statement": "Elena's bowl is on the kitchen table. Her glass, mug, and plate are on the kitchen sink. Her notebook is on the kitchen table.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update Elena's item locations: bowl/mug/glass/plate are now all on the kitchen table.",
+     "was": {
+      "statement": "Elena's bowl and mug are on the kitchen table. Her glass and plate are on the kitchen cupboard. Her notebook is not in the kitchen.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Elena's items moved from the table to the sink by evening, indicating she was washing up or using the sink area.",
+     "was": {
+      "statement": "Elena's bowl, mug, glass, and plate are on the kitchen table. Her notebook is not in the kitchen.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of Elena's items; they moved from table/sink to cupboard/table between 09:45 and 18:47.",
+     "was": {
+      "statement": "Elena's bowl, mug, glass, and plate were on the kitchen table in the morning but moved to the sink by evening. Her notebook is not in the kitchen.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Leo's book and journal are not in the kitchen or office. They are likely on the bedroom_1 nightstand. His tablet is likely on the bedroom_1 dresser.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0099"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Leo's kitchen items (bowl, plate, glass) are on the sink or table, not the cupboard. This differs from Aisha's cupboard storage.",
+     "was": {
+      "statement": "Leo's kitchen items (bowl) are stored on the kitchen cupboard, similar to Aisha and Elena.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo's mug was on the kitchen table at 08:10 but on the sink at 12:39. This contradicts the previous note that his items are on the sink or table, but specifically shows the table is a temporary spot.",
+     "was": {
+      "statement": "Leo's kitchen items (bowl, plate, glass) are stored on the kitchen sink or table, not the cupboard.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Leo's kitchen items (bowl, plate, glass, mug) are now on the sink, not the table/sink mix described in claim_0005. The table is empty of his items.",
+     "was": {
+      "statement": "Leo's kitchen items (bowl, plate, glass) are stored on the kitchen sink or table. His mug has been seen on both the table and the sink, indicating the table is a temporary holding spot.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Leo's plate is on the cupboard, not the sink. Mug is in the office. Glass is missing from kitchen.",
+     "was": {
+      "statement": "Leo's kitchen items (bowl, plate, glass, mug) are stored on the kitchen sink. The kitchen table is currently clear of his personal items.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Update Leo's kitchen item locations; his bowl is now in the dish rack, and his plate is not in the kitchen (likely in bedroom/office).",
+     "was": {
+      "statement": "Leo's kitchen items (bowl, plate) are stored on the kitchen cupboard. His mug is in the office when working. His glass is not currently in the kitchen.",
+      "holds_under": "When not in use.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's items are currently in the living room, not the office or bedroom, as he is relaxing there.",
+     "was": {
+      "statement": "Leo's bowl is currently in the dish rack. His plate is not in the kitchen. His mug is in the office when working. His glass is not in the kitchen.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo is working in the office, not relaxing in the living room as previously thought. His work items are on the desk.",
+     "was": {
+      "statement": "Leo's mug, tablet, and book are currently in the living room (coffee table, side table, couch). His bowl, plate, and glass are not in the kitchen. He is relaxing in the living room, not working in the office.",
+      "holds_under": "When Leo is relaxing in the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo is in bedroom_1, not the office, contradicting the claim that he is working in the office.",
+     "was": {
+      "statement": "Leo is working in the office. His laptop, headphones, notebook, and pen are on the office desk. His book and tablet are in the living room (couch/side table), likely left there from earlier.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo's book is in the living room, not bedroom_1.",
+     "was": {
+      "statement": "Leo is in bedroom_1. His laptop, headphones, and notebook are not in the office or bedroom_1. His book and tablet are in the living room.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo's tablet and journal are on the bedroom_1 nightstand. His glass was there earlier but is gone by 17:03. The ironing board and iron remain in their usual spots.",
+     "was": {
+      "statement": "Leo is in bedroom_1. His laptop, headphones, and notebook are not in the office or bedroom_1. His book and tablet are in the living room.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Leo's tablet moved from the nightstand (day 24) to the dresser in bedroom_1. His book and journal remain on the nightstand. The ironing setup persists.",
+     "was": {
+      "statement": "Leo's tablet and journal are on the bedroom_1 nightstand. The ironing board is on the floor and iron in the wardrobe. His glass was on the nightstand at 13:47 but was gone by 17:03.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's book and journal are not in the kitchen or office. Previous location (bedroom_1 nightstand) is unverified today.",
+     "was": {
+      "statement": "Leo's book and journal are on the bedroom_1 nightstand. His tablet is on the bedroom_1 dresser. The ironing board is on the floor and iron in the wardrobe.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Elena uses the bathroom shelf for hair dryer, skincare, and toiletry bag. Her towel is on the rack. Leo and Aisha use the towel rack. Aisha's skincare is on the medicine cabinet.",
+   "holds_under": "Current state",
+   "supporting_observation_ids": [
+    "sighting_0061",
+    "sighting_0063",
+    "sighting_0064",
+    "sighting_0065",
+    "sighting_0069",
+    "sighting_0070"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Aisha's skincare has moved from the shelf to the medicine cabinet. Her towel moved from shelf to rack. This updates her specific bathroom storage spots.",
+     "was": {
+      "statement": "Elena and Aisha keep their skincare, towels, and toiletries in the bathroom. Elena has a hair dryer and toiletry bag on the shelf. Aisha has skincare on the shelf. Both have towels on the rack.",
+      "holds_under": "Always, as their bathroom routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Elena's skincare moved from shelf to medicine cabinet, contradicting the static routine in claim_0006.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer, toiletry bag, and skincare. Aisha uses the medicine cabinet for skincare and the towel rack for her towel. Leo uses the towel rack.",
+      "holds_under": "Always, as their bathroom routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Confirm bathroom routine locations for all three residents.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer and toiletry bag. Her skincare has been seen on both the shelf and medicine cabinet, suggesting it is moved during routine. Aisha uses the shelf for skincare/towel. Leo uses the towel rack.",
+      "holds_under": "Always, as their bathroom routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Aisha's skincare is in the medicine cabinet, not the shelf as previously noted.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer, toiletry bag, and skincare. Aisha uses the shelf for skincare and towel. Leo uses the towel rack. First aid kit is in the medicine cabinet.",
+      "holds_under": "Always, as their bathroom routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Aisha's towel moved from the towel rack to the bathroom shelf between 07:25 and 09:43. This contradicts the established routine in claim_0006.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer, toiletry bag, and skincare. Aisha uses the medicine cabinet for skincare and the shelf for her towel. Leo uses the towel rack.",
+      "holds_under": "Always, as their bathroom routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Bathroom items are in their standard spots. Elena's toiletry bag is on the sink, not the shelf.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer, toiletry bag, and skincare. Leo uses the towel rack. Aisha's towel was on the rack at 07:25 but moved to the shelf by 09:43, breaking her usual pattern.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of Elena's toiletry bag; it moved from sink to bathroom shelf.",
+     "was": {
+      "statement": "Elena uses the bathroom shelf for hair dryer and skincare. Her toiletry bag is on the sink. Leo and Aisha use the towel rack. Aisha's skincare is on the shelf.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Leo also uses the bathroom, as his towel is on the rack.",
+   "holds_under": "Always, as part of his routine.",
+   "supporting_observation_ids": [
+    "sighting_0071"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, knives, pans, spatula on counter. Baking tray, mixing bowl, shopping bag on pantry. Duster, watering can, bowls, mugs, plates, glasses on cupboard. Dog bowl and food bag on/k",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0089",
+    "sighting_0090",
+    "sighting_0093",
+    "sighting_0091",
+    "sighting_0109",
+    "sighting_0110"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Confirm shared kitchen item locations.",
+     "was": {
+      "statement": "Shared kitchen items like the kettle, knife block, toaster, and plant pot are on the counter. The fruit bowl and glass/plate for Leo are on the kitchen table.",
+      "holds_under": "When not in use or during meal times.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Update shared kitchen item locations; several items moved from sink/pantry to counter/dish rack/floor.",
+     "was": {
+      "statement": "Shared kitchen items like the kettle, knife block, toaster, and plant pot are on the counter. The fruit bowl is on the kitchen table. Baking tray, dog food, mixing bowl, and shopping bag are on the pantry shelf.",
+      "holds_under": "When not in use or during meal times.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that shared kitchen items have moved to the sink, likely after washing or preparation.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, toaster, plant pot, wall clock, vitamins, and cooking utensils (pan, pot, spatula, knife, cutting board) are on the counter. Baking tray, mixing bowl, shopping bag, and Aisha's plate are on the pan",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Shared kitchen items have moved to the sink, indicating active use/cleaning.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, toaster, plant pot, wall clock are on the counter. Baking tray, mixing bowl, shopping bag are on the pantry shelf. Pan, pot, spatula, knife, cutting board are on the sink.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Shared kitchen items are in their standard locations: counter, pantry, sink, cupboard.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, toaster, plant pot, wall clock, vitamins are on the counter. Baking tray, mixing bowl, shopping bag, dog food are on the pantry shelf. Pan, pot, spatula, knife, cutting board, bowl_leo are on the/s",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Shared kitchen items have shifted. Knife, pan, pot, and spatula moved from sink/drawer to counter. Dog bowl moved to table.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, vitamins (Aisha's), spatula, toaster on counter. Baking tray, dog food, mixing bowl, shopping bag on pantry. Pan, pot, knife, cutting board on sink. Duster, watering can on",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update shared kitchen item locations. Several items moved from counter to cupboard or floor.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, knife, pan, pot, spatula, and shopping bag on counter. Baking tray, dog food, mixing bowl on pantry. Duster, watering can on cupboard. Dog bowl on table.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update shared kitchen items: Pan is now on dish rack, not cupboard. Vitamins_leo is on counter.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, vitamins_leo on counter. Baking tray, dog food, mixing bowl on pantry. Duster, watering can, pan, pot on cupboard. Dog bowl on floor.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Shared kitchen items have shifted slightly; knives and pans moved to the counter, and Leo's items moved to the table.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, vitamins_leo on counter. Baking tray, dog food, mixing bowl on pantry. Duster, watering can on cupboard. Pan on dish rack. Dog bowl on floor.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of shared kitchen items; several moved from counter/cupboard to other spots.",
+     "was": {
+      "statement": "Shared kitchen items: Kettle, knife block, plant pot, wall clock, knives, pans, spatula on counter. Baking tray, dog food, mixing bowl on pantry. Duster, watering can on cupboard. Dog bowl on floor.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Aisha's vitamins are on the kitchen counter. Leo's vitamins are on the kitchen counter.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0094",
+    "sighting_0095"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo's vitamins moved from the kitchen table (08:10) to the counter (12:39). Aisha's remained on the counter. This suggests Leo's are not fixed to the table.",
+     "was": {
+      "statement": "Aisha's and Leo's vitamins are on the kitchen counter.",
+      "holds_under": "Always, as their storage spot.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's vitamins are no longer in the kitchen, likely taken or moved to his current location (living room/bedroom).",
+     "was": {
+      "statement": "Aisha's vitamins are consistently on the kitchen counter. Leo's vitamins have been seen on both the kitchen table and the counter, likely moved when he is at the table.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's vitamins appeared on the kitchen counter, contradicting the belief that they are with him in the living room/bedroom.",
+     "was": {
+      "statement": "Aisha's vitamins are consistently on the kitchen counter. Leo's vitamins were on the kitchen counter but are no longer there; they are likely with him in the living room or bedroom.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's vitamins moved from the kitchen counter to the bedroom_1 desk.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen table. Leo's vitamins are on the kitchen counter. Both are present in the kitchen area.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo's vitamins moved from desk to nightstand, contradicting claim_0009.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen counter. Leo's vitamins are on the bedroom_1 desk.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Aisha's vitamins moved from the table to the counter, aligning with her other items moving to the cupboard/counter area.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen table. Leo's vitamins are on the bedroom_1 nightstand.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's vitamins moved from bedroom_1 nightstand to kitchen table.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen counter. Leo's vitamins are on the bedroom_1 nightstand.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update vitamin locations. Aisha's moved to cupboard, Leo's to counter.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen table. Leo's vitamins are on the kitchen table.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Aisha's vitamins remain on the counter, while Leo's moved to the kitchen table by evening.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen cupboard. Leo's vitamins are on the kitchen counter.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of vitamins; Leo's vitamins moved from table to counter.",
+     "was": {
+      "statement": "Aisha's vitamins are on the kitchen counter. Leo's vitamins were on the counter in the morning but moved to the kitchen table by evening.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "The first aid kit is in the bathroom medicine cabinet.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0066"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "The laundry basket is on the bathroom shelf.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0062"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "The wall clock is on the kitchen counter.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0096"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The wall clock is on the kitchen counter.",
+     "was": {
+      "statement": "The wall clock is on the kitchen counter.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Leo's book, tablet, and mug are not in the kitchen or office. They are likely in the living room (couch, side table, coffee table) or bedroom_1.",
+   "holds_under": "When Leo is in the home.",
+   "supporting_observation_ids": [
+    "sighting_0141",
+    "sighting_0142",
+    "sighting_0151",
+    "sighting_0152"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Claim 0013 is partially outdated. Tablet is not seen in bedroom_1 on Day 4. Book and journal are consistent. Need to clarify that tablet is not currently there.",
+     "was": {
+      "statement": "Leo's book, journal, and tablet are on the bedroom_1 nightstand when he is not actively working at the desk. This suggests a shift to leisure or rest in the bedroom.",
+      "holds_under": "When Leo is in bedroom_1 but not working.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Leo's book, journal, and tablet are all in bedroom_1. The tablet is now present, updating the previous note that said it was not there. This confirms bedroom_1 is his leisure space.",
+     "was": {
+      "statement": "Leo's book and journal are on the bedroom_1 nightstand when he is not actively working. His tablet is not currently in bedroom_1.",
+      "holds_under": "When Leo is in bedroom_1 but not working.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's book and tablet are currently in the living room, not bedroom_1, as he is relaxing there.",
+     "was": {
+      "statement": "Leo's book, journal, and tablet are in bedroom_1 when he is not actively working. Book and tablet are on the nightstand; journal is on the dresser.",
+      "holds_under": "When Leo is in bedroom_1 but not working.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo's book and tablet are in the living room, but he is currently in the office.",
+     "was": {
+      "statement": "Leo's book and tablet are currently in the living room (couch and side table). His journal is not in the living room. He is relaxing in the living room, not in bedroom_1.",
+      "holds_under": "When Leo is relaxing in the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's book and tablet are not in the living room as previously thought. They are likely in his office or bedroom.",
+     "was": {
+      "statement": "Leo's book is on the living room couch and his tablet is on the side table. He is currently in the office, so these items are unattended.",
+      "holds_under": "When Leo is away from the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's items (book, tablet, mug) are now in the living room, contradicting the claim that they are in the office/bedroom_1.",
+     "was": {
+      "statement": "Leo's book and tablet are not in the living room. They are likely in the office or bedroom_1 with him.",
+      "holds_under": "When Leo is away from the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo's mug moved from bookshelf to coffee table, contradicting claim_0013.",
+     "was": {
+      "statement": "Leo's book is on the living room couch, tablet on the side table, and mug on the bookshelf. He is likely relaxing in the living room.",
+      "holds_under": "When Leo is in the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo's book, tablet, and mug remained in the living room while he was in bedroom_1, confirming his relaxation setup is split.",
+     "was": {
+      "statement": "Leo's book is on the living room couch, tablet on the side table, and mug on the coffee table. He is relaxing in the living room.",
+      "holds_under": "When Leo is in the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's book and tablet are not in the kitchen or office. Previous location (living room) is unverified today but likely.",
+     "was": {
+      "statement": "Leo's book is on the living room couch, tablet on the side table, and mug on the coffee table. He leaves these in the living room even when in bedroom_1.",
+      "holds_under": "When Leo is in the home.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "The ironing board is on the bedroom_1 floor. The iron is in the bedroom_1 wardrobe. This setup persists.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0145",
+    "sighting_0143"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The ironing board is on the bedroom_1 floor, not the bedroom_2 bed as previously noted. This suggests Leo or someone else is using bedroom_1 for ironing, or it was moved.",
+     "was": {
+      "statement": "Elena uses her bed in bedroom_2 as a surface for ironing. The ironing board is on the bed, and the iron is stored in bedroom_1 wardrobe.",
+      "holds_under": "When Elena is ironing or has recently ironed.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The ironing board is still on the bedroom_1 floor, confirming the previous claim.",
+     "was": {
+      "statement": "The ironing board is currently on the bedroom_1 floor. Previously it was on the bedroom_2 bed. The iron is stored in bedroom_1 wardrobe.",
+      "holds_under": "When ironing is happening or recently happened.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The ironing board and iron remain in bedroom_1, consistent with previous days.",
+     "was": {
+      "statement": "The ironing board is on the bedroom_1 floor. The iron is in the bedroom_1 wardrobe.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Elena's phone is not in the living room or kitchen. It is likely in bedroom_2 or bathroom.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0148"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Elena was in the living room at 13:13 and kitchen at 18:57. Her phone is not in these rooms.",
+     "was": {
+      "statement": "Elena's phone is on the bedroom_2 nightstand when she is in her bedroom. It may be moved to the bathroom during morning routines.",
+      "holds_under": "When Elena is in bedroom_2.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Aisha's book and tablet are not in bedroom_3 or the living room. Location unknown.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0149",
+    "sighting_0150"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's book and tablet are not in bedroom_3. They are likely in his own room (bedroom_1) or office.",
+     "was": {
+      "statement": "Aisha's book and tablet are on the bedroom_3 nightstand when she is in her bedroom.",
+      "holds_under": "When Aisha is in bedroom_3.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Aisha's book and tablet are not in bedroom_3 or living. Location unknown.",
+     "was": {
+      "statement": "Aisha's book and tablet are on the bedroom_3 nightstand. Leo's book and tablet are not in bedroom_3.",
+      "holds_under": "When Aisha is in bedroom_3.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Leo's charger, pen, and water bottle are on the office desk. They are not in bedroom_1 or the bathroom.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0233"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "established",
+   "standing": "set aside for now",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The specific observation that the charger was left on the bedroom floor is no longer true as it is back in the office. The general pattern is covered by claim_0001.",
+     "was": {
+      "statement": "Leo's charger was found on the bedroom_1 floor at 15:59, having been on the office desk at 10:35. This suggests he moved to bedroom_1 and left the charger there.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo's charger was on the office desk at 15:07, not the bedroom floor as noted on day 8. This suggests the day 8 observation was a temporary state or error, and the office desk is the primary location.",
+     "was": {
+      "statement": "Leo's charger was found on the bedroom_1 floor at 15:59, having been on the office desk at 10:35. This suggests he moved to bedroom_1 and left the charger there.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Leo's charger, pen, and other work items are on the office desk, confirming his work location. This supports the 'set aside' claims 0017 and 0018, so they should be re-established.",
+     "was": {
+      "statement": "Leo's charger is on the office desk when he is working. It was previously seen on the bedroom_1 floor, but the office desk appears to be its standard location.",
+      "holds_under": "When Leo is working.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's charger is not in the kitchen, consistent with him being in the living room.",
+     "was": {
+      "statement": "Leo's charger is on the office desk when he is working. It was previously seen on the bedroom_1 floor, but the office desk appears to be its standard location.",
+      "holds_under": "When Leo is working.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo's charger is not in the office or kitchen, likely in his bedroom or with his laptop.",
+     "was": {
+      "statement": "Leo's charger is not in the kitchen. It is likely in the living room or office with him. Previously seen on office desk and bedroom floor.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's charger is not in bedroom_3. It is likely in his office or bedroom_1.",
+     "was": {
+      "statement": "Leo's charger is not in the office or kitchen. It is likely in bedroom_1 or with his laptop.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's charger is confirmed in bedroom_1, not the office as previously suspected.",
+     "was": {
+      "statement": "Leo's charger is not in bedroom_3 or kitchen. It is likely in the office or bedroom_1.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo's charger is on the bed, consistent with claim_0017. Re-activating as it is current.",
+     "was": {
+      "statement": "Leo's charger is on the bedroom_1 bed. It is not in the office or kitchen.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo's charger, journal, vitamins, and water bottle are consistently in bedroom_1, confirming it as his primary personal space.",
+     "was": {
+      "statement": "Leo's charger is on the bedroom_1 bed. It is not in the office or kitchen.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo's charger is on the office desk, not the bedroom bed. This is part of his office work setup.",
+     "was": {
+      "statement": "Leo's charger is on the bedroom_1 bed. His journal is on the desk. Vitamins and water bottle are on the nightstand. These are his fixed bedroom items.",
+      "holds_under": "When Leo is in bedroom_1.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Leo's charger, pen, and water bottle were not found in bedroom_1 or the bathroom. They are likely still in the office, but this needs verification as he was not seen in the office today.",
+     "was": {
+      "statement": "Leo's charger is on the office desk. His journal is on the bedroom_1 nightstand. His tablet is on the bedroom_1 nightstand.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's charger, pen, and water bottle are confirmed in the office, not bedroom_1 or bathroom.",
+     "was": {
+      "statement": "Leo's charger, pen, and water bottle are not in bedroom_1 or the bathroom. They are likely in the office, but unverified today.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update Leo's charger, pen, water bottle location to office desk.",
+     "was": {
+      "statement": "Leo's charger, pen, and water bottle are on the office desk. They are not in bedroom_1 or the bathroom.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Leo's pen is on the office desk.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0256"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "established",
+   "standing": "set aside for now",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The specific observation that the pen was on the office floor is no longer true as it is back on the desk. The general pattern is covered by claim_0001.",
+     "was": {
+      "statement": "Leo's pen was found on the office floor at 15:59, having been on the office desk at 10:35. This suggests it fell or was moved accidentally.",
+      "holds_under": "When Leo is in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo's pen was on the office desk at 15:07, not the office floor as noted on day 8. This suggests the day 8 observation was a temporary state or error, and the desk is the standard location.",
+     "was": {
+      "statement": "Leo's pen was found on the office floor at 15:59, having been on the office desk at 10:35. This suggests it fell or was moved accidentally.",
+      "holds_under": "When Leo is in the office.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Leo's pen is on the office desk, confirming his work location. This supports the 'set aside' claim 0018, so it should be re-established.",
+     "was": {
+      "statement": "Leo's pen is on the office desk when he is working. It was previously seen on the office floor, but the desk appears to be its standard location.",
+      "holds_under": "When Leo is working.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's pen is not in the kitchen, consistent with him being in the living room.",
+     "was": {
+      "statement": "Leo's pen is on the office desk when he is working. It was previously seen on the office floor, but the desk appears to be its standard location.",
+      "holds_under": "When Leo is working.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo's pen is confirmed in the office, not the living room.",
+     "was": {
+      "statement": "Leo's pen is not in the kitchen. It is likely in the living room or office with him. Previously seen on office desk and floor.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's pen is not in bedroom_3. It is likely in his office.",
+     "was": {
+      "statement": "Leo's pen is on the office desk. It is not in the kitchen or living room.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's pen is not in the office or bedroom_1, contradicting the previous assumption.",
+     "was": {
+      "statement": "Leo's pen is not in bedroom_3 or kitchen. It is likely in the office.",
+      "holds_under": "When Leo is working in the office.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo's pen is still not found in any room checked today. Location remains unknown.",
+     "was": {
+      "statement": "Leo's pen is not in the office, bedroom_1, or kitchen. Location unknown.",
+      "holds_under": "Current state.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo's pen is not in the office, bedroom_1, living, or kitchen.",
+     "was": {
+      "statement": "Leo's pen is not in the office, bedroom_1, living, or kitchen. Location unknown.",
+      "holds_under": "Current state.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo's pen is on the office desk, resolving the previous uncertainty about its location.",
+     "was": {
+      "statement": "Leo's pen is not in the office, bedroom_1, living, or kitchen. Location unknown.",
+      "holds_under": "Current state.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update Leo's pen location to office desk.",
+     "was": {
+      "statement": "Leo's pen is on the office desk.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Shared living room items (board game, cameras, candle, cushions, dog toy, lamp, picture frame, plant, remote, speaker, tissue box) are in standard spots. The blanket is on the floor.",
+   "holds_under": "Current state",
+   "supporting_observation_ids": [
+    "sighting_0205",
+    "sighting_0199",
+    "sighting_0200",
+    "sighting_0201",
+    "sighting_0203",
+    "sighting_0206"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The blanket moved from the living room coffee table to the bedroom_1 bed, likely by Leo or Elena.",
+     "was": {
+      "statement": "Shared living room items (blanket, board game, cameras, candle, cushions, dog toy, lamp, picture frame, plant, remote, speaker, tissue box) remain in their standard spots on the couch, bookshelf, coffee table, armchair, side table, floor, \u0438",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The blanket is back on the couch in the living room, contradicting claim_0019 which stated it was no longer there. Other shared items remain in standard spots.",
+     "was": {
+      "statement": "Shared living room items (board game, cameras, candle, cushions, dog toy, lamp, picture frame, plant, remote, speaker, tissue box) remain in standard spots. The blanket is no longer in the living room.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update living room items: Blanket is now on the coffee table, not the couch.",
+     "was": {
+      "statement": "Shared living room items (board game, cameras, candle, cushions, dog toy, lamp, picture frame, plant, remote, speaker, tissue box, blanket) are in standard spots. The blanket is on the couch.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of shared living room items; blanket moved from coffee table to floor.",
+     "was": {
+      "statement": "Shared living room items (board game, cameras, candle, cushions, dog toy, lamp, picture frame, plant, remote, speaker, tissue box, blanket) are in standard spots. The blanket is on the coffee table.",
+      "holds_under": "Current state",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Leo's water bottle and mug are on the kitchen table and sink respectively. His plate is on the kitchen table. His laptop and charger remain in the office.",
+   "holds_under": "Current state.",
+   "supporting_observation_ids": [
+    "sighting_0625",
+    "sighting_0654"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo's water bottle was in the dish rack at 08:10, not the kitchen table as previously noted. It moved to the office desk by 15:07. This refines the location pattern.",
+     "was": {
+      "statement": "Leo's water bottle is on the office desk when working, but moves to the kitchen table when he is in the kitchen.",
+      "holds_under": "When Leo is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update to reflect that Leo's water bottle is not in the kitchen, consistent with him being in the living room.",
+     "was": {
+      "statement": "Leo's water bottle is on the office desk when working. In the kitchen, it has been seen on the table and in the dish rack, suggesting it is used for drinking and then placed in the rack.",
+      "holds_under": "When Leo is in the kitchen or office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo's mug and plate are no longer in the kitchen, consistent with him being in the office.",
+     "was": {
+      "statement": "Leo's water bottle is not in the kitchen. It is likely in the living room or office with him. Previously seen on office desk and kitchen table.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Leo's water bottle, mug, and plate are not in bedroom_3. They are likely in his office or bedroom_1.",
+     "was": {
+      "statement": "Leo's water bottle, mug, and plate are not in the kitchen. They are likely in the office or bedroom with him.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Leo's water bottle is in bedroom_1, not the office/kitchen.",
+     "was": {
+      "statement": "Leo's water bottle, mug, and plate are not in bedroom_3 or kitchen. They are likely in the office or bedroom_1.",
+      "holds_under": "When Leo is not in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Leo's plate moved from cupboard to cupboard (same location, but claim_0020 said cupboard, now confirmed). Wait, claim_0020 said plate in cupboard. Sighting 1768 shows plate_leo on cupboard. This is consistent. No change needed for plate. But claim_0020 also says water bottle on nightstand (confirmed 1742) and mug in living (confirmed 1751). So claim_0020 is still accurate. No edit needed.",
+     "was": {
+      "statement": "Leo's water bottle is on the bedroom_1 nightstand. His mug is in the living room. His plate is in the kitchen cupboard.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Leo's water bottle is in bedroom_1, mug in living, plate in kitchen cupboard (implied by absence from table and presence of others' plates there, though not explicitly seen, but claim 0020 said cupboard. Wait, plate_leo is NOT FOUND in kitchen. So plate_leo is not in kitchen. It is likely in bedroom_1 or living. Let's check bedroom_1 NOT FOUND: plate_leo is not listed in NOT FOUND for bedroom_1? Actually, the NOT FOUND list for bedroom_1 includes plate_leo. So plate_leo is not in bedroom_1. It is not in living (not in list). It is not in kitchen (not in list). Location unknown or in bedroom_2/",
+     "was": {
+      "statement": "Leo's water bottle is on the bedroom_1 nightstand. His mug is on the living room coffee table. His plate is in the kitchen cupboard.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo's water bottle is now on the office desk, not the bedroom nightstand. This is part of his office work setup.",
+     "was": {
+      "statement": "Leo's water bottle is on the bedroom_1 nightstand. His mug is on the living room coffee table. His plate is not in the kitchen, living, or bedroom_1.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo's water bottle and mug are confirmed on the office desk today. His plate is in the kitchen, contradicting the old note.",
+     "was": {
+      "statement": "Leo's water bottle is on the office desk. His mug is on the office desk. His plate is not in the kitchen, living, or bedroom_1.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update Leo's water bottle location. It is in the office, not kitchen.",
+     "was": {
+      "statement": "Leo's water bottle and mug are on the office desk. His plate is on the kitchen table.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Update Leo's office items: Mug and water bottle are now on the office desk, not kitchen cupboard/sink.",
+     "was": {
+      "statement": "Leo's water bottle and mug are on the office desk. His plate is on the kitchen cupboard.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Leo's water bottle and mug are on the office desk, not the kitchen. His plate is on the kitchen table.",
+     "was": {
+      "statement": "Leo's water bottle and mug are on the office desk. His plate is on the kitchen dish rack.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Update location of Leo's items; his mug and water bottle are now in the kitchen, not just the office.",
+     "was": {
+      "statement": "Leo's water bottle and mug are on the office desk. His plate is on the kitchen table. His water bottle was also seen on the kitchen table in the evening.",
+      "holds_under": "Current state.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

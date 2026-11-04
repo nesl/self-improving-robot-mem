@@ -1,0 +1,8 @@
+# Analysis, figures and the no-model arms (everything reproduce.sh runs)
+matplotlib>=3.8
+PyYAML>=6.0
+
+# Optional, only to rerun language-model arms:
+# anthropic>=0.97        # Sonnet backend (--backend anthropic); reads ANTHROPIC_API_KEY from the environment
+# torch, transformers    # ACE-style arms: local model used to find claims worth merging
+# The Qwen arms need an OpenAI-compatible server (the paper used vLLM); the client uses only the standard library.

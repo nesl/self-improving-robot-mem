@@ -1,0 +1,2304 @@
+{
+ "household": "hh_s20_t03",
+ "arm": "memory-guided search with claim store told if it was right",
+ "how_memory_is_written": "claim store told if it was right",
+ "written_up_to_day": 31,
+ "next_claim_number": 18,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Aisha's guitar and knitting bag are on the couch in the living room. Her book and tablet are on the nightstand in bedroom_1. Her phone and headphones are not currently visible.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0007",
+    "sighting_0012",
+    "sighting_0013",
+    "sighting_0083",
+    "sighting_0202"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Day 3 sightings show Aisha's items in the same locations (bedroom_1 and living) as previous days. No new locations observed.",
+     "was": {
+      "statement": "Aisha's personal items (knitting bag, guitar, book, tablet, phone) are consistently found in the living room or bedroom_1, suggesting these are her primary activity zones.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Consistent presence in bedroom_1 during the day. At 22:02, Aisha was in the living room with her knitting bag and phone, suggesting she moved there for the evening.",
+     "was": {
+      "statement": "Aisha's personal items (knitting bag, guitar, book, tablet, phone) are consistently found in the living room or bedroom_1, suggesting these are her primary activity zones.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Evening sightings show Aisha in bedroom_1 with guitar/tablet, while knitting bag/jacket are on the couch in living room.",
+     "was": {
+      "statement": "Aisha's personal items (knitting bag, guitar, book, tablet, phone, headphones) are found in the living room or bedroom_1. In the evening, she is in the living room with her knitting bag and phone.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Consolidated location of Aisha's main items. Guitar/book stable in bedroom. Knitting bag stable on couch. Tablet in dining at night.",
+     "was": {
+      "statement": "Aisha's personal items (knitting bag, guitar, book, tablet, phone, headphones) are found in the living room or bedroom_1. In the evening, she is in the bedroom_1 with her guitar and tablet, while her knitting bag and jacket are in the couch",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Tablet consistently in bedroom_1 all day. Knitting bag seen on couch at 22:07. Tablet not seen in dining.",
+     "was": {
+      "statement": "Aisha's guitar and book are in bedroom_1 during the day and evening. Her knitting bag is on the couch in the living room. Her tablet is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 sightings confirm guitar/book/tablet in bedroom_1 and knitting bag in living. Tablet not seen in dining.",
+     "was": {
+      "statement": "Aisha's guitar, book, and tablet are in bedroom_1 (nightstand/floor) during the day. Her knitting bag is on the couch in the living room in the evening. Her tablet is NOT on the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Corrected the location of the knitting bag from 'couch' to 'armchair' based on sightings 3266 and 3287.",
+     "was": {
+      "statement": "Aisha's guitar, book, and tablet are in bedroom_1 (nightstand/floor) during the day. Her knitting bag is on the couch in the living room. Her tablet is NOT on the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Day 20 sightings at 10:24 and 11:11 confirm Aisha's guitar, book, and tablet are in bedroom_1. The knitting bag was seen on the armchair in the living room at 16:19 and 17:37.",
+     "was": {
+      "statement": "Aisha's guitar, book, and tablet are in bedroom_1 (nightstand/floor) during the day. Her knitting bag is on the armchair in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Merged claim_0001 and claim_0005. Corrected knitting bag location from armchair to couch based on today's sightings. Added phone location.",
+     "was": {
+      "statement": "Aisha's guitar, book, and tablet are in bedroom_1 (nightstand/floor) during the day. Her knitting bag is on the armchair in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Guitar, book, and tablet confirmed in bedroom_1 at 10:44. Knitting bag confirmed on couch in living room at 10:44, 14:10, and 20:37.",
+     "was": {
+      "statement": "Aisha's guitar, book, and tablet are in bedroom_1 (nightstand/floor). Her knitting bag is on the couch in the living room. Her phone is on the living room floor in the morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Guitar moved from bed to couch between 20:01 and 22:19. Aisha was in the living room at 22:19, suggesting she took it with her.",
+     "was": {
+      "statement": "Aisha's guitar is on the bed in bedroom_1. Her book and tablet are on the nightstand in bedroom_1. Her knitting bag is on the couch in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Guitar moved from bed to floor. Tablet moved from nightstand to dining table in evening. Book and knitting bag stable.",
+     "was": {
+      "statement": "Aisha's guitar is on the bed in bedroom_1 during the day, but moves to the couch in the living room in the evening. Her book and tablet are on the nightstand in bedroom_1. Her knitting bag is on the couch in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Consolidated Aisha's item locations. Evening sightings confirm her tech and drink are on the desk, while tablet remains on dining table.",
+     "was": {
+      "statement": "Aisha's guitar is on the bedroom floor in bedroom_1. Her book is on the nightstand in bedroom_1. Her tablet is on the dining table in the evening. Her knitting bag is on the couch in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Consistent sightings all day. Headphones and phone appeared in bedroom at 18:41. Knitting bag seen on couch at 18:00.",
+     "was": {
+      "statement": "Aisha's guitar is on the bedroom floor. Her book is on the nightstand. Her tablet is on the dining table. Her knitting bag is on the couch. Her laptop, charger, headphones, mug, and water bottle are on the desk in bedroom_1 in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Day 29 shows Aisha's guitar and knitting bag on the couch in the living room (10:01), not bedroom floor. Book and tablet on nightstand confirmed.",
+     "was": {
+      "statement": "Aisha's guitar is on the bedroom floor. Her book and tablet are on the nightstand. Her headphones are on the desk. Her phone is on the nightstand. Her knitting bag is on the couch in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Guitar, book, tablet, and knitting bag locations confirmed today. Phone and headphones were not found in any room checked today, so their previous location on the desk/nightstand is no longer supported by current evidence.",
+     "was": {
+      "statement": "Aisha's guitar is on the couch in the living room. Her book and tablet are on the nightstand. Her headphones are on the desk. Her phone is on the nightstand. Her knitting bag is on the couch in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Guitar and knitting bag moved from armchair to couch. Book and tablet remain on nightstand.",
+     "was": {
+      "statement": "Aisha's guitar is on the couch in the living room. Her book and tablet are on the nightstand in bedroom_1. Her knitting bag is on the armchair in the living room. Her phone and headphones are not currently visible in the rooms checked.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Hana's book is on the nightstand in bedroom_1 (moves to bed in evening). Her skincare is on the bathroom shelf. Her medication is on the medicine cabinet. Her charger is on the office desk during the day, nightstand in evening.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0014",
+    "sighting_0015",
+    "sighting_0016",
+    "sighting_0048",
+    "sighting_0046"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Day 3 sightings confirm Hana's items are in the bathroom (medication, skincare) and bedroom_1 (book). No new locations observed.",
+     "was": {
+      "statement": "Hana's personal items (glasses, charger, book, medication, skincare) are consistently found in bedroom_1 or bathroom, suggesting these are her primary activity zones.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Hana's book is in the bedroom_1 nightstand during the day. At 19:18, she was in the kitchen, and at 19:50, in the dining room. Her bathroom items remain static.",
+     "was": {
+      "statement": "Hana's personal items (glasses, charger, book, medication, skincare) are consistently found in bedroom_1 or bathroom, suggesting these are her primary activity zones.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Evening sightings show Hana's glasses in living room and book/charger in bedroom_1, contradicting previous 'kitchen/dining' evening location.",
+     "was": {
+      "statement": "Hana's personal items (medication, skincare, book) are found in the bathroom or bedroom_1. In the evening, she is in the kitchen or dining room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect Hana's evening location (dining) and stable locations of her book and bathroom items.",
+     "was": {
+      "statement": "Hana's personal items (medication, skincare, book, charger, glasses) are found in the bathroom, bedroom_1, or living room. In the evening, she is in the living room with her glasses on the coffee table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Skincare moved from cabinet to sink. Book and med stable. Hana present in dining at 19:39.",
+     "was": {
+      "statement": "Hana's book is on the desk in bedroom_1. Her medication and skincare are in the bathroom medicine cabinet. In the evening, she is in the dining room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 sighting 2506 places Hana's book in living, contradicting previous note about bedroom_1 desk. Meds/skincare consistent.",
+     "was": {
+      "statement": "Hana's book is on the desk in bedroom_1. Her medication is in the bathroom medicine cabinet. Her skincare is on the bathroom sink. Hana is in the dining room in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Day 17 sightings show Hana's book on the couch (not bookshelf), medication on kitchen counter (not bathroom), and skincare on bathroom shelf.",
+     "was": {
+      "statement": "Hana's book is on the bookshelf in the living room. Her medication is in the bathroom medicine cabinet. Her skincare is on the bathroom sink.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Removed the claim about medication location as it was not observed today and the previous location (kitchen counter) is not confirmed in recent sightings. Kept book and skincare locations which are consistent.",
+     "was": {
+      "statement": "Hana's book is on the couch in the living room. Her medication is on the kitchen counter. Her skincare is on the bathroom shelf.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed book on couch and skincare on shelf. Medication not in bathroom.",
+     "was": {
+      "statement": "Hana's book is on the couch in the living room. Her skincare is on the bathroom shelf. Her medication is not in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Book on couch confirmed multiple times. Skincare on bathroom shelf confirmed at 07:32, 09:23, 18:09. Medication found on nightstand in bedroom_1 at 10:44, contradicting previous assumption it was in kitchen/bathroom.",
+     "was": {
+      "statement": "Hana's book is on the couch in the living room. Her skincare is on the bathroom shelf. Her medication is not in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Book moved from couch to bookshelf. Skincare moved from shelf to sink. Medication stable.",
+     "was": {
+      "statement": "Hana's book is on the couch in the living room. Her skincare is on the bathroom shelf. Her medication is on the nightstand in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Book moved from bookshelf to bed between 20:01 and 22:19. Hana was in bedroom_1 at 22:19. Skincare moved from sink to shelf between 08:31 and 12:22. Medication moved from nightstand (per old claim) to medicine cabinet.",
+     "was": {
+      "statement": "Hana's book is on the bookshelf in the living room. Her skincare is on the sink in the bathroom. Her medication is on the nightstand in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Book moved from living room bookshelf to bedroom nightstand. Skincare moved from shelf to sink. Medication stable.",
+     "was": {
+      "statement": "Hana's book is on the bookshelf in the living room during the day, but moves to the bed in bedroom_1 in the evening. Her skincare is on the bathroom shelf. Her medication is on the medicine cabinet in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Consolidated Hana's personal items. Evening sightings show charger and glasses on nightstand. Skincare confirmed on shelf, not sink.",
+     "was": {
+      "statement": "Hana's book is on the nightstand in bedroom_1. Her skincare is on the sink in the bathroom. Her medication is on the medicine cabinet in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Book, skincare, and medication locations are stable. Charger/glasses not seen today but consistent with evening habit.",
+     "was": {
+      "statement": "Hana's book is on the nightstand. Her skincare is on the bathroom shelf. Her medication is on the medicine cabinet. Her charger and glasses are on the nightstand in the evening. Her glass is on the cupboard in the kitchen during the day, on",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Day 29 shows Hana's medication moved from medicine cabinet to bathroom shelf (07:00 cabinet, 16:03 shelf). Skincare is consistently on the sink, not shelf. Charger and glasses appeared on nightstand at 20:16.",
+     "was": {
+      "statement": "Hana's book is on the nightstand. Her skincare is on the bathroom shelf. Her medication is on the medicine cabinet. Her charger and glasses are on the nightstand in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Book, skincare, and medication locations confirmed today. Medication moved from shelf to medicine cabinet. Charger and glasses not found in any room checked today.",
+     "was": {
+      "statement": "Hana's book is on the nightstand. Her skincare is on the bathroom sink. Her medication is on the bathroom shelf. Her charger and glasses are on the nightstand in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Skincare is on shelf, not sink. Charger location varies by time of day.",
+     "was": {
+      "statement": "Hana's book is on the nightstand in bedroom_1. Her skincare is on the bathroom sink. Her medication is on the medicine cabinet in the bathroom. Her charger and glasses are not currently visible.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Hana's medication is on the medicine cabinet. Her glass is on the kitchen cupboard during the day. Her charger is on the office desk during the day.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0235",
+    "sighting_0236",
+    "sighting_0237",
+    "sighting_0238"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Day 3 at 20:53, Hana's dining items were found in the dining room, consistent with the evening pattern. Aisha's items were also present, suggesting a shared meal.",
+     "was": {
+      "statement": "Hana's dining items (glass, plate, water bottle, serving dish) are found in the dining room in the evening, indicating she eats there.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Day 6 sightings show Hana in dining room at 12:55 and 13:16 with plate/glass, but in living room at 21:36.",
+     "was": {
+      "statement": "Hana's dining items (glass, plate, water bottle, serving dish) are found in the dining room in the evening, indicating she eats there.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Hana's glass moves from kitchen to dining. Plate is in sink. She is in dining in evening.",
+     "was": {
+      "statement": "Hana's dining items (glass, plate) are found in the dining room during the day (around lunch), indicating she eats there. In the evening, she is in the living room.",
+      "holds_under": "Daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Day 9 sightings confirm the pattern: glass/plate in sink at 09:20/14:06/16:27, moved to dining table at 13:09 and 20:51.",
+     "was": {
+      "statement": "Hana's glass is in the kitchen during the day and moves to the dining table in the evening. Hana's plate is in the kitchen sink. Hana eats in the dining room in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Day 10 shows Hana's plate moved to dining table by 15:33, while her glass/mug stayed in kitchen sink. Previous note claimed glass/plate moved to dining, which is incorrect for the glass.",
+     "was": {
+      "statement": "Hana's glass and plate are in the kitchen sink during the day. In the evening, they move to the dining table. Hana is present in the dining room in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed Hana's presence and items on table at 21:32. Mug absent from table, refining previous claim.",
+     "was": {
+      "statement": "Hana's plate is on the dining table in the evening. Her glass and mug are in the kitchen sink in the evening. Hana is present in the dining room in the evening.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Confirmed at 19:39. Items on dining table.",
+     "was": {
+      "statement": "Hana is in the dining room in the evening. Her plate, glass, and water bottle are on the dining table. Her mug is not on the table (likely kitchen).",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 20:09 shows Hana in kitchen with items on sink. Previous note about dining table was incorrect for this time.",
+     "was": {
+      "statement": "In the evening, Hana is in the dining room. Her plate, glass, and water bottle are on the dining table. Her mug is not on the table (likely kitchen).",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Day 14 sightings show Hana's plate and glass moved to the cupboard (previously sink) and her mug is in the living room. Merged with claim_0006 to consolidate Hana's evening item locations.",
+     "was": {
+      "statement": "In the evening, Hana is in the kitchen. Her plate, glass, and mug are on the kitchen sink. Her water bottle is not on the dining table.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Sighting 2878 (glass_hana on cupboard) and 2880 (plate_aisha on cupboard, but claim is about Hana's plate? Wait, claim says Hana's plate. Sighting 2892 shows plate_hana on sink. Sighting 2878 is glass_hana on cupboard. Sighting 2880 is pot?",
+     "was": {
+      "statement": "Hana's plate and glass are on the kitchen cupboard. Her mug is on the coffee table in the living room in the evening. Her water bottle is not on the dining table.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Day 16 sightings show Hana's plate/glass on kitchen sink and mug on living coffee table during the day. Water bottle found on bedroom nightstand at 12:09. Previous claim about cupboard was incorrect.",
+     "was": {
+      "statement": "Hana's plate and glass are on the kitchen cupboard in the evening. Her mug is on the coffee table in the living room. Her water bottle is not on the dining table.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Day 17 sightings show Hana's items in living/bedroom during the day, not on the kitchen sink as previously noted. Glass moved to kitchen.",
+     "was": {
+      "statement": "Hana's plate and glass are on the kitchen sink. Her mug is on the coffee table in the living room. Her water bottle is on the bedroom nightstand.",
+      "holds_under": "Daytime (10:00-15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Hana's glass was in the bedroom in the morning but was in the kitchen dish rack in the evening. Her water bottle and headphones remained on the nightstand all day.",
+     "was": {
+      "statement": "Hana's mug, plate, and book are on the coffee table/couch in the living room during the day. Her water bottle and headphones are on the bedroom nightstand. Her glass is in the kitchen (sink/dish rack).",
+      "holds_under": "Daytime (10:00-15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Day 20 sightings confirm Hana's items (charger, glass, headphones, water bottle) are in bedroom_1 during the day (10:24-11:11). The glass was not in the bedroom at 11:11, consistent with it moving to the kitchen for the evening.",
+     "was": {
+      "statement": "Hana's water bottle and headphones are on the bedroom nightstand. Her glass is in the kitchen (sink/dish rack) in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated glass location. It was in the kitchen at 07:31 and 11:11, but not in the kitchen at 20:49 (dining) or 20:55 (bathroom).",
+     "was": {
+      "statement": "Hana's water bottle, headphones, and charger are on the bedroom nightstand/bed during the day. Her glass is in the kitchen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Water bottle, charger, medication, and glass all found in bedroom_1 at 10:44. Previous note about glass in kitchen is outdated.",
+     "was": {
+      "statement": "Hana's water bottle, headphones, and charger are on the bedroom nightstand/bed during the day. Her glass is in the kitchen in the morning, but not in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Glass moved from nightstand to kitchen cupboard. Other items stable.",
+     "was": {
+      "statement": "Hana's water bottle, charger, and medication are on the nightstand/bed in bedroom_1. Her glass is on the nightstand in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Charger appeared on nightstand at 20:01. Glass was in cupboard until 13:37, then missing. Medication consistently in bathroom cabinet during day.",
+     "was": {
+      "statement": "Hana's water bottle, charger, and medication are on the nightstand/bed in bedroom_1. Her glass is on the cupboard in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Updated medication location to bathroom shelf based on Day 29 sightings (16:03, 19:44, 22:42). Charger confirmed on nightstand in evening.",
+     "was": {
+      "statement": "Hana's charger is on the nightstand in bedroom_1 in the evening. Her medication is on the medicine cabinet in the bathroom during the day. Her glass is on the cupboard in the kitchen during the day, but is missing in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Medication location updated to medicine cabinet. Glass found on kitchen sink, not cupboard. Charger not found.",
+     "was": {
+      "statement": "Hana's charger is on the nightstand in bedroom_1 in the evening. Her medication is on the bathroom shelf during the day. Her glass is on the cupboard in the kitchen during the day, but is missing in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Glass is on cupboard, not sink. Charger is in office during day.",
+     "was": {
+      "statement": "Hana's charger is not currently visible. Her medication is on the medicine cabinet in the bathroom. Her glass is on the kitchen sink during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Aisha's bowl, mug, glass, and plate are on the kitchen cupboard. Hana's bowl is on the kitchen sink. Hana's glass and plate are on the kitchen cupboard. Cutting board is on the counter.",
+   "holds_under": "Daytime (before 17:00)",
+   "supporting_observation_ids": [
+    "sighting_0114",
+    "sighting_0115",
+    "sighting_0230",
+    "sighting_0233",
+    "sighting_0234"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Aisha's items consistently in the cupboard, while Hana's are in the sink. The previous note about the sink area was incorrect for Aisha.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate, water bottle) are found in the kitchen sink area in the evening, indicating she prepares or cleans up there.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Day 3 sightings confirm the pattern: Aisha's items remain in the cupboard, while Hana's are in the sink. No changes observed.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are stored in the kitchen cupboard, not the sink area. Hana's bowl and plate are found in the kitchen sink.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Day 4 confirms Aisha's items remain in the cupboard. Hana's bowl is consistently in the sink (sighting_0700, 0744). Hana's plate was in the cupboard at 10:43 (sighting_0688) but on the dining table at 12:31 (sighting_0706) and 20:46 (sight_",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are stored in the kitchen cupboard, not the sink area. Hana's bowl and plate are found in the kitchen sink.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Hana's glass and plate were in the cupboard during the day (09:34, 10:27) but moved to the sink/counter by 15:04 and 19:18. Aisha's items remained in the cupboard.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are stored in the kitchen cupboard. Hana's bowl is found in the kitchen sink. Hana's plate is in the cupboard during the day but moves to the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Day 6 sightings confirm Hana's bowl is in the sink (not pantry) and plate moves to dining table in evening.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass) are stored in the kitchen cupboard. Hana's bowl is in the pantry shelf. Hana's plate is in the cupboard during the day but moves to the counter/sink in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Day 7 evening shows Aisha's items moved to dining, contradicting the 'always in cupboard' part of the old note. Hana's bowl is consistently in the dish rack, not the sink.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass) are stored in the kitchen cupboard. Hana's bowl is in the kitchen sink. Hana's plate is in the cupboard during the day but moves to the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Hana's plate moved from cupboard to sink between 12:17 and 13:44. Aisha's items remain in cupboard during day, move to dining in evening.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug) are in the kitchen cupboard. Hana's bowl is in the dish rack. Hana's plate is in the cupboard. In the evening, Aisha's glass, plate, and water bottle move to the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Day 9 shows Aisha's items in sink during day (09:20-16:27) and moved to cupboard in evening (20:51). Previous note said cupboard for day, which was incorrect.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are in the kitchen cupboard. Hana's bowl is in the kitchen sink. Hana's plate is in the kitchen sink. In the evening, Aisha's glass, plate, and water bottle move to the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Day 10 confirms Aisha's items are in the cupboard during the day (08:50-17:11). By 20:45, her glass, plate, and water bottle are on the dining table, while bowl and mug remain in the cupboard. Previous note incorrectly stated they moved to",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are in the kitchen sink during the day. In the evening, they move to the kitchen cupboard. Aisha's water bottle appears in the dish rack in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Bowl/mug in sink all day. Plate moved to dining at 22:07. Glass/water bottle in kitchen at 22:07.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug, glass, plate) are in the kitchen cupboard during the day. In the evening, her glass, plate, and water bottle move to the dining table. Her bowl and mug remain in the kitchen cupboard.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 confirms Aisha's kitchen storage locations and evening dining setup. Corrects previous assumption about sink location.",
+     "was": {
+      "statement": "Aisha's kitchen items (bowl, mug) are in the kitchen sink during the day. In the evening, her plate moves to the dining table. Her glass and water bottle are in the kitchen (table/counter).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Day 16 confirms Aisha's items on kitchen cupboard during day (10:44-14:36) and on dining table in evening (19:46).",
+     "was": {
+      "statement": "Aisha's bowl is on the pantry shelf in the kitchen. Her mug is on the cupboard. In the evening, her plate, glass, and water bottle are on the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Day 17 confirms Aisha's dishware locations. Evening kitchen check shows her plate/glass are gone, supporting the move to dining.",
+     "was": {
+      "statement": "Aisha's bowl, mug, plate, glass, and pot are on the kitchen cupboard during the day. In the evening, her plate, glass, and water bottle move to the dining table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Aisha's plate and glass were in the kitchen cupboard in the morning but were not in the kitchen in the evening. Her medication appeared on the kitchen counter in the evening, suggesting she was in the kitchen then, but her dishes were not.",
+     "was": {
+      "statement": "Aisha's bowl, mug, and pot are on the kitchen cupboard. Her plate and glass are on the kitchen sink during the day. In the evening, her plate and glass are not in the kitchen (likely dining).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed bowl and mug on cupboard at 11:11. Plate and glass absent from kitchen at 20:49.",
+     "was": {
+      "statement": "Aisha's bowl and mug are on the kitchen cupboard. Her plate and glass are not in the kitchen in the evening (likely dining).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Bowl and mug found on sink at 10:44. Plate and glass found on cupboard at 10:44. Previous note about cupboard for bowl/mug is incorrect.",
+     "was": {
+      "statement": "Aisha's bowl and mug are on the kitchen cupboard. Her plate and glass are not in the kitchen in the evening (likely dining).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Bowl moved from sink to dish rack. Mug moved from sink to cupboard. Plate/glass not seen today but assumed stable.",
+     "was": {
+      "statement": "Aisha's bowl and mug are on the sink in the kitchen. Her plate and glass are on the cupboard in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Consistent locations for Aisha's kitchen items throughout the day. Water bottle seen only at 07:00 in dining.",
+     "was": {
+      "statement": "Aisha's bowl is on the dish rack in the kitchen. Her mug is on the cupboard in the kitchen. Her plate and glass are on the cupboard in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dishes moved from sink to cupboard in evening. Water bottle appeared in kitchen dish rack.",
+     "was": {
+      "statement": "Aisha's bowl and glass are on the dish rack in the kitchen. Her mug is on the cupboard in the kitchen. Her plate is on the sink in the kitchen. Her water bottle is on the dining table in the early morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated dish locations. Evening sightings show Hana's plate and glass moved to the sink, while Aisha's remain on the cupboard.",
+     "was": {
+      "statement": "Aisha's bowl, glass, mug, and plate are on the cupboard in the kitchen in the evening. Her water bottle is on the dish rack in the kitchen in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Daytime items in kitchen cupboard. Evening items (Aisha's) move to dining table. Hana's items move to sink.",
+     "was": {
+      "statement": "Aisha's bowl, glass, mug, and plate are on the cupboard in the kitchen. Hana's plate is on the cupboard in the kitchen during the day, but on the sink in the evening. Hana's glass is on the cupboard in the day, on the sink in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 sightings confirm the day/night split. Aisha's items were in the kitchen cupboard at 10:41 and 16:07, but on the dining table at 19:49 and 20:23. Hana's plate and glass were in the kitchen sink/cupboard during the day and on the din",
+     "was": {
+      "statement": "Aisha's bowl, glass, mug, and plate are on the cupboard in the kitchen during the day. In the evening, Aisha's items move to the dining table. Hana's plate and glass are on the sink in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Day 29 sightings confirm Hana's plate and glass are on the cupboard during the day (08:01, 10:01, 17:33), correcting the previous note which said sink. Aisha's items remain on cupboard during day.",
+     "was": {
+      "statement": "Aisha's bowl, glass, mug, and plate are on the kitchen cupboard during the day. In the evening, Aisha's items move to the dining table. Hana's plate and glass are on the kitchen sink during the day, and move to the dining table in the.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Daytime locations for kitchen items confirmed. Aisha's glass was not in the kitchen but in the dining room.",
+     "was": {
+      "statement": "Aisha's bowl, glass, mug, and plate are on the kitchen cupboard during the day. In the evening, Aisha's items move to the dining table. Hana's plate and glass are on the kitchen cupboard during the day, and move to the dining table in the.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dishes are stored on cupboard, not sink or dish rack. Cutting board is on counter.",
+     "was": {
+      "statement": "Aisha's bowl, mug, and cutting board are on the kitchen sink. Hana's bowl is on the pantry shelf. Hana's glass is on the kitchen sink. Aisha's plate is on the dish rack. Hana's plate is on the dish rack.",
+      "holds_under": "Daytime (before 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Aisha's tablet and book are on the nightstand in bedroom_1. Her guitar and knitting bag are on the couch in the living room.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0900",
+    "sighting_0901",
+    "sighting_0903",
+    "sighting_0904",
+    "sighting_0905",
+    "sighting_0906"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Day 6 evening sightings show both in living/bedroom, not dining room as previously believed.",
+     "was": {
+      "statement": "In the evening (after 19:00), Aisha and Hana eat in the dining room. Aisha's items (glass, plate, water bottle) and Hana's items (glass, plate, water bottle, laptop) are found on the dining table.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Day 7 19:37 shows Hana in living. Day 7 20:52 shows Aisha in dining with her items, and Hana in kitchen. This refines the previous note that claimed Aisha was in the bedroom.",
+     "was": {
+      "statement": "In the evening (after 19:00), Aisha and Hana are in the living room. Hana's glasses are on the coffee table. Aisha's knitting bag and jacket are on the couch. Aisha is in the bedroom_1 with her guitar and tablet.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Aisha confirmed in dining at 21:45. Hana's glass also in dining, suggesting she is there too. Knitting bag still on couch.",
+     "was": {
+      "statement": "In the evening, Hana is in the living room or kitchen. Aisha is in the dining room with her glass, plate, and water bottle. Aisha's knitting bag remains on the living room couch.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Day 9 shows tablet consistently on dining table. Knitting bag/guitar in living room. Aisha herself was not seen in dining, contradicting previous 'Aisha is in dining' assumption.",
+     "was": {
+      "statement": "In the evening, Aisha is in the dining room with her glass, plate, and water bottle. Hana is in the kitchen or dining room. Aisha's knitting bag remains on the living room couch.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect evening state. Tablet moved to dining (or stayed there), knitting bag on couch, guitar/book in bedroom.",
+     "was": {
+      "statement": "Aisha's tablet is on the dining table throughout the day. Aisha's knitting bag and guitar are in the living room (couch/coffee table) throughout the day. Aisha is not seen in the dining room, but her tablet is there.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 shows tablet in bedroom_1, not dining table. Knitting bag in living. Consistent with claim_0001.",
+     "was": {
+      "statement": "Aisha's tablet is on the dining table in the evening. Her knitting bag is on the couch in the living room. Her guitar and book are in bedroom_1.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Corrected the location of the knitting bag from 'couch' to 'armchair' based on sightings 3287.",
+     "was": {
+      "statement": "Aisha's tablet is in bedroom_1 (nightstand) in the evening. Her knitting bag is on the couch in the living room. Her guitar and book are in bedroom_1.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Consistent with claim_0001. Tablet on nightstand, knitting bag on couch, guitar/book in bedroom.",
+     "was": {
+      "statement": "Aisha's tablet is in bedroom_1 (nightstand) in the evening. Her knitting bag is on the armchair in the living room. Her guitar and book are in bedroom_1.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Updated guitar location to couch in living room based on Day 29 sighting at 10:01.",
+     "was": {
+      "statement": "Aisha's tablet is on the nightstand in bedroom_1. Her knitting bag is on the couch in the living room. Her guitar and book are in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Locations confirmed today. Knitting bag is specifically on the armchair, not just the couch.",
+     "was": {
+      "statement": "Aisha's tablet is on the nightstand in bedroom_1. Her knitting bag is on the couch in the living room. Her guitar is on the couch in the living room. Her book is in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Consistent with claim_0001. Keeping separate for clarity.",
+     "was": {
+      "statement": "Aisha's tablet is on the nightstand in bedroom_1. Her knitting bag is on the armchair in the living room. Her guitar is on the couch in the living room. Her book is on the nightstand in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Hana's book is on the nightstand in bedroom_1. The remote is on the TV stand in the living room. Hana's laptop is on the office desk during the day.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_1354",
+    "sighting_1355",
+    "sighting_1345"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Hana's glass was on kitchen counter at 11:15, then in dining at 15:00 and 21:45. Mug and water bottle not seen in kitchen today.",
+     "was": {
+      "statement": "Hana's mug and water bottle are in the kitchen sink in the evening. Hana's glass is in the kitchen cupboard. This suggests she is preparing or cleaning up in the kitchen.",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Day 9 13:09 and 20:51 sightings show Hana's mug and water bottle in kitchen sink/dish rack, not 'not visible' as previously noted.",
+     "was": {
+      "statement": "Hana's glass is in the kitchen counter during the day, moving to the dining table in the evening. Hana's mug and water bottle are not currently visible in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 20:09 confirms Hana's items on kitchen sink. Corrects previous note about dish rack/dining table.",
+     "was": {
+      "statement": "Hana's mug and water bottle are in the kitchen sink during the day. In the evening, they move to the kitchen sink (mug) and dish rack (water bottle). Hana's glass moves to dining table in evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Day 17 evening sightings show Hana's items in the living room, not on the kitchen sink. Glass is in the kitchen dish rack.",
+     "was": {
+      "statement": "Hana's mug, glass, and plate are on the kitchen sink in the evening. Her water bottle is not on the dining table.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated to include glasses and laptop locations observed in the evening. Removed plate as it was not seen in the living room today.",
+     "was": {
+      "statement": "Hana's mug, plate, and book are on the coffee table/couch in the living room in the evening. Her glass is in the kitchen dish rack. Her water bottle is not in the living room.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Hana's items remained in the living room in the evening, consistent with her being in the living room at 17:59 and 20:17.",
+     "was": {
+      "statement": "Hana's mug, book, and glasses are on the coffee table/couch in the living room in the evening. Her laptop is on the bookshelf. Her water bottle is not in the living room.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Day 20 sightings at 16:19 and 17:37 confirm Hana's evening setup in the living room: mug/book/glasses on furniture, laptop on bookshelf.",
+     "was": {
+      "statement": "Hana's mug, book, and glasses are on the coffee table/couch in the living room in the evening. Her laptop is on the bookshelf.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed locations at 16:59. Glasses on armchair, book on couch, mug on coffee table, laptop on bookshelf.",
+     "was": {
+      "statement": "Hana's mug, book, and glasses are on the coffee table/couch in the living room in the evening. Her laptop is on the bookshelf.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Items consistently in living room. Remote moved from coffee table to couch at 21:42.",
+     "was": {
+      "statement": "Hana's mug, book, and glasses are on the coffee table/couch/armchair in the living room in the evening. Her laptop is on the bookshelf.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Book moved to bookshelf. Laptop not seen in living room today.",
+     "was": {
+      "statement": "Hana's book, glasses, and laptop are in the living room (couch/bookshelf). Her mug is on the coffee table. Her remote is on the coffee table or couch.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Day 29 shows Hana's book on nightstand in bedroom_1, not bookshelf in living room. This contradicts the note. Note may need revision or setting aside.",
+     "was": {
+      "statement": "Hana's book is on the bookshelf in the living room. Her mug is on the coffee table. Her remote is on the coffee table. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Book location updated to nightstand. Remote found on TV stand, not coffee table. Mug not found in living room or kitchen.",
+     "was": {
+      "statement": "Hana's book is on the bookshelf in the living room. Her mug is on the coffee table. Her remote is on the coffee table. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Laptop is in office, not just 'not in living room'.",
+     "was": {
+      "statement": "Hana's book is on the nightstand in bedroom_1. Her mug is not currently visible. The remote is on the TV stand in the living room. Hana's laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Aisha is not in the dining room in the evening. Her glass, plate, and water bottle are not on the dining table. Hana is not currently visible in the dining room.",
+   "holds_under": "Evening (after 17:00)",
+   "supporting_observation_ids": [
+    "sighting_1571",
+    "sighting_1582",
+    "sighting_1656",
+    "sighting_1746"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 shows Aisha in bathroom morning, Hana in dining midday, Hana in kitchen evening. Corrects previous note about Hana in bathroom morning.",
+     "was": {
+      "statement": "Hana is in the bathroom in the morning (07:00-08:32). Hana is in the dining room in the evening (13:09, 20:51).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Day 16 sightings place Hana in bathroom at 09:05, bedroom at 12:09, and living room at 14:36. Aisha is in dining room at 19:46.",
+     "was": {
+      "statement": "Aisha is in the bathroom in the morning (07:00-08:00). Hana is in the dining room at midday (13:00) and in the kitchen in the evening (20:00).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Day 17 sightings confirm Hana's presence in living room in the evening and Aisha in bathroom in the morning. Aisha's evening location is unknown.",
+     "was": {
+      "statement": "Hana is in the bathroom in the morning (09:00) and in the bedroom/living room during the day. Aisha is in the dining room in the evening (19:00).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated to reflect Aisha's presence in the living room at 18:53, contradicting the previous note that she was not seen in the evening.",
+     "was": {
+      "statement": "Aisha is in the bathroom in the early morning (07:00). Hana is in the bathroom (09:00), bedroom (11:00), and living room (14:00-20:00). Aisha is not seen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Day 20 sightings show Aisha in bathroom at 07:46, Hana in bedroom at 10:24/11:11, Hana in living at 16:19/17:37, and Aisha in dining at 19:59. This updates the previous note which had Aisha in living in the evening.",
+     "was": {
+      "statement": "Aisha is in the bathroom in the early morning (07:00-09:00). Hana is in the bedroom (17:00) and living room (18:00). Aisha is in the living room in the evening (18:00).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed Aisha in dining at 20:49. Confirmed Hana in bedroom at 11:11 and living at 16:59. Removed unverified morning bathroom claim for Aisha.",
+     "was": {
+      "statement": "Aisha is in the bathroom in the early morning (07:00-09:00). Hana is in the bedroom (10:00-12:00) and living room (16:00-18:00). Aisha is in the dining room in the evening (19:00+).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Aisha seen in dining at 07:00. Hana seen in bathroom at 07:32, bedroom at 10:44, living at 14:10/20:37/21:42. Aisha seen in living at 21:42.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening (19:00+). Hana is in the bedroom (10:00-12:00) and living room (16:00-18:00).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Aisha seen in bedroom_1 at 19:47, not living room. Hana seen in living room at 19:47.",
+     "was": {
+      "statement": "Aisha is in the dining room in the morning. Hana is in the bathroom in the morning, bedroom_1 in late morning, and living room in the afternoon/evening. Aisha is in the living room in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Aisha seen in bathroom at 07:00, kitchen at 20:01. Hana seen in bedroom_1 at 22:19. Aisha's laptop/charger not seen in bedroom_1 today.",
+     "was": {
+      "statement": "Aisha is in the dining room in the morning. Hana is in the bathroom in the morning, bedroom_1 in late morning, and living room in the evening. Aisha is in the bedroom_1 in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Aisha seen in dining at 20:43. Hana not seen. Laptop/charger absent from bedroom.",
+     "was": {
+      "statement": "Aisha is in the bathroom in the early morning, dining room at 07:00, and kitchen in the evening. Hana is in bedroom_1 in the evening. Aisha's laptop and charger are not currently in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Aisha's evening routine: tablet at dining table, tech/drink at bedroom desk. Hana absent from dining.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Hana is not in the dining room in the evening. Aisha's laptop and charger are not in bedroom_1.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Aisha seen in dining at 18:00 and 19:49. Her items are in dining. Hana's items are in kitchen sink.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Her laptop, charger, headphones, mug, and water bottle are on the desk in bedroom_1 in the evening. Hana is not in the dining room in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 at 20:23 shows both Aisha and Hana in the dining room. This contradicts the previous note that Hana is not in the dining room in the evening. Hana's presence is confirmed by her items (glass, plate, water bottle) also being on the",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Her laptop, charger, headphones, mug, and water bottle are on the desk in bedroom_1 in the evening. Hana is not in the dining room in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Day 29 at 20:16 shows Aisha in dining room with her glass, plate, serving dish, and water bottle. Her laptop, charger, headphones, and mug were not seen in bedroom_1 in the evening, but note remains provisional.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Her laptop, charger, headphones, mug, and water bottle are on the desk in bedroom_1 in the evening. Hana is in the dining room in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Aisha confirmed in dining room with her items. Hana's items (plate, glass, water bottle) are not in the dining room, suggesting she is elsewhere or has not moved them yet.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Her laptop, charger, headphones, mug, and water bottle are on the desk in bedroom_1 in the evening. Hana is in the dining room in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dining room was empty at 13:35. Aisha's items are in kitchen, not dining.",
+     "was": {
+      "statement": "Aisha is in the dining room in the evening. Her glass, plate, and water bottle are on the dining table. Hana is not currently visible in the dining room.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Hana's medication is on the medicine cabinet. Aisha's bowl and mug are on the kitchen cupboard. Her tablet is on the nightstand in bedroom_1.",
+   "holds_under": "Early morning (before 08:00)",
+   "supporting_observation_ids": [
+    "sighting_3457"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Medication seen on kitchen counter at 11:11. Not seen in kitchen at 07:31 or 20:49. Adjusted time window.",
+     "was": {
+      "statement": "Hana's medication is on the kitchen counter in the evening.",
+      "holds_under": "Evening (after 15:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Medication found on kitchen counter at 07:00. Moved to bedroom nightstand by 10:44.",
+     "was": {
+      "statement": "Hana's medication is on the kitchen counter in the late morning (11:00-12:00).",
+      "holds_under": "Late morning (11:00-12:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Retained early morning locations. No early morning sightings today to update these.",
+     "was": {
+      "statement": "Hana's medication is on the kitchen counter in the early morning.",
+      "holds_under": "Early morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Confirmed on Day 29 at 07:00 that Hana's medication is on the medicine cabinet in the early morning, and Aisha's items are on the dining table.",
+     "was": {
+      "statement": "Hana's medication is on the kitchen counter in the early morning. Aisha's bowl, mug, and tablet are on the dining table in the morning.",
+      "holds_under": "Early morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Medication location confirmed. Aisha's items were found in kitchen/bedroom, not dining table, contradicting the previous claim about their morning location.",
+     "was": {
+      "statement": "Hana's medication is on the medicine cabinet in the early morning. Aisha's bowl, mug, and tablet are on the dining table in the morning.",
+      "holds_under": "Early morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Items are in their standard daytime locations in the morning.",
+     "was": {
+      "statement": "Hana's medication is on the medicine cabinet in the early morning. Aisha's bowl, mug, and tablet are not on the dining table in the morning; they are in the kitchen and bedroom respectively.",
+      "holds_under": "Early morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Aisha's bowl and mug are on the kitchen cupboard in the morning. Her tablet is on the nightstand in bedroom_1.",
+   "holds_under": "Morning (before 08:00)",
+   "supporting_observation_ids": [
+    "sighting_3577",
+    "sighting_3578",
+    "sighting_3579",
+    "sighting_3580"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed all items on dining table at 20:49.",
+     "was": {
+      "statement": "Aisha's plate, glass, and water bottle are on the dining table in the evening. Her serving dish is also there.",
+      "holds_under": "Evening (after 19:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Items found on dining table at 07:00. Moved to kitchen sink/bedroom nightstand by 10:44.",
+     "was": {
+      "statement": "Aisha's plate, glass, and water bottle are on the dining table in the evening. Her serving dish is also there.",
+      "holds_under": "Evening (after 19:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Confirmed on Day 29 at 08:01 that Aisha's bowl, mug, and tablet are on the dining table.",
+     "was": {
+      "statement": "Aisha's bowl, mug, and tablet are on the dining table in the morning.",
+      "holds_under": "Morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Corrected location of Aisha's items in the morning. They are in the kitchen and bedroom, not the dining room.",
+     "was": {
+      "statement": "Aisha's bowl, mug, and tablet are on the dining table in the morning.",
+      "holds_under": "Morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Consistent with claim_0008.",
+     "was": {
+      "statement": "Aisha's bowl and mug are on the kitchen sink in the morning. Her tablet is on the nightstand in bedroom_1.",
+      "holds_under": "Morning (before 08:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Aisha's laptop and charger are not currently visible. Her headphones are not currently visible. Hana's medication is on the medicine cabinet in the bathroom.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_3950",
+    "sighting_3949",
+    "sighting_3948"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Headphones seen on desk at 18:41. Medication consistently on medicine cabinet.",
+     "was": {
+      "statement": "Aisha's laptop and charger are on the desk in bedroom_1. Her headphones are on the bed in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Updated Hana's medication location to bathroom shelf based on Day 29 sightings.",
+     "was": {
+      "statement": "Aisha's laptop and charger are on the desk in bedroom_1. Her headphones are on the desk in bedroom_1 in the evening. Hana's medication is on the medicine cabinet in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Laptop, charger, and headphones not found in any room checked today. Medication location updated.",
+     "was": {
+      "statement": "Aisha's laptop and charger are on the desk in bedroom_1. Her headphones are on the desk in bedroom_1 in the evening. Hana's medication is on the bathroom shelf.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Aisha's electronics remain unseen. Hana's medication location confirmed.",
+     "was": {
+      "statement": "Aisha's laptop and charger are not currently visible. Her headphones are not currently visible. Hana's medication is on the medicine cabinet in the bathroom.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Hana's hat is not currently visible. Aisha's lunchbox is not in the kitchen.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_3951"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Hat consistently on dresser. Lunchbox not seen in kitchen today, so its location is unknown/changed.",
+     "was": {
+      "statement": "Hana's hat is on the dresser in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Hat stable on dresser. Lunchbox absent from kitchen.",
+     "was": {
+      "statement": "Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not currently in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "No sightings of Hana's hat or Aisha's lunchbox on Day 29. Note remains provisional.",
+     "was": {
+      "statement": "Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Hat not found in bedroom_1 or other rooms. Lunchbox not found in kitchen.",
+     "was": {
+      "statement": "Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "No sightings of hat or lunchbox today.",
+     "was": {
+      "statement": "Hana's hat is not currently visible. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Aisha's lunchbox is not currently visible. Hana's water bottle is on the office desk during the day.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_3974"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Lunchbox not found in kitchen pantry shelf in multiple sightings today. Likely moved or consumed.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Retained locations for lunchbox and Hana's water bottle. No new sightings today to update these.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Hana's water bottle seen on sink at 19:49. Lunchbox not seen today but consistent with pantry.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen. Hana's water bottle is on the cupboard in the kitchen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 at 20:23 shows Hana's water bottle on the dining table, not the kitchen sink as previously noted. This aligns with her being in the dining room for dinner.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen. Hana's water bottle is on the sink in the kitchen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "No sightings of Aisha's lunchbox or Hana's water bottle on dining table in evening on Day 29. Hana's water bottle was in kitchen dish rack during day. Note remains provisional.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen. Hana's water bottle is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Lunchbox and Hana's water bottle not found in any room checked today.",
+     "was": {
+      "statement": "Aisha's lunchbox is on the pantry shelf in the kitchen. Hana's water bottle is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Hana's water bottle found in office.",
+     "was": {
+      "statement": "Aisha's lunchbox is not currently visible. Hana's water bottle is not currently visible.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Hana's plate is on the kitchen cupboard during the day. It is not on the dining table in the evening.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_4288",
+    "sighting_4362"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 sightings show Hana's plate in the kitchen cupboard at 10:41 and 16:07, and on the dining table at 20:23. This confirms the day/night pattern.",
+     "was": {
+      "statement": "Hana's plate is on the dining table in the early afternoon. It is on the cupboard in the kitchen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Confirmed on Day 29 at 08:01, 10:01, and 17:33 that Hana's plate is on the kitchen cupboard.",
+     "was": {
+      "statement": "Hana's plate is on the kitchen cupboard during the day. It is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Plate found on dish rack during the day. Not found in dining room in the evening.",
+     "was": {
+      "statement": "Hana's plate is on the kitchen cupboard during the day. It is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Plate is on cupboard, not dish rack.",
+     "was": {
+      "statement": "Hana's plate is on the dish rack in the kitchen during the day. It is not on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Hana's glass is on the kitchen cupboard during the day. It is not on the dining table in the evening.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_4311",
+    "sighting_4357"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 sightings show Hana's glass in the kitchen sink at 10:41 and 16:07, and on the dining table at 20:23. This confirms the day/night pattern.",
+     "was": {
+      "statement": "Hana's glass is on the sink in the kitchen in the early afternoon. It is on the cupboard in the kitchen in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Confirmed on Day 29 at 08:01, 10:01, and 17:33 that Hana's glass is on the kitchen cupboard.",
+     "was": {
+      "statement": "Hana's glass is on the kitchen sink during the day. It is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Glass found on kitchen sink during the day. Not found in dining room in the evening.",
+     "was": {
+      "statement": "Hana's glass is on the kitchen cupboard during the day. It is on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Glass is on cupboard, not sink.",
+     "was": {
+      "statement": "Hana's glass is on the kitchen sink during the day. It is not on the dining table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Hana's water bottle is on the office desk during the day. It is not in the dining room in the evening.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_4365"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Day 28 at 20:23 shows Hana's water bottle on the dining table. This contradicts the previous note that it was on the kitchen cupboard in the evening.",
+     "was": {
+      "statement": "Hana's water bottle is on the cupboard in the kitchen in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "No sightings of Hana's water bottle on dining table in evening on Day 29. It was in kitchen dish rack during day. Note remains provisional.",
+     "was": {
+      "statement": "Hana's water bottle is on the dining table in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Water bottle not found in dining room or other rooms checked in the evening.",
+     "was": {
+      "statement": "Hana's water bottle is on the dining table in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Water bottle location updated to office.",
+     "was": {
+      "statement": "Hana's water bottle is not currently visible in the dining room or other rooms.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Hana's mug is on the office desk during the day. Her book is on the nightstand in bedroom_1. The remote is on the TV stand in the living room. Her laptop is on the office desk.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_4359"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Retained Hana's mug and living room item locations. No new sightings today to update these.",
+     "was": {
+      "statement": "Hana's mug is on the cupboard in the kitchen in the evening.",
+      "holds_under": "Evening (after 17:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Hana's mug seen on sink at 19:49. Book on nightstand. Remote on coffee table (seen 18:00).",
+     "was": {
+      "statement": "Hana's mug is on the cupboard in the kitchen in the evening. Hana's book is on the bookshelf in the living room. Her mug is on the coffee table. Her remote is on the coffee table. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Hana's mug was on kitchen sink at 08:01. Book on nightstand confirmed. Remote not seen in living room on Day 29, but note remains provisional.",
+     "was": {
+      "statement": "Hana's mug is on the sink in the kitchen in the evening. Her book is on the nightstand. Her remote is on the coffee table. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Mug not found. Book and remote locations updated.",
+     "was": {
+      "statement": "Hana's mug is on the sink in the kitchen in the evening. Her book is on the nightstand. Her remote is on the coffee table. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Mug and laptop found in office.",
+     "was": {
+      "statement": "Hana's mug is not currently visible. Her book is on the nightstand in bedroom_1. The remote is on the TV stand in the living room. Her laptop is not in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "The recipe book is on the pantry shelf in the kitchen. Hana's hat is not currently visible. Aisha's lunchbox is not in the kitchen.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_4280",
+    "sighting_4373"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Recipe book consistently on kitchen table. Hana's hat and Aisha's lunchbox locations unchanged from previous notes.",
+     "was": {
+      "statement": "The recipe book is on the pantry shelf in the kitchen in the afternoon. It is on the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Recipe book consistently on pantry shelf. Hat and lunchbox not seen today but consistent with previous notes.",
+     "was": {
+      "statement": "The recipe book is on the kitchen table. Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "No sightings of recipe book, Hana's hat, or Aisha's lunchbox on Day 29. Note remains provisional.",
+     "was": {
+      "statement": "The recipe book is on the pantry shelf in the kitchen. Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Recipe book location confirmed. Hat and lunchbox not found.",
+     "was": {
+      "statement": "The recipe book is on the pantry shelf in the kitchen. Hana's hat is on the dresser in bedroom_1. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Recipe book location confirmed.",
+     "was": {
+      "statement": "The recipe book is on the pantry shelf in the kitchen. Hana's hat is not currently visible. Aisha's lunchbox is not in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

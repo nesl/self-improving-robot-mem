@@ -1,0 +1,679 @@
+{
+ "household": "hh_s63_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 9,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Dana works in the office (laptop, textbook, mug). Priya's workspace is likely bedroom_1 (headphones, notebook). Both are in the office/bedroom in the morning.",
+   "holds_under": "Dana is working in the office. Priya is working in the bedroom.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 11,
+   "last_revised_time": 1035000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 16:01 confirmed Dana's laptop and textbook in the office. No charger seen today, so removed from list. Priya's gear not seen today, but Day 1 context suggests bedroom_1.",
+     "was": {
+      "statement": "Dana works in the office (laptop, charger, textbook). Priya works in bedroom_1 (headphones, notebook). Both are in the office/bedroom in the morning.",
+      "holds_under": "Morning routine (approx 07:00-09:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed Dana's office setup in the evening. Priya's location is inferred from past data as she was not seen in the office.",
+     "was": {
+      "statement": "Dana works in the office (laptop, textbook). Priya's workspace is likely bedroom_1 (headphones, notebook). Both are in the office/bedroom in the morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Priya's gaming gear (controller, headset) is on the tv stand in the living room. Stable in morning and mid-day. She is often in the dining room, suggesting she leaves them there while eating or working.",
+   "holds_under": "When Priya is not actively gaming in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0001",
+    "sighting_0009",
+    "sighting_0112",
+    "sighting_0113"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Corrected the claim that gear moves after 15:00, as no sightings of the living room occurred after 08:51 on Day 3. The gear was consistently in the same spots in the morning.",
+     "was": {
+      "statement": "Priya's gaming gear (controller, headset) is in the living room. It moves from armchair/couch to tv_stand after 15:00.",
+      "holds_under": "Always in living room. Location shifts from seating to storage (tv_stand) in the afternoon.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Updated location of headset from tv_stand to couch based on Day 9 18:44 sighting. Confirmed controller location.",
+     "was": {
+      "statement": "Priya's gaming gear (controller, headset) is in the living room. Controller on couch, headset on tv_stand. Stable in morning (08:00-09:00). Status after 15:00 unknown.",
+      "holds_under": "Morning hours (08:00-09:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updates location from couch to tv stand based on Day 12 sightings. Notes the pattern of her being in dining while gear is in living.",
+     "was": {
+      "statement": "Priya's gaming gear (controller, headset) is in the living room. Controller on couch, headset on couch. Stable in evening (18:44). Status in morning unknown.",
+      "holds_under": "Evening leisure time",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Priya's dining table setup is time-dependent. Morning (08:18): bowl, mug, tablet, glasses. Midday (13:10): glass, plate, mug. Evening (19:14): glass, plate, mug, water_bottle, serving_dish. She is present in dining during these times. Vase_",
+   "holds_under": "Priya is in the dining room for meals or work.",
+   "supporting_observation_ids": [
+    "sighting_0172",
+    "sighting_0174",
+    "sighting_0178"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 20:45 showed full dinner setup in dining room. Updated time from 19:59 to approx 20:00 based on latest sighting.",
+     "was": {
+      "statement": "Dinner is served in the dining room. Plates, glasses, and water bottles appear on the dining table around 19:59.",
+      "holds_under": "Evening meal time (approx 19:00-20:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated to reflect that the dining activity starts earlier (15:06) and includes clearing dishes to the kitchen by 20:51, rather than just appearing in the evening.",
+     "was": {
+      "statement": "Dinner is served in the dining room. Plates, glasses, water bottles, and serving dishes appear on the dining table in the evening (approx 20:00).",
+      "holds_under": "Evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated to reflect Day 4 sightings where dinner items were present at 19:28 and cleared by 19:57. Previous note had incorrect timestamps.",
+     "was": {
+      "statement": "Dinner is served in the dining room. Plates, glasses, and notebooks appear on the dining table around 15:00. By 20:51, dishes are cleared to the kitchen cupboard, and water bottles are in the dish rack.",
+      "holds_under": "Evening routine (15:00-21:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Clarifies the 20:03 dining scene which only showed Dana's items, contrasting with the 12:53 scene showing Priya's items.",
+     "was": {
+      "statement": "Dinner is served in the dining room. Plates, glasses, and serving dishes appear on the dining table around 19:00. By 20:00, dishes are cleared to the kitchen cupboard, and water bottles remain on the table.",
+      "holds_under": "Evening meal time (approx 19:00-20:00)",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Updated to reflect Day 6 evidence. Previous note about 20:03 dinner is not supported by today's data. Priya's midday dining is a clear pattern.",
+     "was": {
+      "statement": "Dinner is in the dining room. At 20:03, Dana's plate/glass/bottle and a serving dish are on the table. Priya's items are absent. Priya was seen in dining at 12:53 with her own plate/glass. They eat at different times or Dana is eating late.",
+      "holds_under": "Evening meal times",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updates previous midday assumption with morning/evening data. Confirms shared dinner location.",
+     "was": {
+      "statement": "Priya eats in the dining room around midday (13:00). At 13:17 she was there with her plate, glass, and tablet. Dana's items were not in the dining room at that time. Dana's dinner location is currently unknown.",
+      "holds_under": "Priya is home and eating lunch.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Updated to reflect specific items seen in dining room on Day 9 morning and afternoon. Noted notebook location change.",
+     "was": {
+      "statement": "Priya eats in the dining room in the morning (08:50) and evening (19:55). At 19:55, Dana is also in the dining room for dinner. Priya's tablet moves from dining (morning) to living (evening).",
+      "holds_under": "Dinner time and morning routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated with Day 11 sightings. Priya's mug and notebook were on the dining table in the morning, consistent with her eating/working there.",
+     "was": {
+      "statement": "Priya eats in the dining room. In the morning (07:54) she has bowl, mug, tablet, water bottle. In the afternoon (13:23) she has glass, mug, plate, tablet, water bottle. Notebook moves to sideboard.",
+      "holds_under": "Meals in dining room",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Refines the specific items present at different times of day. The mug disappears by afternoon, replaced by glass/plate.",
+     "was": {
+      "statement": "Priya eats in the dining room. Morning: bowl, mug, tablet, water bottle. Afternoon: glass, mug, plate, tablet, water bottle. Notebook moves to sideboard.",
+      "holds_under": "Priya is eating or has just finished eating in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updates claim_0003 with specific item changes observed on Day 13, showing a clear transition from breakfast/work items to dinner items.",
+     "was": {
+      "statement": "Priya's dining setup includes bowl, tablet, and vase. In the morning (07:52) she has a mug. By afternoon (14:13) the mug is gone, replaced by glass, glasses, and plate. She is present in dining during these times.",
+      "holds_under": "When Priya is eating or working in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Updated with Day 17 sightings. The specific items change throughout the day, suggesting she moves things or uses them sequentially. The presence of 'glasses' (eyewear) in the morning but not later is a specific detail.",
+     "was": {
+      "statement": "Priya's dining setup shifts by time. Morning (07:43): bowl, tablet, mug, glasses. Late morning (08:35): notebook, phone, mug, glasses (bowl/tablet gone). Evening (19:16): glass, plate, water bottle. She is present in dining during these.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updates the specific items seen on Day 20 to refine the pattern of her dining habits.",
+     "was": {
+      "statement": "Priya's dining setup shifts by time. Morning (08:42): glass, glasses, mug, notebook, phone. Midday (12:44): glass, plate. Evening (19:49): glass, plate, water bottle. She is present in dining during these. Items like mug/notebook appear in",
+      "holds_under": "true",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated with Day 21 sightings. At 07:38, bowl and tablet were present. By 08:42, bowl and tablet were gone, replaced by notebook. This confirms the morning transition from eating/breakfast to working/reading.",
+     "was": {
+      "statement": "Priya's dining table setup is time-dependent. Morning (08:10-09:24): bowl, glasses, mug, notebook, tablet. Midday (12:43): glass, glasses, plate. Evening (19:03): glass, glasses, plate, serving_dish, water_bottle. She is present in dining.",
+      "holds_under": "When Priya is in the dining room, her items reflect the meal/activity phase (morning work/breakfast vs midday lunch vs d",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated with Day 24 sightings to reflect current patterns. Morning items changed from glasses/notebook to bowl/mug/tablet.",
+     "was": {
+      "statement": "Priya's dining table setup is time-dependent. Morning (08:10-09:24): bowl, glasses, mug, notebook, tablet. Midday (12:43): glass, glasses, plate. Evening (19:03): glass, glasses, plate, serving_dish, water_bottle. She is present in dining.",
+      "holds_under": "When Priya is in the dining room, her items reflect the time of day: breakfast items (bowl, tablet) in the morning, work",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Updated with Day 31 sightings. Morning included tablet and glasses; midday had plate and glass; evening added water bottle and serving dish. Confirms her presence in dining at these times.",
+     "was": {
+      "statement": "Priya's dining table setup is time-dependent. Morning (08:18): bowl, mug, tablet. Midday (12:57): glass, plate. Evening (19:38): glass, plate, water_bottle. She is present in dining during these times.",
+      "holds_under": "When Priya is in the dining room, her items reflect the meal time: breakfast (bowl/mug/tablet), lunch (glass/plate), or",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Dana has a meditation cushion on the bedroom floor. Priya has a tablet in the living room from 08:20 onwards.",
+   "holds_under": "Observed on Day 1. Meditation cushion is static in bedroom. Tablet is static in living.",
+   "supporting_observation_ids": [
+    "sighting_0013",
+    "sighting_0060"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Dana's skincare is stored in the medicine cabinet. Priya's skincare is on the bathroom shelf. This separation has been consistent since Day 2 08:51.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0239",
+    "sighting_0248",
+    "sighting_0250",
+    "sighting_0259",
+    "sighting_0261",
+    "sighting_0270"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Dana's office desk is his primary workspace. It holds laptop_dana, textbook_dana, and plant_pot_3_shared. mug_dana is present when he is working. If items are missing, he is likely working from a different location or the office is not in",
+   "holds_under": "Dana is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0429",
+    "sighting_0430",
+    "sighting_0432",
+    "sighting_0479",
+    "sighting_0480",
+    "sighting_0482"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Refines the time window for Dana's office presence and notes the mug's movement.",
+     "was": {
+      "statement": "Dana works in the office from 16:00 onwards. Laptop, mug, and textbook are on the office desk. She is present in the office during these hours.",
+      "holds_under": "Afternoon/Evening (16:00-21:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updates claim_0006 with specific Day 8 evidence showing the mug's presence/absence correlates with active work vs. finished state, and notes the textbook relocation.",
+     "was": {
+      "statement": "Dana works in the office in the late afternoon (16:36) and evening (19:55). Laptop and textbook remain on the desk. Mug is present at 16:36 but absent at 19:55, suggesting she left the room or moved the mug.",
+      "holds_under": "Dana's work schedule",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Confirmed Dana's evening work setup in the office at 21:16. All items present on desk.",
+     "was": {
+      "statement": "Dana works in the office late afternoon/evening. Laptop/textbook stay on desk. Mug appears at 17:25 (active work) but is absent at 19:32 (finished/away). Textbook moved to shelf at 19:32.",
+      "holds_under": "Dana is in the office during late afternoon or evening work sessions.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed by Day 11 19:22 sighting. Dana was in the office with her work items.",
+     "was": {
+      "statement": "Dana works in the office in the evening. Laptop, mug, plant, and textbook are on the desk. Active work indicated by presence of mug and laptop.",
+      "holds_under": "Evening work hours (approx 17:00-21:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updates the state of the office desk. The mug is a transient item (drinking), while laptop/textbook are stable work items.",
+     "was": {
+      "statement": "Dana works in the office in the evening. Laptop, mug, plant, and textbook are on the desk. Active work indicated by presence of mug and laptop.",
+      "holds_under": "It is evening and Dana is working.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updates claim_0006 with Day 13 morning observation confirming office setup and evening dining presence.",
+     "was": {
+      "statement": "Dana works in the office. At 17:18, laptop, mug, plant, and textbook are on the desk. By 20:09, the mug is gone, but laptop, plant, and textbook remain. Dana is present at 17:18.",
+      "holds_under": "When Dana is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Confirmed office setup is static during the day. Dana was seen in bedroom at 13:40 and living at 16:00, but office items stayed put.",
+     "was": {
+      "statement": "Dana works in the office. Day 13 08:11: laptop, plant_pot_3, textbook on desk. No mug seen. By evening (19:16) he is in dining with glass, plate, water bottle. His workspace items remain stable in office during work hours.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Confirms the stability of his office items and his movement to the living room in the evening.",
+     "was": {
+      "statement": "Dana works in the office. Day 17 13:40 & 16:00: laptop, plant_pot_3, textbook on desk. No mug seen. By 16:00 he is in living room with Priya. His workspace items remain stable in office during work hours.",
+      "holds_under": "true",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Previous belief that Dana works in the office is contradicted by sightings showing his work items (laptop, textbook) missing from the office while he is present in the dining room.",
+     "was": {
+      "statement": "Dana's office setup is stable during work hours: laptop_dana, plant_pot_3, textbook_dana on desk. He is often in the office in the morning/afternoon. By late afternoon (17:40), he moves to the living room, leaving his office items behind.",
+      "holds_under": "When Dana is working or studying, his specific items remain in the office. When he is relaxing, he is in the living room",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updates the previous belief that the office was empty. Today, Dana was seen in the office with his laptop and textbook, confirming it is his active workspace. The presence of the mug suggests he spends time there.",
+     "was": {
+      "statement": "Dana's office setup is NOT stable. On Day 25, the office desk held only plant_pot_3_shared at 09:19 and 14:43. laptop_dana and textbook_dana were absent. Dana was seen in dining during these times, suggesting he works from the dining table,",
+      "holds_under": "Dana is working from the dining table rather than the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to reflect that mug_dana is a consistent part of the working setup, not just a Day 26 anomaly. Confirmed stable setup on Day 27.",
+     "was": {
+      "statement": "Dana's office desk is his primary workspace. It holds laptop_dana, textbook_dana, and plant_pot_3_shared. On Day 26, mug_dana was also present. This setup is stable when Dana is working. If items are missing, he is likely working from the [",
+      "holds_under": "Dana is using the office for work/study.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "No new sightings of the office today. Keeping as provisional based on previous days. Dana was seen in dining at 08:18, suggesting he might not be in the office at that time.",
+     "was": {
+      "statement": "Dana's office desk is his primary workspace. It holds laptop_dana, textbook_dana, and plant_pot_3_shared. mug_dana is present when he is working (seen Day 26 and Day 27). If items are missing, he is likely working from a different location.",
+      "holds_under": "Dana is in the office working.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 3,
+     "time": 343800,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Evening dining: Both Dana and Priya are present. Table is set for both. Day 31 19:14: Only Priya present. Items: glass_priya, mug_priya, plate_priya, serving_dish_shared, vase_shared, water_bottle_priya. No Dana items. Dana may be elsewhere",
+   "holds_under": "Evening meal time.",
+   "supporting_observation_ids": [
+    "sighting_1012",
+    "sighting_1027",
+    "sighting_1032",
+    "sighting_0966"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed by Day 11 19:22 sighting. Both were in the dining room with plates, glasses, and water bottles, indicating dinner.",
+     "was": {
+      "statement": "Priya's evening routine (19:55) involves the kitchen (cooking/cleaning) and dining (eating). Her tablet is in the living room, suggesting she watches TV or uses it for leisure while eating. Dana is in the dining room.",
+      "holds_under": "Evening routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Corrects the previous assumption that Priya was in the kitchen. They are together in dining for dinner. Dana's items (glass, plate, water bottle) are now visible.",
+     "was": {
+      "statement": "Priya's evening routine (19:55) involves the kitchen (cooking/cleaning) and dining (eating). Her tablet is in the living room, suggesting she watches TV or uses it for leisure while eating. Dana is in the dining room.",
+      "holds_under": "It is evening and they are having dinner.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Day 31 evening shows only Priya in dining. Previous note claimed both were present. This suggests Dana is not always in dining for dinner, or they eat separately. Updated to reflect current observation.",
+     "was": {
+      "statement": "At 20:09, both Dana and Priya are in the dining room. The table is set with items for both: Dana has glass, plate, water bottle; Priya has bowl, glass, glasses, plate, tablet, water bottle. A serving dish is also present. This suggests a d",
+      "holds_under": "Evening meal time.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 7,
+     "time": 689400,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Evening living room: Dana has book_dana, mug_dana (coffee table). Priya has controller_priya, headset_priya (couch). Shared: blanket, cushions, snack_bowl, remote, coasters, tissue_box, lamp, plant_pot_1, picture_frame. Both present. Not o",
+   "holds_under": "Evening leisure time.",
+   "supporting_observation_ids": [
+    "sighting_1998",
+    "sighting_1999",
+    "sighting_2000",
+    "sighting_2004",
+    "sighting_1996"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updates the specific locations of leisure items observed on Day 20.",
+     "was": {
+      "statement": "At 16:00, both Dana and Priya are in the living room. Items: blanket, book_dana, controller_priya, headset_priya, mug_dana on coffee table. Suggests shared leisure time. Priya's headset is on TV stand, controller on couch.",
+      "holds_under": "true",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updates previous note which had incorrect locations for Priya's items (armchair/TV stand vs couch) and missed Dana's book. Confirms the evening leisure pattern.",
+     "was": {
+      "statement": "In the living room, Dana's mug_dana is on the coffee table. Priya's controller_priya is on the armchair and headset_priya is on the TV stand. They share the space for leisure. At 15:58 both are present; at 17:40 only Dana is seen, but Priya",
+      "holds_under": "When Dana and Priya are relaxing in the living room, their personal leisure items are distributed across the furniture.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "No new sightings of the living room today. Keeping as provisional based on previous days. If Dana is not in dining in the evening, he might be in the living room.",
+     "was": {
+      "statement": "Evening living room: Dana has book_dana, mug_dana (coffee table). Priya has controller_priya, headset_priya (couch). Shared: blanket, cushions, snack_bowl, remote, coasters, tissue_box, lamp, plant_pot_1, picture_frame. Both present.",
+      "holds_under": "Evening leisure time (approx 21:00) when both are in the living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

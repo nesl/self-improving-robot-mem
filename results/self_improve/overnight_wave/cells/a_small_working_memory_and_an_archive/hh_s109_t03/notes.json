@@ -1,0 +1,619 @@
+{
+ "household": "hh_s109_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 6,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Felix works in the office. From ~10:00 to ~18:35, his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. He is present in the office during this time. At 15:20, he left the room,",
+   "holds_under": "Felix is at his desk in the office working.",
+   "supporting_observation_ids": [
+    ">sighting_0041",
+    ">sighting_0042",
+    ">sighting_0043",
+    ">sighting_0044",
+    ">sighting_0045",
+    ">sighting_0046, >sighting_0047, >sighting_0048, >sighting_0049, >sighting_0050, >sighting_0092, >sighting_0093, >sighting_0094, >sighting_0095, >sighting_0096, >sighting_0097, >sighting_0098, >sighting_0099, >sighting_0100, >sighting_0101, >sighting_0162, >sighting_0163, >sighting_0164, >sighting_0165, >sighting_0166, >sighting_0167, >sighting_0168, >sighting_0169, >sighting_0170"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Observed pattern of items moving between office desk and bedroom_2 nightstand correlates with Felix's presence in the office.",
+     "was": {
+      "statement": "Felix works in the office during the day. His desk setup (laptop, mouse, headphones, etc.) is in the office from morning until evening. At night, he moves his personal items (charger, glasses, headphones) to the nightstand in bedroom_2, and",
+      "holds_under": "Felix is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated time range based on Day 3 sightings. Felix was in the office from 09:42 to 18:24 with his full kit. The previous note had incorrect start/end times.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 12:00-17:22), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle) is on the office desk. Outside work hours, he moves charger, glasses, and headphones to the bed",
+      "holds_under": "Felix is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated work hours to match Day 4 sightings (09:31-17:00). Confirmed he moves charger/glasses to bedroom_2 nightstand at night (19:49).",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:42-18:24), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle) is on the office desk. Outside work hours, he moves charger, glasses, and headphones to the bed",
+      "holds_under": "Felix is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Confirmed Felix's work routine. At 22:50, laptop, charger, glasses, and mug were removed from the office desk, leaving only mouse, notebook, pen, and plant. This indicates he takes his primary work tools and personal items with him or to a",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Felix is in the office during the day and in bedroom_2 at night.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updated to reflect that Felix is consistently in the office during the day, and his items are on the desk. The previous note was cut off and incomplete.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Updated to reflect that Felix's kit remains in the office until late afternoon, but he leaves the charger, glasses, and water bottle behind when he leaves for the evening (seen in kitchen at 19:34). The laptop is moved to the living room.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Felix is present in the office during the day. If he is not in the office, his items are likely in bedroom_2 or the desk",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Day 10 confirms the pattern: 07:53 items in bedroom_2, 10:44-17:40 items in office. 20:30 shows laptop on chair, others gone, suggesting end of work day.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 confirms the pattern: full kit present 12:27-14:53, but charger, glasses, and mug missing at 22:59. This refines the previous vague note about 'outside work hours'.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Work hours approx 09:00-17:00. Outside these hours, charger/glasses/book move to bedroom_2 nightstand/bed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updated to reflect that the 'full kit' is only present during work hours. The 22:13 sighting shows the kit is stripped down to laptop, mouse, notebook, and pen, with other items moved.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Work hours (approx 09:00-17:00). Outside these hours, charger, glasses, and mug are removed from the desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Confirmed Felix's work routine today. He was in the office from 09:45 to 15:40 with his full kit. At 19:25, the charger, glasses, and mug were gone from the desk, indicating he left for the evening.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Work hours approx 09:00-17:00. Outside these hours, charger, glasses, and book are moved to bedroom_1 or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Updated to reflect that the 'full kit' presence is conditional on work hours. The 22:04 sighting shows the kit is reduced (no charger, glasses, mug, water bottle) when he is not working.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Felix was seen in the office from 10:31 to 16:47 with his full work kit on the desk. This confirms his work location and routine.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Work hours (approx 09:00-17:00). Outside these hours, charger, glasses, and book are moved.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix was seen in the office from 10:32 to 18:08 with his full work kit. At 20:22, his laptop was in the living room, and his charger/glasses/water bottle were gone from the office desk, indicating he packed up and moved to the living area.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and book (",
+      "holds_under": "Work hours (approx 09:00-17:00). Confirmed Day 16 10:31-16:47.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated work hours to 19:00 based on Day 18 sightings where Felix was present in the office with his full kit until 19:23.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-17:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and water_",
+      "holds_under": "Felix is in the office during the day. At night, he takes his laptop to the living room (seen on bookshelf) and leaves a",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Updated work hours to end at 16:00 based on Day 19 sightings where items were missing from the desk at 15:53.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-19:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Outside work hours, he moves charger, glasses, and water_",
+      "holds_under": "Felix is present in the office and working.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updated to reflect that the 'packing up' phase is conditional on him being home. Today he was seen in the office until 15:47 with full kit, and at 20:20 with a reduced kit (no charger/glasses/bottle/mug). The mug and bowl were found in the",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. After ~16:00, he packs up: charger, glasses, and water_bo",
+      "holds_under": "Felix is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated to reflect that Felix leaves the office around 16:00-17:00, taking his laptop, charger, and water bottle with him. The remaining items (mouse, headphones, notebook, pen) stay on the desk.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. After ~16:00, he packs up: charger, glasses, and water_b",
+      "holds_under": "Felix is at home and not out for the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated to reflect the specific evening location of the laptop (living room bookshelf) observed at 20:47, distinguishing it from the general 'packing up' behavior.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. After ~16:00, he packs up: charger, glasses, and water_b",
+      "holds_under": "Felix is working in the office during the day. He leaves the office around 16:00-17:00, taking his laptop, charger, and",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated to reflect that the 'packing up' phase is temporary. At 20:24, Felix's charger, glasses, and water bottle were absent from the office, but by 22:59 they were back on the desk. This suggests he leaves the office in the evening (or re",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. After ~16:00, he packs up: charger, glasses, and water_b",
+      "holds_under": "Felix is at work in the office during the day. In the evening, he moves his laptop to the living room bookshelf and his",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to reflect the specific 13:55 break where he moved items to the kitchen, and the 17:54 return where the full kit was back on the desk.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. After ~16:00, he packs up: charger, glasses, and water_b",
+      "holds_under": "Felix is at home and not out for the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Confirmed Felix's presence and item locations in the office from 10:43 to 16:15. His water bottle was in the kitchen at 19:20, indicating he left the office.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. Around 13:55, he takes charger, glasses, headphones, mug,",
+      "holds_under": "Felix is at his desk in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Updated time range based on Day 29 sightings. Felix was seen in the office from 10:03 to 18:35. His items were in the kitchen at 07:44.",
+     "was": {
+      "statement": "Felix works in the office. During work hours (approx 09:00-16:00), his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. He is present in the office during this time. In the late",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Updated to reflect the specific absence of items at 15:20 which indicates he left the room, distinguishing it from the general presence pattern.",
+     "was": {
+      "statement": "Felix works in the office. From ~10:00 to ~18:35, his full kit (laptop, mouse, headphones, charger, glasses, mug, water bottle, notebook, pen) is on the office desk. He is present in the office during this time. In the morning (07:44), his",
+      "holds_under": "Felix is in the office during work hours (10:00-18:35).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Yuki's bedroom is bedroom_1. Her personal items (bowl, mug, vitamins, camera) are typically in the kitchen or living room. Her towel is on the bathroom rack. She was seen in the kitchen at 07:44 (implied by items). Her camera is on the liv",
+   "holds_under": "Yuki is in the home during the day.",
+   "supporting_observation_ids": [
+    ">sighting_0040, >sighting_0161, >sighting_0021, >sighting_0022, >sighting_0006, >sighting_0085, >sighting_0104, >sighting_0113, >sighting_0153, >sighting_0137, >sighting_0140, >sighting_0125, >sighting_0127, >sighting_0130, >sighting_0143, >sighting_0147, >sighting_0148, >sighting_0149, >sighting_0150, >sighting_0159"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Consistent location of Yuki's personal items and sightings of Yuki in specific rooms.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her book is on the nightstand in bedroom_1 at 09:14 and 22:59. She was seen in the living room at 20:43. Her personal items (bowl, mug, vitamins, skincare) are found in the kitchen and bathroom.",
+      "holds_under": "Yuki is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated to reflect that Yuki has a dedicated workspace in bedroom_1 with a laptop and peripherals, similar to Felix's office setup. This explains why her items are not in the shared office.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her book is on the nightstand there. She was seen in the kitchen at 18:59. Her personal items (bowl, mug, vitamins, skincare) are typically in the kitchen or bathroom. She has a camera in the living room.",
+      "holds_under": "Yuki is at home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updated to reflect that Yuki is in bedroom_1 in the evening, and her book is on the bed. The previous note was cut off and incomplete.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Yuki is at home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Confirmed Yuki's items are in bedroom_1 (book) and kitchen (bowl, mug, vitamins, water bottle) in the evening. Her camera is in the living room. She was in the bathroom at 07:17.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Yuki is in bedroom_1 in the evening. If she is not in bedroom_1, her items are likely in the kitchen or living room",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updated to reflect that Yuki's book is on the bed in bedroom_1, not the nightstand. Her desk items (charger, headphones, water bottle) are present in the morning but gone by night, suggesting she takes them with her or moves them.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Yuki was in the bathroom at 07:47. By 13:14, her items (book, charger, glass, water bottle) were in bedroom_1. By 19:25, she was in the living room with her book and mug, suggesting she moved from her bedroom to relax in the evening.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Yuki is in the home. Her desk items are in bedroom_1 when she is not using them. Her book is on the bed in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated to reflect that Yuki is in the living room in the evening, with her personal items (bowl, mug, book, camera) there. Her bedroom is bedroom_1, but she is not there in the evening.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Confirmed Yuki's items are in the kitchen (bowl, mug, vitamins) and living room (camera, book) in the evening. Her work kit was not seen in bedroom_1 today, but the room was only checked at 19:50. The claim about her bedroom remains the key",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Yuki is in the living room in the evening (after 21:00). Her personal items (bowl, mug, book, camera) are in the living",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's items were found in kitchen/living/bedroom_1 in the evening. Her towel moved from rack to shelf between 08:44 and 20:20. Her book remains on the nightstand.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her work/study kit (laptop, charger, headphones, notebook, pen) is on the desk there. Her book is on the nightstand. She was seen in the kitchen at 18:59 (Day 2). Her personal items (bowl, mug, vitamins, camera)",
+      "holds_under": "Yuki is at home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Corrected towel location to rack (seen on rack at 07:44, 10:03, 20:58). Noted camera in living room.",
+     "was": {
+      "statement": "Yuki's bedroom is bedroom_1. Her book is on the nightstand. Her personal items (bowl, mug, vitamins, camera) are typically in the kitchen or living room. Her towel is on the bathroom shelf (moved from rack on Day 28). She was seen in the k",
+      "holds_under": "Yuki is at home in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is on the pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1 (found on floor at 19:20 on Day 28).",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    ">sighting_0017, >sighting_0019, >sighting_0030, >sighting_0064, >sighting_0066, >sighting_0079, >sighting_0132, >sighting_0134, >sighting_0147"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Tracking the movement of the dog food bag suggests recent feeding or preparation.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl and food bag are in the kitchen, and the dog's toy is in the living room. The dog is likely fed in the kitchen and plays in the living room.",
+      "holds_under": "The dog is at home and not traveling.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Added location of ironing board (bedroom_1) and clarified dog food bag location (counter/pantry).",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the pantry shelf but was seen on the kitchen chair at 18:59 and 21:00. The dog's toy is in the living room.",
+      "holds_under": "The dog is present in the home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updated to reflect that the dog's bowl is on the kitchen floor, the food bag is on the chair, and the ironing board is in bedroom_1. The previous note was cut off and incomplete.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Confirmed dog items locations. Ironing board found in bedroom_1 floor at 19:34.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "The dog is in the kitchen. The ironing board is in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Confirmed the dog's bowl is on the kitchen floor and the ironing board is in bedroom_1. The dog's toy was not seen today, so its location is uncertain.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dog items remain consistent: bowl on kitchen floor, food in pantry, toy in living room. Ironing board found in bedroom_1 floor at 13:14, confirming storage location.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "The dog is in the home. The ironing board is stored in bedroom_1 when not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated to reflect that the dog's food bag is on the pantry shelf, not the counter. The dog's bowl is on the kitchen floor, and the dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Re-confirmed dog items locations. Dog bowl on kitchen floor, food bag on pantry shelf, toy in living room. Ironing board found on bedroom_1 floor at 19:50. This is a stable pattern.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "The dog's bowl is on the kitchen floor. The food bag is on the pantry shelf. The dog's toy is in the living room. The i",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Consistent locations for dog items and ironing board observed on Day 28.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is usually on the counter or pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Confirmed dog items locations on Day 29.",
+     "was": {
+      "statement": "The home has a dog. The dog's bowl is on the kitchen floor. The food bag is on the pantry shelf. The dog's toy is in the living room. The ironing board is stored in bedroom_1 (found on floor at 19:20).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Felix's water bottle was in the kitchen dish rack at 08:25, then in the office at 09:14 and 17:06, and was not found in the kitchen at 20:43. This suggests he takes his water bottle with him when he moves to the office.",
+   "holds_under": "Felix is at home and not traveling.",
+   "supporting_observation_ids": [
+    ">sighting_0014, >sighting_0050, >sighting_0101"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "The shopping bag was on the kitchen counter at 08:25 and 15:17, and on the kitchen chair at 20:43. This suggests it was used for groceries and then moved to a more convenient location.",
+   "holds_under": "The shopping bag is at home and not traveling.",
+   "supporting_observation_ids": [
+    ">sighting_0004, >sighting_0053, >sighting_0120"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

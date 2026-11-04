@@ -1,0 +1,4721 @@
+{
+ "household": "hh_s63_t03",
+ "arm": "memory-guided search with claim store plus the log",
+ "how_memory_is_written": "claim store plus the log",
+ "written_up_to_day": 31,
+ "next_claim_number": 100,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Dana's laptop, charger, and textbook are kept on the office desk when she is working.",
+   "holds_under": "Dana is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0045",
+    "sighting_0046",
+    "sighting_0048"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Priya's notebook and headphones are kept on the bedroom desk when she is studying or working there.",
+   "holds_under": "Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0002",
+    "sighting_0003"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Priya's tablet is found on the dining table when she is eating or relaxing in the dining area.",
+   "holds_under": "Priya is in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0051"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Dana's phone is found on the bedroom nightstand when she is in the bedroom at night.",
+   "holds_under": "Dana is in the bedroom at night.",
+   "supporting_observation_ids": [
+    "sighting_0012"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Dana's phone was seen on the bedroom nightstand at 21:29, contradicting the claim that it is on the living room coffee table when she is in the living room. This suggests the phone moves with her or is left in the bedroom at night.",
+     "was": {
+      "statement": "Dana's phone is found on the living room coffee table when she is in the living room.",
+      "holds_under": "Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Priya's phone is found on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0057"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_0176",
+    "sighting_0177",
+    "sighting_0178",
+    "sighting_0179",
+    "sighting_0182",
+    "sighting_0183"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Dinner items (plates, glasses, bottles) were observed on the dining table at 20:45, consistent with the existing claim about dinner time habits.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for dinner.",
+      "holds_under": "It is dinner time.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Sightings 0313-0318 and 0339-0345 show plates and glasses on the dining table during the day, not just dinner. This broadens the condition for the existing claim.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for dinner.",
+      "holds_under": "It is dinner time.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+   "holds_under": "Someone is cooking.",
+   "supporting_observation_ids": [
+    "sighting_0171",
+    "sighting_0172",
+    "sighting_0174"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Dana and Priya's keys, wallets, and outerwear are kept in the entryway when they are home.",
+   "holds_under": "They are home.",
+   "supporting_observation_ids": [
+    "sighting_0067",
+    "sighting_0068",
+    "sighting_0069",
+    "sighting_0070",
+    "sighting_0064",
+    "sighting_0065"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+   "holds_under": "They are home.",
+   "supporting_observation_ids": [
+    "sighting_0077",
+    "sighting_0078",
+    "sighting_0083",
+    "sighting_0084"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Bathroom items (toiletries, towels) were consistently found in the bathroom throughout the day, supporting the claim that they are kept there when home.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+      "holds_under": "They are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Shared living room items like remotes and coasters are kept in the living room when not in use.",
+   "holds_under": "Not in use.",
+   "supporting_observation_ids": [
+    "sighting_0011",
+    "sighting_0019"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_0209",
+    "sighting_0220",
+    "sighting_0231",
+    "sighting_0242",
+    "sighting_0278"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Sightings 0305, 0360, and 0371 show Dana's skincare on the bathroom shelf, not the medicine cabinet as previously claimed. The medicine cabinet holds the razor (0308).",
+     "was": {
+      "statement": "Dana's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Priya's tablet is found on the dining table when she is eating or relaxing in the dining area.",
+   "holds_under": "Priya is in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0295",
+    "sighting_0300"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+   "holds_under": "They are home.",
+   "supporting_observation_ids": [
+    "sighting_0302",
+    "sighting_0303",
+    "sighting_0305",
+    "sighting_0306",
+    "sighting_0311",
+    "sighting_0312"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Shared living room items like remotes and coasters are kept in the living room when not in use.",
+   "holds_under": "Not in use.",
+   "supporting_observation_ids": [
+    "sighting_0348",
+    "sighting_0356",
+    "sighting_0408",
+    "sighting_0416"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_0439",
+    "sighting_0450",
+    "sighting_0461",
+    "sighting_0472",
+    "sighting_0483"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_0440",
+    "sighting_0451",
+    "sighting_0462",
+    "sighting_0473",
+    "sighting_0484"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's skincare was found in the medicine cabinet, not on the shelf as previously noted in claim_0028 and claim_0016.",
+     "was": {
+      "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2385 and 2406 confirm Priya's skincare is on the bathroom shelf, not the medicine cabinet.",
+     "was": {
+      "statement": "Priya's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+   "holds_under": "They are home.",
+   "supporting_observation_ids": [
+    "sighting_0445",
+    "sighting_0446",
+    "sighting_0456",
+    "sighting_0457",
+    "sighting_0467",
+    "sighting_0468"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Shared living room items like remotes and coasters are kept in the living room when not in use.",
+   "holds_under": "Not in use.",
+   "supporting_observation_ids": [
+    "sighting_0424",
+    "sighting_0432"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed shared living room items like remotes and coasters are in the living room.",
+     "was": {
+      "statement": "Shared living room items like remotes and coasters are kept in the living room when not in use.",
+      "holds_under": "Not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Shared living room items like remotes and coasters were seen in the living room at 17:25, supporting the claim.",
+     "was": {
+      "statement": "Shared living room items like remotes and coasters are kept in the living room when not in use.",
+      "holds_under": "Not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Dana's laptop, charger, and textbook are kept on the office desk when she is working.",
+   "holds_under": "Dana is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0433",
+    "sighting_0435"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Priya's notebook and headphones are kept on the bedroom desk when she is studying or working there.",
+   "holds_under": "Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0418"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Priya's tablet is found on the dining table when she is in the dining area.",
+   "holds_under": "Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_0421"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Priya's tablet was not in the bedroom at 21:29, contradicting the claim that it is on the bedroom nightstand when she is in the bedroom. It was in the dining room earlier.",
+     "was": {
+      "statement": "Priya's tablet is found on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Dishes are often left in the kitchen sink after washing or before being taken to the dining table for a meal.",
+   "holds_under": "When dishes are being prepared for or cleaned after a meal.",
+   "supporting_observation_ids": [
+    "sighting_0507",
+    "sighting_0508",
+    "sighting_0509",
+    "sighting_0510"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed shared cooking utensils are in the kitchen during food preparation.",
+     "was": {
+      "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+      "holds_under": "Someone is cooking.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Shared cooking utensils like pans and knives were seen in the kitchen sink or counter during various times, supporting the claim that they move during food prep.",
+     "was": {
+      "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+      "holds_under": "Someone is cooking.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Dana's glass and plate were seen in the kitchen sink at 17:18, indicating they were washed and left there before being moved to the dining table for dinner at 20:09. This supports the idea that the sink is a temporary holding spot for clean or dirty dishes.",
+     "was": {
+      "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+      "holds_under": "Someone is cooking.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_0511",
+    "sighting_0512",
+    "sighting_0513",
+    "sighting_0514",
+    "sighting_0519",
+    "sighting_0520"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Dana's tablet is found on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0420"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Dana's meditation cushion is kept on the bedroom floor when she is meditating in the bedroom.",
+   "holds_under": "Dana is meditating in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0417"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Priya's headset is on the TV stand in the living room when she is in the living room.",
+   "holds_under": "When Priya is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0430",
+    "sighting_0431"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Priya's controller and headset are on the TV stand when she is in the living room.",
+     "was": {
+      "statement": "Priya's controller and headset are kept on the TV stand in the living room when she is gaming.",
+      "holds_under": "Priya is gaming in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Priya's controller and headset were seen on the TV stand at 17:25 when she was in the living room, supporting the claim.",
+     "was": {
+      "statement": "Priya's controller and headset are kept on the TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Priya's controller and headset were found on the couch in the living room at 21:16, not on the TV stand as previously noted. This suggests she uses the couch for gaming/relaxing.",
+     "was": {
+      "statement": "Priya's controller and headset are kept on the TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Priya's controller and headset were found on the TV stand in the living room at 17:18, not on the couch as previously noted. This suggests the TV stand is the primary storage spot for her gaming gear when not in use.",
+     "was": {
+      "statement": "Priya's controller and headset are kept on the couch in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's controller was found on the coffee table, not the TV stand. This contradicts claim_0026.",
+     "was": {
+      "statement": "Priya's controller and headset are kept on the TV stand in the living room when she is not actively gaming.",
+      "holds_under": "When Priya is in the living room or the items are not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's controller was seen on the TV stand in the afternoon but moved to the couch in the evening, indicating it is not fixed to the TV stand.",
+     "was": {
+      "statement": "Priya's controller is on the living room coffee table when she is in the living room. Her headset is on the TV stand.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's headset was seen on the couch in the afternoon but moved to the TV stand in the evening, indicating it is not fixed to the TV stand.",
+     "was": {
+      "statement": "Priya's controller is on the TV stand or couch in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's headset was found on the TV stand in the living room at 16:00, consistent with previous observations of it being in the living room.",
+     "was": {
+      "statement": "Priya's headset is on the couch or TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2169 shows Priya's headset on the TV stand, supporting the existing claim. It was not seen in the bedroom today.",
+     "was": {
+      "statement": "Priya's headset is on the couch or TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's headset was on the TV stand at 16:55 and 18:37 while she was in the living room. This supports the existing claim.",
+     "was": {
+      "statement": "Priya's headset is on the couch or TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2434 confirms Priya's headset is on the couch in the living room, not the TV stand.",
+     "was": {
+      "statement": "Priya's headset is on the TV stand in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Sighting 2496 shows Priya's headset on the TV stand, not the couch. This suggests she leaves it on the stand when not actively using it, or uses it while sitting on the couch but stores it on the stand.",
+     "was": {
+      "statement": "Priya's headset is on the couch in the living room when she is gaming or relaxing there.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Priya's headset is on the TV stand in the living room when she is in the living room (16:47).",
+     "was": {
+      "statement": "Priya's headset is on the TV stand in the living room when she is in the living room.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's headset was found on the TV stand in the living room, supporting the pattern of keeping it there when in the living room.",
+     "was": {
+      "statement": "Priya's headset is on the TV stand in the living room when she is in the living room.",
+      "holds_under": "When Priya is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_0558",
+    "sighting_0599",
+    "sighting_0610"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's skincare was seen on the bathroom shelf in all 5 bathroom sightings today, consistent with previous claims.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Dana's skincare is on the bathroom shelf.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Dana's skincare was observed on the bathroom shelf in all three bathroom checks today, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2384 and 2405 confirm Dana's skincare is on the bathroom shelf.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_0559",
+    "sighting_0600",
+    "sighting_0611"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's skincare was observed in the medicine cabinet, not the bathroom shelf, in all 5 bathroom sightings today. This contradicts the previous claim that it is kept on the shelf.",
+     "was": {
+      "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Priya's skincare is in the medicine cabinet, not the shelf as previously noted in older claims.",
+     "was": {
+      "statement": "Priya's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Priya's skincare was observed on the bathroom shelf in all three bathroom checks today, contradicting the previous belief that it was in the medicine cabinet.",
+     "was": {
+      "statement": "Priya's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's skincare was found in the medicine cabinet, not on the shelf as previously noted in claim_0028 and claim_0016.",
+     "was": {
+      "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2385 and 2406 confirm Priya's skincare is on the bathroom shelf, not the medicine cabinet.",
+     "was": {
+      "statement": "Priya's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom sink. Other toiletries are on the shelf or towel rack.",
+   "holds_under": "When they are home.",
+   "supporting_observation_ids": [
+    "sighting_0564",
+    "sighting_0565",
+    "sighting_0605",
+    "sighting_0606",
+    "sighting_0616",
+    "sighting_0617"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's and Priya's towels and toiletries were seen in the bathroom in all 5 bathroom sightings today, consistent with previous claims.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+      "holds_under": "They are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed shared toiletries and towels remain in the bathroom.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+      "holds_under": "They are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's and Priya's skincare, towels, and toiletries were seen in the bathroom at 09:09, supporting the claim.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+      "holds_under": "They are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Dana's razor moved from the shelf to the sink between 08:01 and 09:56, and remained there for the rest of the day. This suggests a shift in her routine or a temporary change in where she keeps it while using it.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom when they are home.",
+      "holds_under": "They are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Bathroom items remained consistent throughout the day, confirming their fixed locations.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom. Dana's razor is currently on the sink, while her other items are on the shelf.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Bathroom items (skincare, towels, etc.) were consistently found in their expected locations on the shelf, sink, and towel rack throughout the day.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom. Dana's razor is on the sink, while her other items and Priya's items are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's razor moved from the shelf to the sink, and Priya's toiletry bag moved from the shelf to the sink. This contradicts the static location claims in claim_0029 and claim_0049.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom. Dana's razor is on the sink, while her other items and Priya's items are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's razor was observed on the bathroom shelf at 10:29 and 17:29, whereas it was on the sink at 08:01. This contradicts the previous claim that it is kept on the sink. The shelf appears to be its resting place when not in active use.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink. Priya's toiletry bag is on the bathroom sink. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's razor was observed on the sink ba in all bathroom sightings today (07:41, 10:28, 10:57, 17:02, 18:31), contradicting the claim that it is on the shelf.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom shelf. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2062-2072, 2073-2083, 2084-2094, 2103-2113 show bathroom items in their usual places, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2215-2225 show bathroom items in their usual places (razor on sink, skincare on shelf, towels on rack), supporting the existing claim.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Bathroom items (razor, skincare, towels, etc.) were in their usual places at 10:23 and 11:23. This supports the existing claim about their locations.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2381-2391, 2402-2412, 2413-2423 confirm bathroom items are in their usual places.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's toiletry bag was observed on the sink in all bathroom sightings today, whereas previous notes claimed it was on the shelf. This confirms the toiletry bag's location is the sink.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_0553",
+    "sighting_0568"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's tablet was seen on the dining table in all 3 dining sightings today, consistent with previous claims.",
+     "was": {
+      "statement": "Priya's tablet is found on the dining table when she is eating or relaxing in the dining area.",
+      "holds_under": "Priya is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Priya's tablet was seen on the dining table at 09:16 when she was present, supporting the claim that it is there when she is in the dining area.",
+     "was": {
+      "statement": "Priya's tablet is found on the dining table when she is in the dining area.",
+      "holds_under": "Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Priya's tablet was on the dining table at 07:54, 13:23, 18:44, and 21:16. This strongly supports the claim that it stays on the dining table when she is in the dining area.",
+     "was": {
+      "statement": "Priya's tablet is found on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's tablet was seen on the dining table at 07:45, 08:18, 11:59, 12:54, 13:24, 19:11, and 19:14, strongly supporting the claim.",
+     "was": {
+      "statement": "Priya's tablet is found on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Confirmed Priya's tablet remains on the dining table throughout the day, even as other items like mugs and notebooks appear and disappear. This reinforces the pattern that the tablet is a fixed part of her dining setup.",
+     "was": {
+      "statement": "Priya's tablet is found on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2209 shows Priya's tablet on the dining table while she is in the dining area, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2364 and 2378 confirm Priya's tablet is on the dining table.",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0031",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_0551",
+    "sighting_0552",
+    "sighting_0567",
+    "sighting_0593",
+    "sighting_0594",
+    "sighting_0618"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed shared plates and serving dishes are on the dining table during meal times.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Shared plates, glasses, and water bottles were seen on the dining table during meal times, supporting the claim.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Shared plates, glasses, and water bottles were seen on the dining table at 19:11 and 19:14, supporting the claim.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Dana's and Priya's water bottles, glasses, and plates were on the dining table at 19:22, which is consistent with them being used for dinner.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals and daytime use.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "At 20:09, Dana's glass, plate, and water bottle appeared on the dining table alongside Priya's items. This confirms the pattern that personal dishware is moved to the table for meals.",
+     "was": {
+      "statement": "Shared plates, glasses, and water bottles are moved to the dining table for meals, including dinner.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0032",
+   "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_0626",
+    "sighting_0625"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Priya's headphones are on the bedroom nightstand when she is in the bedroom.",
+     "was": {
+      "statement": "Priya's notebook and headphones are kept on the bedroom desk when she is studying or working there.",
+      "holds_under": "Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's notebook was seen on the sideboard in the morning but moved to the dining table by late morning, indicating it is used at the table during the day.",
+     "was": {
+      "statement": "Priya's notebook and headphones are kept on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Priya's notebook was on the dining table at 08:38 and 09:00, but was not in the bathroom at 09:56, 14:35, 16:55, or 17:57. This supports the idea that it stays in the dining area during the day.",
+     "was": {
+      "statement": "Priya's notebook is kept on the dining table or sideboard in the dining area during the day, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the dining area or bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Priya's notebook was seen on the dining table at 10:37 but was absent at 14:13, 17:18, and 20:09. This suggests she takes it with her when she leaves the table or moves to another activity, unlike the tablet which stays.",
+     "was": {
+      "statement": "Priya's notebook is kept on the dining table during the day when she is in the dining area, and is not moved to the bathroom.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's notebook was found on the bedroom bed, not the dining table. This suggests she takes it with her when she moves to the bedroom.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table only when she is actively using it there; she takes it with her when she leaves the table.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's notebook was found on the bedroom desk at 13:40, not the bed as previously claimed. This aligns with the idea that she uses the desk for work/study in the bedroom.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Priya's notebook was seen on the dining table at 08:18 and on the bedroom desk at 13:01. This supports the existing claim about its location based on her activity.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2059 and 2116 show Priya's notebook on the dining table, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2143 shows Priya's notebook on the desk, supporting the existing claim. It was previously on the dining table (2124, 2136) and is now in the bedroom.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's notebook was on the dining table in the morning but is now on the bedroom desk. This supports the existing claim that it moves between the dining table and the bedroom desk depending on her location.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2369 and 2397 confirm Priya's notebook is on the desk in the bedroom. Sighting 2379 confirms it is on the dining table in the dining area.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's notebook was observed on the dining table in the morning dining sighting, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0033",
+   "statement": "Dana's tablet is found on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0630"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 7,
+   "last_revised_time": 689400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+     "was": {
+      "statement": "Dana's tablet is found on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0034",
+   "statement": "Dana's meditation cushion is kept on the bedroom floor when she is meditating in the bedroom.",
+   "holds_under": "Dana is meditating in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0624"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 7,
+   "last_revised_time": 689400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Dana's meditation cushion is on the bedroom floor.",
+     "was": {
+      "statement": "Dana's meditation cushion is kept on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0035",
+   "statement": "Dana's phone is found on the living room coffee table when she is in the living room.",
+   "holds_under": "Dana is in the living room.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0036",
+   "statement": "Priya's tablet is found on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is in the bedroom.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2375 and 2400 confirm Priya's tablet is on the nightstand in the bedroom.",
+     "was": {
+      "statement": "Priya's tablet is found on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's tablet was found on the bedroom nightstand at 09:25 and 22:59, supporting the claim that it is kept there when she is in the bedroom.",
+     "was": {
+      "statement": "Priya's tablet is found on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0037",
+   "statement": "Priya's tablet is found on the couch in the living room when she is relaxing or gaming there.",
+   "holds_under": "Priya is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0828"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 7,
+   "last_revised_time": 689400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0038",
+   "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_0820",
+    "sighting_0821",
+    "sighting_0871",
+    "sighting_0872"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Priya's glasses were seen on the sideboard at 07:50 and 15:44, but on the dining table at 09:16 when she was present. This suggests they move to the table during active use.",
+     "was": {
+      "statement": "Priya's glasses and mug are kept on the sideboard in the dining room when she is not actively using them at the table.",
+      "holds_under": "Priya is home and items are not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Priya's glasses were on the sideboard at 07:54, but on the dining table at 13:23 and 18:44. This supports the existing claim that they move to the table when in use.",
+     "was": {
+      "statement": "Priya's glasses are kept on the sideboard in the dining room when not in active use, and moved to the dining table when she is using them.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's glasses were seen on the dining table at 11:59, supporting the idea that they are moved to the table for active use.",
+     "was": {
+      "statement": "Priya's glasses are kept on the sideboard in the dining room when not in active use, and moved to the dining table when she is using them.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Priya's glasses were on the dining table at 08:38 and 09:00, but were not in the bathroom at 09:56, 14:35, 16:55, or 17:57. This supports the idea that they stay in the dining area during the day.",
+     "was": {
+      "statement": "Priya's glasses are kept on the sideboard in the dining room when not in active use, and moved to the dining table when she is using them.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Priya's glasses were seen on the dining table at 10:37, 14:13, 17:18, and 20:09. This confirms they stay with her in the dining area, distinct from her reading glasses or other eyewear if any existed, but here 'glasses_priya' is the specific item tracked.",
+     "was": {
+      "statement": "Priya's glasses are kept on the dining table during the day when she is in the dining area, and are not moved to the bathroom.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's glasses were found on the bedroom nightstand, not the dining table. This suggests she takes them with her when she moves to the bedroom.",
+     "was": {
+      "statement": "Priya's glasses are kept on the dining table during the day when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Priya's glasses were seen on the dining table at 08:18 and on the bedroom nightstand at 13:01. This supports the existing claim about their location based on her activity.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2057 and 2115 show Priya's glasses on the dining table, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2207 and 2211 show Priya's glasses on the dining table while she is in the dining area, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's glasses were on the dining table in the morning and are now on the bedroom nightstand. This supports the claim that they move with her between these two locations.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2371 and 2395 show Priya's glasses on the nightstand and bed, not the dresser. This claim is now redundant with the revised claim_0053.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's glasses were found on the bedroom nightstand at 08:07, supporting the claim that they are kept there when she is in the bedroom.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0039",
+   "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_0870"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Dana's water bottle was seen on the dining table at 19:32 when she was present, supporting the claim.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area.",
+      "holds_under": "Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Dana's water bottle was in the kitchen dish rack at 07:54, but on the dining table at 18:44, and back in the kitchen dish rack at 21:16. This confirms the pattern of moving to the dining table for meals.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area.",
+      "holds_under": "When Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's water bottle was seen on the dining table at 19:11, supporting the pattern of it being there during meals.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0040",
+   "statement": "Dana's mug is on the dining table when she is in the dining area, and on the living room coffee table when she is in the living room.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_1039",
+    "sighting_1100"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's mug was seen in the kitchen sink at 12:54 and 19:11, contradicting the claim that it is in the cupboard during the day.",
+     "was": {
+      "statement": "Dana's mug is kept in the kitchen cupboard during the day but is moved to the living room or bedroom in the evening.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Dana's and Priya's mugs were on the dining table at 08:38 and 09:00, but were not in the bathroom at 09:56, 14:35, 16:55, or 17:57. This suggests they are used in the dining area during the day.",
+     "was": {
+      "statement": "Dana's mug is kept in the kitchen sink or cupboard during the day, and is moved to the living room or bedroom in the evening.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's mug was found on the living room coffee table, not the dining table. This suggests she takes it with her when she moves to the living room.",
+     "was": {
+      "statement": "Dana's mug is kept on the dining table during the day when she is in the dining area, and is not moved to the bathroom.",
+      "holds_under": "When Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Dana's mug is on the dining table when she is in the dining area (08:29).",
+     "was": {
+      "statement": "Dana's mug is on the dining table when she is in the dining area, and on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dana's mug was observed on the dining table in the morning dining sighting, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's mug is on the dining table when she is in the dining area, and on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0041",
+   "statement": "Dana's book is on the dining table when she is in the dining area, on the living room couch when she is in the living room, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_1283"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 11,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's book was found on the living room couch, not the dining table. This suggests she takes it with her when she moves to the living room.",
+     "was": {
+      "statement": "Dana's book is found on the dining table when she is reading or working there, but she takes it with her when she leaves the room.",
+      "holds_under": "When Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Dana's book is on the dining table when she is in the dining area (07:44, 08:17, 08:29).",
+     "was": {
+      "statement": "Dana's book is on the dining table when she is in the dining area, and on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Dana's book was found on the bedroom nightstand, not the dining table or living room couch as previously noted for other times. This suggests the nightstand is a specific resting place for her book when she is in the bedroom.",
+     "was": {
+      "statement": "Dana's book is on the dining table when she is in the dining area, and on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dana's book was observed on the dining table in the morning dining sighting, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's book is on the dining table when she is in the dining area, on the living room couch when she is in the living room, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0042",
+   "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_1490",
+    "sighting_1497"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's tablet was seen on the dining table at 07:41 while she was present, supporting the claim that it stays there during her time in the dining area.",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's tablet was seen on the dining table in the morning but moved to the living room bookshelf by evening, contradicting the idea that it stays on the dining table whenever she is there.",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's tablet was found on the bedroom nightstand at 13:40, not the dining table or living room. This suggests the nightstand is a resting place for the tablet when in the bedroom.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is working there, but moves to the living room bookshelf when she is relaxing in the living room.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2055 and 2101 show Priya's tablet on the bedroom nightstand, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2146 shows Priya's tablet on the nightstand, supporting the existing claim. It was previously on the dining table (2125) and is now in the bedroom.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's tablet was on the dining table in the morning but is now on the living room coffee table while she is in the living room. This contradicts the idea that it is always on the dining table when she is in the dining area, or that it is on the nightstand in the bedroom. It suggests the tablet moves with her to where she is relaxing or working.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2375 and 2400 confirm Priya's tablet is on the nightstand in the bedroom. Sighting 2364 and 2378 confirm it is on the dining table in the dining area.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, on the bedroom nightstand when she is in the bedroom, and on the living room coffee table when she is in the living room.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's tablet was found on the bedroom nightstand at 09:25 and 22:59, supporting the claim that it is kept there when she is in the bedroom.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's tablet was observed on the dining table in the morning dining sighting, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0043",
+   "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_1488",
+    "sighting_1494",
+    "sighting_1499"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's glasses were seen on the dining table at 09:15 while she was present, supporting the claim that they are kept there during the day.",
+     "was": {
+      "statement": "Priya's glasses are kept on the dining table during the day when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's glasses were found on the bedroom nightstand, not the dining table. This suggests she takes them with her when she moves to the bedroom.",
+     "was": {
+      "statement": "Priya's glasses are kept on the dining table during the day when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2371 and 2395 show Priya's glasses on the nightstand and bed, not the dresser. This claim is now redundant with the revised claim_0053.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's glasses were found on the bedroom nightstand at 08:07, supporting the claim that they are kept there when she is in the bedroom.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0044",
+   "statement": "Dana's book is on the dining table when she is in the dining area, and on the living room couch when she is in the living room.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_1492"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's book was found on the living room couch, not the dining table. This suggests she takes it with her when she moves to the living room.",
+     "was": {
+      "statement": "Dana's book is found on the dining table when she is reading or working there, but she takes it with her when she leaves the room.",
+      "holds_under": "When Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0045",
+   "statement": "Dana's mug is on the dining table when she is in the dining area, and on the living room coffee table when she is in the living room.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_1495"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's mug was found on the living room coffee table, not the dining table. This suggests she takes it with her when she moves to the living room.",
+     "was": {
+      "statement": "Dana's mug is kept on the dining table during the day when she is in the dining area, and is not moved to the bathroom.",
+      "holds_under": "When Dana is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0046",
+   "statement": "Priya's notebook is on the bedroom desk when she is in the bedroom.",
+   "holds_under": "When Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1501"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's notebook was seen on the dining table at 09:15 while she was present, supporting the claim that it is there when she is actively using it.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table only when she is actively using it there; she takes it with her when she leaves the table.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's notebook was found on the bedroom bed, not the dining table. This suggests she takes it with her when she moves to the bedroom.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table only when she is actively using it there; she takes it with her when she leaves the table.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2369 and 2397 confirm Priya's notebook is on the desk in the bedroom, not the bed.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Sighting 2443 shows Priya's notebook on the bedroom desk, contradicting the previous belief that it is on the bed. This aligns with the pattern of her study items (headphones) being on the desk.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's notebook was found on the bedroom desk at 22:59, supporting the claim that it is kept there when she is in the bedroom. It was also on the dining table earlier, but the bedroom location is consistent with her being in the bedroom at night.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0047",
+   "statement": "Dana's water bottle is kept in the bedroom, often on the nightstand, bed, or wardrobe, when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1557",
+    "sighting_1565"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's water bottle was seen on the bedroom nightstand in the late morning, contradicting the claim that it is in the kitchen dish rack otherwise.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's water bottle was found on the bedroom nightstand at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's water bottle was seen on the bedroom nightstand at 13:01. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2056 and 2102 show Dana's water bottle on the bedroom nightstand, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2140 shows Dana's water bottle on the bed, contradicting the claim that it is on the nightstand when she is in the bedroom. It appears she moves it between the bed and nightstand.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's water bottle was on the nightstand at 14:06 but is now on the wardrobe at 19:39. Both are in the bedroom. This suggests it is kept in the bedroom but its exact spot may vary, or it was moved during the day. The claim 'on the nightstand or bed' is slightly inaccurate as it was on the wardrobe.",
+     "was": {
+      "statement": "Dana's water bottle is on the bedroom nightstand or bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2376 and 2401 confirm Dana's water bottle is in the bedroom (wardrobe/nightstand).",
+     "was": {
+      "statement": "Dana's water bottle is kept in the bedroom, often on the nightstand, bed, or wardrobe, when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0048",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_1536",
+    "sighting_1537",
+    "sighting_1538",
+    "sighting_1551",
+    "sighting_1552",
+    "sighting_1553"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's plate and glass were seen on the dining table at 12:29 and 19:36, supporting the claim that personal dishware is moved to the table for meals.",
+     "was": {
+      "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0049",
+   "statement": "Dana's razor is on the bathroom sink. Priya's toiletry bag is on the bathroom sink. Other toiletries are on the shelf or towel rack.",
+   "holds_under": "When they are home.",
+   "supporting_observation_ids": [
+    "sighting_1504",
+    "sighting_1505",
+    "sighting_1510",
+    "sighting_1513",
+    "sighting_1514",
+    "sighting_1540"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "The claim stated Dana's razor is on the sink, but today's sightings consistently show it on the bathroom shelf. This corrects the specific location.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom. Dana's razor is on the sink, while her other items and Priya's items are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's razor moved from the shelf to the sink, and Priya's toiletry bag moved from the shelf to the sink. This contradicts the static location claims in claim_0029 and claim_0049.",
+     "was": {
+      "statement": "Dana and Priya's toiletries and towels are kept in the bathroom. Dana's razor is on the bathroom shelf, while her other items and Priya's items are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0050",
+   "statement": "Dana's book is on the living room couch when she is in the living room.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_1858",
+    "sighting_1891"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's book was found on the living room couch at 16:00, consistent with previous observations of it being in the living room.",
+     "was": {
+      "statement": "Dana's book is on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2165 shows Dana's book on the couch, supporting the existing claim. It was not seen in the bedroom today.",
+     "was": {
+      "statement": "Dana's book is on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2244 shows Dana's book on the couch while she is in the living room, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's book is on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's book was on the couch at 16:55 and 18:37 while she was in the living room. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's book is on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2431 confirms Dana's book is on the couch in the living room.",
+     "was": {
+      "statement": "Dana's book is on the living room couch when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0051",
+   "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_1855",
+    "sighting_1887"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's mug was found on the living room coffee table at 16:00, consistent with previous observations of it being in the living room.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2161 shows Dana's mug on the coffee table, supporting the existing claim. It was not seen in the bedroom today.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2240 shows Dana's mug on the coffee table while she is in the living room, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's mug was on the coffee table at 16:55 and 18:37 while she was in the living room. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2427 confirms Dana's mug is on the coffee table in the living room.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table when she is in the living room.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0052",
+   "statement": "Priya's notebook is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_1803",
+    "sighting_1877"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's notebook was found on the dining table at 08:42, consistent with previous observations of it being in the dining area.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sighting 2213 shows Priya's notebook on the dining table while she is in the dining area, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2379 confirms Priya's notebook is on the dining table.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0053",
+   "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_1801",
+    "sighting_1835"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's glasses were found on the bedroom dresser at 13:40, not the nightstand as previously claimed. This suggests the dresser is the correct location for her glasses when in the bedroom.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2371 and 2395 show Priya's glasses on the nightstand and bed respectively, contradicting the claim that they are on the dresser. Sighting 2377 supports the dining table location.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom dresser when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Sighting 2440 shows Priya's glasses on the bedroom bed, contradicting the previous belief that they are on the nightstand. This suggests she leaves them on the bed when sleeping or resting.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand or bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's glasses were found on the bedroom nightstand at 08:07, supporting the claim that they are kept there when she is in the bedroom. This contradicts the claim that they are on the bed.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's glasses were observed on the dining table in all dining sightings today, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0054",
+   "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1837"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's tablet was found on the bedroom nightstand at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's tablet was seen on the bedroom nightstand at 13:01. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2054 and 2100 show Dana's tablet on the bedroom nightstand, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's tablet was on the nightstand at both 14:06 and 19:39 while she was in the bedroom. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2374 and 2399 confirm Dana's tablet is on the nightstand in the bedroom.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0055",
+   "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+   "holds_under": "When Dana is meditating in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1833"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's meditation cushion was found on the bedroom floor at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "When Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's meditation cushion was seen on the bedroom floor at 13:01. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "When Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2051 and 2097 show Dana's meditation cushion on the bedroom floor, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "When Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's meditation cushion was on the bedroom floor at both 14:06 and 19:39. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "When Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2368 and 2396 confirm Dana's meditation cushion is on the bedroom floor.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+      "holds_under": "When Dana is meditating in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0056",
+   "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_1811",
+    "sighting_1881"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's water bottle was found on the dining table at 19:49, consistent with previous observations of it being in the dining area.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Priya's water bottle was seen on the dining table at 19:41. This supports the existing claim that it is on the dining table when she is in the dining area.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2120 shows Priya's water bottle on the dining table, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sighting 2184 shows Priya's water bottle on the dining table, supporting the existing claim. It was not seen in the bedroom today.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's water bottle was found on the dining table at 20:36, supporting the claim that it is on the dining table when she is in the dining area.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's water bottle was observed on the dining table in the evening dining sighting, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0057",
+   "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1831"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's charger was found on the bedroom bed at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's charger was seen on the bedroom bed at 13:01. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2050 and 2096 show Dana's charger on the bedroom bed, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's charger was on the bed at both 14:06 and 19:39 while she was in the bedroom. This supports the existing claim.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2367 and 2394 confirm Dana's charger is on the bed in the bedroom.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0058",
+   "statement": "Priya's headphones are on the bedroom desk when she is in the bedroom.",
+   "holds_under": "When Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1832"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's headphones were found on the bedroom desk at 13:40, not the bed as previously claimed. This supports the pattern of using the desk for work/study items.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Priya's headphones were seen on the bedroom dresser at 13:01. The existing claim says they are on the desk. This is a discrepancy. I will update the claim to reflect the dresser location, as the desk claim might be outdated or specific to studying, but the dresser is where they were found today.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2052 and 2098 show Priya's headphones on the bedroom desk, contradicting the previous claim that they are on the dresser.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom dresser when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's headphones were on the nightstand at both 14:06 and 19:39. The previous claim said they were on the desk. This suggests they are kept on the nightstand when in the bedroom, not the desk.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2372 and 2398 confirm Priya's headphones are on the nightstand in the bedroom.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Sighting 2442 shows Priya's headphones on the bedroom desk, contradicting the previous belief that they are on the nightstand. This aligns with the pattern of her study items (notebook) being on the desk.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0059",
+   "statement": "Priya's phone is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_1836"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's phone was found on the dining table at 08:42, not the bedroom nightstand. This suggests the phone moves with her to the dining area during the day.",
+     "was": {
+      "statement": "Priya's phone is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2373 confirms Priya's phone is on the nightstand in the bedroom.",
+     "was": {
+      "statement": "Priya's phone is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0060",
+   "statement": "Dana's glass is on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1834"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Dana's glass was found on the bedroom nightstand at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Dana's glass is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2053 and 2099 show Dana's glass on the bedroom nightstand, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's glass is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2370 confirms Dana's glass is on the nightstand in the bedroom.",
+     "was": {
+      "statement": "Dana's glass is on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Dana is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0061",
+   "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+   "holds_under": "When Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_1830"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya's book was found on the bedroom bed at 13:40, consistent with previous observations of it being in the bedroom.",
+     "was": {
+      "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Priya's book was seen on the bedroom bed at 13:01. This supports the existing claim.",
+     "was": {
+      "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sighting 2049 and 2095 show Priya's book on the bedroom bed, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya's book was on the bed at both 14:06 and 19:39. This supports the existing claim.",
+     "was": {
+      "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2366 and 2393 confirm Priya's book is on the bed in the bedroom.",
+     "was": {
+      "statement": "Priya's book is on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0062",
+   "statement": "Priya's mug is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2208",
+    "sighting_2212"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Sighting 2363 and 2378 confirm Priya's mug is on the dining table.",
+     "was": {
+      "statement": "Priya's mug is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0063",
+   "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2444"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0064",
+   "statement": "Dana's water bottle is kept in the bedroom, often on the nightstand, bed, or wardrobe, when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2445"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0065",
+   "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+   "holds_under": "When Dana is meditating in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2441"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0066",
+   "statement": "Dana's charger is on the bedroom bed when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2439"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0067",
+   "statement": "Dana's book is on the living room couch when she is in the living room.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_2492"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0068",
+   "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2448"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0069",
+   "statement": "Priya's mug is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2447"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0070",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2446"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0071",
+   "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_2558"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Sighting 2948 shows Dana's water bottle on the dining table while she is in the dining area, supporting the existing claim about its location during meals.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0072",
+   "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_2559"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's water bottle was found on the dining table at 20:36, supporting the claim that it is on the dining table when she is in the dining area.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0073",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2552"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0074",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2553"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0075",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2554"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0076",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2555"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0077",
+   "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_2509"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Priya's water bottle was found on the dining table at 20:36, supporting the claim that it is on the dining table when she is in the dining area.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0078",
+   "statement": "Dishes are often left in the kitchen sink after washing or before being taken to the dining table for a meal.",
+   "holds_under": "When dishes are being prepared for or cleaned after a meal.",
+   "supporting_observation_ids": [
+    "sighting_2543"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0079",
+   "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+   "holds_under": "Someone is cooking.",
+   "supporting_observation_ids": [
+    "sighting_2548"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0080",
+   "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+   "holds_under": "Someone is cooking.",
+   "supporting_observation_ids": [
+    "sighting_2549"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0081",
+   "statement": "Shared cooking utensils like pans and knives are moved to the kitchen sink or counter during food preparation.",
+   "holds_under": "Someone is cooking.",
+   "supporting_observation_ids": [
+    "sighting_2550"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0082",
+   "statement": "Dishes are often left in the kitchen sink after washing or before being taken to the dining table for a meal.",
+   "holds_under": "When dishes are being prepared for or cleaned after a meal.",
+   "supporting_observation_ids": [
+    "sighting_2551"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0083",
+   "statement": "Priya's phone is on the dining table when she is in the dining area, and on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_2580"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's phone was found on the dining table, supporting the pattern of keeping it there while in the dining area.",
+     "was": {
+      "statement": "Priya's phone is found on the bedroom nightstand when she is in the bedroom.",
+      "holds_under": "When Priya is in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0084",
+   "statement": "Dana's tablet is on the bedroom nightstand when she is in the bedroom.",
+   "holds_under": "When Dana is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2581"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0085",
+   "statement": "Dana's meditation cushion is on the bedroom floor when she is meditating in the bedroom.",
+   "holds_under": "When Dana is meditating in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2578"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0086",
+   "statement": "Priya's headphones are on the bedroom desk when she is in the bedroom.",
+   "holds_under": "When Priya is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2579"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0087",
+   "statement": "Priya's glasses are on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2583"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Priya's glasses appear on the dining table when she is there (08:29) and are absent when she is not (13:04, 16:47, 20:00).",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's glasses were found on the dining table, supporting the pattern of keeping them there while in the dining area.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table when she is in the dining area, and on the bedroom bed when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0088",
+   "statement": "Priya's notebook is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2585"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Priya's notebook is on the dining table when she is there (08:29) and absent when she is not (13:04, 16:47, 20:00).",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's notebook was found on the dining table, supporting the pattern of keeping it there while in the dining area.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table when she is in the dining area, and on the bedroom desk when she is in the bedroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0089",
+   "statement": "Priya's tablet is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2586"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Priya's tablet remains on the dining table throughout her presence in the dining area today (07:44, 08:17, 08:29, 13:04, 16:47, 20:00).",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's tablet was found on the dining table, supporting the pattern of keeping it there while in the dining area.",
+     "was": {
+      "statement": "Priya's tablet is kept on the dining table whenever she is in the dining area, serving as a central item for her activities there.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0090",
+   "statement": "Priya's mug is on the dining table when she is in the dining area.",
+   "holds_under": "When Priya is in the dining area.",
+   "supporting_observation_ids": [
+    "sighting_2584"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Priya's mug is on the dining table in the morning (07:44, 08:17, 08:29) but was moved to the kitchen cupboard by 16:47, likely after finishing her drink.",
+     "was": {
+      "statement": "Priya's mug is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's mug was found on the dining table, supporting the pattern of keeping it there while in the dining area.",
+     "was": {
+      "statement": "Priya's mug is on the dining table when she is actively using the dining area for drinks, and is returned to the kitchen cupboard when finished.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's mug was observed on the dining table in all dining sightings today, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's mug is on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0091",
+   "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+   "holds_under": "When people are using the dining area for food or drink.",
+   "supporting_observation_ids": [
+    "sighting_2595"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed the pattern that personal plates, glasses, and water bottles are moved to the dining table for meals. At 20:00, both Dana and Priya are present, and their respective plates, glasses, and water bottles are all on the dining table.",
+     "was": {
+      "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Sighting 2939 shows Dana's glass on the dining table, supporting the general pattern of personal drinkware being moved to the dining table for use.",
+     "was": {
+      "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Sighting 2946 shows a serving dish on the dining table, consistent with the pattern of shared dining items being present during meal times.",
+     "was": {
+      "statement": "Personal plates, glasses, and water bottles for both Dana and Priya are moved to the dining table for meals.",
+      "holds_under": "When people are using the dining area for food or drink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0092",
+   "statement": "Dana's water bottle is in the kitchen dish rack when not in use.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_2616"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Dana's water bottle was found in the kitchen dish rack, supporting the pattern of keeping it there when not in use.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0093",
+   "statement": "Priya's water bottle is kept in the kitchen dish rack when not in use.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_2623"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's water bottle was found in the kitchen cupboard, not the counter or dining table as previously thought.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter when she is in the kitchen, and on the dining table when she is in the dining area.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Sighting 2931 shows Priya's water bottle in the dish rack, contradicting the claim that it is kept in the cupboard. The dish rack is the standard location for drying or storing bottles when not in use.",
+     "was": {
+      "statement": "Priya's water bottle is kept in the kitchen cupboard when not in use.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0094",
+   "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_2603"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Priya's skincare was observed in the medicine cabinet, not the bathroom shelf as previously noted.",
+     "was": {
+      "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Priya's skincare was observed on the bathroom shelf today, contradicting the previous note that placed it in the medicine cabinet.",
+     "was": {
+      "statement": "Priya's skincare is kept in the medicine cabinet in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya's skincare was observed on the bathroom shelf in all bathroom sightings today, supporting the existing claim.",
+     "was": {
+      "statement": "Priya's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Priya is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0095",
+   "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_2602"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Dana's skincare was observed on the bathroom sink today, whereas previous notes claimed it was on the shelf. This suggests a shift in her routine or a temporary placement.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Dana's skincare was observed on the bathroom shelf today, contradicting the claim that it is kept on the sink. This aligns with the older claim (0015/0027) that it is on the shelf.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom sink in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dana's skincare was observed on the bathroom shelf in all bathroom sightings today, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's skincare is kept on the bathroom shelf in the bathroom.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0096",
+   "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom sink. Other toiletries are on the shelf or towel rack.",
+   "holds_under": "When they are home.",
+   "supporting_observation_ids": [
+    "sighting_2605"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed bathroom items remain in their standard locations: skincare and hair dryers on the shelf, razor and soap on the sink, towels on the rack. Seen at 10:04 and 16:10.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Dana's razor was observed on the sink in all bathroom sightings today, whereas previous notes claimed it was on the shelf. This confirms the razor's location is the sink.",
+     "was": {
+      "statement": "Dana's razor is kept on the bathroom sink. Priya's toiletry bag is on the bathroom shelf. Other toiletries are on the shelf or towel rack.",
+      "holds_under": "When they are home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0097",
+   "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+   "holds_under": "When Dana is home.",
+   "supporting_observation_ids": [
+    "sighting_3043"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Dana's water bottle was found on the dining table at 22:59, supporting the claim that it is found there when she is in the dining area.",
+     "was": {
+      "statement": "Dana's water bottle is found on the dining table when she is in the dining area for meals, and in the kitchen dish rack otherwise.",
+      "holds_under": "When Dana is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0098",
+   "statement": "Priya's water bottle is kept in the kitchen dish rack when not in use.",
+   "holds_under": "When Priya is home.",
+   "supporting_observation_ids": [
+    "sighting_3044"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0099",
+   "statement": "Personal plates, glasses, and mugs for both Dana and Priya are stored in the kitchen cupboard when not in use.",
+   "holds_under": "When not in use.",
+   "supporting_observation_ids": [
+    "sighting_3033",
+    "sighting_3034",
+    "sighting_3035",
+    "sighting_3036",
+    "sighting_3038",
+    "sighting_3039"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

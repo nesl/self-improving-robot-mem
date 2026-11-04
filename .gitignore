@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# reproduce.sh and analysis outputs
+out/
+# reruns and the LLM response cache
+runs/
+llm_cache/
+llm_prior_cache/
+*.lock
+RUNNING.lock
+.env

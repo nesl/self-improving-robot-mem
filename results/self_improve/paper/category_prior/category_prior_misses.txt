@@ -1,0 +1,52 @@
+Wrong first rooms that are the object type's usual room while the object's own latest sighting points elsewhere.
+Ten homes, 8 a day, 31 days, Qwen3.8-27B. CPU only, reads finished cells.
+
+Rule (fixed before counting):
+  usual room of an object class = the room the no-memory arm (prior_only_no_notes, overnight_wave) opens FIRST most
+    often for that class, pooled over the ten homes. That arm sees no sightings, so its first room is the model's
+    category prior. Classes it never searched have no usual room and are never counted.
+  a question counts as a CATEGORY-PRIOR MISS when, in the arm being scored:
+    (a) the first room opened is wrong (not the true room),
+    (b) the first room opened is the class's usual room, and
+    (c) the object's latest sighting in that arm's own record before the question (looks.jsonl, time < question time)
+        is in a different room. Questions with no earlier sighting are not counted (nothing points elsewhere).
+  Also reported: how many of those had the latest sighting in the TRUE room (the record had the answer).
+  STRICT count (the one to cite): (a)-(c) AND the reason for the first room makes a generic statement about the object
+    type (regex GEN below, e.g. "mugs are most commonly found in the kitchen", "the most likely place for a glass").
+    (a)-(c) alone over-count: they also catch choices argued from a claim or from the object's own past pattern
+    (e.g. "glass_tomas is consistently found in the kitchen in the mornings"). Hand check 2026-11-04: about 16 of
+    19 sampled STRICT cases are clearly category-prior reasoning; the rest mix in object-specific evidence.
+
+usual room by class (no-memory arm, first room opened; count of that room / all its first rooms):
+  book               living     78/79
+  charger            bedroom_1  71/169
+  glass              kitchen    128/317
+  glasses            bathroom   39/67
+  medication         bathroom   9/9
+  mug                kitchen    369/370
+  notebook           office     115/123
+  razor              bathroom   100/100
+  tablet             living     22/25
+  towel              bathroom   892/895
+  water_bottle       kitchen    320/326
+
+== claim store: 128 of 599 wrong first rooms (21.4%) are category-prior misses; per-home share 21.4 ± 4.5 (2 SE, 10 homes); latest sighting was in the true room in 114 of them; by period: settled 48, disrupted 51, back to normal 29
+   hh_s109 8/50  hh_s123 6/36  hh_s151 19/76  hh_s19 14/50  hh_s20 9/80  hh_s2 14/55  hh_s32 7/65  hh_s48 13/56  hh_s63 18/64  hh_s93 20/67
+   STRICT: 56 of 599 wrong first rooms (9.3%); per-home share 9.3 ± 4.1 (2 SE); by period: settled 26, disrupted 21, back to normal 9
+   STRICT per home: hh_s109 1/50  hh_s123 5/36  hh_s151 9/76  hh_s19 3/50  hh_s20 3/80  hh_s2 1/55  hh_s32 4/65  hh_s48 7/56  hh_s63 14/64  hh_s93 9/67
+== claim store plus today's sightings: 71 of 498 wrong first rooms (14.3%) are category-prior misses; per-home share 14.2 ± 2.9 (2 SE, 10 homes); latest sighting was in the true room in 64 of them; by period: settled 27, disrupted 22, back to normal 22
+   hh_s109 6/50  hh_s123 4/39  hh_s151 5/58  hh_s19 7/55  hh_s20 9/50  hh_s2 10/48  hh_s32 4/46  hh_s48 9/50  hh_s63 10/51  hh_s93 7/51
+   STRICT: 23 of 498 wrong first rooms (4.6%); per-home share 4.6 ± 1.8 (2 SE); by period: settled 11, disrupted 5, back to normal 7
+   STRICT per home: hh_s109 1/50  hh_s123 3/39  hh_s151 4/58  hh_s19 1/55  hh_s20 1/50  hh_s2 2/48  hh_s32 1/46  hh_s48 3/50  hh_s63 5/51  hh_s93 2/51
+== claim store plus history: 25 of 394 wrong first rooms (6.3%) are category-prior misses; per-home share 5.7 ± 3.0 (2 SE, 10 homes); latest sighting was in the true room in 14 of them; by period: settled 12, disrupted 7, back to normal 6
+   hh_s109 2/51  hh_s123 0/31  hh_s151 6/56  hh_s19 2/39  hh_s20 3/33  hh_s2 3/26  hh_s32 0/19  hh_s48 6/54  hh_s63 3/55  hh_s93 0/30
+   STRICT: 2 of 394 wrong first rooms (0.5%); per-home share 0.5 ± 0.7 (2 SE); by period: settled 2, disrupted 0, back to normal 0
+   STRICT per home: hh_s109 0/51  hh_s123 0/31  hh_s151 0/56  hh_s19 0/39  hh_s20 1/33  hh_s2 0/26  hh_s32 0/19  hh_s48 1/54  hh_s63 0/55  hh_s93 0/30
+== history only: 35 of 366 wrong first rooms (9.6%) are category-prior misses; per-home share 8.8 ± 4.3 (2 SE, 10 homes); latest sighting was in the true room in 28 of them; by period: settled 13, disrupted 10, back to normal 12
+   hh_s109 1/40  hh_s123 1/29  hh_s151 7/40  hh_s19 1/33  hh_s20 5/50  hh_s2 7/35  hh_s32 0/21  hh_s48 6/42  hh_s63 5/44  hh_s93 2/32
+   STRICT: 4 of 366 wrong first rooms (1.1%); per-home share 0.9 ± 1.2 (2 SE); by period: settled 1, disrupted 1, back to normal 2
+   STRICT per home: hh_s109 0/40  hh_s123 0/29  hh_s151 0/40  hh_s19 0/33  hh_s20 0/50  hh_s2 0/35  hh_s32 0/21  hh_s48 2/42  hh_s63 2/44  hh_s93 0/32
+== history and notes: 12 of 357 wrong first rooms (3.4%) are category-prior misses; per-home share 2.9 ± 1.6 (2 SE, 10 homes); latest sighting was in the true room in 9 of them; by period: settled 2, disrupted 4, back to normal 6
+   hh_s109 1/41  hh_s123 0/29  hh_s151 3/47  hh_s19 1/34  hh_s20 1/36  hh_s2 1/24  hh_s32 0/22  hh_s48 1/39  hh_s63 4/55  hh_s93 0/30
+   STRICT: 0 of 357 wrong first rooms (0.0%); per-home share 0.0 ± 0.0 (2 SE); by period: settled 0, disrupted 0, back to normal 0
+   STRICT per home: hh_s109 0/41  hh_s123 0/29  hh_s151 0/47  hh_s19 0/34  hh_s20 0/36  hh_s2 0/24  hh_s32 0/22  hh_s48 0/39  hh_s63 0/55  hh_s93 0/30

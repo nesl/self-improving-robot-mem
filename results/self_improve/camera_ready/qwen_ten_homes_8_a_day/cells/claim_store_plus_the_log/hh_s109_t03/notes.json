@@ -1,0 +1,3654 @@
+{
+ "household": "hh_s109_t03",
+ "arm": "memory-guided search with claim store plus the log",
+ "how_memory_is_written": "claim store plus the log",
+ "written_up_to_day": 31,
+ "next_claim_number": 42,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Felix's primary workspace is the office desk. On day 15, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 09:33 to 15:37. He is consistently in the office during 11",
+   "holds_under": "Felix is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_0026",
+    "sighting_0027",
+    "sighting_0028",
+    "sighting_0029",
+    "sighting_0030",
+    "sighting_0091-0100"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently found there. His notebook is often on the desk.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently found there. His notebook is often on the desk but has been seen on the office floor, suggesting he moves around while working.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Felix's notebook was found on the office floor at 19:49, supporting the idea that it is mobile and often off the desk.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently found there. His notebook is often on the desk but has been seen on the office floor, suggesting he moves around while working.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's primary workspace items (laptop, mouse, pen, plant_pot_3) have been on the office desk for 5 consecutive sightings today (09:06-15:35). Felix was present in the office during these times.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. His notebook is mobile; it was on the office chair at 13:51 [sighting_0536] and on the office floor at 19:49 [sighting_0620].",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Felix's laptop, mouse, pen, and plant_pot_3 remained on the office desk all day (09:21-16:36) and were not in bedroom_2 at 22:32. This confirms they are stationary work items.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. His notebook is mobile; it was on the office chair at 13:51 on day 3, on the office floor at 19:49 on day 3, and on the office de",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Felix's workspace setup is stable. The 14:25 sighting shows a temporary disruption (notebook on floor, missing items) likely due to a break, but the full setup returned by 17:46. This confirms the office desk is his primary, consistent workspace.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. They were on the desk from 09:21 to 16:36 on day 7 and were not in bedroom_2 at 22:32.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Felix's full work setup (laptop, charger, glasses, headphones, mug, notebook, water bottle) was present on the office desk from 09:34 to 15:09, confirming his primary workspace location.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 8, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present at 11:26, 12:18, 17:46,",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Felix's full workspace setup was observed in the office from 10:44 to 17:40, confirming his primary work location.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 9, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present from 09:34 to 15:09.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Felix's full work setup (laptop, mouse, pen, plant, charger, glasses, headphones, mug, notebook, water bottle) was present on the office desk from 12:27 to 14:53. This confirms his primary workspace is the office during the day.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 10, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present from 10:44 to 17:40.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Felix's full workspace setup was observed on the office desk from 11:00 to 16:45, confirming his primary work location and routine.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 11, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present from 12:27 to 14:53.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Felix's workspace setup was observed in the office from 11:40 to 17:37, confirming the pattern from day 12.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 12, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present from 11:00 to 16:45.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Felix's full work setup (charger, glasses, headphones, mug, water bottle) was present on the office desk from 09:45 to 15:40, but missing at 19:25, confirming he takes them with him when leaving for the evening.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 13, the full setup (including charger, glasses, headphones, mug, notebook, water bottle) was present from 11:40 to 17:37.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's full work setup (laptop, mouse, pen, plant, charger, glasses, headphones, mug, notebook, water bottle) was present on the office desk from 09:33 to 15:37, confirming his primary workspace.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. His laptop, mouse, pen, and plant_pot_3 are consistently there. On day 14, the full setup (including charger, glasses, headphones, mug, water bottle) was present from 09:45 to 15:40, but missing",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Felix's mug is on the office desk during work hours. On day 24, it was on the desk from 09:31 to 12:31. This suggests he moves it to the office for work.",
+   "holds_under": "Felix is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_0091-0100",
+    "sighting_0119-0123"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Felix's personal items (mug, water bottle, glasses, charger) were on the office desk at 12:05 and 14:08, but were gone by 15:23 while his laptop and mouse remained. This confirms the pattern that he takes these specific items with him when he leaves the desk.",
+     "was": {
+      "statement": "When Felix leaves the office, he takes his mug, water bottle, glasses, and charger with him. These items were on the desk at 17:06 but were gone by 20:43, while his laptop and mouse remained.",
+      "holds_under": "Felix is away from his office desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Felix's water bottle moved from the kitchen dish rack at 09:42 to the office desk by 11:09, where it remained all day. This supports the pattern of him taking his drink to his workspace.",
+     "was": {
+      "statement": "When Felix leaves the office desk, he takes his mug, water bottle, glasses, and charger with him. These items were on the desk at 12:05 and 14:08 but were gone by 15:23, while his laptop and mouse remained. He likely carries them to the new",
+      "holds_under": "Felix is away from his office desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Felix's mug was found in the kitchen sink at 13:51 and 19:49, and in the office desk at 17:00. This shows it moves between rooms, unlike the water bottle which stayed in the office.",
+     "was": {
+      "statement": "When Felix works in the office, he keeps his mug, water bottle, glasses, and charger on his desk. The water bottle moved from the kitchen dish rack [sighting_0394] to the office desk [sighting_0442] by 11:09 and stayed there.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Felix's mug was in the kitchen sink yesterday but is now consistently on his office desk, indicating he has settled into his workspace and stopped moving between rooms.",
+     "was": {
+      "statement": "Felix's mug is mobile. It was in the kitchen sink at 13:51 [sighting_0558] and 19:49 [sighting_0614], but in the office at 17:00 [sighting_0590]. His water bottle, glasses, and charger remained in the office throughout the day.",
+      "holds_under": "Felix is moving between the kitchen and office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's mug has been on the office desk for 4 consecutive sightings today (11:58-15:35), confirming the pattern from Day 5. He is working in the office.",
+     "was": {
+      "statement": "Felix's mug is now consistently on the office desk. It was in the kitchen sink on day 4, but has been on the office desk from 10:29 to 18:24 on day 5. This suggests he has settled into his workspace.",
+      "holds_under": "Felix is working in the office and not moving between rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Felix's mug was on the office desk all day (09:21-16:36) but was not found in bedroom_2 at 22:32. This suggests he leaves the mug in the office or moves it elsewhere (e.g., kitchen) before bed, unlike his other personal items.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk. It was in the kitchen sink on day 4, on the office desk from 10:29 to 18:24 on day 5, and on the office desk from 11:58 to 15:35 on day 6. This suggests he has settled into his workspace.",
+      "holds_under": "Felix is working in the office and not moving between rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Felix's mug was found on the office desk from 10:44 to 17:40, consistent with previous days.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk during work hours. It was on the desk from 09:21 to 16:36 on day 7. It was not in bedroom_2 at 22:32, suggesting he does not take it to bed with him.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Felix's mug was on the office desk from 12:27 to 14:53, consistent with previous days. It was not in the office at 22:59, suggesting he took it with him when he left the office for the evening.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk during work hours. It was on the desk from 09:21 to 16:36 on day 7, and from 10:44 to 17:40 on day 10. It was not in bedroom_2 at 22:32, suggesting he does not take it to bed with him.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Felix's mug was on the office desk during the work block on day 12, consistent with previous days.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk during work hours. It was on the desk from 12:27 to 14:53 on day 11. It was not in the office at 22:59, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Felix's mug was on the office desk during work hours on day 13, consistent with previous days.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk during work hours. It was on the desk from 11:00 to 16:45 on day 12. It was not in the office at 22:59 on day 11, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Felix's mug was on the office desk from 09:45 to 15:40, but was found in the kitchen sink at 19:25, indicating he moved it to the kitchen for the evening.",
+     "was": {
+      "statement": "Felix's mug is consistently on the office desk during work hours. It was on the desk from 11:40 to 17:37 on day 13. It was not in the office at 22:59 on day 11, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's mug was on the office desk during work hours (09:33-15:37) but was found in the kitchen sink at 22:04, indicating he moved it to the kitchen for the evening.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 14, it was on the desk from 09:45 to 15:40. At 19:25, it was found in the kitchen sink, suggesting he moved it to the kitchen for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's mug was on the office desk from 10:32 to 16:17, then moved to the dining table at 07:59 (wait, 07:59 was before 10:32, so it was on the dining table at 07:59, then office desk from 10:32 to 16:17). This suggests he moved it to the office for work.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 15, it was on the desk from 09:33 to 15:37. At 22:04, it was found in the kitchen sink, suggesting he moved it to the kitchen for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's mug was on the dining table at 08:34, then on the office desk from 12:06 to 19:23. This confirms the pattern of moving it to the office for work.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 17, it was on the dining table at 07:59, then on the office desk from 10:32 to 16:17. This suggests he moved it to the office for work.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Felix's mug was found on the office desk at 09:15, 13:15, and 14:42, supporting the pattern of it being with him during work hours.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 18, it was on the dining table at 08:34, then on the office desk from 12:06 to 19:23. This suggests he moves it to the office for work.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Felix's mug was on the office desk at 10:28, 11:38, 12:51, and 15:47, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 19, it was on the office desk from 09:15 to 14:42. This suggests he moves it to the office for work.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Felix's mug was on the office desk from 10:36 to 18:56, but was missing at 21:51. This supports the pattern that he moves it to the office for work and takes it away at night.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 20, it was on the office desk from 10:28 to 15:47. This suggests he moves it to the office for work.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's mug was on the office desk from 09:31 to 12:31, consistent with his work pattern.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 21, it was on the desk from 10:36 to 18:56, but missing at 21:51. This suggests he moves it to the office for work and takes it to bed at night.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Bedroom_1 is Yuki's room. The ironing board was found on the floor at 22:58 on day 31, consistent with previous days. This suggests it is used and stored there rather than being a permanent fixture. [sighting_3273]",
+   "holds_under": "Yuki is in her room or the ironing board is not in use.",
+   "supporting_observation_ids": [
+    "sighting_0024",
+    "sighting_0025",
+    "sighting_0162",
+    "sighting_0163"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Bedroom_1 is Yuki's room. Her book and the ironing board were found there at 21:00. The ironing board is on the floor, suggesting it is used and stored there.",
+     "was": {
+      "statement": "Bedroom_1 is Yuki's room. Her book and the ironing board are consistently found there. The ironing board is on the floor, suggesting it is used and stored there rather than being a permanent fixture.",
+      "holds_under": "Yuki is in her room or the ironing board is not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The ironing board was found on the bedroom floor in bedroom_1 at 09:37, consistent with it being stored there when not in use.",
+     "was": {
+      "statement": "Bedroom_1 is Yuki's room. Her book and the ironing board were found there at 21:00. The ironing board is on the floor, suggesting it is used and stored there rather than being a permanent fixture.",
+      "holds_under": "Yuki is in her room or the ironing board is not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "The ironing board was found on the bedroom floor in bedroom_1 at 12:00 and 12:32. This is consistent with its location on day 19, suggesting it is stored there when not in use.",
+     "was": {
+      "statement": "Bedroom_1 is Yuki's room. Her book and the ironing board were found there at 09:37 on day 19. The ironing board is on the floor, suggesting it is used and stored there rather than being a permanent fixture.",
+      "holds_under": "Yuki is in her room or the ironing board is not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The ironing board was found on the bedroom floor in bedroom_1 at 09:30, consistent with its location on day 22. This suggests it is used and stored there.",
+     "was": {
+      "statement": "Bedroom_1 is Yuki's room. The ironing board was found on the floor at 12:00 and 12:32 on day 22, consistent with day 19. This suggests it is used and stored there rather than being a permanent fixture.",
+      "holds_under": "Yuki is in her room or the ironing board is not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The ironing board was found on the bedroom floor in bedroom_1 at 22:58, consistent with the claim that it is used and stored there. This supports the existing claim.",
+     "was": {
+      "statement": "Bedroom_1 is Yuki's room. The ironing board was found on the floor at 09:30 on day 23, consistent with day 22. This suggests it is used and stored there rather than being a permanent fixture.",
+      "holds_under": "Yuki is in her room or the ironing board is not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Felix's laptop, charger, glasses, and headphones are mobile. On day 9, they were missing at 20:31. However, on day 10, they remained on the office desk from 10:44 to 17:40, suggesting he may leave them there during the day.",
+   "holds_under": "Felix is moving between his office and other rooms.",
+   "supporting_observation_ids": [
+    "sighting_0040"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Felix's book was on the nightstand in Bedroom_2 at 09:18. This suggests Bedroom_2 is Felix's room, or at least where he keeps his personal reading materials.",
+     "was": {
+      "statement": "Felix's book is located in Bedroom_2. It was seen on the nightstand at 09:14. This suggests Bedroom_2 is Felix's room, or at least where he keeps his personal reading materials.",
+      "holds_under": "Felix is not currently reading the book.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Felix's book, charger, glasses, and headphones were on the bedroom_2 nightstand at 09:42 but moved to the office desk by 11:09. This contradicts the idea that they are static in the bedroom; Felix likely brings them to work.",
+     "was": {
+      "statement": "Felix's book is located in Bedroom_2. It was seen on the nightstand at 09:18. This suggests Bedroom_2 is Felix's room, or at least where he keeps his personal reading materials.",
+      "holds_under": "Felix is not currently reading the book.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's book, charger, glasses, and headphones were on the bedroom_2 nightstand at 09:06, but moved to the office desk by 11:58. This confirms the pattern from Day 3 that Felix brings these items to his workspace.",
+     "was": {
+      "statement": "Felix's book, charger, glasses, and headphones are mobile. They were on the bedroom_2 nightstand at 09:42 [sighting_0407-0410] but moved to the office desk by 11:09 [sighting_0433-0435]. Felix likely brings them to his workspace.",
+      "holds_under": "Felix is moving between his bedroom and office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Felix's book, charger, glasses, and headphones were found in bedroom_2 at 22:32, having been in the office all day. This confirms the pattern of moving these items to the bedroom at night.",
+     "was": {
+      "statement": "Felix's book, charger, glasses, and headphones are mobile. They were on the bedroom_2 nightstand at 09:42 on day 3, moved to the office desk by 11:09 on day 3, on the bedroom_2 nightstand at 09:06 on day 6, and moved to the office desk by 1",
+      "holds_under": "Felix is moving between his bedroom and office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The 14:25 sighting showed Felix's notebook on the floor and several items (charger, glasses, headphones, mug, water bottle) missing from the office. By 17:46, all items were back on the desk. This suggests a temporary break or movement, not a permanent change in location.",
+     "was": {
+      "statement": "Felix's book, charger, glasses, and headphones are mobile. They were on the office desk from 09:21 to 16:36 on day 7, and moved to the bedroom_2 nightstand/bed by 22:32. This suggests he takes them to bed at night.",
+      "holds_under": "Felix is moving between his office and bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Felix's laptop, charger, glasses, and headphones were missing from the office desk at 20:31, while his mouse, notebook, and pen remained. This suggests he took the portable electronics with him, likely to the bedroom or living room, after finishing work.",
+     "was": {
+      "statement": "Felix's book, charger, glasses, and headphones are mobile. On day 8, they were on the office desk at 11:26 and 12:18, but missing at 14:25 (notebook was on the floor). By 17:46, they were back on the desk. This suggests he takes them to bed",
+      "holds_under": "Felix is moving between his office and bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Felix's portable electronics (laptop, charger, glasses, headphones) were present in the office throughout the day, contradicting the previous belief that he takes them with him when moving.",
+     "was": {
+      "statement": "Felix's laptop, charger, glasses, and headphones are mobile. On day 9, they were on the office desk until 15:09 but missing at 20:31, while mouse, notebook, and pen remained. This suggests he takes the portable electronics with him when he",
+      "holds_under": "Felix is moving between his office and other rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Felix's glass was on the kitchen cupboard on day 17. On day 24, it was found on the dining table at 19:50, suggesting he moved it to the dining room for the evening meal.",
+   "holds_under": "Felix is not currently using the glass.",
+   "supporting_observation_ids": [
+    "sighting_0008",
+    "sighting_0069"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Felix's glass was in the kitchen cupboard at 09:18 and 12:05, but was not in the kitchen at 15:23 or 18:59. It reappeared in the dish rack at 21:00. This supports the idea that the glass is mobile and moves with Felix.",
+     "was": {
+      "statement": "Felix's glass is mobile. It was in the kitchen cupboard at 08:25, on the kitchen sink at 15:17, and was not in the kitchen at 20:43. This suggests he takes it with him when he moves between rooms.",
+      "holds_under": "Felix is using his glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Felix's glass was in the pantry shelf at 09:42 and 11:09, not the cupboard or dish rack as previously noted. It seems to be stored in the pantry when not in use.",
+     "was": {
+      "statement": "Felix's glass is mobile. It was in the kitchen cupboard at 09:18 and 12:05, absent from the kitchen at 15:23 and 18:59, and back in the dish rack at 21:00. This suggests he takes it with him when he moves between rooms.",
+      "holds_under": "Felix is using his glass or moving between rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Felix's glass was found in the kitchen sink at 13:51 and 17:00, contradicting the previous belief that it is stored in the pantry shelf when not in use. It is now in the dining room.",
+     "was": {
+      "statement": "Felix's glass is stored in the kitchen pantry shelf when not in use. It was found there at 09:42 [sighting_0399] and 11:09 [sighting_0429]. It is not currently in the sink or dish rack.",
+      "holds_under": "Felix is not currently drinking from the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Felix's glass was in the dining room yesterday, but is now consistently in the kitchen cupboard, suggesting he has returned it to its storage place.",
+     "was": {
+      "statement": "Felix's glass is currently in the dining room. It was found in the kitchen sink at 13:51 [sighting_0557] and 17:00 [sighting_0582], and moved to the dining table by 19:49 [sighting_0621].",
+      "holds_under": "Felix is in the dining room or has just finished eating there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's glass has been in the kitchen cupboard for 3 consecutive sightings today (09:06, 11:58, 22:50), confirming the pattern from Day 5.",
+     "was": {
+      "statement": "Felix's glass is currently in the kitchen cupboard. It was in the dining room on day 4, but has been in the kitchen cupboard from 07:37 to 10:29 on day 5. This suggests he has returned it to storage.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Felix's glass was in the kitchen cupboard at 09:21 on day 7, consistent with previous days.",
+     "was": {
+      "statement": "Felix's glass is currently in the kitchen cupboard. It was in the dining room on day 4, in the kitchen cupboard from 07:37 to 10:29 on day 5, and in the kitchen cupboard from 09:06 to 22:50 on day 6. This suggests he has returned it to its",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Felix's glass was found in the kitchen sink at 19:34, but was not there at 20:31. This suggests it was washed and put away, or moved. The previous claim that it was in the cupboard is no longer supported by recent sightings.",
+     "was": {
+      "statement": "Felix's glass is currently in the kitchen cupboard. It was found there at 09:21 on day 7, consistent with its location on day 6.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Felix's glass was found on the dining table at 20:30, updating its last known location.",
+     "was": {
+      "statement": "Felix's glass was in the kitchen sink at 19:34 on day 9, but not at 20:31. This suggests it was washed and put away, or moved. Its location is currently unknown.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Felix's glass was on the kitchen cupboard at 10:20, but was found on the dining table at 19:25, indicating he moved it to the dining room for the evening.",
+     "was": {
+      "statement": "Felix's glass was in the kitchen sink at 19:34 on day 9. On day 10, it was found on the dining table at 20:30. This suggests he moved it to the dining room for use.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's glass was on the kitchen cupboard at 09:33 but was found on the dining table at 22:04, suggesting he moved it to the dining room for the evening.",
+     "was": {
+      "statement": "Felix's glass was on the kitchen cupboard at 10:20 on day 14. At 19:25, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's glass was on the kitchen cupboard at 07:59 and 10:32, then moved to the dining table at 20:22, suggesting he used it for dinner.",
+     "was": {
+      "statement": "Felix's glass was on the kitchen cupboard at 09:33 on day 15. At 22:04, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's glass was on the dining table at 19:50, consistent with his evening dining habit.",
+     "was": {
+      "statement": "Felix's glass was on the kitchen cupboard at 07:59 and 10:32 on day 17. At 20:22, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "The kitchen sink is where dirty dishes accumulate. At 19:20 on day 28, Felix's bowl and mug were in the sink. Items remain there until washed.",
+   "holds_under": "Dishes have been used and not yet washed.",
+   "supporting_observation_ids": [
+    "sighting_0067-0072",
+    "sighting_0140-0145"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "The kitchen sink continues to be the primary location for dirty dishes. At 18:59, Felix's bowl, Yuki's bowl, Yuki's mug, and Yuki's plate were all in the sink. By 21:00, Felix's plate had moved to the dish rack, indicating it was washed, while other items remained.",
+     "was": {
+      "statement": "The kitchen sink is where dirty dishes accumulate. By 15:17, Felix's bowl, glass, and plate were all in the sink. By 20:43, Felix's mug and the kitchen knife were also there. This suggests dishes are left in the sink after use.",
+      "holds_under": "Dishes have been used and not yet washed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Felix's bowl appeared in the kitchen sink at 11:09, joining Yuki's bowl. This confirms the sink is where used dishes accumulate before washing.",
+     "was": {
+      "statement": "The kitchen sink is where dirty dishes accumulate. At 18:59, Felix's bowl, Yuki's bowl, Yuki's mug, and Yuki's plate were in the sink. By 21:00, Felix's plate had moved to the dish rack, suggesting it was washed, while other items remained.",
+      "holds_under": "Dishes have been used and not yet washed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The kitchen sink is where dirty dishes accumulate. At 22:50, the cutting board, knife, pan, pot, and spatula were in the sink. This confirms the pattern from Day 3.",
+     "was": {
+      "statement": "The kitchen sink is where dirty dishes accumulate. At 11:09, both Felix's bowl [sighting_0430] and Yuki's bowl [sighting_0431] were in the sink. Items remain there until washed.",
+      "holds_under": "Dishes have been used and not yet washed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "The kitchen sink contained dirty dishes (bowl, mug, pan, snack bowl) at 20:30, consistent with the belief that it is where dirty dishes accumulate.",
+     "was": {
+      "statement": "The kitchen sink is where dirty dishes accumulate. At 11:09 on day 3, both Felix's bowl and Yuki's bowl were in the sink. At 22:50 on day 6, the cutting board, knife, pan, pot, and spatula were in the sink. Items remain there until washed.",
+      "holds_under": "Dishes have been used and not yet washed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's mug was found in the kitchen sink, consistent with it being dirty and waiting to be washed.",
+     "was": {
+      "statement": "The kitchen sink is where dirty dishes accumulate. At 11:09 on day 3, both Felix's bowl and Yuki's bowl were in the sink. At 20:30 on day 10, Felix's bowl, Yuki's bowl, Felix's mug, Yuki's mug, and a pan were in the sink. Items remain there",
+      "holds_under": "Dishes have been used and not yet washed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 07:44 on day 29, consistent with previous days.",
+   "holds_under": "Yuki is not currently using the camera.",
+   "supporting_observation_ids": [
+    "sighting_0032",
+    "sighting_0074",
+    "sighting_0147"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Yuki's camera was consistently on the bookshelf in the living room at 12:05 and 18:59. This supports the idea that it is not frequently used or moved.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 09:14, 15:17, and 20:43. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Yuki's camera was on the bookshelf in the living room at 18:08, consistent with its storage location.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 12:05 and 18:59. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 16:42. This supports the claim that it is a stable fixture there.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 18:08 on day 17. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 15:53 and 21:14, continuing the pattern of it being a stable fixture there.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 18:08 on day 17 and 16:42 on day 18. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 10:28 and 17:32, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 15:53 and 21:14 on day 19. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 15:33, consistent with its location on day 20. This supports the idea that it is a stable fixture in the living room when not in use.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 10:28 and 17:32 on day 20. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 15:55, consistent with its location on day 21. This supports the idea that it is a stable fixture when not in use.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 15:33 on day 21, consistent with previous days. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 21:04, consistent with its location on day 22. This supports the idea that it is a stable item in the living room when not in use.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 15:55 on day 22, consistent with day 21. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Yuki's camera was found on the bookshelf in the living room at 07:44, consistent with its usual location.",
+     "was": {
+      "statement": "Yuki's camera is consistently found on the bookshelf in the living room. It was there at 21:04 on day 23, consistent with day 22. This suggests it is not frequently used or moved.",
+      "holds_under": "Yuki is not currently using the camera.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "The shopping bag is found in the kitchen, often on the pantry shelf after unpacking. On day 30, it was on the pantry shelf at 17:44.",
+   "holds_under": "The shopping bag is in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0004",
+    "sighting_0052",
+    "sighting_0124"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "The shopping bag has been consistently on the kitchen chair since 09:18, moving from the counter (Day 1) to the chair. It remains there through 21:00, suggesting it is a temporary storage spot in the kitchen.",
+     "was": {
+      "statement": "The shopping bag is in the kitchen. It was on the counter at 08:25 and 15:17, but moved to the kitchen chair by 20:43. This suggests it is used for temporary storage of items.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "The shopping bag remained on the kitchen chair from 09:42 to 11:09, consistent with its location on Day 2.",
+     "was": {
+      "statement": "The shopping bag is in the kitchen. It moved from the counter (Day 1) to the kitchen chair by 09:18 and remained there through 21:00. This suggests it is used for temporary storage of items in the kitchen.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The shopping bag was found on the kitchen floor at 13:51, 17:00, and 19:49, contradicting the previous belief that it is stored on the kitchen chair.",
+     "was": {
+      "statement": "The shopping bag is stored on the kitchen chair. It was found there at 09:42 [sighting_0380] and 11:09 [sighting_0411]. It appears to be a temporary storage spot in the kitchen.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The shopping bag has been on the pantry shelf for 3 consecutive sightings today (09:06, 11:58, 22:50). This contradicts the previous note that it was on the kitchen floor, suggesting it has been put away.",
+     "was": {
+      "statement": "The shopping bag is currently on the kitchen floor. It was found there at 13:51 [sighting_0552], 17:00 [sighting_0577], and 19:49 [sighting_0608].",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The shopping bag was on the pantry shelf at 09:21 on day 7, consistent with previous days.",
+     "was": {
+      "statement": "The shopping bag is currently on the pantry shelf in the kitchen. It was on the kitchen floor at 13:51, 17:00, and 19:49 on day 4, but has been on the pantry shelf from 09:06 to 22:50 on day 6. This suggests it has been put away.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The shopping bag was found on the pantry shelf in the kitchen at 19:34 and 20:31, consistent with its location on day 7.",
+     "was": {
+      "statement": "The shopping bag is currently on the pantry shelf in the kitchen. It was found there at 09:21 on day 7, consistent with its location on day 6.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "The shopping bag was found on the pantry shelf in the kitchen at 20:30, consistent with previous days.",
+     "was": {
+      "statement": "The shopping bag is currently on the pantry shelf in the kitchen. It was found there at 19:34 and 20:31 on day 9, consistent with its location on day 7.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "The shopping bag was found on the kitchen chair at 07:35, 11:40, and 22:13 on day 13, not on the pantry shelf as previously noted.",
+     "was": {
+      "statement": "The shopping bag is currently on the pantry shelf in the kitchen. It was found there at 19:34 and 20:31 on day 9, and again at 20:30 on day 10. This suggests it is a permanent fixture in the kitchen pantry.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "The shopping bag remained on the kitchen chair throughout all observations on day 14 (10:20, 13:14, 14:31, 19:25), confirming it is a stable fixture in the kitchen.",
+     "was": {
+      "statement": "The shopping bag is currently on the kitchen chair. It was found there at 07:35, 11:40, and 22:13 on day 13. This suggests it is a temporary fixture in the kitchen, likely used for storage or transport.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "The shopping bag was consistently on the kitchen chair at 09:33 and 22:04 on day 15, confirming it is a stable fixture in the kitchen.",
+     "was": {
+      "statement": "The shopping bag is consistently on the kitchen chair. It was found there at 10:20, 13:14, 14:31, and 19:25 on day 14. This suggests it is a stable fixture in the kitchen, likely used for storage.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "The shopping bag was on the kitchen chair at 07:59, 10:32, and 20:22, consistent with its storage location.",
+     "was": {
+      "statement": "The shopping bag is consistently on the kitchen chair. It was found there at 09:33 and 22:04 on day 15. This suggests it is a stable fixture in the kitchen, likely used for storage.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "The shopping bag was on the kitchen chair at 20:24, consistent with its stable location.",
+     "was": {
+      "statement": "The shopping bag is consistently on the kitchen chair. It was found there at 07:59, 10:32, and 20:22 on day 17. This suggests it is a stable fixture in the kitchen, likely used for storage.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "The shopping bag was found on the pantry shelf at 17:44, not the kitchen chair as previously noted. This suggests it is moved after being unpacked.",
+     "was": {
+      "statement": "The shopping bag is consistently on the kitchen chair. It was found there at 20:24 on day 24, consistent with previous days. This suggests it is a stable fixture in the kitchen.",
+      "holds_under": "The shopping bag is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "The vase is usually on the dining table. It was found there at 07:44 on day 29, consistent with previous days.",
+   "holds_under": "The vase is in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0156"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The vase was found on the dining table at 19:49, confirming it is present in the dining room in the evening.",
+     "was": {
+      "statement": "A vase appeared on the dining table at 22:59. It was not seen in any other room or at any other time. This suggests it was brought out for the evening or is a new item.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The vase has been on the dining table for 2 consecutive sightings today (19:49 on day 4, 22:50 on day 6). Yuki was present in the dining room at 22:50.",
+     "was": {
+      "statement": "The vase is on the dining table. It was found there at 19:49 [sighting_0623].",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The vase was found on the dining table at 19:34, consistent with its location on day 6. This suggests it is a permanent fixture in the dining room.",
+     "was": {
+      "statement": "The vase is on the dining table. It was found there at 19:49 on day 4 and at 22:50 on day 6. This suggests it is a permanent fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "The vase was found on the dining table at 20:30, consistent with previous days.",
+     "was": {
+      "statement": "The vase is on the dining table. It was found there at 19:34 on day 9, consistent with day 6. This suggests it is a permanent fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "The vase was found on the dining table at 07:35 and 22:13 on day 13, consistent with its location on day 10.",
+     "was": {
+      "statement": "The vase is on the dining table. It was found there at 19:34 on day 9, and again at 20:30 on day 10. This suggests it is a permanent fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "The vase was on the dining table at 10:20 and 13:14, but was missing at 19:25, suggesting it was moved or taken away in the evening.",
+     "was": {
+      "statement": "The vase is on the dining table. It was found there at 19:34 on day 9, 20:30 on day 10, and at 07:35 and 22:13 on day 13. This suggests it is a permanent fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "The vase was on the dining table at 09:33 and 22:04 on day 15, confirming it is a fixture in the dining room.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 10:20 and 13:14 on day 14, but was missing at 19:25. This suggests it is a fixture that may be moved or taken away in the evening.",
+      "holds_under": "The vase is in the dining room during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "The vase was on the dining table at 07:59 and 20:22, consistent with its storage location.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 09:33 and 22:04 on day 15. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The vase was found on the dining table at 08:34. This supports the claim that it is a stable fixture in the dining room.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 07:59 and 20:22 on day 17. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The vase was found on the dining table at 20:20, consistent with it being a stable fixture.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 07:59 and 20:22 on day 17, and at 08:34 on day 18. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The vase was found on the dining table at 21:51, consistent with its location on day 20. This supports the idea that it is a stable fixture in the dining room.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 20:20 on day 20. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "The vase was on the dining table at 19:50 and 20:24, consistent with its stable location.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 21:51 on day 21, consistent with day 20. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "The vase was found on the dining table, consistent with previous days.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 19:50 and 20:24 on day 24, consistent with previous days. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "The vase was found on the dining table at 07:44, consistent with its usual location.",
+     "was": {
+      "statement": "The vase is usually on the dining table. It was found there at 19:20 on day 28, consistent with previous days. This suggests it is a stable fixture in the dining room.",
+      "holds_under": "The vase is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Yuki's glass was on the dining table at 19:20 on day 28, consistent with previous days. This suggests she is dining in the dining room.",
+   "holds_under": "Yuki is not currently using the glass.",
+   "supporting_observation_ids": [
+    "sighting_0009",
+    "sighting_0056",
+    "sighting_0131",
+    "sighting_0155"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Yuki's glass was in the kitchen cupboard at 09:06 and 11:58, but moved to the dining table by 22:50. This confirms the pattern from Day 1 that she moves it to the dining room for the evening.",
+     "was": {
+      "statement": "Yuki's glass was in the kitchen cupboard at 08:25, 15:17, and 20:43. However, at 22:59, it was found on the dining table. This suggests she moved it to the dining room for the evening.",
+      "holds_under": "Yuki is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Yuki's glass was in the kitchen cupboard at 09:21 on day 7, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's glass was in the kitchen cupboard at 08:25, 15:17, and 20:43 on day 1, and at 09:06 and 11:58 on day 6. However, at 22:59 on day 1 and 22:50 on day 6, it was found on the dining table. This suggests she moves it to the dining room f",
+      "holds_under": "Yuki is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Yuki's glass was found on the dining table at 19:34, but was not there at 20:31. This suggests she was using it in the dining room and then moved it or washed it. The previous claim that it was in the cupboard is no longer supported by recent sightings.",
+     "was": {
+      "statement": "Yuki's glass was in the kitchen cupboard at 09:21 on day 7, consistent with its location on day 6.",
+      "holds_under": "Yuki is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's glass was found on the pantry shelf in the kitchen at 20:30, updating its last known location.",
+     "was": {
+      "statement": "Yuki's glass was on the dining table at 19:34 on day 9, but not at 20:31. This suggests she was using it in the dining room and then moved it or washed it. Its location is currently unknown.",
+      "holds_under": "Yuki is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's glass was on the dining table at 19:50, indicating she is dining in the dining room.",
+     "was": {
+      "statement": "Yuki's glass was on the dining table at 19:34 on day 9. On day 10, it was found on the pantry shelf in the kitchen at 20:30. This suggests she moved it to the kitchen, possibly to store it.",
+      "holds_under": "Yuki is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's glass was found on the dining table, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's glass was on the dining table at 19:34 on day 9. On day 24, it was found on the dining table at 19:50, suggesting she is dining in the dining room.",
+      "holds_under": "Yuki is not currently using the glass.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Yuki's bowl and mug were in the kitchen cupboard on day 9. On day 10, they were found in the kitchen sink at 20:30. This suggests they are currently dirty and waiting to be washed.",
+   "holds_under": "Yuki has finished using the dishes and put them away.",
+   "supporting_observation_ids": [
+    "sighting_0657",
+    "sighting_0658",
+    "sighting_0672",
+    "sighting_0681"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Yuki's bowl and mug have been in the kitchen cupboard for 3 consecutive sightings today (09:06, 11:58, 22:50). This contradicts the previous note that they were in the sink/dish rack, suggesting they have been washed and put away.",
+     "was": {
+      "statement": "Yuki's bowl and mug are currently in the kitchen. They were in the dining room at 07:37, but moved to the kitchen sink/dish rack by 10:29. This suggests she finished eating and left the dishes to be washed.",
+      "holds_under": "Yuki has finished eating and not yet washed the dishes.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Yuki's bowl and mug were found in the kitchen cupboard at 19:34 and 20:31, consistent with their location on day 6. This suggests they are put away in the cupboard when not in use.",
+     "was": {
+      "statement": "Yuki's bowl and mug are currently in the kitchen cupboard. They were in the dining room at 07:37 on day 5, in the kitchen sink/dish rack by 10:29 on day 5, and in the kitchen cupboard from 09:06 to 22:50 on day 6. This suggests they have",
+      "holds_under": "Yuki has finished using the dishes and put them away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's bowl and mug were found in the kitchen sink at 20:30, contradicting the belief that they are put away in the cupboard.",
+     "was": {
+      "statement": "Yuki's bowl and mug are currently in the kitchen cupboard. They were found there at 19:34 and 20:31 on day 9, consistent with day 6. This suggests they are put away in the cupboard when not in use.",
+      "holds_under": "Yuki has finished using the dishes and put them away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Yuki's vitamins are consistently on the kitchen counter. On day 30, they were found there at 17:44.",
+   "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+   "supporting_observation_ids": [
+    "sighting_0679"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Yuki's vitamins have been on the kitchen table for 3 consecutive sightings today (09:06, 11:58, 22:50), confirming the pattern from Day 5.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen table. They were found there at 10:29. This suggests she takes them in the kitchen in the morning.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Yuki's vitamins were on the kitchen counter at 09:21 on day 7, not the table as previously noted. This suggests she takes them in the kitchen in the morning.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen table. They were found there at 10:29 on day 5, and from 09:06 to 22:50 on day 6. This suggests she takes them in the kitchen in the morning and leaves them there.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Yuki's vitamins were found on the kitchen counter at 19:34 and 20:31, consistent with their location on day 7. This suggests they are kept there, possibly for evening use or just left there.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen counter. They were found there at 09:21 on day 7. This suggests she takes them in the kitchen in the morning and leaves them there.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's vitamins were found on the kitchen counter at 20:30, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen counter. They were found there at 19:34 and 20:31 on day 9, consistent with day 7. This suggests they are kept there, possibly for evening use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Yuki's vitamins were found on the kitchen counter at 11:40 and 22:13 on day 13, consistent with their location on day 10.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen counter. They were found there at 19:34 and 20:31 on day 9, and again at 20:30 on day 10. This suggests they are kept there, possibly for evening use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Yuki's vitamins were on the kitchen counter at 10:20, 13:14, 14:31, and 19:25, confirming they are kept there for daily use.",
+     "was": {
+      "statement": "Yuki's vitamins are currently on the kitchen counter. They were found there at 19:34 and 20:31 on day 9, 20:30 on day 10, and at 11:40 and 22:13 on day 13. This suggests they are kept there, possibly for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Yuki's vitamins were on the kitchen counter at 09:33 and 22:04 on day 15, confirming they are kept there for daily use.",
+     "was": {
+      "statement": "Yuki's vitamins are consistently on the kitchen counter. They were found there at 10:20, 13:14, 14:31, and 19:25 on day 14. This suggests they are kept there for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Yuki's vitamins were on the kitchen counter at 07:59, consistent with her morning routine.",
+     "was": {
+      "statement": "Yuki's vitamins are consistently on the kitchen counter. They were found there at 09:33 and 22:04 on day 15. This suggests they are kept there for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's vitamins were on the kitchen counter at 20:24, consistent with their stable location.",
+     "was": {
+      "statement": "Yuki's vitamins are consistently on the kitchen counter. They were found there at 07:59 on day 17. This suggests they are kept there for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's vitamins were found on the kitchen counter, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's vitamins are consistently on the kitchen counter. They were found there at 20:24 on day 24, consistent with previous days. This suggests they are kept there for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Yuki's vitamins were found on the kitchen counter at 17:44, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's vitamins are consistently on the kitchen counter. They were found there at 19:20 on day 28, consistent with previous days. This suggests they are kept there for daily use.",
+      "holds_under": "Yuki is in the kitchen or has just taken her vitamins.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Yuki's skincare is stored on the bathroom shelf. On day 30, it was found there at 08:32, 09:27, and 18:51.",
+   "holds_under": "Yuki is in the bathroom or the item is stored there.",
+   "supporting_observation_ids": [
+    "sighting_0895",
+    "sighting_0979"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Yuki's skincare was on the bathroom shelf at both 08:43 and 20:31 on day 8. This contradicts the previous note that it moved to the medicine cabinet in the evening. It seems to stay on the shelf.",
+     "was": {
+      "statement": "Yuki's skincare is mobile within the bathroom. It was on the shelf at 07:00 and in the medicine cabinet at 20:23 on day 7. This suggests she uses it in the evening routine.",
+      "holds_under": "Yuki is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:17 and 20:31, confirming it is a permanent fixture there.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 08:43 and 20:31 on day 8. This suggests it is a permanent fixture on the shelf, not moved to the medicine cabinet in the evening as previously thought.",
+      "holds_under": "Yuki is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's skincare was found on the bathroom shelf at 19:21, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:17 and 20:31 on day 9. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:10, 09:29, and 20:19 on day 11, confirming it is a permanent fixture there.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:17 and 20:31 on day 9, and again at 19:21 on day 10. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:00, 19:17, and 20:56 on day 12, confirming it is a permanent fixture.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:10, 09:29, and 20:19 on day 11. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Yuki's skincare was found on the bathroom shelf at 09:13 on day 13, consistent with its location on day 12.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:00, 19:17, and 20:56 on day 12. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Yuki's skincare was on the bathroom shelf at 07:47, confirming it is a permanent fixture there.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:00, 19:17, and 20:56 on day 12, and at 09:13 on day 13. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Yuki's skincare was on the bathroom shelf at 07:25 but moved to the medicine cabinet by 21:33 on day 15, suggesting it is stored in the bathroom but may be moved between spots.",
+     "was": {
+      "statement": "Yuki's skincare is consistently on the bathroom shelf. It was found there at 07:47 on day 14. This suggests it is a permanent fixture on the shelf.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Yuki's skincare was on the bathroom shelf at 19:27 and 21:01, consistent with its storage location.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 15, it was on the bathroom shelf at 07:25 and moved to the medicine cabinet by 21:33. This suggests it is a bathroom item that may be moved between spots.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:00 and 20:39, confirming it is stored there.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 17, it was on the bathroom shelf at 19:27 and 21:01. This suggests it is a bathroom item that may be moved between spots.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Yuki's skincare was on the bathroom shelf at 07:00 and 14:12, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 19, it was on the bathroom shelf at 07:00 and 20:39. This suggests it is a bathroom item that may be moved between spots.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:00, consistent with its location on day 20. This supports the idea that it is a stable bathroom item.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 20, it was on the bathroom shelf at 07:00 and 14:12. This suggests it is a bathroom item that may be moved between spots.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's skincare was found on the bathroom shelf at 13:34 and 14:08, consistent with its location on day 21. This supports the idea that it is a stable bathroom item.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 21, it was on the bathroom shelf at 07:00, consistent with previous days. This suggests it is a stable bathroom item.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:00 and 07:31, consistent with its location on day 22. This suggests it is a stable bathroom item.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 22, it was on the bathroom shelf at 13:34 and 14:08, consistent with day 21. This suggests it is a stable bathroom item.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's skincare was on the bathroom shelf at 07:00 and 18:37, consistent with its stable location.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 23, it was on the bathroom shelf at 07:00 and 07:31, consistent with day 22. This suggests it is a stable bathroom item.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Yuki's skincare was found on the bathroom shelf, consistent with it being a stable bathroom item.",
+     "was": {
+      "statement": "Yuki's skincare is stored in the bathroom. On day 24, it was on the bathroom shelf at 07:00 and 18:37, consistent with previous days. This suggests it is a stable bathroom item.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Yuki's skincare was found on the bathroom shelf at 07:30, consistent with its long-term storage location.",
+     "was": {
+      "statement": "Yuki's skincare is stored on the bathroom shelf. On day 25, it was found there at 09:34, consistent with previous days.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Yuki's skincare was found on the bathroom shelf at 08:07 and 19:49, consistent with its usual storage location.",
+     "was": {
+      "statement": "Yuki's skincare is stored on the bathroom shelf. On day 26, it was found there at 07:30, consistent with previous days.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's skincare was found on the bathroom shelf, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's skincare is stored on the bathroom shelf. On day 27, it was found there at 08:07 and 19:49, consistent with previous days.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Yuki's skincare was found on the bathroom shelf at 10:03 and 20:58, consistent with its usual storage location.",
+     "was": {
+      "statement": "Yuki's skincare is stored on the bathroom shelf. On day 28, it was found there at 07:00, 08:44, and 20:20, consistent with previous days.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Yuki's skincare was found on the bathroom shelf at 08:32, 09:27, and 18:51, confirming it is a stable item in the bathroom.",
+     "was": {
+      "statement": "Yuki's skincare is stored on the bathroom shelf. On day 29, it was found there at 10:03 and 20:58, consistent with previous days.",
+      "holds_under": "Yuki is in the bathroom or the item is stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Yuki's personal items (backpack, laptop, lunchbox, notebook, pen, headphones, umbrella, sunglasses, wallets) were found on the entry floor/table at 22:57 on day 8. On day 10, they were found in the entryway at 07:53. This suggests she is in",
+   "holds_under": "Yuki has just arrived home or is in the entryway.",
+   "supporting_observation_ids": [
+    "sighting_1051",
+    "sighting_1053",
+    "sighting_1054",
+    "sighting_1055",
+    "sighting_1056",
+    "sighting_1057"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's personal items were found in the entryway at 07:53, suggesting she is preparing to leave or has just arrived.",
+     "was": {
+      "statement": "Yuki's personal items (backpack, laptop, lunchbox, notebook, pen, headphones, umbrella, charger, sunglasses, wallets) were found on the entry floor/table at 22:57 on day 8. This suggests she has just arrived home and is unpacking or has set",
+      "holds_under": "Yuki has just arrived home or is in the entryway.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Felix's water bottle was in the kitchen sink at 19:20 on day 28. This is consistent with it being dirty and waiting to be washed.",
+   "holds_under": "Felix has finished using the water bottle and put it in the sink.",
+   "supporting_observation_ids": [
+    "sighting_1152"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Felix's water bottle was found on the dining table at 20:30, updating its last known location.",
+     "was": {
+      "statement": "Felix's water bottle was in the kitchen sink at 19:34 on day 9, but not at 20:31. This suggests he was using it in the kitchen and then moved it or washed it. Its location is currently unknown.",
+      "holds_under": "Felix is not currently using the water bottle.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Felix's water bottle was on the office desk from 12:27 to 14:53. It was not in the office at 22:59, suggesting he took it with him when he left the office.",
+     "was": {
+      "statement": "Felix's water bottle was in the kitchen sink at 19:34 on day 9. On day 10, it was found on the dining table at 20:30. This suggests he moved it to the dining room for use.",
+      "holds_under": "Felix is not currently using the water bottle.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Felix's water bottle was on the office desk during the work block on day 12, consistent with previous days.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. It was on the desk from 12:27 to 14:53 on day 11. It was not in the office at 22:59, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Felix's water bottle was on the office desk during work hours on day 13, consistent with previous days.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. It was on the desk from 11:00 to 16:45 on day 12. It was not in the office at 22:59 on day 11, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Felix's water bottle was on the office desk from 09:45 to 15:40, but was found on the dining table at 19:25, indicating he moved it to the dining room for the evening.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. It was on the desk from 11:40 to 17:37 on day 13. It was not in the office at 22:59 on day 11, suggesting he takes it with him when he leaves for the evening.",
+      "holds_under": "Felix is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's water bottle was on the office desk during work hours (09:33-15:37) but was found on the dining table at 22:04, indicating he moved it to the dining room for the evening.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 14, it was on the desk from 09:45 to 15:40. At 19:25, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's water bottle was on the office desk from 10:32 to 16:17, then moved to the dining table at 20:22, suggesting he moved it to the dining room for the evening.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 15, it was on the desk from 09:33 to 15:37. At 22:04, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's water bottle was on the office desk from 12:06 to 19:23. This confirms the pattern of keeping it at his workspace.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 17, it was on the desk from 10:32 to 16:17. At 20:22, it was found on the dining table, suggesting he moved it to the dining room for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Felix's water bottle was found on the office desk at 09:15, 13:15, and 14:42, supporting the pattern of it being with him during work hours.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 18, it was on the desk from 12:06 to 19:23. This suggests he keeps it with him while working.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Felix's water bottle was on the office desk at 10:28, 11:38, 12:51, and 15:47, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 19, it was on the desk from 09:15 to 14:42. This suggests he keeps it with him while working.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Felix's water bottle was on the office desk from 10:36 to 18:56, but was missing at 21:51. Instead, it was found on the dining table at 21:51, suggesting he moved it there for the evening.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 20, it was on the desk from 10:28 to 15:47. This suggests he keeps it with him while working.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's water bottle was on the office desk during the day but was found on the dining table at 19:50, indicating he moved it for the evening meal.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 21, it was on the desk from 10:36 to 18:56. At 21:51, it was found on the dining table, suggesting he moved it there for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's water bottle was found in the kitchen sink, consistent with it being dirty and waiting to be washed.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 24, it was on the desk from 09:31 to 12:31. At 19:50, it was found on the dining table, suggesting he moved it there for the evening.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Yuki's water bottle was on the dining table at 19:20 on day 28, consistent with previous days. This suggests she is dining in the dining room.",
+   "holds_under": "Yuki is moving between the dining room and kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1156",
+    "sighting_1178"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Yuki's water bottle was found in the kitchen sink at 20:30, consistent with the previous day's location.",
+     "was": {
+      "statement": "Yuki's water bottle was on the dining table at 19:34 and in the kitchen sink at 20:31 on day 9. This suggests she moved it from the dining room to the kitchen, possibly to wash it or refill it.",
+      "holds_under": "Yuki is moving between the dining room and kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Yuki's water bottle was found on the dining table at 22:13 on day 13, not in the kitchen sink as previously noted.",
+     "was": {
+      "statement": "Yuki's water bottle was on the dining table at 19:34 and in the kitchen sink at 20:31 on day 9. On day 10, it was found in the kitchen sink at 20:30. This suggests it is kept in the kitchen sink when not in use.",
+      "holds_under": "Yuki is moving between the dining room and kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Yuki's water bottle was on the kitchen dish rack at 10:20, but was missing from the kitchen at 13:14, 14:31, and 19:25, suggesting it was moved or used.",
+     "was": {
+      "statement": "Yuki's water bottle was on the dining table at 22:13 on day 13. It was in the kitchen sink at 20:31 on day 9 and 20:30 on day 10. This suggests it is moved between the dining room and kitchen depending on use.",
+      "holds_under": "Yuki is moving between the dining room and kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's water bottle was on the dining table at 19:50, indicating she is dining in the dining room.",
+     "was": {
+      "statement": "Yuki's water bottle was on the kitchen dish rack at 10:20 on day 14. It was missing from the kitchen at 13:14, 14:31, and 19:25, suggesting it was moved or used.",
+      "holds_under": "Yuki is moving between the dining room and kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's water bottle was found on the dining table, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's water bottle was on the kitchen dish rack on day 14. On day 24, it was found on the dining table at 19:50, suggesting she is dining in the dining room.",
+      "holds_under": "Yuki is moving between the dining room and kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Felix moves his charger, glasses, and headphones to the bedroom_2 nightstand when he leaves the office, but leaves his laptop, mouse, notebook, and pen on the desk. Observed at 15:20 on day 30 and 14:26 on day 31. [sighting_3238, sighting_3",
+   "holds_under": "Felix is leaving the office for a break or bed.",
+   "supporting_observation_ids": [
+    "sighting_1373",
+    "sighting_1374",
+    "sighting_1375",
+    "sighting_1367",
+    "sighting_1368"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 11,
+   "revision_history": [
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "At 13:55, Felix's charger, glasses, and headphones were found on the bedroom_2 nightstand. This confirms the pattern that he moves these specific items to the bedroom when he leaves the office, while leaving work tools like the laptop and mouse behind.",
+     "was": {
+      "statement": "Felix moves his charger, glasses, and book to the bedroom_2 nightstand at night, but leaves his laptop, headphones, mouse, notebook, and pen on the office desk.",
+      "holds_under": "Felix is going to bed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's full setup was present in the office from 11:19 to 14:14, but at 15:20 the charger, glasses, headphones, mug, and water bottle were missing. This matches the pattern from day 27 where he moves these specific items to the bedroom nightstand when leaving the office.",
+     "was": {
+      "statement": "Felix moves his charger, glasses, and headphones to the bedroom_2 nightstand when he leaves the office, but leaves his laptop, mouse, notebook, and pen on the desk. On day 27, this was observed at 13:55.",
+      "holds_under": "Felix is leaving the office for a break or bed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Felix's charger, glasses, and headphones were found on the bedroom_2 nightstand at 14:26, consistent with the pattern observed on day 30 where he moves these items when leaving the office. This supports the existing claim.",
+     "was": {
+      "statement": "Felix moves his charger, glasses, headphones, mug, and water bottle to the bedroom_2 nightstand when he leaves the office, but leaves his laptop, mouse, notebook, and pen on the desk. Observed at 15:20 on day 30.",
+      "holds_under": "Felix is leaving the office for a break or bed.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Felix's plate was on the dining table at 19:20 on day 28, consistent with previous days. This suggests he is using his plate for a meal.",
+   "holds_under": "Felix is using his plate for a meal.",
+   "supporting_observation_ids": [
+    "sighting_1619",
+    "sighting_1673",
+    "sighting_1731"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's plate was on the kitchen cupboard at 09:33 but was found on the dining table at 22:04, suggesting a progression from storage to dining.",
+     "was": {
+      "statement": "Felix's plate was on the kitchen cupboard at 10:20, moved to the sink at 14:31, and was found on the dining table at 19:25 on day 14. This suggests a progression from storage to use to dining.",
+      "holds_under": "Felix is using his plate for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's plate was on the kitchen cupboard at 07:59 and 10:32, then moved to the dining table at 20:22, suggesting he used it for dinner.",
+     "was": {
+      "statement": "Felix's plate was on the kitchen cupboard at 09:33 on day 15. At 22:04, it was found on the dining table, suggesting a progression from storage to dining.",
+      "holds_under": "Felix is using his plate for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's plate was on the dining table at 19:50, consistent with his evening dining habit.",
+     "was": {
+      "statement": "Felix's plate was on the kitchen cupboard at 07:59 and 10:32 on day 17. At 20:22, it was found on the dining table, suggesting a progression from storage to dining.",
+      "holds_under": "Felix is using his plate for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's plate was found on the dining table, consistent with previous days.",
+     "was": {
+      "statement": "Felix's plate was on the kitchen cupboard on day 17. On day 24, it was found on the dining table at 19:50, suggesting a progression from storage to dining.",
+      "holds_under": "Felix is using his plate for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Yuki's bowl is in the kitchen sink when dirty. On day 30, it was in the sink at 17:44.",
+   "holds_under": "Yuki has finished using the bowl and put it in the sink.",
+   "supporting_observation_ids": [
+    "sighting_1606",
+    "sighting_1649",
+    "sighting_1672",
+    "sighting_1719"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Yuki's bowl was in the kitchen sink at 09:33 on day 15, consistent with it being dirty and waiting to be washed.",
+     "was": {
+      "statement": "Yuki's bowl was on the dining table at 10:20 on day 14. It was found in the kitchen sink at 13:14, 14:31, and 19:25, indicating it was used and left dirty.",
+      "holds_under": "Yuki has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Yuki's bowl was in the kitchen sink at 17:44, indicating it is dirty and waiting to be washed.",
+     "was": {
+      "statement": "Yuki's bowl was in the kitchen sink at 09:33 on day 15. This is consistent with it being dirty and waiting to be washed.",
+      "holds_under": "Yuki has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Felix's bowl is in the kitchen sink when dirty, but on the dish rack when washed. On day 30, it was on the dish rack at 17:44.",
+   "holds_under": "Felix's bowl is in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1628",
+    "sighting_1648",
+    "sighting_1671",
+    "sighting_1718"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's bowl was on the dining table at 09:33 but was found in the kitchen sink at 22:04 on day 15, indicating it was used and left dirty.",
+     "was": {
+      "statement": "Felix's bowl was in the kitchen sink at 10:20, 13:14, 14:31, and 19:25 on day 14. This indicates it is consistently dirty and waiting to be washed.",
+      "holds_under": "Felix has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's bowl was on the dining table at 07:59, then in the kitchen sink at 10:32 and 20:22, indicating it was used and left dirty.",
+     "was": {
+      "statement": "Felix's bowl was on the dining table at 09:33 on day 15. At 22:04, it was found in the kitchen sink, indicating it was used and left dirty.",
+      "holds_under": "Felix has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's bowl was on the dining table at 19:50, consistent with his evening dining habit.",
+     "was": {
+      "statement": "Felix's bowl was on the dining table at 07:59 on day 17. At 10:32 and 20:22, it was found in the kitchen sink, indicating it was used and left dirty.",
+      "holds_under": "Felix has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's bowl was found in the kitchen sink, consistent with it being dirty and waiting to be washed.",
+     "was": {
+      "statement": "Felix's bowl was on the dining table at 07:59 on day 17. On day 24, it was found on the dining table at 19:50, indicating he is using it for a meal.",
+      "holds_under": "Felix is using his bowl for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's bowl was on the dish rack at 17:44, indicating it has been washed and put away, unlike previous days where it was in the sink.",
+     "was": {
+      "statement": "Felix's bowl was in the kitchen sink at 19:20 on day 28. This is consistent with it being dirty and waiting to be washed.",
+      "holds_under": "Felix has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Felix's primary workspace is the office desk. On day 23, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 11:32 to 15:08. He is consistently in the office during 11",
+   "holds_under": "Felix is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_1917",
+    "sighting_1918",
+    "sighting_1919",
+    "sighting_1920",
+    "sighting_1921",
+    "sighting_1922"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's full workspace setup was present in the office from 07:59 to 16:17, confirming his consistent daytime work pattern.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 16, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 11:53 to 16:47.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's full workspace setup was present in the office from 12:06 to 19:23. This confirms his primary workspace location.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 17, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 07:59 to 16:17.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Felix's full workspace setup was observed in the office at 09:15, 13:15, and 14:42, confirming his consistent work location and routine.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 18, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 12:06 to 19:23.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Felix's full workspace setup was observed in the office at 10:28, 11:38, 12:51, and 15:47. This confirms his consistent work pattern.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 19, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 09:15 to 14:42. He is consistently in the office during 09",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Felix's full work setup was present in the office from 10:36 to 18:56, consistent with previous days. At 21:51, the laptop, charger, glasses, and mug were missing, while the mouse, notebook, pen, and plant remained. This confirms the pattern that he takes specific items to bed at night.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 20, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 10:28 to 15:47. He is consistently in the office during 10",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Felix's full workspace setup was observed in the office at 09:40, 10:23, and 14:28. This confirms his consistent daytime work pattern in the office.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 21, his full setup was present from 10:36 to 18:56. At 21:51, laptop, charger, glasses, and mug were missing, while mouse, notebook, pen, and plant remained. He takes the former to bed at",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Felix's full workspace setup was observed in the office from 11:32 to 15:08, consistent with previous days. This confirms his routine of working in the office during the day.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 22, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 09:40 to 14:28. He is consistently in the office during 11",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Felix's mug is on the office desk during work hours, but was found in the kitchen sink at 14:26 on day 31, suggesting he moved it for washing or use. [sighting_3261]",
+   "holds_under": "Felix is working in the office during the day and has not moved the mug to the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1922",
+    "sighting_1932",
+    "sighting_1942",
+    "sighting_1952",
+    "sighting_1962"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's mug was on the office desk during his work hours on day 17.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 16, it was on the desk from 11:53 to 16:47.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's mug was on the office desk from 09:31 to 12:31, consistent with his work pattern.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 17, it was on the desk from 10:32 to 16:17.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's mug was seen on the office desk throughout the workday, supporting the pattern of it being a work item.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 24, it was on the desk from 09:31 to 12:31.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Felix's mug was on the office desk from 09:30 to 17:40, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 25, it was on the desk from 08:58 to 18:57, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's mug was on the office desk during work hours, consistent with previous days.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 26, it was on the desk from 09:30 to 17:40, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Felix's mug was on the office desk from 12:56 to 18:35, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 28, it was on the desk from 10:43 to 16:15, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's mug was on the office desk from 11:19 to 14:14, consistent with his work habits.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 29, it was on the desk from 12:56 to 18:35, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Felix's mug was found in the kitchen sink at 14:26, contradicting the claim that it is on the office desk during work hours. It appears he moved it to the kitchen, likely for washing or use, while leaving his other work items in the office.",
+     "was": {
+      "statement": "Felix's mug is on the office desk during work hours. On day 30, it was on the desk from 11:19 to 14:14.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Felix's water bottle is on the office desk during work hours, but was found in the kitchen sink at 14:26 on day 31, suggesting he moved it for washing or use. [sighting_3261]",
+   "holds_under": "Felix is working in the office during the day and has not moved the water bottle to the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1926",
+    "sighting_1936",
+    "sighting_1946",
+    "sighting_1956",
+    "sighting_1966"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's water bottle was on the office desk during his work hours on day 17.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 16, it was on the desk from 11:53 to 16:47.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's water bottle was on the office desk from 09:31 to 12:31, consistent with his work pattern.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 17, it was on the desk from 10:32 to 16:17.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's water bottle was seen on the office desk throughout the workday, supporting the pattern of it being a work item.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 24, it was on the desk from 09:31 to 12:31.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Felix's water bottle was on the office desk from 09:30 to 17:40, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 25, it was on the desk from 08:58 to 18:57, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's water bottle was on the office desk during work hours, consistent with previous days.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 26, it was on the desk from 09:30 to 17:40, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Felix's water bottle was on the office desk from 12:56 to 18:35, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 28, it was on the desk from 10:43 to 16:15, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's water bottle was on the office desk from 11:19 to 14:14, consistent with his work habits.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 29, it was on the desk from 12:56 to 18:35, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Felix's water bottle was found in the kitchen sink at 14:26, contradicting the claim that it is on the office desk during work hours. It appears he moved it to the kitchen, likely for washing or use, while leaving his other work items in the office.",
+     "was": {
+      "statement": "Felix's water bottle is on the office desk during work hours. On day 30, it was on the desk from 11:19 to 14:14.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Yuki's bowl is on the kitchen cupboard when clean. On day 31, it was found there at 14:26. [sighting_3246]",
+   "holds_under": "Yuki's bowl is clean and stored in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1872",
+    "sighting_1916"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Yuki's bowl was found on the kitchen cupboard at 07:59, suggesting it was clean and stored, unlike previous days where it was in the sink.",
+     "was": {
+      "statement": "Yuki's bowl was in the kitchen sink at 10:31 and 11:53 on day 16. This is consistent with it being dirty and waiting to be washed.",
+      "holds_under": "Yuki has finished using the bowl and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Yuki's bowl was found on the kitchen cupboard at 14:26, consistent with the claim that it is stored there when clean. This supports the existing claim.",
+     "was": {
+      "statement": "Yuki's bowl was on the kitchen cupboard at 07:59 on day 17. This suggests it was clean and stored, contrasting with previous days where it was in the sink.",
+      "holds_under": "Yuki's bowl is clean and stored in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Felix's bowl was on the dining table at 07:59 on day 17 and 08:34 on day 18. This suggests he eats in the dining room in the morning.",
+   "holds_under": "Felix is using his bowl for a meal.",
+   "supporting_observation_ids": [
+    "sighting_1874"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's bowl was on the dining table at 07:59, consistent with him eating breakfast in the dining room.",
+     "was": {
+      "statement": "Felix's bowl was on the dining table at 10:31 on day 16. This suggests he was eating or preparing to eat in the dining room.",
+      "holds_under": "Felix is using his bowl for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's bowl was on the dining table at 08:34. This suggests he was eating or preparing to eat in the dining room, similar to day 17.",
+     "was": {
+      "statement": "Felix's bowl was on the dining table at 07:59 on day 17. This suggests he was eating or preparing to eat in the dining room.",
+      "holds_under": "Felix is using his bowl for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Yuki's personal items (backpack, laptop, lunchbox, notebook, pen, headphones, sunglasses, wallet) were found in the entryway at 22:58 on day 31, consistent with previous days. This suggests she is preparing to leave or has just arrived. [s",
+   "holds_under": "Yuki is in the entryway or moving between rooms.",
+   "supporting_observation_ids": [
+    "sighting_1881",
+    "sighting_1885",
+    "sighting_1886",
+    "sighting_1887",
+    "sighting_1888",
+    "sighting_1891"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Yuki's personal items (backpack, laptop, lunchbox, notebook, pen, headphones, sunglasses, wallet) were found in the entryway at 22:58, consistent with the pattern observed on day 16 and day 8 where she is preparing to leave or has just arrived. This supports the existing claim.",
+     "was": {
+      "statement": "Yuki's personal items (backpack, laptop, lunchbox, notebook, pen, headphones, sunglasses, wallet) were found in the entryway at 10:31 on day 16. This suggests she is preparing to leave or has just arrived.",
+      "holds_under": "Yuki is in the entryway or moving between rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Felix's toiletry bag is usually on the bathroom shelf. On day 30, it was found there at 08:32, 09:27, and 18:51.",
+   "holds_under": "Felix is not currently using it.",
+   "supporting_observation_ids": [
+    "sighting_1846",
+    "sighting_1973"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Felix's toiletry bag was on the bathroom shelf at 19:27 and 21:01, consistent with its storage location.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:52 and on the sink at 18:57 on day 16. This suggests he used it during the day and left it on the sink.",
+      "holds_under": "Felix has used his toiletry bag.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 07:00 and 20:39, confirming it is stored there.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 19:27 and 21:01 on day 17. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 14:12, consistent with previous days.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 20:39 on day 19. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 07:00, consistent with its location on day 20. This supports the idea that it is stored there when not in use.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 14:12 on day 20. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 13:34 and 14:08, consistent with its location on day 21. This supports the idea that it is stored there when not in use.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:00 on day 21, consistent with previous days. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 07:00 and 07:31, consistent with its location on day 22. This suggests it is stored there when not in use.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 13:34 and 14:08 on day 22, consistent with day 21. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 18:37, consistent with its stable location.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 07:31 on day 23, consistent with day 22. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's toiletry bag was found on the bathroom shelf, consistent with it being stored there when not in use.",
+     "was": {
+      "statement": "Felix's toiletry bag was on the bathroom shelf at 07:00 and 18:37 on day 24, consistent with previous days. This suggests it is stored there when not in use.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 07:30, consistent with its long-term storage location.",
+     "was": {
+      "statement": "Felix's toiletry bag is stored on the bathroom shelf. On day 25, it was found there at 09:34, consistent with previous days.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Felix's toiletry bag was found on the bathroom shelf at 08:07 and 19:49, consistent with its usual storage location.",
+     "was": {
+      "statement": "Felix's toiletry bag is stored on the bathroom shelf. On day 26, it was found there at 07:30, consistent with previous days.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's toiletry bag was found on the bathroom shelf, consistent with previous days.",
+     "was": {
+      "statement": "Felix's toiletry bag is stored on the bathroom shelf. On day 27, it was found there at 08:07 and 19:49, consistent with previous days.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Felix's toiletry bag moved from the bathroom shelf to the sink at 20:58, suggesting he is currently using it or has just finished his routine.",
+     "was": {
+      "statement": "Felix's toiletry bag is stored on the bathroom shelf. On day 28, it was found there at 07:00, 08:44, and 20:20, consistent with previous days.",
+      "holds_under": "Felix's toiletry bag is stored in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's toiletry bag was on the bathroom shelf at 08:32, 09:27, and 18:51, returning to its usual spot after being on the sink on day 29.",
+     "was": {
+      "statement": "Felix's toiletry bag is usually on the bathroom shelf, but was found on the sink at 20:58 on day 29. This suggests he is currently using it or has just finished his routine.",
+      "holds_under": "Felix is in the bathroom or has just left it there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Yuki's plate was on the dining table at 19:20 on day 28, consistent with previous days. This suggests she is using her plate for a meal.",
+   "holds_under": "Yuki is using her plate for a meal.",
+   "supporting_observation_ids": [
+    "sighting_2001",
+    "sighting_2023"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's plate was on the dining table at 19:50, indicating she is dining in the dining room.",
+     "was": {
+      "statement": "Yuki's plate was in the kitchen sink at 07:59 and 10:32 on day 17. This suggests it was dirty and waiting to be washed.",
+      "holds_under": "Yuki has finished using the plate and put it in the sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's plate was found on the dining table, consistent with previous days.",
+     "was": {
+      "statement": "Yuki's plate was in the kitchen sink on day 17. On day 24, it was found on the dining table at 19:50, suggesting she is using it for a meal.",
+      "holds_under": "Yuki is using her plate for a meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Yuki's personal items (charger, glass, vitamins, water bottle) were found in bedroom_1 at 18:08 on day 17. This suggests she is in her room.",
+   "holds_under": "Yuki is in her room.",
+   "supporting_observation_ids": [
+    "sighting_2055",
+    "sighting_2057",
+    "sighting_2058",
+    "sighting_2059"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "Yuki's towel is usually on the towel rack, but was found on the bathroom shelf at 08:44 and 20:20 on day 28. It was on the rack at 07:00. This suggests it was used and moved to the shelf.",
+   "holds_under": "Yuki's towel is in the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_2197",
+    "sighting_2248"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Yuki's towel was on the towel rack at 07:00 and 14:12. This contradicts the previous claim that it moves to the shelf by evening; it remained on the rack at 14:12.",
+     "was": {
+      "statement": "Yuki's towel is on the towel rack in the morning and moved to the bathroom shelf by evening. On day 19, it was on the rack at 07:00 and on the shelf at 20:39.",
+      "holds_under": "Yuki has used the towel and put it away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Yuki's towel was found on the towel rack at 07:00, consistent with its location on day 20. This supports the idea that it is on the rack in the morning.",
+     "was": {
+      "statement": "Yuki's towel is on the towel rack in the morning and afternoon. On day 20, it was on the rack at 07:00 and 14:12. It may move to the shelf later in the evening.",
+      "holds_under": "Yuki has not yet put the towel away for the night.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Yuki's towel was on the towel rack at 07:00 and 18:37, consistent with its stable location.",
+     "was": {
+      "statement": "Yuki's towel is on the towel rack in the morning. On day 21, it was on the rack at 07:00, consistent with previous days. It may move to the shelf later in the evening.",
+      "holds_under": "Yuki has not yet put the towel away for the night.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Yuki's towel was found on the bathroom shelf, not the rack. This contradicts the previous note that it is on the rack in the morning. It may have been moved or is stored differently.",
+     "was": {
+      "statement": "Yuki's towel is on the towel rack in the morning. On day 24, it was on the rack at 07:00 and 18:37, consistent with previous days. It may move to the shelf later in the evening.",
+      "holds_under": "Yuki has not yet put the towel away for the night.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Yuki's towel was found on the bathroom shelf at 07:30, but moved to the towel rack by 08:17. This confirms the pattern that the towel's location fluctuates between the shelf and rack depending on recent use.",
+     "was": {
+      "statement": "Yuki's towel was on the bathroom shelf at 09:34 on day 25. Previously it was on the rack. It may be moved between the rack and shelf depending on use.",
+      "holds_under": "Yuki's towel is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Yuki's towel was on the towel rack at 08:07 and 19:49, consistent with the pattern of it being hung after use.",
+     "was": {
+      "statement": "Yuki's towel moves between the bathroom shelf and the towel rack. On day 26, it was on the shelf at 07:30 and on the rack at 08:17. This suggests it is hung on the rack after use and may be placed on the shelf when not in use or during tid",
+      "holds_under": "Yuki's towel is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Yuki's towel moved from the rack to the shelf between 07:00 and 08:44, and remained there at 20:20. This suggests it was used and placed on the shelf.",
+     "was": {
+      "statement": "Yuki's towel is usually on the towel rack. On day 27, it was on the rack at 08:07 and 19:49, consistent with previous days.",
+      "holds_under": "Yuki's towel is in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0031",
+   "statement": "Yuki's charger was on the bed in bedroom_1 at 09:30 on day 23. On day 22, it was on the wardrobe. This suggests she moves it within her room depending on her activity.",
+   "holds_under": "Yuki is in her room.",
+   "supporting_observation_ids": [
+    "sighting_2208"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's charger was found on the wardrobe in bedroom_1 at 12:00 and 12:32. This is a new location compared to the bed on day 19, suggesting she may be organizing or using the wardrobe space.",
+     "was": {
+      "statement": "Yuki's charger was on the bed in bedroom_1 at 09:37 on day 19. This suggests she is in her room or has just left it there.",
+      "holds_under": "Yuki is in her room or has just left the charger there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's charger was found on the bed in bedroom_1 at 09:30. This is a new location compared to the wardrobe on day 22, suggesting she moves it within her room depending on her activity.",
+     "was": {
+      "statement": "Yuki's charger was on the wardrobe in bedroom_1 at 12:00 and 12:32 on day 22. On day 19, it was on the bed. This suggests she moves it within her room depending on her activity.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0032",
+   "statement": "Yuki's glass was on the nightstand in bedroom_1 at 09:30 on day 23, consistent with day 22. This suggests it is a stable item in her room.",
+   "holds_under": "Yuki is in her room.",
+   "supporting_observation_ids": [
+    "sighting_2210"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's glass was found on the nightstand in bedroom_1 at 12:00 and 12:32. This is consistent with its location on day 19, suggesting it is a stable item in her room.",
+     "was": {
+      "statement": "Yuki's glass was on the desk in bedroom_1 at 09:37 on day 19. This suggests she is in her room.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's glass and water bottle were found on the nightstand in bedroom_1 at 09:30, consistent with their locations on day 22. This suggests they are stable items in her room.",
+     "was": {
+      "statement": "Yuki's glass was on the nightstand in bedroom_1 at 12:00 and 12:32 on day 22, consistent with day 19. This suggests it is a stable item in her room.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0033",
+   "statement": "Yuki's water bottle is on the nightstand or desk in bedroom_1. On day 31, it was found on the desk at 22:58. [sighting_3274]",
+   "holds_under": "Yuki is in her room.",
+   "supporting_observation_ids": [
+    "sighting_2211"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's water bottle was found on the nightstand in bedroom_1 at 12:00 and 12:32. This is consistent with its location on day 19, suggesting it is a stable item in her room.",
+     "was": {
+      "statement": "Yuki's water bottle was on the nightstand in bedroom_1 at 09:37 on day 19. This suggests she is in her room.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's water bottle was found on the nightstand in bedroom_1 at 09:30, consistent with its location on day 22. This suggests it is a stable item in her room.",
+     "was": {
+      "statement": "Yuki's water bottle was on the nightstand in bedroom_1 at 12:00 and 12:32 on day 22, consistent with day 19. This suggests it is a stable item in her room.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Yuki's water bottle was found on the desk in bedroom_1 at 22:58, consistent with the claim that it is a stable item in her room. This supports the existing claim.",
+     "was": {
+      "statement": "Yuki's water bottle was on the nightstand in bedroom_1 at 09:30 on day 23, consistent with day 22. This suggests it is a stable item in her room.",
+      "holds_under": "Yuki is in her room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0034",
+   "statement": "Felix's glass, plate, and water bottle were on the dining table at 20:47 on day 23, consistent with day 21. This suggests he eats in the dining room in the evening.",
+   "holds_under": "Felix is using his dishes for a meal in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_2348",
+    "sighting_2349",
+    "sighting_2351"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Felix's glass, plate, and water bottle were found on the dining table at 21:51, consistent with the pattern from day 20. This supports the idea that he eats in the dining room in the evening.",
+     "was": {
+      "statement": "Felix's glass, plate, and water bottle were on the dining table at 20:20 on day 20. This suggests he eats in the dining room in the evening.",
+      "holds_under": "Felix is using his dishes for a meal in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Felix's glass, plate, and water bottle were found on the dining table at 20:47, consistent with his evening dining habit observed on previous days.",
+     "was": {
+      "statement": "Felix's glass, plate, and water bottle were on the dining table at 21:51 on day 21, consistent with day 20. This suggests he eats in the dining room in the evening.",
+      "holds_under": "Felix is using his dishes for a meal in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0035",
+   "statement": "Yuki's mug was on the coffee table in the living room at 21:04 on day 23, consistent with day 22. This suggests she is relaxing in the living room in the evening.",
+   "holds_under": "Yuki is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_2339",
+    "sighting_2340"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Yuki's mug was found on the coffee table in the living room at 15:33, consistent with the pattern from day 20. This supports the idea that she is relaxing in the living room in the late afternoon.",
+     "was": {
+      "statement": "Yuki's mug and plate were on the coffee table in the living room at 17:32 on day 20. This suggests she is relaxing in the living room in the late afternoon.",
+      "holds_under": "Yuki is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Yuki's mug was found on the coffee table in the living room at 15:55, consistent with its location on day 21. This supports the idea that she is relaxing in the living room in the late afternoon.",
+     "was": {
+      "statement": "Yuki's mug was on the coffee table in the living room at 15:33 on day 21, consistent with day 20. This suggests she is relaxing in the living room in the late afternoon.",
+      "holds_under": "Yuki is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Yuki's mug was found on the coffee table in the living room at 21:04, consistent with its location on day 22. This suggests she is relaxing in the living room in the evening.",
+     "was": {
+      "statement": "Yuki's mug was on the coffee table in the living room at 15:55 on day 22, consistent with day 21. This suggests she is relaxing in the living room in the late afternoon.",
+      "holds_under": "Yuki is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0036",
+   "statement": "Felix's primary workspace is the office desk. On day 30, his full setup was present from 11:19 to 14:14. He is consistently in the office during the day.",
+   "holds_under": "Felix is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_2575",
+    "sighting_2576",
+    "sighting_2577",
+    "sighting_2578",
+    "sighting_2579",
+    "sighting_2580"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's full workspace setup was observed on the office desk from 08:58 to 18:57, confirming his consistent work location and routine.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 24, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 09:31 to 12:31. He is consistently in the office during 11",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Felix's full workspace setup was observed in the office from 09:30 to 17:40, consistent with his established daily routine of working in the office during the day.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 25, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 08:58 to 18:57. He is consistently in the office during 11",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Felix's full office setup was present from 10:10 to 12:19. At 13:55, the charger, glasses, headphones, mug, and water bottle were missing from the desk, while the laptop, mouse, notebook, and pen remained. This matches the pattern of him taking personal items to the bedroom for a break or lunch.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 26, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 09:30 to 17:40. He is consistently in the office during 11",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's full setup was present in the office from 10:43 to 16:15, consistent with his established work pattern.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 27, his full setup was present from 10:10 to 12:19. At 13:55, charger, glasses, headphones, mug, and water bottle were missing, consistent with him taking them to the bedroom for a break.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Felix's full workspace setup was observed in the office from 12:56 to 18:35, confirming his consistent work pattern.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 28, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 10:43 to 16:15. He is consistently in the office during 10",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Felix's full workspace setup was present in the office from 11:19 to 14:14, confirming his consistent work pattern.",
+     "was": {
+      "statement": "Felix's primary workspace is the office desk. On day 29, his full setup (laptop, mouse, pen, plant_pot_3, charger, glasses, headphones, mug, notebook, water bottle) was present from 12:56 to 18:35. He is consistently in the office during 12",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0037",
+   "statement": "Felix's mouse is on the office desk during work hours. On day 29, it was on the desk from 12:56 to 18:35, consistent with previous days.",
+   "holds_under": "Felix is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_2579",
+    "sighting_2658"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Felix's mouse was on the office desk during work hours, consistent with previous days.",
+     "was": {
+      "statement": "Felix's mouse is on the office desk during work hours. On day 24, it was on the desk from 09:31 to 12:31. At 22:59, it was found on the office shelf, suggesting he moved it there at the end of the day.",
+      "holds_under": "Felix is not currently using the mouse.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Felix's mouse was on the office desk from 12:56 to 18:35, consistent with his work routine.",
+     "was": {
+      "statement": "Felix's mouse is on the office desk during work hours. On day 28, it was on the desk from 10:43 to 16:15, consistent with previous days.",
+      "holds_under": "Felix is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0038",
+   "statement": "Felix's phone was found on the bathroom shelf at 09:07 on day 27. It was not present at 08:07 or 19:49, suggesting he left it there temporarily during his morning routine.",
+   "holds_under": "Felix is in the bathroom or has just left it there.",
+   "supporting_observation_ids": [
+    "sighting_2826"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0039",
+   "statement": "Felix's book was found on the bedroom_2 nightstand at 13:55 on day 27. This suggests he takes it to the bedroom for reading during breaks.",
+   "holds_under": "Felix is in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_2869"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0040",
+   "statement": "Yuki's bowl and mug were on the dining table at 07:44 on day 29. This suggests she is having breakfast in the dining room.",
+   "holds_under": "Yuki is using her dishes for a meal in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_3016",
+    "sighting_3017"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0041",
+   "statement": "Felix's mug was in the kitchen sink at 07:44 on day 29. This suggests it is dirty and waiting to be washed.",
+   "holds_under": "Felix has finished using the mug and put it in the sink.",
+   "supporting_observation_ids": [
+    "sighting_3005"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

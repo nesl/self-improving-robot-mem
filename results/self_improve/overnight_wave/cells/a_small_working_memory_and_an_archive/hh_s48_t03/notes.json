@@ -1,0 +1,810 @@
+{
+ "household": "hh_s48_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 10,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop and headphones are on the desk during work hours (approx 07:45-16:58). In the evening, laptop is gone; headphones remain on the desk. Mug is not on the\u529e\u516c\u684c",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    ">sighting_0026",
+    ">sighting_0171",
+    ">sighting_0172"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Corrects previous assumption about bedroom location. Office is clearly his study area.",
+     "was": {
+      "statement": "Marco is in bedroom_1 at 20:14. His headphones moved from nightstand (07:43) to bed (20:14). A book_marco appeared on the nightstand at 20:14. He is likely reading in bed.",
+      "holds_under": "Evening routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Consistent presence of work items in office across multiple sightings on Day 3.",
+     "was": {
+      "statement": "Marco's workspace is the office. At 20:05, his laptop, headphones, pen, sketchbook, and textbook were on the office desk. His book_marco is on the bedroom_1 nightstand. He was in the kitchen at 19:01.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Updated to reflect that headphones are not always on the desk and added new items found in bedroom_1.",
+     "was": {
+      "statement": "Marco works in the office. His desk holds laptop, headphones, pen, sketchbook, textbook. He is often in the office in the afternoon/evening. His book is on the bedroom_1 nightstand.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updated to reflect that the mug and headphones are present during the work block but absent in the evening, suggesting they are moved or used elsewhere at night. The book/keys/skincare location needs verification as they were not seen in B1",
+     "was": {
+      "statement": "Marco works in the office. His desk holds laptop, pen, textbook, plant_pot_3. Headphones are there during work hours (15:00-17:21) but gone by 20:18. His book, keys, and skincare are on the bedroom_1 nightstand. Jacket in wardrobe.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updated to reflect the specific evening setup observed at 19:38, distinguishing it from the morning state.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds laptop, pen, textbook, plant_pot_3. Mug is there during work hours (16:35-22:06) but gone by 20:14. Headphones are there during work hours (16:35-22:06) but gone by 20:14. Book, keys, and skincare are *",
+      "holds_under": "when he is working in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updated to reflect Day 10 sightings where laptop moved to living room and headphones appeared.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds laptop, pen, textbook, plant_pot_3. In the evening (19:38), he adds charger, mug, pencil_case, sketchbook. Laptop and textbook move to the office chair. Pen moves from floor to desk. He is likely at his",
+      "holds_under": "Marco is in the office working or studying.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect the specific time-based movement of Marco's items between the desk and chair, and the presence of the mug only during active work periods.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds laptop, pen, textbook, plant_pot_3, sketchbook, pencil_case. In the evening he adds headphones and mug. Laptop moves to the living room bookshelf at night. He was in the bathroom at 07:46.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updated to reflect that at 16:25 (late afternoon) the items are still on the desk, extending the 'work hours' window. The evening behavior is still a hypothesis based on previous days, not confirmed today.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug appear on desk during work hours (08:00-15:00). In the evening (19:00-20:00), laptop moves to office chair, headphones/mu",
+      "holds_under": "Marco is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updated to reflect that Marco was seen in the office at 17:15 with all his items on the desk, confirming the work pattern. The evening movement is still a hypothesis based on previous days, but today he was in the kitchen at 20:24.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug appear on desk during work hours (08:00-15:00). In the evening (19:00-20:00), laptop moves to office chair, headphones/mu",
+      "holds_under": "Marco is working in the office during the day. In the evening, he moves to the office chair or leaves the room, taking/m",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Updated to reflect that the laptop is on the floor, not the desk, during the day. The previous note was inaccurate about the laptop's location.",
+     "was": {
+      "statement": "Marco works in the office. Desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug appear on desk during work hours (08:00-15:00). In the evening (19:00-20:00), laptop moves to office chair, headphones/mu",
+      "holds_under": "Marco is working in the office during the day. In the evening, he moves to the kitchen or living room, leaving his work/",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Updated to reflect Day 15 13:51 sighting. Laptop was on the floor, not the chair, during work hours. Headphones and mug were NOT on the desk, contradicting previous belief. They were in bedroom_1.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop is on the office floor during work hours (08:00-16:00). In the evening, laptop moves to the office chair. Headphones and mug are on the desk during work,",
+      "holds_under": "Marco is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Updated to reflect that headphones are on the desk, not just during work, and clarified laptop location.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop is on the office floor during work hours (08:00-16:00). In the evening, laptop moves to the office chair. Headphones and mug are on the desk during work,",
+      "holds_under": "false",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Laptop was on the floor, not the chair, at 13:51. The 'evening' part of the claim is unverified today.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case, and headphones. Laptop is on the office floor during work hours (08:00-16:00). In the evening, laptop moves to the office chair. Mug is on the desk during work.",
+      "holds_under": "When Marco is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updated to reflect that the laptop was on the floor at 21:52, not the chair as previously thought. Headphones are in the bedroom wardrobe, not the office.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case, and headphones. Laptop is on the office floor during work hours (08:00-16:00). In the evening, laptop moves to the office chair. Mug is on the desk during work.",
+      "holds_under": "Work hours (08:00-16:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Updated to reflect that the laptop remains on the floor in the evening (20:55), not just during work hours. Confirmed desk items are consistent.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop is on the office floor during work hours (08:00-16:00). In the evening, laptop remains on the office floor. Mug is on the desk during work.",
+      "holds_under": "When Marco is working in the office or has left items there for the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Day 25 07:45 showed only stationery. Day 25 16:58 showed laptop, headphones, and mug added. Day 25 19:28 showed headphones in bedroom_1, implying he left the office.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop is on the office floor during work hours and in the evening. Mug is on the desk during work.",
+      "holds_under": "When Marco is working in the office or has left items there for the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to reflect that mug_marco was seen in the office at 21:07, contradicting the previous belief that it was gone in the evening. The mug seems to stay in the office or move back and forth, but today it was there late.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug are on the desk during work hours (approx 07:45-16:58). In the evening, laptop and mug are gone; headphones move to bedroom_1 night.",
+      "holds_under": "Marco is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Updated to reflect that headphones are on the bed, not nightstand, in the evening. Confirmed office desk contents at 14:08.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug are on the desk during work hours (approx 07:45-16:58). In the evening, laptop and mug are gone; headphones move to bedroom_1 night.",
+      "holds_under": "Marco is working in the office during the day. In the evening, he leaves the office and his items move to bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Updated to reflect that headphones stay on the desk in the evening, while the laptop is removed. The mug was seen in the office at 16:15 but not in the evening checks, suggesting it is moved or consumed.",
+     "was": {
+      "statement": "Marco's office desk holds pen, textbook, plant_pot_3, sketchbook, pencil_case. Laptop, headphones, and mug are on the desk during work hours (approx 07:45-16:58). In the evening, laptop and mug are gone; headphones move to bedroom_1 bed.",
+      "holds_under": "When Marco is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Priya's bathroom items: Razor is in the medicine cabinet. Skincare, toiletry bag, hair dryer, and towel are on the shelf/rack. These locations are stable throughout the day.",
+   "holds_under": "Always, unless Priya is actively using them.",
+   "supporting_observation_ids": [
+    ">sighting_0018",
+    ">sighting_0115",
+    ">sighting_0140"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Updates location data. Confirms living room as her main leisure spot.",
+     "was": {
+      "statement": "Priya's magazine is on the living room coffee table at 07:43, 15:17, and 20:14. She is likely in the living room during these times.",
+      "holds_under": "Priya's location",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Priya seen in living room at 19:40 and 22:59 with magazine. Morning bathroom sighting implies routine.",
+     "was": {
+      "statement": "Priya's magazine is consistently on the living room coffee table (seen 15:31, 19:01, 20:05). She was in the bathroom at 07:01. Her mug is in the kitchen cupboard.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Correcting the location of Priya's mug based on the 18:34 kitchen scan where it was not present in the cupboard, and updating her morning location.",
+     "was": {
+      "statement": "Priya relaxes in the living room in the evening. Her magazine is on the coffee table. She was in the bathroom in the morning. Her mug is in the kitchen cupboard.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Mug returned to cupboard by 15:05. Skincare missing from bathroom shelf in all 7 checks today, suggesting it is elsewhere or used up. Magazine stable on coffee table.",
+     "was": {
+      "statement": "Priya's mug is NOT in the kitchen cupboard (seen empty of it at 18:34). Her magazine is on the living room coffee table. She was in the bathroom at 07:00. Her skincare is on the bathroom sink.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Corrected mug location from cupboard to dish rack based on Day 6 20:18 sighting.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard. Her magazine is on the living room coffee table. Her skincare is NOT in the bathroom (seen missing all day). She was in the bathroom at 08:03.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Corrected mug location (cupboard, not dish rack) and added new sighting of lunchbox and water bottle.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen dish rack. Her magazine is on the living room coffee table. Her skincare is NOT in the bathroom (seen missing all day). She was in the bathroom at 08:03.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updated to reflect Day 10 sightings where mug and water bottle moved to sink and lunchbox disappeared.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard. Her magazine is on the living room coffee table. She was in the bathroom at 08:02. A lunchbox appeared in the kitchen cupboard at 19:38. Her water bottle is in the dish rack.",
+      "holds_under": "Priya is home and her items are in their usual places.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Confirmed Priya's mug is in the kitchen cupboard (not sink as previously noted, correcting location) and magazine is on the coffee table. Her water bottle and lunchbox were not seen in the kitchen today, suggesting they are elsewhere or not",
+     "was": {
+      "statement": "Priya's mug is in the kitchen sink. Her magazine is on the living room coffee table. Her water bottle is in the kitchen sink. Her lunchbox is not currently in the kitchen. She was not seen in the bathroom on Day 10.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Corrected the location of Priya's mug from sink to cupboard based on Day 14 sightings.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen sink. Her magazine is on the living room coffee table. Her water bottle is in the kitchen sink. Her lunchbox is not currently in the kitchen. She was not seen in the bathroom on Day 10.",
+      "holds_under": "Priya is home and has finished her morning routine. Her personal items are in their standard resting places.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Day 15 13:51 shows mug_priya in the kitchen sink, not cupboard. Magazine and water bottle not seen in kitchen. Lunchbox not seen. Priya not seen in bathroom.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard. Her magazine is on the living room coffee table. Her water bottle is in the kitchen sink. Her lunchbox is not currently in the kitchen. She was not seen in the bathroom on Day 10.",
+      "holds_under": "General state of Priya's items.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Day 25 07:08: razor/skincare on shelf. Day 25 08:54 onwards: razor/skincare on sink ba. This is a consistent shift indicating active use.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard. Her magazine is on the living room coffee table. Her water bottle is in the kitchen sink. Her lunchbox is not currently in the kitchen. She was not seen in the bathroom on Day 10.",
+      "holds_under": "false",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Confirmed again today. Razor was on shelf at 07:21, moved to sink by 08:21 and stayed there all day.",
+     "was": {
+      "statement": "Priya's bathroom routine: Razor and skincare are on the sink ba in the evening (after 08:54). In the morning (07:08), razor and skincare are on the bathroom shelf. This suggests she moves them to the sink for use and leaves them there.",
+      "holds_under": "Priya's daily bathroom habits.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Previous note suggested a morning/evening swap, but today's data shows them in the same spots all day. The 'swap' was likely a misinterpretation of static storage.",
+     "was": {
+      "statement": "Priya's bathroom routine: Razor and skincare are on the sink ba in the evening (after 08:54). In the morning (07:08), razor and skincare are on the bathroom shelf. This suggests she moves them to the sink for use and leaves them there.",
+      "holds_under": "Priya is using the bathroom. The razor moves from shelf to sink when she starts her routine and stays there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Refined to specify razor is in medicine cabinet, not shelf. Confirmed stability across multiple sightings.",
+     "was": {
+      "statement": "Priya's bathroom items (razor, skincare, toiletry bag) are consistently on the bathroom shelf or sink ba. Today they were on the shelf/sink at 08:08, 09:08, and 17:37. She does not move them to the sink for use; they stay in the bathroom.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Kitchen items moved from counter/cupboard to sink/dish_rack between 15:17 and 20:14 (e.g., cutting_board, knife, pan, spatula). Suggests cooking/cleaning activity in the evening.",
+   "holds_under": "Kitchen activity",
+   "supporting_observation_ids": [
+    ">sighting_0072",
+    ">sighting_0166",
+    ">sighting_0086",
+    ">sighting_0167",
+    ">sighting_0082",
+    ">sighting_0168"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Priya's bedroom (bedroom_2) contains her hair dryer (dresser), tablet (nightstand), book (nightstand), towel (bed), headphones (desk), jacket (wardrobe), and scarf (wardrobe). These items are consistently present in the evening.",
+   "holds_under": "Priya is in her bedroom or has recently been there. It is evening.",
+   "supporting_observation_ids": [
+    "sighting_1988",
+    "sighting_1989",
+    "sighting_1990",
+    "sighting_1991",
+    "sighting_2025",
+    "sighting_2026"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Marco's bedroom (bedroom_1) contains his book (nightstand) and sometimes his textbook (bed). The textbook moves to the office desk during work hours.",
+   "holds_under": "Marco is not in the office working. It is morning or evening.",
+   "supporting_observation_ids": [
+    "sighting_1986",
+    "sighting_1987",
+    "sighting_1999",
+    "sighting_2024"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Marco's bedroom_1 nightstand holds glass, headphones, and water bottle. His charger is on the bed during the day (14:00) and moves to the desk in the late afternoon (16:00). His book is on the bed in the morning and moves to the living room",
+   "holds_under": "Marco is in the house during the day.",
+   "supporting_observation_ids": [
+    "sighting_2149",
+    "sighting_2150",
+    "sighting_2199",
+    "sighting_2194",
+    "sighting_2200",
+    "sighting_2146"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Priya's bedroom_2 nightstand holds her book and tablet. Her jacket is in the wardrobe in the evening (21:00). Her bathroom items (razor, skincare, toiletry bag, towel) are in the bathroom. Her hair dryer is on the bathroom shelf in the eve",
+   "holds_under": "Priya is in the house.",
+   "supporting_observation_ids": [
+    "sighting_2226",
+    "sighting_2227",
+    "sighting_2277",
+    "sighting_2235",
+    "sighting_2232",
+    "sighting_2233"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Marco's bedroom_1: Scarf is on the bed. Vitamins are on the desk. Headphones are NOT in the bedroom (they are in the office). Phone is not currently visible.",
+   "holds_under": "Evening",
+   "supporting_observation_ids": [
+    "sighting_2322",
+    "sighting_2323",
+    "sighting_2325",
+    "sighting_2326",
+    "sighting_2327",
+    "sighting_2360"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Corrected item locations based on Day 17 sightings. Book moved to living room, charger on bed, water bottle on desk.",
+     "was": {
+      "statement": "Marco's bedroom_1 nightstand holds headphones, water_bottle, and glass. His charger is on the desk in the morning, but moves to the bed by midday (13:51). He is present in bedroom_1 at 13:51.",
+      "holds_under": "true",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated to reflect the 13:43 sighting where the water bottle moved to the nightstand and skincare appeared. The book is absent, consistent with it being in the living room.",
+     "was": {
+      "statement": "Marco's bedroom_1 nightstand holds glass and vitamins. His charger is on the bed. Water bottle is on the desk. Book is on the nightstand in the morning, but moves to the living room couch by afternoon. Jacket is in the wardrobe.",
+      "holds_under": "When Marco is in bedroom_1 or living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Charger moved to nightstand (was on bed). Skincare moved to bathroom. Book found in living room.",
+     "was": {
+      "statement": "Marco's bedroom_1 nightstand holds glass, vitamins, and skincare. Charger is on the bed. Water bottle is on the nightstand (moved from desk by 13:43). Jacket is in the wardrobe. Blanket is on the bed. Book is not in the bedroom in the late",
+      "holds_under": "Late afternoon/evening (post-13:00) when Marco is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated locations based on Day 21 sightings. Vitamins moved to kitchen cupboard.",
+     "was": {
+      "statement": "Marco's bedroom_1 nightstand holds glass, vitamins, water_bottle, and charger. Jacket is in the wardrobe. Skincare is in the bathroom. Book is in the living room armchair in the evening.",
+      "holds_under": "Morning (07:00-09:00) for nightstand items; Evening (16:00-20:00) for book location",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated to reflect that vitamins are on the nightstand (not desk) and water bottle location varies. Jacket was not seen today but kept as likely in wardrobe based on previous days.",
+     "was": {
+      "statement": "Marco's bedroom_1 nightstand holds glass and water_bottle. Charger is on the bed. Headphones and jacket are in the wardrobe. Book is on the living room couch in the afternoon. Mug is on the living room coffee table in the afternoon.",
+      "holds_under": "Day 21 afternoon observations",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated to reflect Day 24 sightings where water bottle is on nightstand, book is on bed, and scarf is in wardrobe. Headphones were not seen in the evening check, suggesting they may be in use or moved.",
+     "was": {
+      "statement": "Marco's bedroom_1: Nightstand holds glass and vitamins. Water bottle moves between wardrobe and nightstand. Charger is on the bed. Headphones are in the wardrobe. Jacket is in the wardrobe. Book is on the living room couch in the afternoon.",
+      "holds_under": "When Marco is in bedroom_1 or has recently been there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Day 25 19:28 and 22:09 show headphones and phone on nightstand. Vitamins remain on desk. This confirms the transition from work to home/bedtime.",
+     "was": {
+      "statement": "Marco's bedroom_1: Nightstand holds glass and water bottle. Vitamins on desk. Charger on bed. Headphones in wardrobe. Jacket in wardrobe. Book on bed in evening. Scarf in wardrobe (seen Day 24).",
+      "holds_under": "Evening routine or when items are not in use elsewhere.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Corrected location of headphones to bed. Noted phone absence. Skincare and vitamins remain consistent.",
+     "was": {
+      "statement": "Marco's bedroom_1: Nightstand holds headphones and phone in the evening. Vitamins on desk. Headphones move from office desk (day) to bedroom_1 nightstand (evening). Phone appears on nightstand in evening.",
+      "holds_under": "Evening routine in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Corrected the location of headphones. Previous note said they were on the bed, but sightings at 19:24 and 19:54 show them in the office. Scarf and vitamins locations confirmed.",
+     "was": {
+      "statement": "Marco's bedroom_1: Nightstand holds skincare. Desk holds vitamins. Headphones are on the bed in the evening. Phone is not currently visible in bedroom_1.",
+      "holds_under": "Evening hours in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Priya's bedroom_2: Nightstand holds book and tablet. Wardrobe holds scarf. Hair dryer is on the dresser. Desk, floor, and bed are empty of personal items.",
+   "holds_under": "Evening",
+   "supporting_observation_ids": [
+    "sighting_2392",
+    "sighting_2393",
+    "sighting_2426",
+    "sighting_2428"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Added tablet to the nightstand items based on 19:28 and 20:37 sightings. Confirmed her location in bedroom_2 during the evening.",
+     "was": {
+      "statement": "Priya's bedroom_2 nightstand holds her book. Her jacket is in the wardrobe. She was not seen in the bathroom or kitchen during the evening checks (20:37), but her items (mug, bowl) are in the kitchen sink.",
+      "holds_under": "true",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Confirmed evening locations in bedroom_2 and kitchen.",
+     "was": {
+      "statement": "Priya's bedroom_2 nightstand holds her book and tablet. Her jacket is in the wardrobe. She is in bedroom_2 in the evening (19:28-20:37). Her mug and bowl are in the kitchen cupboard. Her magazine is on the living room coffee table.",
+      "holds_under": "Evening hours (post-19:00).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Revised because tablet and skincare were not found in bedroom_2 on Day 24, unlike previous days. Book is consistently on nightstand. Hair dryer on dresser. Charger seen on desk in morning.",
+     "was": {
+      "statement": "Priya's bedroom_2 nightstand holds tablet and skincare. Book is on the bed. Hair dryer is on the dresser. Mug and bowl are in the kitchen cupboard. Magazine is on the living room coffee table.",
+      "holds_under": "Evening (19:00-20:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Day 25 22:09 shows these specific items in bedroom_2. Headphones are on the desk, not the nightstand, unlike Marco's setup.",
+     "was": {
+      "statement": "Priya's bedroom_2: Nightstand holds book. Hair dryer on dresser. Charger on desk (morning). Tablet and skincare not seen in bedroom_2 on Day 24 (likely in bathroom or kitchen).",
+      "holds_under": "When Priya is in her bedroom or items are not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to include tablet on nightstand and laptop/backpack on floor, which were seen at 20:47. This looks like her evening study/work setup.",
+     "was": {
+      "statement": "Priya's bedroom_2: Nightstand holds book. Hair dryer on dresser. Headphones on desk. Jacket in wardrobe. These items are present in the evening (22:09).",
+      "holds_under": "Evening routine in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Updated to reflect that only book, tablet, and scarf are present. Previous items like laptop and backpack are no longer in the room.",
+     "was": {
+      "statement": "Priya's bedroom_2: Nightstand holds book and tablet. Hair dryer on dresser. Headphones, charger, notebook, pen on desk. Laptop and backpack on floor. These items are present in the evening.",
+      "holds_under": "Priya is in her bedroom in the evening. Her work/study items are set up on the desk and floor.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Added hair dryer location (dresser) which was observed today. Confirmed other items are absent from the room.",
+     "was": {
+      "statement": "Priya's bedroom_2: Nightstand holds book and tablet. Wardrobe holds scarf. Desk, dresser, and floor are currently empty of her personal items (laptop, backpack, etc. are absent).",
+      "holds_under": "Evening hours in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

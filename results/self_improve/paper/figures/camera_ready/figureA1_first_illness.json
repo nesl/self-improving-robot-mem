@@ -1,0 +1,468 @@
+{
+ "figure_file": "figureA1_first_illness.pdf",
+ "size_in": [
+  5.5,
+  2.2
+ ],
+ "source": "ten households, 8 questions a day, 31 days, Qwen",
+ "measure": "first room right = found_at_step == 1",
+ "left_panel": {
+  "objects": "spell-1 movers, search_driven.the_movers on varied_homes/ten_homes/banks",
+  "days": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31
+  ],
+  "aggregation": "per household share by day, mean over households asked about movers that day",
+  "illness_days": [
+   14,
+   23
+  ],
+  "lines": {
+   "last-seen": {
+    "cells": "results/self_improve/overnight_wave/cells/last_seen_no_model",
+    "values": [
+     49.5,
+     60.5,
+     74.89,
+     57.57,
+     76.67,
+     85.0,
+     88.24,
+     75.24,
+     71.67,
+     83.0,
+     88.7,
+     70.07,
+     84.67,
+     33.5,
+     55.37,
+     56.33,
+     59.83,
+     80.83,
+     79.83,
+     93.33,
+     90.0,
+     91.5,
+     88.83,
+     42.22,
+     69.5,
+     75.56,
+     92.5,
+     66.11,
+     82.5,
+     64.87,
+     75.0
+    ],
+    "households_with_mover_questions": [
+     10,
+     10,
+     9,
+     9,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10
+    ]
+   },
+   "claim store": {
+    "cells": "results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/incremental_edits",
+    "values": [
+     27.83,
+     49.17,
+     58.99,
+     42.01,
+     65.56,
+     65.83,
+     84.57,
+     75.0,
+     61.9,
+     89.17,
+     71.67,
+     74.81,
+     75.33,
+     29.0,
+     42.04,
+     44.0,
+     58.67,
+     74.67,
+     67.42,
+     70.17,
+     72.67,
+     79.0,
+     69.48,
+     32.96,
+     60.5,
+     72.96,
+     70.83,
+     58.7,
+     69.0,
+     58.68,
+     74.17
+    ],
+    "households_with_mover_questions": [
+     10,
+     10,
+     9,
+     9,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10
+    ]
+   },
+   "claim store + history": {
+    "cells": "results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/claim_store_plus_the_log",
+    "values": [
+     37.33,
+     72.5,
+     74.15,
+     55.71,
+     74.81,
+     74.17,
+     83.24,
+     81.67,
+     61.67,
+     79.0,
+     84.26,
+     70.14,
+     78.5,
+     31.5,
+     78.89,
+     73.0,
+     77.5,
+     98.33,
+     90.83,
+     96.67,
+     83.33,
+     90.67,
+     97.5,
+     43.15,
+     71.5,
+     78.7,
+     75.0,
+     69.81,
+     87.0,
+     62.65,
+     65.0
+    ],
+    "households_with_mover_questions": [
+     10,
+     10,
+     9,
+     9,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10,
+     9,
+     10
+    ]
+   }
+  }
+ },
+ "right_panel": {
+  "aggregation": "pooled over all 2,480 questions (248 per household)",
+  "rows_top_to_bottom": [
+   {
+    "method": "claim store + history",
+    "value": 84.11,
+    "cells": "results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/claim_store_plus_the_log",
+    "per_household": {
+     "hh_s2_t03": 89.52,
+     "hh_s19_t03": 84.27,
+     "hh_s20_t03": 86.69,
+     "hh_s32_t03": 92.34,
+     "hh_s48_t03": 78.23,
+     "hh_s63_t03": 77.82,
+     "hh_s93_t03": 87.9,
+     "hh_s109_t03": 79.44,
+     "hh_s123_t03": 87.5,
+     "hh_s151_t03": 77.42
+    }
+   },
+   {
+    "method": "claim store + today's sightings",
+    "value": 79.92,
+    "cells": "results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/claim_store_plus_today's_sightings",
+    "per_household": {
+     "hh_s2_t03": 80.65,
+     "hh_s19_t03": 77.82,
+     "hh_s20_t03": 79.84,
+     "hh_s32_t03": 81.45,
+     "hh_s48_t03": 79.84,
+     "hh_s63_t03": 79.44,
+     "hh_s93_t03": 79.44,
+     "hh_s109_t03": 79.84,
+     "hh_s123_t03": 84.27,
+     "hh_s151_t03": 76.61
+    }
+   },
+   {
+    "method": "claim store",
+    "value": 75.85,
+    "cells": "results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/incremental_edits",
+    "per_household": {
+     "hh_s2_t03": 77.82,
+     "hh_s19_t03": 79.84,
+     "hh_s20_t03": 67.74,
+     "hh_s32_t03": 73.79,
+     "hh_s48_t03": 77.42,
+     "hh_s63_t03": 74.19,
+     "hh_s93_t03": 72.98,
+     "hh_s109_t03": 79.84,
+     "hh_s123_t03": 85.48,
+     "hh_s151_t03": 69.35
+    }
+   },
+   null,
+   {
+    "method": "last-seen",
+    "value": 82.1,
+    "cells": "results/self_improve/overnight_wave/cells/last_seen_no_model",
+    "per_household": {
+     "hh_s2_t03": 83.06,
+     "hh_s19_t03": 78.23,
+     "hh_s20_t03": 77.42,
+     "hh_s32_t03": 84.68,
+     "hh_s48_t03": 80.65,
+     "hh_s63_t03": 91.94,
+     "hh_s93_t03": 87.1,
+     "hh_s109_t03": 78.63,
+     "hh_s123_t03": 85.08,
+     "hh_s151_t03": 74.19
+    }
+   },
+   {
+    "method": "last-seen, updated nightly",
+    "value": 76.85,
+    "cells": "results/self_improve/overnight_wave/cells/last_seen_updated_each_night",
+    "per_household": {
+     "hh_s2_t03": 77.02,
+     "hh_s19_t03": 66.94,
+     "hh_s20_t03": 78.23,
+     "hh_s32_t03": 82.26,
+     "hh_s48_t03": 77.82,
+     "hh_s63_t03": 73.39,
+     "hh_s93_t03": 81.85,
+     "hh_s109_t03": 70.56,
+     "hh_s123_t03": 82.66,
+     "hh_s151_t03": 77.82
+    }
+   }
+  ],
+  "steps": {
+   "claim store -> claim store + today's sightings": {
+    "mean": 4.07,
+    "two_se": 2.83
+   },
+   "claim store + today's sightings -> claim store + history": {
+    "mean": 4.19,
+    "two_se": 2.97
+   }
+  },
+  "step_rule": "paired per-household difference, mean and 2 SE over ten households"
+ },
+ "reported_last_seen_updated_nightly_whole_run": 76.85,
+ "day14_on_movers_table1": {
+  "per_method": {
+   "last-seen": {
+    "ten_household_mean": 33.5,
+    "day14_and_recovery_py_rule": 33.5,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "history and notes": {
+    "ten_household_mean": 34.0,
+    "day14_and_recovery_py_rule": 34.0,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": true
+   },
+   "history only": {
+    "ten_household_mean": 35.17,
+    "day14_and_recovery_py_rule": 35.17,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": true
+   },
+   "claim store (Table 1 older-code cell)": {
+    "ten_household_mean": 36.0,
+    "day14_and_recovery_py_rule": 37.22,
+    "households_used_by_that_rule": 9,
+    "dropped_from_paper": false
+   },
+   "reduced ACE": {
+    "ten_household_mean": 31.5,
+    "day14_and_recovery_py_rule": 31.5,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "small working memory": {
+    "ten_household_mean": 36.83,
+    "day14_and_recovery_py_rule": 36.83,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "notes hidden": {
+    "ten_household_mean": 31.0,
+    "day14_and_recovery_py_rule": 28.81,
+    "households_used_by_that_rule": 7,
+    "dropped_from_paper": true
+   },
+   "last-seen, updated nightly": {
+    "ten_household_mean": 29.0,
+    "day14_and_recovery_py_rule": 29.0,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "claim store (current-code rerun)": {
+    "ten_household_mean": 29.0,
+    "day14_and_recovery_py_rule": 29.0,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "claim store + today's sightings": {
+    "ten_household_mean": 33.17,
+    "day14_and_recovery_py_rule": 33.17,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   },
+   "claim store + history": {
+    "ten_household_mean": 31.5,
+    "day14_and_recovery_py_rule": 31.5,
+    "households_used_by_that_rule": 10,
+    "dropped_from_paper": false
+   }
+  },
+  "table1_methods_remaining": [
+   "last-seen",
+   "claim store (Table 1 older-code cell)",
+   "reduced ACE",
+   "small working memory"
+  ],
+  "table1_methods_all": [
+   "last-seen",
+   "history and notes",
+   "claim store (Table 1 older-code cell)",
+   "reduced ACE",
+   "small working memory",
+   "notes hidden",
+   "history only"
+  ],
+  "range_remaining_ten_household_mean": [
+   31.5,
+   36.83
+  ],
+  "range_remaining_day14_and_recovery_rule": [
+   31.5,
+   37.22
+  ],
+  "range_all_ten_household_mean": [
+   31.0,
+   36.83
+  ],
+  "range_all_day14_and_recovery_rule": [
+   28.81,
+   37.22
+  ],
+  "range_remaining_plus_camera_ready_arms_ten_household_mean": [
+   29.0,
+   36.83
+  ],
+  "note": "28.8 and 37.2 come from paper/day14_and_recovery.txt, whose script skips a household when its days 8-13 mover share is 0 (`if b:`): the no-memory arm is then a mean of 7 households and the older claim store of 9. Over all ten households they are 31.0 and 36.0."
+ }
+}

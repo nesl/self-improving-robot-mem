@@ -1,0 +1,3014 @@
+{
+ "household": "hh_s63_t03",
+ "arm": "memory-guided search with the log and notes about the routine",
+ "how_memory_is_written": "the log and notes about the routine",
+ "written_up_to_day": 31,
+ "next_claim_number": 30,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Dana's tablet is on the bedroom nightstand. Observed there at 12:01. Previously seen in living/dining, suggesting it moves with Dana's activities.",
+   "holds_under": "When in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0030",
+    "sighting_0093",
+    "sighting_0096",
+    "sighting_0031"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Dana's tablet based on Day 3 sightings.",
+     "was": {
+      "statement": "Dana's tablet and book are typically on the nightstand in bedroom_1. [sighting_0030, sighting_0093, sighting_0096] [sighting_0031] shows book_dana on dining table at 08:40, suggesting it moves during the day.",
+      "holds_under": "When Dana is not actively using them in the dining area.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's tablet was not in the bedroom nightstand (claim_0001) or dining table. It was not found in any room checked today (bathroom, kitchen, living, dining, office). It is likely in the bedroom, which was not checked.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand. Book is on dining table in AM, nightstand in PM.",
+      "holds_under": "Tablet: bedroom. Book: dining AM, bedroom PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Dana's tablet is not in the bedroom nightstand, dining, kitchen, living, or office during the day. Likely in bedroom (unchecked). Book location: dining AM, bedroom PM.",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's tablet was not found in dining, kitchen, or living, supporting the belief that it is in the bedroom in the evening.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's tablet was on the bedroom nightstand at 19:14, supporting the evening location claim.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's tablet was on the bedroom nightstand at 12:13. This confirms the previous note about it being in the bedroom in the evening/afternoon.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's tablet was not found in any room today, contradicting the previous note about the bedroom nightstand.",
+     "was": {
+      "statement": "Dana's tablet is on the bedroom nightstand. Observed there at 12:13. Not in dining, kitchen, or living during the day.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's tablet was not found in dining, kitchen, living, or bathroom today. Location unknown.",
+      "holds_under": "When not in checked rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's tablet was found in the bedroom, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's tablet is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Dana's book is on the living room TV stand. Observed there at 17:55. Previously on couch, suggesting it is moved within the living area.",
+   "holds_under": "When in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0031",
+    "sighting_0093"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Dana's book based on Day 3 sightings.",
+     "was": {
+      "statement": "Dana's book is on the dining table in the morning (08:40) and on the bedroom nightstand in the evening (20:26). [sighting_0031, sighting_0093]",
+      "holds_under": "Daily cycle: dining in AM, bedroom in PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's book was not found in the dining room at 13:17 or 18:29. It was not in the kitchen, living, or office. It is likely in the bedroom (unchecked).",
+     "was": {
+      "statement": "Dana's book is on the dining table in the morning and on the bedroom nightstand in the evening.",
+      "holds_under": "Daily cycle: dining AM, bedroom PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Dana's book is not in dining, kitchen, living, or office during the day. Likely in bedroom (unchecked).",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's book was not found in dining, kitchen, or living, supporting the belief that it is in the bedroom in the evening.",
+     "was": {
+      "statement": "Dana's book is on the bedroom nightstand in the evening. Observed on dining table in the morning.",
+      "holds_under": "Evening: bedroom. Morning: dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's book was on the bedroom nightstand at 19:14, supporting the evening location claim.",
+     "was": {
+      "statement": "Dana's book is on the bedroom nightstand in the evening. Observed on dining table in the morning.",
+      "holds_under": "Evening: bedroom. Morning: dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's book was on the couch in the living room at 07:57, 12:13, and 18:58. This contradicts the previous note about it being on the dining table in the morning or bedroom nightstand in the evening. It seems to be a 'living room book' now.",
+     "was": {
+      "statement": "Dana's book is on the bedroom nightstand in the evening. Observed on dining table in the morning.",
+      "holds_under": "Evening: Bedroom. Morning: Dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's book was found on the couch, supporting the previous note.",
+     "was": {
+      "statement": "Dana's book is on the couch in the living room. Observed there at 07:57, 12:13, and 18:58. Previously noted on dining table (morning) or bedroom nightstand (evening), but those locations were not observed today.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's book is on the couch in the living room. Observed there at 11:12. Not in living at 08:05 or 20:33.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's book was found on the couch, contradicting the previous belief that it moves between living/dining tables.",
+     "was": {
+      "statement": "Dana's book is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Dana's book moved from couch to TV stand between 12:56 and 17:55. It is no longer on the couch.",
+     "was": {
+      "statement": "Dana's book is on the living room couch. Observed there at 14:50. Previously seen on coffee/dining tables, suggesting it is used for reading in the living area.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Priya's headphones are on the bedroom desk. Observed there at 12:01. Previously seen in living/dining, suggesting they are used for work or study in the bedroom.",
+   "holds_under": "When in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0027",
+    "sighting_0091",
+    "sighting_0092"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Priya's headphones based on Day 3 sightings.",
+     "was": {
+      "statement": "Priya's headphones and notebook are on the desk in bedroom_1. [sighting_0027, sighting_0091, sighting_0092]",
+      "holds_under": "When Priya is not using them elsewhere.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's headphones were not found in the living room at 13:17 or 18:29. They were not in the kitchen, dining, or office. They are likely in the bedroom (unchecked).",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom floor in the morning and on the bedroom desk in the evening. Notebook location varies.",
+      "holds_under": "Daily cycle: floor AM, desk PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Priya's headphones are not in living, kitchen, dining, or office during the day. Likely in bedroom (unchecked).",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's headphones were not found in dining, kitchen, or living, supporting the belief that they are in the bedroom in the evening.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk in the evening. Not observed in living, kitchen, or dining during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's headphones were on the bedroom desk at 19:14, supporting the evening location claim.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk in the evening. Not observed in living, kitchen, or dining during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's headphones were on the bedroom desk at 12:13. This confirms the previous note about them being in the bedroom in the evening/afternoon.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk in the evening. Not observed in living, kitchen, or dining during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's headphones are on the bedroom desk. Observed there at 12:13. Not in living, kitchen, or dining during the day.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's headphones were found in the bedroom, contradicting the previous belief that they move between living/dining.",
+     "was": {
+      "statement": "Priya's headphones are on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+   "holds_under": "When in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0029"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's phone was not found in the dining room at 13:17 or 18:29. It was not in the kitchen, living, or office. It is likely in the bedroom (unchecked) or being carried.",
+     "was": {
+      "statement": "Priya's phone is on the nightstand in bedroom_1. [sighting_0029]",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's phone was not found in dining, kitchen, or living, supporting the belief that it is in the bedroom or being carried.",
+     "was": {
+      "statement": "Priya's phone is not in dining, kitchen, living, or office during the day. Likely in bedroom (unchecked) or being carried.",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's phone was not found in any room today. It is likely being carried or in a location not checked (e.g., office, storage).",
+     "was": {
+      "statement": "Priya's phone is not in dining, kitchen, or living during the day. Likely in bedroom (unchecked) or being carried.",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's phone was found on the dining table, contradicting the previous note that it was not in the dining room.",
+     "was": {
+      "statement": "Priya's phone is not in dining, kitchen, living, bathroom, or bedroom. Likely carried or in office/storage.",
+      "holds_under": "When not in checked rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's phone is on the dining table. Observed there at 11:12. Not in dining at 08:05 or 20:33, suggesting it is moved or carried.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Priya's tablet is on the dining table. Observed there at 20:18 on Day 25. Previously in living room, suggesting it is moved to the dining area for evening use.",
+   "holds_under": "When in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0081"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Priya's tablet based on Day 3 sightings.",
+     "was": {
+      "statement": "Priya has a tablet on the coffee table in the living room. [sighting_0081]",
+      "holds_under": "Evening relaxation time.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's tablet was on the dining table at 13:17 and moved to the living room coffee table by 18:29. This contradicts the previous belief that it moves to the bedroom nightstand in the evening.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and on the bedroom nightstand in the evening.",
+      "holds_under": "Daily cycle: dining AM, bedroom PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Location changed from dining table to bookshelf. Previous claim said coffee table, which was wrong.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the midday and on the living room coffee table in the evening. Not observed in bedroom nightstand.",
+      "holds_under": "Daily cycle: dining midday, living evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's tablet was found on the dining table in the morning, consistent with previous observations.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and on the living room bookshelf in the afternoon/evening.",
+      "holds_under": "Morning: dining. Afternoon/Evening: living bookshelf.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's tablet was on the dining table at 07:57 and 19:14, contradicting the living room bookshelf claim.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and on the living room bookshelf in the afternoon/evening.",
+      "holds_under": "Morning: dining. Afternoon/Evening: living bookshelf.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed Priya's tablet is on the dining table in the morning, supporting the existing pattern.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and evening. Not in living room.",
+      "holds_under": "Morning and evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Priya's tablet was on the dining table in the morning, supporting the existing pattern.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and evening. Not in living room.",
+      "holds_under": "Morning and evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's tablet was on the dining table in the morning but moved to the bedroom nightstand by evening. This contradicts the previous note that it stays on the dining table in the evening.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning and evening. Not in living room.",
+      "holds_under": "Morning and evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's tablet was on the bedroom nightstand at 12:13. It was not in the dining room at 09:28 (where her other items were). This supports the evening/afternoon location being the bedroom nightstand.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table in the morning. In the evening, it is on the bedroom nightstand.",
+      "holds_under": "Morning: Dining table. Evening: Bedroom nightstand.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's tablet is consistently on the dining table, contradicting the previous note about the bedroom nightstand.",
+     "was": {
+      "statement": "Priya's tablet is on the bedroom nightstand. Observed there at 12:13. Not in dining at 09:28. Previous note about morning dining table location is unconfirmed today.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom dresser based on 11:56 sighting. It was in dining in the morning, so it moves.",
+     "was": {
+      "statement": "Priya's tablet is on the dining table. Observed there at 08:05, 11:12, and 20:33. Not in bedroom or kitchen during these times.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's tablet was found in the living room, contradicting the previous belief that it moves between bedroom/dining.",
+     "was": {
+      "statement": "Priya's tablet is on the bedroom dresser (11:56) or dining table (08:09). It moves between rooms during the day.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Priya's tablet moved from the living room to the dining table, where it was found with her other items.",
+     "was": {
+      "statement": "Priya's tablet is on the living room coffee table. Observed there at 14:50. Previously seen in bedroom/dining, suggesting it is used for entertainment in the living area.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Priya's glasses are on the dining table. Observed there at 20:18 on Day 25. Previously in bedroom, suggesting they are moved to the dining area for evening use.",
+   "holds_under": "When in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0032",
+    "sighting_0095"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Priya's glasses based on Day 3 sightings.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table in the morning (08:40) and on the bedroom nightstand in the evening (20:26). [sighting_0032, sighting_0095]",
+      "holds_under": "Daily cycle: dining in AM, bedroom in PM.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's glasses were on the dining table at 13:17 but were not found in the dining room at 18:29. They were also not found in the kitchen or living room at 18:29. They are likely in the bedroom (unchecked) or being worn.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table in the morning and midday. Not observed in bedroom at night.",
+      "holds_under": "Daily cycle: dining AM/Noon.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table in the midday. Not observed in dining, kitchen, or living in the evening. Likely in bedroom or being worn.",
+      "holds_under": "Midday: dining. Evening: unknown/bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's glasses were not found in dining, kitchen, or living, supporting the belief that they are in the bedroom in the evening.",
+     "was": {
+      "statement": "Priya's glasses are on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's glasses were on the bedroom nightstand at 19:14, supporting the evening location claim.",
+     "was": {
+      "statement": "Priya's glasses are on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's glasses were on the dining table at 09:28, but on the bedroom nightstand at 12:13. This contradicts the previous note that they were not observed in dining during the day. They seem to move from dining to bedroom.",
+     "was": {
+      "statement": "Priya's glasses are on the bedroom nightstand in the evening. Not observed in dining, kitchen, or living during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's glasses were not found in any room today, contradicting the previous note about the dining table or bedroom nightstand.",
+     "was": {
+      "statement": "Priya's glasses are on the dining table in the morning, and on the bedroom nightstand in the afternoon. Observed on dining table at 09:28, bedroom nightstand at 12:13.",
+      "holds_under": "Morning: Dining table. Afternoon: Bedroom nightstand.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom bed based on 11:56 and 19:14 sightings. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's glasses were not found in dining, kitchen, living, or bathroom today. Location unknown.",
+      "holds_under": "When not in checked rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's glasses were found on the bedroom nightstand, contradicting the previous belief that they move between bedroom/dining.",
+     "was": {
+      "statement": "Priya's glasses are on the bedroom bed (11:56, 19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Priya's glasses moved from the bedroom nightstand to the dining table, likely for reading or use in the evening.",
+     "was": {
+      "statement": "Priya's glasses are on the bedroom nightstand. Observed there at 12:01. Previously seen on bed/dining table, suggesting they are kept near the bed for reading or sleep.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Dana's meditation cushion is on the bedroom floor. Observed there at 12:01. Previously seen in living/dining, suggesting Dana meditates in the bedroom.",
+   "holds_under": "When in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0026",
+    "sighting_0090"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's meditation cushion was not found in the kitchen, living, dining, or office. It was not in the bathroom. It is likely in the bedroom (unchecked).",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor. [sighting_0026, sighting_0090]",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Dana's meditation cushion is not in kitchen, living, dining, office, or bathroom during the day. Likely in bedroom (unchecked).",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's meditation cushion was not found in dining, kitchen, or living, supporting the belief that it is in the bedroom in the evening.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor in the evening. Not observed in other rooms during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's meditation cushion was on the bedroom floor at 19:14, supporting the evening location claim.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor in the evening. Not observed in other rooms during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's meditation cushion was on the bedroom floor at 12:13. This confirms the previous note about it being in the bedroom in the evening/afternoon.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor in the evening. Not observed in other rooms during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the bedroom floor. Observed there at 12:13. Not in other rooms during the day.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's meditation cushion was found on the bedroom floor, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's meditation cushion is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Dana's water bottle is on the kitchen dish rack. Observed there at 08:30 and 20:17 on Day 28. Previously on sink, suggesting it is stored in the dish rack.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0016"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's water bottle was in the kitchen dish rack at 15:12, consistent with previous observations.",
+     "was": {
+      "statement": "Dana's water bottle is in the kitchen dish rack. [sighting_0016]",
+      "holds_under": "When not being carried.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Dana's water bottle was not found in kitchen at 13:07 or 19:50. Likely carried or in bedroom.",
+     "was": {
+      "statement": "Dana's water bottle is in the kitchen dish rack.",
+      "holds_under": "When not being carried.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's water bottle was found in the kitchen dish rack, contradicting the previous belief that it was not there.",
+     "was": {
+      "statement": "Dana's water bottle is not in the kitchen dish rack. Likely carried or in bedroom.",
+      "holds_under": "When not in kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's water bottle was on the dining table at 19:14, contradicting the kitchen dish rack claim.",
+     "was": {
+      "statement": "Dana's water bottle is in the kitchen dish rack in the evening. Previously thought to be carried or in bedroom.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed both water bottles are on the dining table in the evening, supporting the existing pattern.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Dana's water bottle was on the dining table in the evening, supporting the existing pattern.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's water bottle was found in the kitchen sink in the evening, not on the dining table as previously noted. This suggests a change in evening routine or a one-off event.",
+     "was": {
+      "statement": "Dana's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's water bottle was on the kitchen sink at 07:57, but on the bedroom nightstand at 12:13. It was not in the kitchen at 09:28. This suggests it moves with her or is used in different contexts.",
+     "was": {
+      "statement": "Dana's water bottle is in the kitchen sink in the evening. Previously observed on dining table.",
+      "holds_under": "Evening: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's water bottle is on the bedroom nightstand in the afternoon. Observed on kitchen sink at 07:57, but on nightstand at 12:13. Not in kitchen at 09:28.",
+      "holds_under": "Afternoon: Bedroom nightstand. Morning: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's water bottle was found on the bedroom nightstand, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's water bottle is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's water bottle moved from the bedroom nightstand to the kitchen sink, likely for use in the kitchen.",
+     "was": {
+      "statement": "Dana's water bottle is on the bedroom nightstand. Observed there at 12:01. Previously seen in living/dining, suggesting it is kept near the bed.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to dish rack, contradicting previous belief of sink.",
+     "was": {
+      "statement": "Dana's water bottle is on the kitchen sink. Observed there at 20:18 on Day 25. Previously in bedroom, suggesting it is moved to the kitchen for use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Priya's water bottle is on the kitchen cupboard. Observed there at 21:24 on Day 30. Previously on dish rack (Day 28) and counter (Day 30 17:22), suggesting it is stored in the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0017"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's water bottle was in the kitchen dish rack at 13:17 and 15:12, consistent with previous observations.",
+     "was": {
+      "statement": "Priya's water bottle is in the kitchen dish rack. [sighting_0017]",
+      "holds_under": "When not being carried.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Priya's water bottle was not found in kitchen at 19:50. Likely carried or in bedroom.",
+     "was": {
+      "statement": "Priya's water bottle is in the kitchen dish rack.",
+      "holds_under": "When not being carried.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's water bottle was found in the kitchen dish rack, confirming the afternoon location and extending it to evening.",
+     "was": {
+      "statement": "Priya's water bottle is in the kitchen dish rack in the afternoon. Not found in kitchen in the evening.",
+      "holds_under": "Afternoon: kitchen dish rack. Evening: unknown.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's water bottle was on the dining table at 19:14, contradicting the kitchen dish rack claim.",
+     "was": {
+      "statement": "Priya's water bottle is in the kitchen dish rack in the afternoon and evening.",
+      "holds_under": "Afternoon and evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed both water bottles are on the dining table in the evening, supporting the existing pattern.",
+     "was": {
+      "statement": "Priya's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Priya's water bottle was on the dining table in the evening, supporting the existing pattern.",
+     "was": {
+      "statement": "Priya's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's water bottle was found in the kitchen sink in the evening, not on the dining table as previously noted. Consistent with Dana's bottle location.",
+     "was": {
+      "statement": "Priya's water bottle is on the dining table in the evening. Not in kitchen dish rack.",
+      "holds_under": "Evening: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's water bottle was on the kitchen sink at 07:57 and 09:28. It was not in the bedroom at 12:13. This confirms the kitchen sink as a consistent location for her bottle in the morning.",
+     "was": {
+      "statement": "Priya's water bottle is in the kitchen sink in the evening. Previously observed on dining table.",
+      "holds_under": "Evening: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's water bottle was found on the kitchen counter and dining table, contradicting the previous note about the kitchen sink.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen sink in the morning. Observed there at 07:57 and 09:28. Not in bedroom at 12:13.",
+      "holds_under": "Morning: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom bed based on 11:56 and 19:14 sightings. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter (11:12) or dining table (20:33). Not in kitchen at 08:05 or 20:33, not in dining at 08:05 or 11:12.",
+      "holds_under": "When in kitchen or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's water bottle was found in the kitchen, contradicting the previous belief that it moves between bedroom/dining.",
+     "was": {
+      "statement": "Priya's water bottle is on the bedroom bed (11:56, 19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Update location to counter based on today's sighting, correcting the previous belief that it was on the dish rack.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen dish rack. Observed there at 14:50 and 18:12. Previously seen in bedroom/dining, suggesting it is used in the kitchen.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Priya's water bottle moved from the kitchen dish rack to the dining table, where it was found alongside her other dining items.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen counter. Observed there at 12:01. Previously seen on dish rack, suggesting it is kept near the sink/counter for daily use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to dish rack, contradicting previous belief of dining table.",
+     "was": {
+      "statement": "Priya's water bottle is on the dining table. Observed there at 20:18 on Day 25. Previously in kitchen, suggesting it is moved to the dining area for evening use.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to cupboard based on Day 30 sightings, replacing the older 'dish rack' claim.",
+     "was": {
+      "statement": "Priya's water bottle is on the kitchen dish rack. Observed there at 08:30 and 20:17 on Day 28. Previously on dining table, suggesting it is stored in the kitchen dish rack.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Dana's lunchbox is not in the kitchen. Location unknown (not in bedroom at 19:14).",
+   "holds_under": "When not in kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0010"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's lunchbox was in the kitchen cupboard at 15:12, consistent with previous observations.",
+     "was": {
+      "statement": "Dana's lunchbox is in the kitchen cupboard. [sighting_0010]",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Dana's lunchbox was not found in kitchen at 13:07 or 19:50. Likely in bedroom or carried.",
+     "was": {
+      "statement": "Dana's lunchbox is in the kitchen cupboard.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's lunchbox was not found in the kitchen, supporting the belief that it is not stored there.",
+     "was": {
+      "statement": "Dana's lunchbox is not in the kitchen cupboard. Likely in bedroom or carried.",
+      "holds_under": "When not in kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's lunchbox was not found in kitchen at 15:39 or 19:14. Location unknown.",
+     "was": {
+      "statement": "Dana's lunchbox is not in the kitchen. Likely in bedroom or carried.",
+      "holds_under": "When not in kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Priya's toiletry bag is on the bathroom sink. Observed there at 09:41 on Day 30. Previously on shelf (Day 30 07:48 and Day 11), suggesting it is moved to the sink during morning routine.",
+   "holds_under": "When in the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_0042",
+    "sighting_0053"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's toiletry bag was on the bathroom shelf at 08:49, consistent with previous observations.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom shelf. [sighting_0042, sighting_0053]",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Location changed from shelf to sink.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom shelf.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's toiletry bag was found on the bathroom shelf, not the sink as previously noted.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's toiletry bag was on the bathroom shelf at 13:17, supporting the location claim.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom shelf.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Priya's toiletry bag was observed on the bathroom shelf, consistent with previous sightings.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom shelf.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to sink based on Day 30 09:41 sighting, replacing the older 'shelf' claim.",
+     "was": {
+      "statement": "Priya's toiletry bag is on the bathroom shelf.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Dana's razor is on the bathroom sink. Observed there at 09:44 on Day 25. Previously on shelf, suggesting it is moved to the sink during use.",
+   "holds_under": "When in the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_0043",
+    "sighting_0054"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Dana's razor was on the bathroom sink at 08:49, consistent with previous observations.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink. [sighting_0043, sighting_0054]",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Location changed from sink to medicine cabinet.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's razor was found on the bathroom sink, not in the medicine cabinet as previously noted.",
+     "was": {
+      "statement": "Dana's razor is in the bathroom medicine cabinet.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's razor was on the bathroom sink at 13:17, supporting the location claim.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Dana's razor was observed on the bathroom sink, consistent with previous sightings.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's razor was found on the bathroom shelf, not on the sink as previously noted. This is a new location for the item.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's razor was found on the bathroom sink, contradicting the previous note about the bathroom shelf.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom shelf. Previously observed on sink.",
+      "holds_under": "Always observed in this location.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's razor was found on the bathroom shelf, contradicting the previous belief that it is on the sink.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom sink. Observed there at 18:31. Not in bathroom at other times.",
+      "holds_under": "When in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's razor moved from the shelf to the sink, likely after use in the morning.",
+     "was": {
+      "statement": "Dana's razor is on the bathroom shelf. Observed there at 07:07. Previously seen on sink, suggesting it is stored on the shelf when not in use.",
+      "holds_under": "When in the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Priya's controller is on the living room couch. Observed there at 16:56 on Day 28. Previously on TV stand, suggesting it is moved to the couch for gaming.",
+   "holds_under": "When in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0087",
+    "sighting_0088"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Update location of Priya's controller based on Day 3 sightings.",
+     "was": {
+      "statement": "Priya's controller and headset are on the TV stand in the living room. [sighting_0087, sighting_0088]",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's controller was on the TV stand at both 13:17 and 18:29. The previous note suggested it was on the couch in the afternoon, but today it was on the TV stand at 13:17 (afternoon).",
+     "was": {
+      "statement": "Priya's controller is on the couch in the afternoon and on the TV stand in the evening. Headset remains on TV stand.",
+      "holds_under": "Daily cycle: couch PM, TV stand evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Location changed from TV stand to couch in afternoon, TV stand in evening.",
+     "was": {
+      "statement": "Priya's controller is on the TV stand in the afternoon and evening. Headset remains on TV stand.",
+      "holds_under": "Afternoon and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's controller was found on the TV stand in the evening, consistent with previous observations.",
+     "was": {
+      "statement": "Priya's controller is on the living room couch in the afternoon and on the TV stand in the evening.",
+      "holds_under": "Afternoon: couch. Evening: TV stand.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's controller was not found in dining, kitchen, or bedroom at 19:14. Location unknown.",
+     "was": {
+      "statement": "Priya's controller is on the living room couch in the afternoon and on the TV stand in the evening.",
+      "holds_under": "Afternoon: couch. Evening: TV stand.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Priya's controller was found on the TV stand in the living room, resolving the previous 'unknown' status.",
+     "was": {
+      "statement": "Priya's controller location is currently unknown. Not in dining, kitchen, or bedroom at 19:14.",
+      "holds_under": "Current state.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Priya's controller was on the TV stand in the evening, supporting the existing pattern.",
+     "was": {
+      "statement": "Priya's controller is on the living room TV stand.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's controller was found on the couch in the living room, not on the TV stand. This is a new location for the item.",
+     "was": {
+      "statement": "Priya's controller is on the living room TV stand.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's controller was on the TV stand at 07:57 and 12:13, but on the coffee table at 18:58. This contradicts the previous note that it was on the couch. It seems to move between TV stand and coffee table.",
+     "was": {
+      "statement": "Priya's controller is on the couch in the living room. Previously observed on TV stand.",
+      "holds_under": "When in living room: Couch.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's controller was found on the coffee table, contradicting the previous note about the TV stand in the morning/afternoon.",
+     "was": {
+      "statement": "Priya's controller is on the TV stand in the morning/afternoon, and on the coffee table in the evening. Observed on TV stand at 07:57 and 12:13, coffee table at 18:58.",
+      "holds_under": "Morning/Afternoon: TV stand. Evening: Coffee table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room couch based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's controller is on the coffee table in the living room. Observed there at 11:12. Not in living at 08:05 or 20:33.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's controller was found on the TV stand, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Priya's controller is on the living room couch (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to couch, contradicting previous belief of TV stand.",
+     "was": {
+      "statement": "Priya's controller is on the living room TV stand. Observed there at 14:50. Previously seen on couch/dining table, suggesting it is used for gaming in the living room.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Priya's notebook is on the dining table. Observed there at 08:30 on Day 28. Previously on bedroom bed, suggesting it is moved to the dining area for work or reading.",
+   "holds_under": "When in the dining room.",
+   "supporting_observation_ids": [
+    "sighting_0174"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Priya's notebook was not found in the dining room at 13:17 or 18:29. It was not in the kitchen, living, or office. It is likely in the bedroom (unchecked).",
+     "was": {
+      "statement": "Priya's notebook is on the dining table in the midday.",
+      "holds_under": "Midday observation.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Confirmed location. Previously 'likely in bedroom'.",
+     "was": {
+      "statement": "Priya's notebook is not in dining, kitchen, living, or office during the day. Likely in bedroom (unchecked).",
+      "holds_under": "Daytime hours when bedroom is not checked.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's notebook was on the dining sideboard at 07:57 and bedroom dresser at 19:14, contradicting the bedroom desk claim.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom desk in the evening. Not observed in other rooms during the day.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's notebook was found on the bedroom desk in the evening, not on the dresser as previously noted. This is a new location for the item.",
+     "was": {
+      "statement": "Priya's notebook is on the dining sideboard in the morning and bedroom dresser in the evening.",
+      "holds_under": "Morning: Dining sideboard. Evening: Bedroom dresser.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's notebook was on the dining table at 09:28, but on the bedroom desk at 12:13. This contradicts the previous note that it was on the dining sideboard in the morning. It seems to move from dining to bedroom as the day progresses.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom desk in the evening. Previously observed on dining sideboard (morning) and dresser (evening).",
+      "holds_under": "Evening: Bedroom desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's notebook was not found in any room today, contradicting the previous note about the dining table or bedroom desk.",
+     "was": {
+      "statement": "Priya's notebook is on the dining table in the morning, and on the bedroom desk in the afternoon. Observed on dining table at 09:28, bedroom desk at 12:13.",
+      "holds_under": "Morning: Dining table. Afternoon: Bedroom desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom bed based on 11:56 and 19:14 sightings. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's notebook was not found in dining, kitchen, living, or bathroom today. Location unknown.",
+      "holds_under": "When not in checked rooms.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Priya's notebook was not in the bedroom at 12:56, but was found in the bedroom desk at 17:55. It is not on the bed.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom bed (11:56, 19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Update location to nightstand based on today's sightings, correcting the previous belief that it was on the desk.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom desk. Observed there at 17:55. Previously seen on bed/dining table, suggesting it is used for work/study in the bedroom.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to dining table, contradicting previous belief of bedroom bed.",
+     "was": {
+      "statement": "Priya's notebook is on the bedroom bed. Observed there at 15:25 and 19:40. Previously seen on desk/dining, suggesting it is used for reading or work in bed.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Pan is on the kitchen cupboard. Observed there at 08:30 and 20:17 on Day 28. Previously on counter, suggesting it is stored on the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0226",
+    "sighting_0228",
+    "sighting_0229",
+    "sighting_0223"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Kitchen items (pan, pot, recipe book, knife) were in the cupboard/drawer/pantry at 13:17 and 15:12. They did not move to the counter as previously believed for the evening. The 18:29 check did not include the kitchen, so evening status is unknown, but the midday/afternoon status contradicts the 'evening move' pattern if it implies they are on the counter during the day.",
+     "was": {
+      "statement": "Kitchen items (pan, pot, recipe book, knife) move from cupboard/drawer to counter in the evening.",
+      "holds_under": "Evening kitchen activity.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Kitchen items like pans and pots were found in the cupboard/pantry, supporting the existing pattern.",
+     "was": {
+      "statement": "Kitchen items (pan, pot, recipe book, knife) are in cupboard/drawer/pantry during the day. Evening location unknown (kitchen not checked at 18:29).",
+      "holds_under": "Daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Kitchen items like the pan, pot, and recipe book were found on the counter in the evening, not in the cupboard/pantry as previously noted for daytime. This suggests they are moved out for evening use.",
+     "was": {
+      "statement": "Kitchen items (pan, pot, recipe book, knife) are in cupboard/drawer/pantry during the day.",
+      "holds_under": "Daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Kitchen items like the pan and pot were found on the sink, contradicting the previous note about the counter in the evening.",
+     "was": {
+      "statement": "Kitchen items (pan, pot, recipe book) are on the counter in the evening. Daytime location (cupboard/pantry) unconfirmed today.",
+      "holds_under": "Evening: Counter.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Kitchen items (pan, pot) were found on the counter, contradicting the previous belief that they are on the sink in the evening.",
+     "was": {
+      "statement": "Kitchen items (pan, pot) are on the sink in the evening. Observed there at 11:12 and 20:33. Not on counter at these times.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Update location to sink based on today's sighting, correcting the previous belief that it was on the counter.",
+     "was": {
+      "statement": "Kitchen items (pan, pot) are on the kitchen counter. Observed there at 18:12. Previously seen on sink, suggesting they are moved to the counter for use or storage.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to counter, which is now consistent across multiple sightings, and note the shift from cupboard.",
+     "was": {
+      "statement": "Kitchen items (pan, pot) are on the kitchen sink. Observed there at 12:01. Previously seen on counter, suggesting they are left in the sink after use or waiting to be washed.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The pan moved from the cupboard to the counter, likely for use.",
+     "was": {
+      "statement": "Kitchen items (pan, pot) are on the kitchen counter. Observed there at 13:56 and 18:45. Previously on cupboard/sink, suggesting they are stored on the counter.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, consistent with Day 25 and today's sightings.",
+     "was": {
+      "statement": "Pan is on the kitchen counter. Observed there at 20:18 on Day 25. Previously on cupboard, suggesting it is moved to the counter for use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Cutting board is on the kitchen counter. Observed there at 08:30 and 20:17 on Day 28. Previously on dish rack, suggesting it is moved to the counter for use or storage.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0410",
+    "sighting_0411",
+    "sighting_0412",
+    "sighting_0413",
+    "sighting_0414",
+    "sighting_0415"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Kitchen items were found in their daytime storage locations (cupboard, drawer, pantry, counter) in the evening, contradicting the belief that they move to the sink for cleaning.",
+     "was": {
+      "statement": "In the evening, kitchen items (pan, pot, knife, plate, glass) are on the sink, likely for cleaning. Daytime: cupboard/drawer/pantry.",
+      "holds_under": "Evening: sink. Daytime: storage.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Kitchen items were on the sink at 19:14, contradicting the claim that they are not observed on the sink.",
+     "was": {
+      "statement": "Kitchen items (pan, pot, knife, plate, glass) are in cupboard/drawer/pantry/counter in the evening. Not observed on sink for cleaning.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Kitchen items like the cutting board and mugs were found in the cupboard/counter, not the sink as previously thought for the day.",
+     "was": {
+      "statement": "Kitchen items (cutting board, mugs, snack bowl) are on the sink in the evening. Pans/pots in pantry.",
+      "holds_under": "Evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "The cutting board was found on the sink and dish rack, contradicting the previous note about the cupboard/counter.",
+     "was": {
+      "statement": "Kitchen items (cutting board, mugs) are in the cupboard/counter during the day. Evening location unknown.",
+      "holds_under": "Daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Cutting board was found on the counter, contradicting the previous belief that it is on the sink or dish rack.",
+     "was": {
+      "statement": "Cutting board is on the sink (11:12) or dish rack (20:33). Not in cupboard or counter at these times.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Update location to sink based on today's sighting, correcting the previous belief that it was on the counter.",
+     "was": {
+      "statement": "Cutting board is on the kitchen counter. Observed there at 14:50 and 18:12. Previously seen on sink/dish rack, suggesting it is kept on the counter for easy access.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to counter, which is now consistent across multiple sightings, and note the shift from cupboard.",
+     "was": {
+      "statement": "Cutting board is on the kitchen sink. Observed there at 12:01. Previously seen on counter, suggesting it is left in the sink after use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The cutting board moved from the counter to the dish rack, likely after use.",
+     "was": {
+      "statement": "Cutting board is on the kitchen counter. Observed there at 13:56 and 18:45. Previously on cupboard/sink, suggesting it is stored on the counter.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to counter, contradicting previous belief of dish rack.",
+     "was": {
+      "statement": "Cutting board is on the kitchen dish rack. Observed there at 20:18 on Day 25. Previously on counter, suggesting it is moved to the dish rack after use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Dana's mug is on the office desk. Observed there at 17:22 on Day 30. Previously on living room coffee table (Day 21) and kitchen cupboard (Day 30 21:24), suggesting it moves with Dana's work activities.",
+   "holds_under": "When Dana is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0369",
+    "sighting_0404"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's mug was found in the kitchen cupboard in the evening, contradicting the belief that it moves to the dish rack.",
+     "was": {
+      "statement": "Dana's mug is in the kitchen cupboard in the afternoon and on the dish rack in the evening.",
+      "holds_under": "Afternoon: cupboard. Evening: dish rack.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dana's mug was in the office at 15:39 and kitchen sink at 19:14, contradicting the cupboard claim.",
+     "was": {
+      "statement": "Dana's mug is in the kitchen cupboard in the afternoon and evening.",
+      "holds_under": "Afternoon and evening hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Dana's mug was found in the kitchen cupboard, contradicting the previous belief that it was in the office or sink.",
+     "was": {
+      "statement": "Dana's mug is in the office desk during work hours and kitchen sink in the evening. Not in cupboard.",
+      "holds_under": "Day: Office. Evening: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's mug was found on the coffee table in the living room in the afternoon, not in the kitchen cupboard. This suggests it is carried to the living room for use.",
+     "was": {
+      "statement": "Dana's mug is in the kitchen cupboard during the day. Not in office or sink.",
+      "holds_under": "Daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's mug was on the coffee table at 07:57, 12:13, and 18:58. This confirms it is consistently in the living room, not the kitchen, during the day.",
+     "was": {
+      "statement": "Dana's mug is on the coffee table in the living room in the afternoon. Daytime kitchen location unconfirmed today.",
+      "holds_under": "Afternoon: Living room coffee table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's mug was found on the coffee table, supporting the previous note.",
+     "was": {
+      "statement": "Dana's mug is on the coffee table in the living room. Observed there at 07:57, 12:13, and 18:58. Not in kitchen during these times.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's mug is on the coffee table in the living room. Observed there at 11:12. Not in living at 08:05 or 20:33.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's mug was found in the kitchen, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Dana's mug was not in the kitchen at 20:05, but was found on the living room coffee table at 17:55. It is not on the cupboard.",
+     "was": {
+      "statement": "Dana's mug is on the kitchen cupboard. Observed there at 14:50. Not found in kitchen at 18:12, suggesting it may have been moved or used.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to office desk based on Day 30 sighting, replacing the older 'living room' claim.",
+     "was": {
+      "statement": "Dana's mug is on the living room coffee table. Observed there at 17:55. Previously seen in kitchen, suggesting it is used in the living room.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Priya's mug is on the kitchen cupboard. Observed there at 21:24 on Day 30. Previously on dining table (Day 28) and kitchen counter (Day 30 17:22), suggesting it is stored in the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0370",
+    "sighting_0403"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Priya's mug was found in the kitchen cupboard in the evening, consistent with previous observations.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard in both afternoon and evening.",
+      "holds_under": "Always observed in cupboard.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Priya's mug was in the kitchen sink at 15:39 and 19:14, contradicting the cupboard claim.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard in both afternoon and evening.",
+      "holds_under": "Always observed in cupboard.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Priya's mug was found in the kitchen cupboard, contradicting the previous belief that it was in the sink.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen sink in the afternoon and evening. Not in cupboard.",
+      "holds_under": "Afternoon and evening: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Priya's mug was found in the kitchen sink in the evening, not in the cupboard as previously noted for daytime. This aligns with the pattern of items being moved to the sink/counter in the evening.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen cupboard during the day. Not in sink.",
+      "holds_under": "Daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Priya's mug was on the kitchen sink at 07:57, but on the dining table at 09:28. It was not in the kitchen at 12:13. This suggests it moves from kitchen to dining in the morning.",
+     "was": {
+      "statement": "Priya's mug is in the kitchen sink in the evening. Daytime location (cupboard) unconfirmed today.",
+      "holds_under": "Evening: Kitchen sink.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's mug was found on the dining table, contradicting the previous note about the kitchen sink in the early morning.",
+     "was": {
+      "statement": "Priya's mug is on the kitchen sink in the early morning, and on the dining table later in the morning. Observed on sink at 07:57, dining table at 09:28.",
+      "holds_under": "Early morning: Kitchen sink. Later morning: Dining table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom bed based on 11:56 and 19:14 sightings. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's mug is on the dining table. Observed there at 08:05, 11:12, and 20:33. Not in kitchen during these times.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Priya's mug was not in the bedroom at 12:56 or 17:55, but was found in the kitchen pantry at 20:05. It is not on the bed.",
+     "was": {
+      "statement": "Priya's mug is on the bedroom bed (11:56, 19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Update location to dish rack based on today's sighting, correcting the previous belief that it was on the pantry shelf.",
+     "was": {
+      "statement": "Priya's mug is on the kitchen pantry shelf. Observed there at 20:05. Previously seen in dining/bedroom, suggesting it is stored in the kitchen when not in use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dish rack.",
+     "was": {
+      "statement": "Priya's mug is on the kitchen dish rack. Observed there at 12:01. Previously seen on pantry shelf, suggesting it is dried there after washing.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Priya's mug was found on the dining sideboard, not the kitchen sink as previously believed.",
+     "was": {
+      "statement": "Priya's mug is on the kitchen sink. Observed there at 13:56 and 18:45. Previously on dish rack, suggesting it is used and left in the sink area.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to dining table, contradicting previous belief of dining sideboard.",
+     "was": {
+      "statement": "Priya's mug is on the dining sideboard. Observed there at 20:18 on Day 25. Previously in kitchen, suggesting it is stored in the dining area.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to cupboard based on Day 30 21:24 sighting, replacing the older 'dining table' claim.",
+     "was": {
+      "statement": "Priya's mug is on the dining table. Observed there at 08:30 on Day 28. Previously on dining sideboard, suggesting it is moved to the table for use.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Priya's headset is on the living room TV stand. Observed there at 17:22 and 21:24 on Day 30. Previously on couch (Day 28), suggesting it is stored on the TV stand when not in use.",
+   "holds_under": "When in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0941",
+    "sighting_0983",
+    "sighting_1006"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's headset was found on the couch, contradicting the previous note about the TV stand in the morning/afternoon.",
+     "was": {
+      "statement": "Priya's headset is on the TV stand in the morning/afternoon, and on the couch in the evening. Observed on TV stand at 07:57 and 12:13, couch at 18:58.",
+      "holds_under": "Morning/Afternoon: TV stand. Evening: Couch.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room couch based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's headset is on the couch in the living room. Observed there at 11:12. Not in living at 08:05 or 20:33.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya's headset was found on the TV stand, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Priya's headset is on the living room couch (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to couch, contradicting previous belief of TV stand.",
+     "was": {
+      "statement": "Priya's headset is on the living room TV stand. Observed there at 14:50. Previously seen on couch/dining table, suggesting it is used for gaming or calls in the living room.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to TV stand based on Day 30 sightings, replacing the older 'couch' claim.",
+     "was": {
+      "statement": "Priya's headset is on the living room couch. Observed there at 16:56 on Day 28. Previously on TV stand, suggesting it is moved to the couch for use.",
+      "holds_under": "When in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Dana's charger is on the bedroom bed. Observed there at 12:01. Previously seen in living/dining, suggesting it is kept near the bed for charging devices.",
+   "holds_under": "When in the bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0986"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's charger is on the bedroom bed. Observed there at 12:13. Not in other rooms during the day.",
+      "holds_under": "When in the bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's charger was found on the bedroom bed, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's charger is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Dana's bowl is on the kitchen cupboard. Observed there at 08:30 and 20:17 on Day 28. Previously on sink, suggesting it is stored on the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0937",
+    "sighting_0961",
+    "sighting_0996"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Dana's bowl was found on the kitchen sink, contradicting the previous note about the living room side table or dining table.",
+     "was": {
+      "statement": "Dana's bowl is on the side table in the living room in the morning, on the dining table later in the morning, and on the coffee table in the evening. Observed on side table at 07:57, dining table at 09:28, coffee table at 18:58.",
+      "holds_under": "Morning: Living side table. Later morning: Dining table. Evening: Living coffee table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to living room coffee table based on 19:14 sighting. It was in dining in the morning.",
+     "was": {
+      "statement": "Dana's bowl is on the kitchen sink. Observed there at 11:12 and 20:33. Not in kitchen at 08:05, not in dining or living at 11:12 or 20:33.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Dana's bowl was found in the kitchen, contradicting the previous belief that it moves between living/dining.",
+     "was": {
+      "statement": "Dana's bowl is on the living room coffee table (19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in living or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Dana's bowl was not in the kitchen at 12:56 or 17:55, but was found in the kitchen sink at 20:05. It is not on the cupboard.",
+     "was": {
+      "statement": "Dana's bowl is on the kitchen cupboard. Observed there at 14:50 and 18:12. Previously seen in living/dining, suggesting it is stored in the kitchen.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Dana's bowl is in the kitchen sink. Observed there at 20:05. Previously seen on cupboard, suggesting it is used for eating and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's bowl has been on the cupboard for 3 consecutive days (Day 23-25), contradicting the previous belief that it is in the sink.",
+     "was": {
+      "statement": "Dana's bowl is in the kitchen sink. Observed there at 13:56 and 18:45. Previously on cupboard, suggesting it is used for eating and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, contradicting previous belief of kitchen sink.",
+     "was": {
+      "statement": "Dana's bowl is on the kitchen cupboard. Observed there at 16:56 and 20:18 on Day 25. Previously in sink, suggesting it is stored on the cupboard when not in use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Priya's bowl is on the kitchen cupboard. Observed there at 17:22 and 21:24 on Day 30. Previously on dining table (Day 28), suggesting it is stored in the kitchen when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_0924",
+    "sighting_0942"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Priya's bowl was found on the dining table, contradicting the previous note about the kitchen counter.",
+     "was": {
+      "statement": "Priya's bowl is on the dining table in the early morning, and on the kitchen counter later in the morning. Observed on dining table at 07:57, kitchen counter at 09:28.",
+      "holds_under": "Early morning: Dining table. Later morning: Kitchen counter.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Update location to bedroom bed based on 11:56 and 19:14 sightings. It was in dining in the morning.",
+     "was": {
+      "statement": "Priya's bowl is on the dining table. Observed there at 08:05, 11:12, and 20:33. Not in kitchen during these times.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Priya's bowl was not in the bedroom at 12:56 or 17:55, but was found in the kitchen sink at 20:05. It is not on the bed.",
+     "was": {
+      "statement": "Priya's bowl is on the bedroom bed (11:56, 19:14) or dining table (08:09). It moves between rooms.",
+      "holds_under": "When in bedroom or dining.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Update location to sink, which is now consistent across multiple sightings, and note the shift from dining table.",
+     "was": {
+      "statement": "Priya's bowl is in the kitchen sink. Observed there at 20:05. Previously seen in dining/bedroom, suggesting it is used for eating and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to dining table, contradicting previous belief of kitchen sink.",
+     "was": {
+      "statement": "Priya's bowl is in the kitchen sink. Observed there at 13:56 and 18:45. Previously on dining table, suggesting it is used for eating and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to cupboard based on Day 30 21:24 sighting, replacing the older 'dining table' claim.",
+     "was": {
+      "statement": "Priya's bowl is on the dining table. Observed there at 08:30 on Day 28. Previously in kitchen sink, suggesting it is moved to the dining area for use.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Priya's skincare is on the bathroom shelf. Observed there at 09:44 on Day 25. Previously in medicine cabinet, suggesting it is moved to the shelf for easier access.",
+   "holds_under": "When in the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_1534"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Priya's plate is on the kitchen cupboard. Observed there at 20:17 on Day 28. Previously on dining table, suggesting it is stored in the kitchen when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1608"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, contradicting previous belief of dining table.",
+     "was": {
+      "statement": "Priya's plate is on the dining table. Observed there at 20:18 on Day 25. Previously in kitchen sink, suggesting it is moved to the dining area for eating.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Dana's glass is on the kitchen cupboard. Observed there at 08:30 and 20:17 on Day 28. Previously on sink, suggesting it is stored on the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1591"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, contradicting previous belief of sink.",
+     "was": {
+      "statement": "Dana's glass is on the kitchen sink. Observed there at 20:18 on Day 25. Previously not seen in kitchen, suggesting it is used and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Dana's plate is on the kitchen dish rack. Observed there at 21:24 on Day 30. Previously on counter (Day 28) and cupboard (Day 30 17:22), suggesting it is moved to the dish rack after washing or for storage.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1593"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to counter, contradicting previous belief of sink.",
+     "was": {
+      "statement": "Dana's plate is on the kitchen sink. Observed there at 20:18 on Day 25. Previously not seen in kitchen, suggesting it is used and left in the sink.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to dish rack based on Day 30 21:24 sighting, replacing the older 'cupboard' claim.",
+     "was": {
+      "statement": "Dana's plate is on the kitchen counter. Observed there at 20:17 on Day 28. Previously on sink, suggesting it is moved to the counter after washing or for use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Pot is on the kitchen cupboard. Observed there at 08:30 and 20:17 on Day 28. Previously on dish rack, suggesting it is stored on the cupboard when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1583"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, contradicting previous belief of kitchen sink.",
+     "was": {
+      "statement": "Pot is on the kitchen dish rack. Observed there at 20:18 on Day 25. Previously on cupboard, suggesting it is moved to the dish rack after use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Recipe book is on the kitchen floor. Observed there at 21:24 on Day 30. Previously on pantry shelf (Day 30 17:22) and counter (Day 28), suggesting it was dropped or left on the floor during use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1588"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to counter, contradicting previous belief of pantry shelf.",
+     "was": {
+      "statement": "Recipe book is on the kitchen pantry shelf. Observed there at 20:18 on Day 25. Previously on kitchen table, suggesting it is moved to the pantry for storage.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Update location to floor based on Day 30 21:24 sighting, replacing the older 'counter' claim.",
+     "was": {
+      "statement": "Recipe book is on the kitchen counter. Observed there at 20:17 on Day 28. Previously on pantry shelf, suggesting it is moved to the counter for use.",
+      "holds_under": "When in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Serving dish is on the kitchen cupboard. Observed there at 20:17 on Day 28. Previously on dining table, suggesting it is stored in the kitchen when not in use.",
+   "holds_under": "When in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1609"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Update location to cupboard, contradicting previous belief of dining table.",
+     "was": {
+      "statement": "Serving dish is on the dining table. Observed there at 20:18 on Day 25. Previously in kitchen, suggesting it is moved to the dining area for use.",
+      "holds_under": "When in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

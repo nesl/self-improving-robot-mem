@@ -1,0 +1,14 @@
+Tally of the hand coding of 40 wrong first-room choices (E6, "readers misjudge absences too").
+
+The sample (`absence_misreads/sample.json`) was built by `analysis/absence_misreads_sample.py`: seed 0, wrong first
+rooms during and after the illness, at most 3 per home, 20 per arm (history only = `wave_log_only`, history and notes
+= `overnight_wave`), ten homes at 8 a day, Qwen. `coding.json` holds one independent coder's category and evidence
+for each item: A = misreads or ignores where the object had NOT been found (failed looks), B = misreads something
+else, C = a sound reading that was still wrong. The finer splits in the paper (5 of 7, 7 of 7) come from reading
+the `evidence` text of the A items, not from a field.
+
+    python3 analysis/absence_misreads_tally.py
+
+history only (log_only_no_notes)                           A  7   B  1   C 12   of 20
+history and notes (the_log_and_notes_about_the_routine)    A  7   B  0   C 13   of 20
+both arms                                                  A 14   B  1   C 25   of 40

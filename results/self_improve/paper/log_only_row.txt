@@ -1,0 +1,26 @@
+log-only finished in 10 of 10 households
+  households used: hh_s2_t03, hh_s19_t03, hh_s20_t03, hh_s32_t03, hh_s48_t03, hh_s63_t03, hh_s93_t03, hh_s109_t03, hh_s123_t03, hh_s151_t03
+
+=== first room right
+  log only, no notes         85.2   2480 questions
+  log and notes              85.6   2480 questions
+  last-seen                  82.1   2480 questions
+  claim store                77.0   2480 questions
+  --- paired within household, 2 SE across the 10 households, floor 1.9
+    log only minus log and notes      -0.4  2 SE   1.9  same sign 5 of 10  does not clear
+      0.4 is inside the 1.9 noise floor: on this measure the two are indistinguishable
+    log only minus last-seen          +3.1  2 SE   3.4  same sign 8 of 10  does not clear
+    log only minus claim store        +8.2  2 SE   3.9  same sign 9 of 10  CLEARS
+
+=== found within 3
+  log only, no notes         95.9   2480 questions
+  log and notes              96.6   2480 questions
+  last-seen                  95.0   2480 questions
+  claim store                86.9   2480 questions
+  --- paired within household, 2 SE across the 10 households, floor 2.2
+    log only minus log and notes      -0.7  2 SE   2.0  same sign 5 of 10  does not clear
+      0.7 is inside the 2.2 noise floor: on this measure the two are indistinguishable
+    log only minus last-seen          +0.8  2 SE   2.0  same sign 7 of 10  does not clear
+      0.8 is inside the 2.2 noise floor: on this measure the two are indistinguishable
+    log only minus claim store        +9.0  2 SE   3.7  same sign 10 of 10  CLEARS
+

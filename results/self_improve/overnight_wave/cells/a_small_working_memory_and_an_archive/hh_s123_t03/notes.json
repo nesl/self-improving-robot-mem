@@ -1,0 +1,966 @@
+{
+ "household": "hh_s123_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 11,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Bathroom items are static. Sam's razor moved from shelf to sink between 07:00 and 08:48. Priya's towel moved from shelf to rack in same window. Both stable for rest of day. First aid kit always in cabinet.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0003",
+    "sighting_0016"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "The razor's location changed from shelf to sink early in the day and remained on the sink for the rest of the day. This indicates a specific morning habit or event.",
+     "was": {
+      "statement": "Priya is in the bathroom at 07:00. Her razor is on the shelf at 07:00 but on the sink from 08:14 onwards. This suggests she used it and left it on the sink after her morning routine.",
+      "holds_under": "Morning routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "The razor's location is stable on the sink throughout Day 3, confirming the morning routine hypothesis.",
+     "was": {
+      "statement": "Priya's razor is on the sink in the bathroom. It was on the shelf at 07:00 but moved to the sink by 08:14, suggesting she used it during her morning routine and left it there.",
+      "holds_under": "Always, unless she moves it.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Corrects location error in previous note and notes the simultaneous movement of both razors, suggesting a shared morning sequence or Sam tidying up.",
+     "was": {
+      "statement": "Priya's razor is on the bathroom sink. It moved from the shelf to the sink between 07:00 and 08:14, indicating she used it during her morning routine and left it there.",
+      "holds_under": "Always, unless she moves it.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Correcting previous error: razors are on shelf, not cabinet. Both moved from sink to shelf between 07:00 and 07:52.",
+     "was": {
+      "statement": "Priya's razor is on the medicine cabinet. It was on the sink at 07:00 but moved to the cabinet by 08:06, likely after Sam used the bathroom. Sam's razor moved from sink to shelf in the same window.",
+      "holds_under": "Morning routine complete, items returned to storage spots.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Sam's razor location changed from shelf to sink early in the day and stayed there. Priya's razor remained on the shelf.",
+     "was": {
+      "statement": "Priya's razor is on the bathroom shelf. It was on the sink at 07:00 but moved to the shelf by 07:52. Sam's razor is also on the shelf. Both have been stable on the shelf since 07:52.",
+      "holds_under": "Always, unless moved.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Correcting the previous error that Sam's razor was on the sink. It moved to the shelf by 08:46 and stayed there.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom sink. It moved from the shelf to the sink between 07:00 and 08:36 and has remained there since. Priya's razor is on the bathroom shelf.",
+      "holds_under": "Stable since 08:36 on Day 6.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Updated to reflect Priya's razor location change observed today.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom shelf. It was on the sink at 07:12-08:13, but moved to the shelf by 08:46 when Sam was present. Priya's razor is consistently on the bathroom shelf.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Corrected the location of Sam's razor based on Day 9 data. Both razors moved from shelf to sink between 07:00 and 07:47 and stayed there.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom shelf. It was on the sink at 07:12-08:13, but moved to the shelf by 08:46 when Sam was present. Priya's razor is consistently on the sink (moved from shelf by 08:55).",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Consolidating razor locations. Both razors moved from shelf to sink early in the day and stayed there. Moving to archive to free working memory for more dynamic items.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Priya's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Both remain on sink through 19:22.",
+      "holds_under": "When both are in the bathroom, they are on the sink. If found on shelf, it is likely before 07:47 or after a specific re",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated timestamp to reflect latest observation at 22:09 where both razors were still on the sink.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Priya's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Both remain on sink through 19:22.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Consistent location across all bathroom checks today.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Priya's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Both remain on sink through 22:09.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Consistent location across multiple checks.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Priya's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Both remain on sink through 22:09.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Corrects the location of Sam's razor which moved from sink to shelf between 07:00 and 08:33.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Priya's razor is on the sink. It was on the shelf at 07:00, moved to sink by 07:47. Both remain on sink through 22:09.",
+      "holds_under": "When both are in the bathroom and not being used.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Corrected location from shelf to sink based on Day 15 sightings.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom shelf. It was on the sink at 07:00 but moved to the shelf by 08:33. Priya's razor is on the bathroom shelf. Both remain on the shelf through 16:35.",
+      "holds_under": "Standard morning routine after 08:00.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Updated timestamps to reflect today's sightings. The move from shelf to sink happened between 07:39 and 08:55.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:00 but moved to the sink by 08:59. Priya's razor is on the sink. Both remain on the sink through 19:05.",
+      "holds_under": "When both are in the bathroom and not being used.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Updated to reflect consistent locations seen today. Sam's razor was on the sink in all sightings, Priya's on the shelf.",
+     "was": {
+      "statement": "Sam's razor is on the sink. It was on the shelf at 07:39 but moved to the sink by 08:55. Priya's razor is on the sink. Both remain on the sink through 21:07.",
+      "holds_under": "When Sam is not actively using the shelf for storage.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "On Day 18 at 07:00, Priya's razor was on the shelf, but by 08:01 it had moved to the sink. Sam's razor moved from the sink to the shelf at 08:01, then back to the sink by 09:40. The sink is the stable resting place for both.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom sink. Priya's razor is on the bathroom shelf. Both have been in these spots consistently through Day 17.",
+      "holds_under": "Normal days. If Sam starts shaving in the morning, his razor might move to the sink temporarily, but it seems to stay on",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Corrected Priya's razor location from sink to shelf based on consistent sightings.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom sink. Priya's razor is on the bathroom sink. Both have been in these spots consistently through Day 18.",
+      "holds_under": "When both are in the bathroom and not actively using them.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Corrected locations based on Day 20 sightings. Previous note had them swapped.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom sink. Priya's razor is on the bathroom shelf. Both have been in these spots consistently through Day 19.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated locations based on Day 21 sightings. Sam's razor moved from shelf to sink. Priya's towel moved from rack to shelf.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom shelf. Priya's razor is on the bathroom sink. Consistent through Day 20.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "No changes observed in bathroom across 4 checks.",
+     "was": {
+      "statement": "Sam's razor is on the bathroom sink. Priya's razor is on the bathroom sink. Sam's skincare is on the bathroom shelf. Priya's towel is on the bathroom shelf. Sam's towel is on the towel rack. Consistent Day 21.",
+      "holds_under": "Daily routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Captures the specific morning transition of Sam's razor and Priya's towel, which was the only change in the bathroom today.",
+     "was": {
+      "statement": "Bathroom: Sam's razor/skincare/towel and Priya's razor/towel/hair dryer are in fixed spots. First aid kit in cabinet. Consistent all day.",
+      "holds_under": "Bathroom static items",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Sam works in the office in the morning. His laptop, pen, textbook, headphones, and plant_pot_3 are on the desk. He is present. Mug is not in office.",
+   "holds_under": "Morning routine",
+   "supporting_observation_ids": [
+    "sighting_1814",
+    "sighting_1815",
+    "sighting_1816",
+    "sighting_1817",
+    "sighting_1818"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Items found in office at 15:45, consistent with evening work pattern.",
+     "was": {
+      "statement": "Sam works in the office in the evening. At 21:43, his laptop, pen, textbook, and headphones were on the desk/chair. He was not in the living room at that time.",
+      "holds_under": "Evenings",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Updates the time of day for Sam's office work and notes the removal of work items in the evening.",
+     "was": {
+      "statement": "Sam works in the office in the evening. At 21:43, his laptop, pen, textbook, and headphones were on the desk/chair. He was not in the living room at that time.",
+      "holds_under": "When Sam is working in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Updated time and items based on Day 15 17:41 sighting. Previous note about morning work is outdated.",
+     "was": {
+      "statement": "Sam works in the office in the morning. At 07:42, his laptop, pen, textbook, and headphones were on the desk. By 21:01, only headphones and plant remain; laptop/pen/textbook are gone.",
+      "holds_under": "Sam is present in the home during work hours.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Updated time and item list to match Day 19 observations.",
+     "was": {
+      "statement": "Sam works in the office in the evening. At 17:41, his laptop, pen, textbook, headphones, and mug were on the desk. He was present. This is distinct from his bedroom (bedroom_2).",
+      "holds_under": "When Sam is working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Confirmed by Day 20 15:14 sighting. Sam is in the office, not just late afternoon.",
+     "was": {
+      "statement": "Sam works in the office in the late afternoon/evening. At 16:38, his laptop, pen, textbook, headphones, and mug were on the desk. He was present. This is distinct from his bedroom (bedroom_2).",
+      "holds_under": "When Sam is working",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Corrected time to morning (08:03) and noted mug is absent from office, found in kitchen instead.",
+     "was": {
+      "statement": "Sam works in the office in the afternoon. His laptop, pen, textbook, headphones, and mug are on the desk. He is present.",
+      "holds_under": "Afternoon work hours",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 12,
+     "time": 1121400,
+     "into_working_memory": true
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Priya's bedroom_1 desk holds pencil case, sketchbook. Wardrobe holds gym bag, iron, scarf. Jacket often on living couch. She is present in the evening.",
+   "holds_under": "Evening routine",
+   "supporting_observation_ids": [
+    "sighting_1819",
+    "sighting_1820",
+    "sighting_1821",
+    "sighting_1822"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Items not seen in other rooms today, likely stored in bedroom.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) contains her gym bag, iron, pencil case, and scarf. These items were on the wardrobe and desk at 21:43.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Corrects the list of items in bedroom_1 based on the 07:42 sighting, removing the scarf which was not present.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) contains her gym bag, iron, pencil case, and scarf. These items were on the wardrobe and desk at 21:43.",
+      "holds_under": "When Priya is not using these items.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Added new items found in bedroom_1 on Day 15.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) contains her gym bag, iron, pencil case, and sketchbook. These items were on the wardrobe, floor, and desk at 07:42. Her scarf is not currently in this room.",
+      "holds_under": "Priya is not actively using these items elsewhere.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Updated timestamp to 11:11 based on today's sighting. Confirms her items are in bedroom_1.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) contains her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. At 12:58, these were on the wardrobe, floor, desk, bed, and nightstand. She was present.",
+      "holds_under": "When Priya is in her bedroom.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Confirmed by sightings at 11:26 and 14:01. Priya was present both times.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) contains her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. At 11:11, these were on the wardrobe, floor, desk, bed, and nightstand. She was present.",
+      "holds_under": "When Priya is in her bedroom or has recently left it.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "At 08:54, phone_priya was on the nightstand. By 11:46, it was gone (NOT FOUND), while all other items remained. This suggests she takes her phone with her when she leaves the room.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) holds her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. She is present in the room during the day.",
+      "holds_under": "When Priya is home and not out. Items are usually on the wardrobe, floor, desk, bed, or nightstand.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Confirmed by Day 20 09:57 and 11:10 sightings. Priya is in her room in the morning.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) holds her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. Her phone is usually on the nightstand but may be taken with her.",
+      "holds_under": "During the day when Priya is in the house.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Confirmed presence at 12:51. Noted glass location change between 11:40 and 12:51.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) holds her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. She is present in the morning.",
+      "holds_under": "Morning hours",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Priya present at 13:11. Items consistent with her personal space.",
+     "was": {
+      "statement": "Priya's bedroom (bedroom_1) holds her gym bag, iron, pencil case, sketchbook, charger, glass, and water bottle. She is present mid-day. Glass moves between desk and nightstand.",
+      "holds_under": "Mid-day routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Items moved between 08:05 and 20:13. Core items remain, but personal electronics/glass are removed in the evening.",
+     "was": {
+      "statement": "Mid-day: Priya in bedroom_1. Items: gym bag, iron, pencil case, sketchbook, charger, glass, water bottle. Glass on nightstand. Pencil case on floor.",
+      "holds_under": "Mid-day, Priya in bedroom_1",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Updates location of pencil case (desk not floor) and confirms evening presence, contradicting previous 'active in morning' assumption.",
+     "was": {
+      "statement": "Priya's bedroom_1 items: gym bag/iron on wardrobe, sketchbook on desk, pencil case on floor. Charger/glass/headphones appear in morning, gone by evening. She is active in the morning.",
+      "holds_under": "Morning routine (approx 08:00-09:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Updated to reflect current state of bedroom_1 and jacket location.",
+     "was": {
+      "statement": "Priya's bedroom_1 desk holds charger, headphones, laptop, mug, notebook, pen, pencil case, sketchbook, water bottle. Wardrobe holds gym bag, iron. She is present in the evening (22:31).",
+      "holds_under": "Evening hours when Priya is in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 12,
+     "time": 1121400,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Kitchen items are often moved between counter, sink, and table during the day. At 20:13, plates and glasses were on the table, while cooking tools were at the sink.",
+   "holds_under": "Daytime/Evening",
+   "supporting_observation_ids": [
+    "sighting_1789",
+    "sighting_1790",
+    "sighting_1791",
+    "sighting_1792",
+    "sighting_1796",
+    "sighting_1797"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Sam sleeps in bedroom_2. Tablet on nightstand. Room mostly empty. Sam not present at 15:03 (was in kitchen).",
+   "holds_under": "Sam's bedroom_2",
+   "supporting_observation_ids": [
+    "sighting_2114",
+    "sighting_2115"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Clarified that Sam was not present in bedroom_2 at 16:37, correcting previous assumption.",
+     "was": {
+      "statement": "Sam sleeps in bedroom_2. At 21:01, his book and tablet were found there. He was present in the room. This is distinct from his office work area.",
+      "holds_under": "Evening routine.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Tablet is the only item. Sam was in kitchen at same time.",
+     "was": {
+      "statement": "Sam sleeps in bedroom_2. At 16:37, his book and tablet were found on the nightstand. He was not present in the room at that time, but it is his personal space.",
+      "holds_under": "Always.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Priya's mug is in the living room on the coffee table at 18:05. It was in the kitchen cupboard at 16:37. She was in the living room at 18:05.",
+   "holds_under": "When Priya is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_2246",
+    "sighting_2162"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Sam's skincare is on the medicine cabinet. It was on the shelf at 07:39 but moved to the cabinet by 08:55. It remains there through 21:07.",
+   "holds_under": "When Sam is not actively using the shelf for storage.",
+   "supporting_observation_ids": [
+    "sighting_2276",
+    "sighting_2287",
+    "sighting_2297",
+    "sighting_2337",
+    "sighting_2347"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Kitchen evening: Dishes (cutting board, knife, spatula) move to sink. Bowls/mugs/plates on cupboard/table. Water bottle on table. Sam's mug on sink.",
+   "holds_under": "Evening routine",
+   "supporting_observation_ids": [
+    "sighting_2405",
+    "sighting_2415",
+    "sighting_2416",
+    "sighting_2420"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Updated to reflect Day 19 sightings of Sam in the kitchen at 16:38 and 20:14.",
+     "was": {
+      "statement": "Sam is in the kitchen around mid-afternoon (15:10). His bowl, mug, plate, and glass are there. He seems to be eating or preparing food.",
+      "holds_under": "Mid-afternoon on weekdays. Sam is present in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updated to reflect that both are present and items are on the cupboard, not just Sam eating.",
+     "was": {
+      "statement": "Sam is in the kitchen in the late afternoon and evening. His bowl, mug, plate, and glass are there. He seems to be eating or preparing food. At 20:14, his mug was on the sink, suggesting he just washed it.",
+      "holds_under": "When Sam is in the kitchen",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Mug location changed from sink to cupboard between 15:03 and 20:04. Book consistently on chair. Sam present both times.",
+     "was": {
+      "statement": "In the evening, Sam and Priya are in the kitchen. Their mugs, bowls, and plates are stored on the cupboard. Sam's book is on the floor.",
+      "holds_under": "Evening hours",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updating to reflect that Sam's book is on the kitchen table (not chair) and mug is on the table (not sink/cupboard) based on Day 23 sightings.",
+     "was": {
+      "statement": "Evening: Sam in kitchen. His mug moves from sink to cupboard. His book is on the chair. Priya's plate is at the sink. Bowls/pots on cupboard. Sam present at 15:03 and 20:04.",
+      "holds_under": "Evening routine, Sam in kitchen",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Significant reorganization of kitchen items between 08:05 and 20:13. Suggests cooking/cleaning activity.",
+     "was": {
+      "statement": "Evening: Sam in kitchen. His mug moves from sink to cupboard. His book is on the chair. Priya's plate is at the sink. Bowls/pots on cupboard. Sam present at 15:03 and 20:04.",
+      "holds_under": "Sam is in the kitchen during the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updates claim_0008 with specific item movements observed between 20:10 and 21:27, noting that Sam's mug is no longer in the kitchen but in the office.",
+     "was": {
+      "statement": "Kitchen evening (20:13): Both present. Dishes (cutting board, knife, pan, spatula, mug_sam) moved to sink. Bowls/pots/recipe book moved to pantry shelf. Water bottle_priya appears on table.",
+      "holds_under": "Post-dinner cleanup phase",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed specific movement of utensils to drawers and water bottle to dish rack at 20:35, refining previous static assumption.",
+     "was": {
+      "statement": "Kitchen evening: Dishes (cutting board, knife, pan, spatula) stay at sink. Bowls/mugs on cupboard. Plates/water bottle move from table to sink/pantry by 21:27. Sam's mug moves to office desk.",
+      "holds_under": "Evening routine after dinner",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Corrected dish locations based on 19:45 sighting.",
+     "was": {
+      "statement": "Kitchen evening: Dishes (cutting board, knife, spatula) move from sink/counter to drawer/dish rack by 20:35. Bowls/mugs/plates on cupboard. Water bottle on dish rack. Sam's mug on table in AM, gone by PM.",
+      "holds_under": "Evening routine after dinner prep",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Afternoon: Priya in living room. Her mug is on the coffee table. Vacuum cleaner on floor. Sam not present. Observed 17:04.",
+   "holds_under": "Priya is in the living room during the afternoon.",
+   "supporting_observation_ids": [
+    "sighting_2448",
+    "sighting_2452"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "At 15:19, mug_priya and plate_priya were in the living room. By 20:40, the plate was gone but a bowl_priya appeared on the coffee table. This suggests she eats in the living room, possibly moving from a plate to a bowl or changing meals.",
+     "was": {
+      "statement": "Priya is in the living room in the evening (20:59). Her mug and plate are on the coffee table/couch. She is relaxing.",
+      "holds_under": "Evening hours. Priya is present in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Updated to reflect Day 19 sighting of Priya's mug in the living room at 14:06.",
+     "was": {
+      "statement": "Priya is in the living room in the evening. Her mug is on the coffee table. She may have a bowl of food there as well.",
+      "holds_under": "Evening hours (approx 15:00-21:00).",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated to reflect 15:07 sighting where Sam was absent and vacuum was present.",
+     "was": {
+      "statement": "Priya is in the living room in the afternoon. Her mug is on the coffee table. At 14:06, Sam was also present in the living room.",
+      "holds_under": "When Priya is in the living room",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Consistent with previous day. Priya present, Sam absent.",
+     "was": {
+      "statement": "Priya is in the living room in the afternoon. Her mug is on the coffee table. Vacuum cleaner is on the floor. Sam is not present.",
+      "holds_under": "Afternoon routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Confirming Priya's mug location and vacuum cleaner presence in living room.",
+     "was": {
+      "statement": "Afternoon: Priya in living room. Her mug is on the coffee table. Vacuum cleaner on floor. Sam not present. Observed 17:04.",
+      "holds_under": "Afternoon, Priya in living room",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "into_working_memory": true
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Sam's office: laptop, headphones, pen, textbook, plant_pot_3 on desk. Mug_sam appears in PM/Evening. He works in office AM and PM.",
+   "holds_under": "Daily routine",
+   "supporting_observation_ids": [
+    "sighting_3093",
+    "sighting_3094",
+    "sighting_3095",
+    "sighting_3096",
+    "sighting_3097",
+    "sighting_3091"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Consistent set of items on the office desk when Sam is present. Indicates his workspace.",
+     "was": {
+      "statement": "Late Evening (22:13): Sam in office. Laptop, headphones, mug, textbook, plant_pot_3 on desk. Sam's glass moved from kitchen table to kitchen sink. Sam's book and mug left kitchen.",
+      "holds_under": "It is late evening and Sam is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Updated to reflect morning presence and absence of mug, correcting previous evening-only assumption.",
+     "was": {
+      "statement": "Sam's office setup (evening): laptop, headphones, mug, pen, textbook, plant_pot_3 on desk. He is present in the office in the late afternoon/evening (17:45).",
+      "holds_under": "Evening work/study time",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated to reflect that Sam was in the office at 17:01 with his mug, whereas previous notes indicated the mug was absent in the morning. This suggests a pattern of bringing a drink to the office during longer work sessions or specific times",
+     "was": {
+      "statement": "Sam's office setup: laptop, headphones, pen, textbook, plant_pot_3 on desk. He works in the office in the morning (08:07). Mug is not present in the morning.",
+      "holds_under": "Sam is working in the office in the morning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Confirmed mug presence in PM.",
+     "was": {
+      "statement": "Sam's office setup: laptop, headphones, pen, textbook, plant_pot_3 on desk. He works in the office in the morning (08:07) and evening (17:01). Mug_sam is present in the evening but not in the morning.",
+      "holds_under": "Sam is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

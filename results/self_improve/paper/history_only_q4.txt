@@ -1,0 +1,37 @@
+History only at 4 a day on the five homes (v3 banks, 31 days, budget 3), paired against the other 4-a-day arms on the
+same homes and questions. First room right, 2 SE over homes. Cells: wave_log_only_q4 (new, 2026-11-04) and
+wave_the_budget_sweep_q4 (existing).
+history only, per home: hh_s32 0.903  hh_s48 0.847  hh_s63 0.710  hh_s93 0.871  hh_s151 0.863
+
+== history only minus history and notes
+  hh_s32   history and notes 0.879 -> history only 0.903
+  hh_s48   history and notes 0.831 -> history only 0.847
+  hh_s63   history and notes 0.734 -> history only 0.710
+  hh_s93   history and notes 0.871 -> history only 0.871
+  hh_s151  history and notes 0.798 -> history only 0.863
+  settled         +1.5 ± 5.6 pts (2 SE, 5 homes), higher in 3 of 5
+  disrupted       +1.0 ± 1.2 pts (2 SE, 5 homes), higher in 2 of 5
+  back to normal  +2.5 ± 2.3 pts (2 SE, 5 homes), higher in 3 of 5
+  all             +1.6 ± 2.9 pts (2 SE, 5 homes), higher in 3 of 5
+
+== history only minus last-seen
+  hh_s32   last-seen 0.839 -> history only 0.903
+  hh_s48   last-seen 0.806 -> history only 0.847
+  hh_s63   last-seen 0.653 -> history only 0.710
+  hh_s93   last-seen 0.831 -> history only 0.871
+  hh_s151  last-seen 0.766 -> history only 0.863
+  settled         +8.5 ± 5.5 pts (2 SE, 5 homes), higher in 4 of 5
+  disrupted       +2.5 ± 1.6 pts (2 SE, 5 homes), higher in 4 of 5
+  back to normal  +6.2 ± 6.6 pts (2 SE, 5 homes), higher in 3 of 5
+  all             +6.0 ± 2.1 pts (2 SE, 5 homes), higher in 5 of 5
+
+== history only minus last-seen updated each night
+  hh_s32   last-seen updated each night 0.847 -> history only 0.903
+  hh_s48   last-seen updated each night 0.774 -> history only 0.847
+  hh_s63   last-seen updated each night 0.597 -> history only 0.710
+  hh_s93   last-seen updated each night 0.806 -> history only 0.871
+  hh_s151  last-seen updated each night 0.734 -> history only 0.863
+  settled         +12.7 ± 4.6 pts (2 SE, 5 homes), higher in 5 of 5
+  disrupted       +5.0 ± 2.2 pts (2 SE, 5 homes), higher in 5 of 5
+  back to normal  +6.9 ± 7.2 pts (2 SE, 5 homes), higher in 4 of 5
+  all             +8.7 ± 2.9 pts (2 SE, 5 homes), higher in 5 of 5

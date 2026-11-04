@@ -1,0 +1,1491 @@
+{
+ "household": "hh_s151_t03",
+ "arm": "memory-guided search with the log and notes about the routine",
+ "how_memory_is_written": "the log and notes about the routine",
+ "written_up_to_day": 31,
+ "next_claim_number": 31,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Dana's toiletries (razor, skincare, bag) are on the bathroom sink and shelf. Her towel is on the bathroom shelf.",
+   "holds_under": "When not in active use.",
+   "supporting_observation_ids": [
+    "sighting_0002",
+    "sighting_0003",
+    "sighting_0004"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Confirmed stable locations for Dana's personal bathroom items.",
+     "was": {
+      "statement": "Dana's toiletries (razor, skincare, toiletry bag) are typically stored on the bathroom shelf. [sighting_0002, sighting_0003, sighting_0004]",
+      "holds_under": "When not in active use or being moved.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's razor and toiletry bag were on the sink, while her towel and skincare were on the shelf/medicine cabinet. This refines the previous general claim about shelf storage.",
+     "was": {
+      "statement": "Dana's toiletries (razor, skincare, toiletry bag, towel) are stored on the bathroom shelf.",
+      "holds_under": "When not in active use or being moved.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's towel moved from shelf to rack, contradicting previous notes about its fixed location.",
+     "was": {
+      "statement": "Dana's toiletries are split: razor and toiletry bag on the sink, towel on the shelf, skincare on the medicine cabinet.",
+      "holds_under": "When not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's toiletries were found in the bathroom, consistent with previous observations. This confirms her habit of keeping them there.",
+     "was": {
+      "statement": "Dana's toiletries are on the bathroom shelf (razor, skincare, bag) and towel rack (towel).",
+      "holds_under": "When not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's towel moved from shelf to rack, contradicting the static location claim.",
+     "was": {
+      "statement": "Dana's toiletries are on the bathroom shelf (razor, skincare, bag) and towel rack (towel).",
+      "holds_under": "When not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's razor, skincare, and bag were found on the bathroom sink and shelf today, supporting the previous note that they are kept there when not in active use.",
+     "was": {
+      "statement": "Dana's toiletries (razor, skincare, bag) are on the bathroom shelf. Her towel is on the towel rack.",
+      "holds_under": "When not in active use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Dana's razor and towel are moved to the sink area (sink_ba and bathroom_shelf respectively) during or after her morning routine. [sighting_0017, sighting_0014]",
+   "holds_under": "After Dana has used the bathroom in the morning.",
+   "supporting_observation_ids": [
+    "sighting_0017",
+    "sighting_0014"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Felix's work items (laptop, headphones, mug, pen, textbook) are on the office desk when he is working.",
+   "holds_under": "When Felix is actively working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0021",
+    "sighting_0022",
+    "sighting_0023",
+    "sighting_0024",
+    "sighting_0026"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Felix's work items (laptop, headphones, pen, textbook) were not in the kitchen or dining room, consistent with them being in the office.",
+     "was": {
+      "statement": "Felix works in the office, keeping his laptop, headphones, mug, pen, and textbook on the office desk. [sighting_0021, sighting_0022, sighting_0023, sighting_0024, sighting_0026]",
+      "holds_under": "When Felix is working or has recently been in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Felix's office items (laptop, headphones, etc.) are missing from the office at 21:45, contradicting the idea that they are permanently stored there. He is in the dining room, suggesting he moved them or is not working.",
+     "was": {
+      "statement": "Felix works in the office, keeping his laptop, headphones, mug, pen, and textbook on the office desk.",
+      "holds_under": "When Felix is working or has recently been in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's work items are back on the office desk, confirming the pattern that they reside there when he is working.",
+     "was": {
+      "statement": "Felix's work items (laptop, headphones, mug, pen, textbook) are typically on the office desk, but are moved when he is not working. At 21:45, the office was empty of these items while Felix was in the dining room.",
+      "holds_under": "When Felix is actively working or has recently left the office without packing up.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's work items (laptop, headphones, mug, pen, textbook) were found on the office desk today, supporting the previous note that they are kept there when he is working.",
+     "was": {
+      "statement": "Felix's work items (laptop, headphones, mug, pen, textbook) are on the office desk when he is working. They are moved elsewhere when he leaves the office.",
+      "holds_under": "When Felix is actively working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "A shared plant pot is kept on the office desk alongside Felix's personal items.",
+   "holds_under": "Always, as it appears to be a permanent fixture of the desk.",
+   "supporting_observation_ids": [
+    "sighting_0025"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The shared plant pot was found on the office desk today, supporting the previous note that it is a permanent fixture of the desk.",
+     "was": {
+      "statement": "A shared plant pot is kept on the office desk alongside Felix's personal items. [sighting_0025]",
+      "holds_under": "Always, as it appears to be a permanent fixture of the desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) remain in fixed locations: medicine cabinet, shelf, and sink.",
+   "holds_under": "Always, as they are not moved by either person.",
+   "supporting_observation_ids": [
+    "sighting_0005",
+    "sighting_0001",
+    "sighting_0007",
+    "sighting_0008"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Confirmed stable locations for shared bathroom items and Dana's toiletries/medication.",
+     "was": {
+      "statement": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) remain in their fixed locations: medicine cabinet, shelf, and sink. [sighting_0005, sighting_0001, sighting_0007, sighting_0008]",
+      "holds_under": "Always, as they are not moved by either person.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Shared bathroom items were found in fixed locations, consistent with previous observations. This confirms they are not moved by either person.",
+     "was": {
+      "statement": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) remain in fixed locations: medicine cabinet, shelf, and sink.",
+      "holds_under": "Always, as they are not moved by either person.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Shared bathroom items remained in their fixed locations.",
+     "was": {
+      "statement": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) remain in fixed locations: medicine cabinet, shelf, and sink.",
+      "holds_under": "Always, as they are not moved by either person.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) were found in their fixed locations today, supporting the previous note that they remain there.",
+     "was": {
+      "statement": "Shared bathroom items (first aid kit, laundry basket, soap, toothbrush holder) remain in fixed locations: medicine cabinet, shelf, and sink.",
+      "holds_under": "Always, as they are not moved by either person.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Dana's medication is kept on the bathroom sink, likely for easy access during her morning routine.",
+   "holds_under": "When not being carried to another room.",
+   "supporting_observation_ids": [
+    "sighting_0006"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Confirmed stable location for Dana's medication.",
+     "was": {
+      "statement": "Dana's medication is stored in the medicine cabinet, separate from her other toiletries on the shelf. [sighting_0006]",
+      "holds_under": "Always, as it has not been moved.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's medication was found on the bedroom nightstand, not the medicine cabinet as previously noted. This suggests a change in storage or routine.",
+     "was": {
+      "statement": "Dana's medication is stored in the medicine cabinet.",
+      "holds_under": "Always, as it has not been moved.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's medication was not found in the bathroom or kitchen, likely still in the bedroom.",
+     "was": {
+      "statement": "Dana's medication is currently kept on the bedroom_1 nightstand, not the bathroom medicine cabinet.",
+      "holds_under": "When Dana is in her bedroom or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's medication was found on the bedroom dresser, consistent with previous observations. This confirms her habit of keeping it there.",
+     "was": {
+      "statement": "Dana's medication is kept in the bedroom, not the bathroom or kitchen.",
+      "holds_under": "When Dana is in her bedroom or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's medication was found on the nightstand, supporting the claim that it stays in the bedroom.",
+     "was": {
+      "statement": "Dana's medication is kept in the bedroom, not the bathroom or kitchen.",
+      "holds_under": "When Dana is in her bedroom or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's medication was found in the bathroom medicine cabinet today, contradicting the previous note that it is kept on the bedroom_1 nightstand. This suggests a change in habit or location.",
+     "was": {
+      "statement": "Dana's medication is kept on the bedroom_1 nightstand.",
+      "holds_under": "When Dana is in her bedroom or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Dana's medication was on the sink, not the medicine cabinet as previously noted. This suggests it is kept at the point of use.",
+     "was": {
+      "statement": "Dana's medication is kept in the bathroom medicine cabinet.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Felix's towel remains on the towel rack in the bathroom.",
+   "holds_under": "When Felix is not using the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_0010",
+    "sighting_0020",
+    "sighting_0036"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Confirmed stable location for Felix's towel.",
+     "was": {
+      "statement": "Felix's towel remains on the towel rack in the bathroom, even when he is working in the office. [sighting_0010, sighting_0020, sighting_0036]",
+      "holds_under": "When Felix is not using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's towel was found on the towel rack, consistent with previous observations. This confirms his habit of keeping it there.",
+     "was": {
+      "statement": "Felix's towel remains on the towel rack in the bathroom.",
+      "holds_under": "When Felix is not using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Felix's towel was found on the rack, supporting the existing claim.",
+     "was": {
+      "statement": "Felix's towel remains on the towel rack in the bathroom.",
+      "holds_under": "When Felix is not using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's towel was found on the bathroom towel rack today, supporting the previous note that it remains there when he is not using the bathroom.",
+     "was": {
+      "statement": "Felix's towel remains on the towel rack in the bathroom.",
+      "holds_under": "When Felix is not using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Dana and Felix prepare and eat dinner in the kitchen and dining room in the evening.",
+   "holds_under": "Evenings, specifically around 18:00-20:00.",
+   "supporting_observation_ids": [
+    "sighting_0159",
+    "sighting_0160",
+    "sighting_0161",
+    "sighting_0162",
+    "sighting_0163",
+    "sighting_0164"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Dishes are moved from the kitchen to the dining table for dinner service.",
+   "holds_under": "During dinner time.",
+   "supporting_observation_ids": [
+    "sighting_0173",
+    "sighting_0174",
+    "sighting_0178",
+    "sighting_0185",
+    "sighting_0210",
+    "sighting_0211"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "The shared shopping bag is stored on the kitchen pantry shelf after unpacking.",
+   "holds_under": "After returning from shopping.",
+   "supporting_observation_ids": [
+    "sighting_0191"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "The shopping bag is still on the kitchen counter at 14:54, indicating it has been there for a while and items have not yet been put away.",
+     "was": {
+      "statement": "A shared shopping bag is temporarily placed on the kitchen counter after shopping.",
+      "holds_under": "After returning from shopping, before items are put away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The shopping bag is still on the kitchen counter, supporting the idea that it stays there for a while after shopping.",
+     "was": {
+      "statement": "The shared shopping bag remains on the kitchen counter for extended periods after shopping, until items are unpacked.",
+      "holds_under": "After returning from shopping, before unpacking is complete.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The shared shopping bag was found on the kitchen counter, consistent with previous observations. This confirms the habit of leaving it there after shopping.",
+     "was": {
+      "statement": "The shared shopping bag remains on the kitchen counter for extended periods after shopping, until items are unpacked.",
+      "holds_under": "After returning from shopping, before unpacking is complete.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The shared shopping bag was found on the kitchen chair today, contradicting the previous note that it remains on the kitchen counter. This suggests a change in habit or location.",
+     "was": {
+      "statement": "The shared shopping bag remains on the kitchen counter for extended periods after shopping, until items are unpacked.",
+      "holds_under": "After returning from shopping, before unpacking is complete.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "The shopping bag was on the pantry shelf at 15:07, 20:11, and 21:49. This contradicts the previous note about the kitchen chair and suggests it is stored there after unpacking.",
+     "was": {
+      "statement": "The shared shopping bag is left on the kitchen chair after shopping.",
+      "holds_under": "After returning from shopping, before unpacking is complete.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "The dog food bag is moved to the kitchen floor when feeding the dog, alongside the dog bowl.",
+   "holds_under": "During or immediately after feeding the dog.",
+   "supporting_observation_ids": [
+    "sighting_0186",
+    "sighting_0182",
+    "sighting_0204",
+    "sighting_0203"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The dog food bag and bowl were found on the kitchen floor, consistent with previous observations. This confirms the habit of feeding the dog there.",
+     "was": {
+      "statement": "The dog food bag is moved to the kitchen floor when feeding the dog, alongside the dog bowl.",
+      "holds_under": "During or immediately after feeding the dog.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Lunchboxes are stored in the kitchen, with Dana's often on the table and Felix's in the cupboard.",
+   "holds_under": "When not being carried to work/school.",
+   "supporting_observation_ids": [
+    "sighting_0184",
+    "sighting_0175",
+    "sighting_0207",
+    "sighting_0198"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Felix's dishes (plate, glass) are typically left on the dining table after eating, but may be found on the kitchen sink if he moved them.",
+   "holds_under": "After Felix has finished eating.",
+   "supporting_observation_ids": [
+    "sighting_0275",
+    "sighting_0276",
+    "sighting_0277",
+    "sighting_0279"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Felix's dishes (mug, plate, glass) are in the kitchen sink, not the dining table. This contradicts the previous note about him leaving them in the dining room.",
+     "was": {
+      "statement": "Felix keeps his personal drinkware and dishes on the dining table in the evening when he is relaxing or eating there, rather than returning them to the kitchen immediately.",
+      "holds_under": "Evenings, when Felix is in the dining room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's plate and glass were on the dining table, not in the kitchen sink.",
+     "was": {
+      "statement": "Felix's personal drinkware and dishes are found in the kitchen sink in the evening, suggesting he washes them or leaves them there after eating.",
+      "holds_under": "Evenings, after Felix has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's dishes (plate, glass) were found on the kitchen sink, not the dining table. This contradicts the previous belief that they are left on the dining table after eating.",
+     "was": {
+      "statement": "Felix's dishes (plate, glass) are left on the dining table after eating.",
+      "holds_under": "After Felix has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's plate and glass were found on the kitchen sink today, supporting the previous note that his dishes are left there after eating.",
+     "was": {
+      "statement": "Felix's dishes (plate, glass) are left on the kitchen sink after eating.",
+      "holds_under": "After Felix has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Felix's plate was on the dining table at 15:07 and 21:49, but on the kitchen sink at 20:11. This suggests he eats in the dining room but sometimes leaves dishes in the kitchen.",
+     "was": {
+      "statement": "Felix's dishes (plate, glass) are left on the kitchen sink after eating.",
+      "holds_under": "After Felix has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Dana uses Bedroom 1 as her personal space, keeping her laptop on the desk.",
+   "holds_under": "When Dana is in Bedroom 1 working or relaxing.",
+   "supporting_observation_ids": [
+    "sighting_0230",
+    "sighting_0231",
+    "sighting_0233",
+    "sighting_0234"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's laptop is on the desk in Bedroom 1, supporting the idea that it is her personal space in the morning.",
+     "was": {
+      "statement": "Dana uses Bedroom 1 as her personal space, keeping her laptop, phone, and reading materials on the desk and nightstand in the morning.",
+      "holds_under": "Mornings, before she leaves the room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's laptop was found on the bedroom desk, consistent with previous observations. This confirms her habit of keeping it there in the morning.",
+     "was": {
+      "statement": "Dana uses Bedroom 1 as her personal space, keeping her laptop and reading materials on the desk and nightstand in the morning.",
+      "holds_under": "Mornings, before she leaves the room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana was seen in Bedroom 1 with her laptop and headphones on the desk, consistent with her using it as a workspace.",
+     "was": {
+      "statement": "Dana uses Bedroom 1 as her personal space, keeping her laptop and reading materials on the desk and nightstand in the morning.",
+      "holds_under": "Mornings, before she leaves the room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's laptop was found on the bedroom_1 desk today, supporting the previous note that it is kept there when she is in her bedroom.",
+     "was": {
+      "statement": "Dana uses Bedroom 1 as her personal space, keeping her laptop and headphones on the desk.",
+      "holds_under": "When Dana is in Bedroom 1 working or relaxing.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Dana's vitamins are kept on the kitchen counter.",
+   "holds_under": "When not being carried to another room.",
+   "supporting_observation_ids": [
+    "sighting_0260"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Dana's vitamins were found on the kitchen counter, not the table as previously noted. This suggests the counter is their resting place.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the kitchen table, likely where she takes them during the day.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's vitamins were found on the bedroom_1 nightstand, contradicting the previous note that they are on the kitchen counter.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the kitchen counter, likely where she takes them during the day.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's vitamins were seen on the kitchen counter, not the bedroom nightstand as previously thought.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the bedroom_1 nightstand, likely where she takes them in the morning or evening.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's vitamins were on the kitchen counter, not the bedroom nightstand.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the kitchen counter.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's vitamins were found on the bedroom desk, contradicting the previous belief that they are kept on the kitchen counter. This suggests a change in habit or location.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the kitchen counter.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's vitamins were found on the nightstand, not the desk as previously noted.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the bedroom_1 desk.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's vitamins were found on the kitchen counter today, contradicting the previous note that they are kept on the bedroom_1 nightstand. This suggests a change in habit or location.",
+     "was": {
+      "statement": "Dana's vitamins are kept on the bedroom_1 nightstand.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "In the evening, Dana's dishes are in the kitchen (sink/cupboard), while Felix's are split between the kitchen sink and dining table.",
+   "holds_under": "Evenings, after dinner.",
+   "supporting_observation_ids": [
+    "sighting_0344",
+    "sighting_0345",
+    "sighting_0346",
+    "sighting_0347"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Dana's bowl and plate were in the kitchen (sink/cupboard) at 18:35, while Felix's plate was in the sink and his glass was in the dining room. This contradicts the previous claim that Dana's dishes are on the dining table in the evening.",
+     "was": {
+      "statement": "Dana keeps her dishes (bowl, glass, mug, plate) on the dining table in the evening, while Felix's are in the kitchen sink.",
+      "holds_under": "Evenings, during or after dinner.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Dana's book is kept on the living room couch when she is relaxing.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0712"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's book was on the couch in the living room, not in the bedroom.",
+     "was": {
+      "statement": "Dana takes her book with her when she leaves bedroom_1, as it was present at 16:05 but absent at 18:35.",
+      "holds_under": "When Dana is not in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Dana's book was on the living room couch, not in the bedroom.",
+     "was": {
+      "statement": "Dana's book is kept on the living room couch when she is relaxing.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's book was found on the living room couch, consistent with previous observations. This confirms her habit of reading in the living room.",
+     "was": {
+      "statement": "Dana's book is kept on the living room couch when she is relaxing.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's book was found on the couch, supporting the existing claim about her reading location.",
+     "was": {
+      "statement": "Dana's book is kept on the living room couch when she is relaxing.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's book was found on the living room couch today, supporting the previous note that it is kept there when she is relaxing.",
+     "was": {
+      "statement": "Dana's book is kept on the living room couch when she is relaxing.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Felix's glasses are kept on the bedroom_2 nightstand.",
+   "holds_under": "When not being worn.",
+   "supporting_observation_ids": [
+    "sighting_0706"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Felix's vitamins are kept on the kitchen counter.",
+   "holds_under": "When not being carried to another room.",
+   "supporting_observation_ids": [
+    "sighting_0733"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Felix's vitamins were on the kitchen counter, consistent with previous notes.",
+     "was": {
+      "statement": "Felix's vitamins are kept on the kitchen counter.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's vitamins were found on the kitchen counter, consistent with previous observations. This confirms his habit of keeping them there.",
+     "was": {
+      "statement": "Felix's vitamins are kept on the kitchen counter.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's vitamins were found on the kitchen counter today, supporting the previous note that they are kept there when not being carried to another room.",
+     "was": {
+      "statement": "Felix's vitamins are kept on the kitchen counter.",
+      "holds_under": "When not being carried to another room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Dana's mug is kept on the living room coffee table when she is in the living room.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0797"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's mug was found on the living room coffee table, not the bookshelf as previously noted. This indicates the mug is used in the living room and left on the table.",
+     "was": {
+      "statement": "Dana's mug is kept on the living room bookshelf.",
+      "holds_under": "When Dana is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Dana's plate is left on the living room coffee table after eating.",
+   "holds_under": "After Dana has finished eating in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0787",
+    "sighting_0802"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's plate was found on the living room coffee table, consistent with previous observations. This confirms her habit of eating in the living room.",
+     "was": {
+      "statement": "Dana's plate is left on the living room coffee table after eating.",
+      "holds_under": "After Dana has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Dana's bowl is kept on the kitchen cupboard when not in use.",
+   "holds_under": "When not being carried to another room.",
+   "supporting_observation_ids": [
+    "sighting_0778"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Dana's bowl was found on the kitchen sink, not the dining table. This contradicts the previous belief that it is left on the dining table after eating.",
+     "was": {
+      "statement": "Dana's bowl is left on the dining table after eating.",
+      "holds_under": "After Dana has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's bowl was found on the kitchen sink today, supporting the previous note that it is left there after eating.",
+     "was": {
+      "statement": "Dana's bowl is left on the kitchen sink after eating.",
+      "holds_under": "After Dana has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Dana's bowl was on the cupboard at 15:07, 20:11, and 21:49. This contradicts the previous note about the sink and suggests it is stored there when not in use.",
+     "was": {
+      "statement": "Dana's bowl is left on the kitchen sink after eating.",
+      "holds_under": "After Dana has finished eating.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Felix's bowl is kept on the kitchen cupboard.",
+   "holds_under": "When not in use.",
+   "supporting_observation_ids": [
+    "sighting_0766"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Felix's bowl was found on the kitchen cupboard, consistent with previous observations. This confirms his habit of storing his bowl there.",
+     "was": {
+      "statement": "Felix's bowl is kept on the kitchen cupboard.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's bowl was found on the kitchen cupboard today, supporting the previous note that it is kept there when not in use.",
+     "was": {
+      "statement": "Felix's bowl is kept on the kitchen cupboard.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Dana's mug is kept on the kitchen cupboard when not in use.",
+   "holds_under": "When not being carried to another room.",
+   "supporting_observation_ids": [
+    "sighting_0768"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dana's mug was found on the kitchen sink today, contradicting the previous note that it is kept on the kitchen cupboard. This suggests a change in habit or location.",
+     "was": {
+      "statement": "Dana's mug is kept on the kitchen cupboard.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Dana's mug was on the cupboard at 15:07, 20:11, and 21:49. This contradicts the previous note about the sink and suggests it is stored there when not in use.",
+     "was": {
+      "statement": "Dana's mug is left on the kitchen sink after use.",
+      "holds_under": "After Dana has finished using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Felix's mug is left on the kitchen sink during the day and moved to the kitchen cupboard in the evening.",
+   "holds_under": "Daily cycle.",
+   "supporting_observation_ids": [
+    "sighting_0769"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Felix's mug was found on the kitchen dish rack today, contradicting the previous note that it is kept on the kitchen cupboard. This suggests a change in habit or location.",
+     "was": {
+      "statement": "Felix's mug is kept on the kitchen cupboard.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Felix's mug was on the sink at 15:07 and 20:11, but moved to the cupboard by 21:49. This contradicts the previous note about the dish rack and suggests a pattern of putting it away in the evening.",
+     "was": {
+      "statement": "Felix's mug is left on the kitchen dish rack after use.",
+      "holds_under": "After Felix has finished using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Dana's mug is kept on the living room bookshelf.",
+   "holds_under": "When Dana is in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0797"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Dana's plate is left on the living room coffee table after eating.",
+   "holds_under": "After Dana has finished eating.",
+   "supporting_observation_ids": [
+    "sighting_0787",
+    "sighting_0802"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Dana's charger is kept on the bedroom_1 bed.",
+   "holds_under": "When not in use.",
+   "supporting_observation_ids": [
+    "sighting_0926"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dana's charger was found on the bed, supporting the existing claim.",
+     "was": {
+      "statement": "Dana's charger is kept on the bedroom_1 bed.",
+      "holds_under": "When not in use.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Dana's water bottle is kept in the kitchen dish rack in the evening.",
+   "holds_under": "Evenings.",
+   "supporting_observation_ids": [
+    "sighting_1455"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "Felix's water bottle is kept on the dining table in the evening.",
+   "holds_under": "Evenings.",
+   "supporting_observation_ids": [
+    "sighting_1465"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

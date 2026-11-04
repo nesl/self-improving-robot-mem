@@ -1,0 +1,2740 @@
+{
+ "household": "hh_s19_t03",
+ "arm": "memory-guided search with incremental edits",
+ "how_memory_is_written": "incremental edits",
+ "written_up_to_day": 31,
+ "next_claim_number": 29,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Marco is in the kitchen in the early morning (07:47) for routines. His items (bowl, mug, vitamins) are in the kitchen during this time.",
+   "holds_under": "When Marco is in the kitchen (early morning).",
+   "supporting_observation_ids": [
+    "sighting_0011",
+    "sighting_0012",
+    "sighting_0013",
+    "sighting_0014",
+    "sighting_0015",
+    "sighting_0057"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "At 21:53, Marco's items (laptop, sketchbook, book, pencil case) were found in bedroom_1, consistent with his primary workspace and nightstand habit.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1. It typically holds his laptop, charger, pencil case, and sketchbook. His book is usually on the nightstand.",
+      "holds_under": "When Marco is not actively moving his items for a specific task.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "At 07:39, Marco's items (book, charger, guitar, laptop, pencil case, sketchbook) were in bedroom_1. This confirms his primary workspace is the bedroom desk, and he starts the day there.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1, holding his laptop and sketchbook. His book is on the nightstand. Pencil case may be on the floor if dropped or in use.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Marco was seen in the bathroom at 07:01, but his personal items (hair dryer, towel) were on the shelf, not in use. This confirms he is in the home early in the morning, likely before heading to his bedroom or kitchen.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His book is on the nightstand. His guitar is on the floor. He is present in the bedroom in the morning.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Marco's items were found in bedroom_1 at 22:12, consistent with his evening routine of being in his bedroom. His guitar is on the floor, laptop and other items on the desk.",
+     "was": {
+      "statement": "Marco is present in the home in the early morning (07:01), seen in the bathroom. His primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His book is on the nightstand. His guitar is on the floor.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's items (laptop, sketchbook, etc.) were found in bedroom_1 at 21:35, confirming his primary workspace is there.",
+     "was": {
+      "statement": "Marco is present in the home in the early morning and evening. His primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His book is on the nightstand. His guitar is on the floor.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Marco's items (laptop, sketchbook, pencil case, guitar, charger, glass, water bottle) were found in bedroom_1 at 16:05, confirming his workspace is there during the day.",
+     "was": {
+      "statement": "Marco is present in the home in the early morning and evening. His primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His book is on the nightstand. His guitar is on the floor.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Marco's items (laptop, sketchbook, pencil case) were on the desk in bedroom_1 at 13:57 and 16:30. The guitar was on the floor and charger on the bed in both sightings. This confirms his bedroom setup is stable during the day.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His guitar is on the floor, charger on the bed, and glass/water bottle on the nightstand.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Marco's workspace in bedroom_1 remained consistent throughout the day (11:21, 11:57, 13:25). His items were not seen in the living room or kitchen.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His guitar is on the floor, charger on the bed, and glass/water bottle on the nightstand. This setup is consistent during the day.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Marco's items were in bedroom_1 at 09:33, but he was in the living room at 13:14 with his book, mug, and knitting bag. His location changes during the day.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1, holding his laptop, sketchbook, and pencil case. His guitar is on the floor, charger on the bed, and glass/water bottle on the nightstand. This setup is consistent during the day.",
+      "holds_under": "When Marco is in bedroom_1 or his items are stored there.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Marco was seen in bedroom_1 at 07:40, 09:05, and 09:53. His items (laptop, guitar, charger) remained in the bedroom, while he was in the kitchen at 09:05. This supports the pattern of morning bedroom presence.",
+     "was": {
+      "statement": "Marco's primary workspace is the desk in bedroom_1 in the morning (09:33). By the afternoon (13:14), he moves to the living room, taking his book, mug, and knitting bag with him. His guitar and charger remain in bedroom_1.",
+      "holds_under": "When Marco is in bedroom_1 (morning) or living room (afternoon).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Marco was seen in the kitchen at 07:15, but his personal items (laptop, guitar, charger) were found in bedroom_1 at 20:09. This confirms he starts the day in the bedroom and moves to the kitchen for morning routines.",
+     "was": {
+      "statement": "Marco is in bedroom_1 in the morning (07:40-09:53). His laptop, guitar, and charger remain in the bedroom. He moves to the kitchen for meals/routines but returns to the bedroom or stays nearby.",
+      "holds_under": "When Marco is in bedroom_1 (morning) or kitchen (morning).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Marco's items (bowl, mug, vitamins) were on the kitchen table at 07:58, indicating he is in the kitchen for morning routines.",
+     "was": {
+      "statement": "Marco is in bedroom_1 in the morning. His laptop, guitar, and charger remain in the bedroom. He moves to the kitchen for meals/routines but returns to the bedroom or stays nearby.",
+      "holds_under": "When Marco is in bedroom_1 (morning) or kitchen (morning).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Marco was seen in the bathroom at 07:10, not the kitchen. His kitchen items (bowl, mug, vitamins) were in the kitchen at 08:53, suggesting he moved there after the bathroom routine.",
+     "was": {
+      "statement": "Marco is in the kitchen in the morning (07:58) for routines. His items (bowl, mug, vitamins) are on the kitchen table. He may move to bedroom_1 later.",
+      "holds_under": "When Marco is in the kitchen (morning) or bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Marco was in the kitchen at 07:47 with his items on the table, consistent with his morning routine.",
+     "was": {
+      "statement": "Marco is in the bathroom in the early morning (07:10) for routines. He moves to the kitchen by 08:53 for breakfast. His items (bowl, mug, vitamins) are in the kitchen during this time.",
+      "holds_under": "When Marco is in the bathroom (early morning) or kitchen (late morning).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Omar's primary workspace is the office desk. In the evening, he moves his laptop to the living room bookshelf for leisure, but leaves his other work items (headphones, mouse, mug, etc.) in the office or moves them to the kitchen.",
+   "holds_under": "When Omar is working in the office or relaxing in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0017",
+    "sighting_0018",
+    "sighting_0019",
+    "sighting_0020",
+    "sighting_0021",
+    "sighting_0022"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's items were on the office desk at 07:53, 09:39, 11:17, 12:26, 15:55, and 17:57, confirming his primary workspace is the office desk.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It typically holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar's full set of work items (laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, water bottle) was found on the office desk at 09:43, 12:34, and 16:37.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It typically holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Omar's items (laptop, headphones, etc.) were consistently on the office desk at 10:13, 12:26, and 17:33. This reinforces the pattern that his workspace is static during the day.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It typically holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Omar's workspace in the office remained consistent throughout the day (09:58, 15:21). His items were not seen in the kitchen or living room during these times.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. These items remain stationary on the desk during the day.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Omar's items (laptop, headphones, etc.) were on the office desk at 10:17, 11:29, 14:26, and 15:20. At 21:05, the laptop was found on the bookshelf in the living room, while the other items were not in the living room, suggesting Omar moved the laptop to relax but left the rest in the office.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. These items remain stationary on the desk during the day.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "At 20:09, Omar's laptop was found on the living room bookshelf, while his other work items (headphones, mouse, etc.) were in the office. This confirms he moves his laptop to the living room for evening leisure.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk. In the evening, he moves his laptop to the living room bookshelf for leisure, but leaves his other work items (headphones, mouse, mug, etc.) in the office.",
+      "holds_under": "When Omar is working in the office or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Omar's laptop was on the office desk at 17:37, but on the living room bookshelf at 21:54. This confirms the evening move to leisure.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk. In the evening, he moves his laptop to the living room bookshelf for leisure, but leaves his other work items (headphones, mouse, mug, etc.) in the office.",
+      "holds_under": "When Omar is working in the office or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Omar's book is found in bedroom_2 (on the bed at 20:59) or in the office. It is not consistently on the nightstand in bedroom_2.",
+   "holds_under": "When Omar is in bedroom_2 or the office.",
+   "supporting_observation_ids": [
+    "sighting_0016",
+    "sighting_0130",
+    "sighting_0171"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "At 21:53, Omar was in bedroom_2 with his book on the nightstand, consistent with his bedroom routine.",
+     "was": {
+      "statement": "Omar's book is consistently found on the nightstand in bedroom_2.",
+      "holds_under": "Always observed in this location during Day 1 checks.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's book was not seen in bedroom_2 today. It may be in the office or elsewhere.",
+     "was": {
+      "statement": "Omar's book is consistently found on the nightstand in bedroom_2, especially in the evening when he is in that room.",
+      "holds_under": "When Omar is in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Omar's book was found on the desk in bedroom_2 at 13:06, not in the office or on the nightstand. This adds a new location for his book.",
+     "was": {
+      "statement": "Omar's book is not consistently found on the nightstand in bedroom_2. It may be in the office or elsewhere.",
+      "holds_under": "When Omar is in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Omar's book was found on the bed in bedroom_2, not the desk or office as previously noted. This suggests he moved to bed to read or rest.",
+     "was": {
+      "statement": "Omar's book is found in bedroom_2 (on the desk at 13:06) or in the office. It is not consistently on the nightstand in bedroom_2.",
+      "holds_under": "When Omar is in bedroom_2 or the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Marco's guitar is found in the living room (floor or couch) during leisure time in the evening. It moves based on Marco's activity.",
+   "holds_under": "When Marco is relaxing in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0098",
+    "sighting_0164"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's guitar was on the bedroom floor at 21:35, consistent with it being there at night.",
+     "was": {
+      "statement": "Marco's guitar was on the couch in the living room during the day (11:42) but was found on the bedroom floor in bedroom_1 at night (21:57).",
+      "holds_under": "The location changes based on Marco's activity (relaxing vs. sleeping).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Marco's guitar was on the bedroom floor in bedroom_1 at 16:05, consistent with the previous note that it moves based on activity.",
+     "was": {
+      "statement": "Marco's guitar was on the couch in the living room during the day (11:42) but was found on the bedroom floor in bedroom_1 at night (21:35).",
+      "holds_under": "The location changes based on Marco's activity (relaxing vs. sleeping).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Marco's guitar was on the living room floor at 21:54, consistent with his leisure time in the living room.",
+     "was": {
+      "statement": "Marco's guitar was on the bedroom floor in bedroom_1 at 16:05. It moves based on Marco's activity (relaxing vs. sleeping).",
+      "holds_under": "The location changes based on Marco's activity.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Marco's knitting bag is found on the couch in the living room during leisure time in the evening. It is observed in the living room during daytime and evening hours.",
+   "holds_under": "When Marco is relaxing in the living room.",
+   "supporting_observation_ids": [
+    "sighting_0099"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's knitting bag was not seen today. It may be in a room not checked.",
+     "was": {
+      "statement": "Marco's knitting bag was on the couch in the living room at 11:42. It was not present in bedroom_1 at 21:57, suggesting it may have been moved or is in a room not checked at night.",
+      "holds_under": "Observed in living room during daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Marco's knitting bag was on the couch in the living room at 16:05, consistent with the previous note that it is observed in the living room during daytime hours.",
+     "was": {
+      "statement": "Marco's knitting bag was on the couch in the living room at 11:42. It was not present in bedroom_1 at 21:35, suggesting it may have been moved or is in a room not checked at night.",
+      "holds_under": "Observed in living room during daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Marco's knitting bag was on the living room couch at 21:54, consistent with his leisure time in the living room.",
+     "was": {
+      "statement": "Marco's knitting bag was on the couch in the living room at 16:05. It is observed in the living room during daytime hours.",
+      "holds_under": "Observed in living room during daytime hours.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Omar is in the office from late morning (10:12) through the late afternoon (17:26). His desk items remain stationary on the office desk during these times.",
+   "holds_under": "When Omar is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0017",
+    "sighting_0131"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar was physically present in the office at 09:39, 11:17, 12:26, 15:55, and 17:57. His desk items remained in the office during these times.",
+     "was": {
+      "statement": "Omar was physically present in the office at 09:12 and 16:25. His desk items remained in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar was physically present in the office at 09:43, 12:34, 13:39, 16:37, and 20:15. His items remained in the office during these times.",
+     "was": {
+      "statement": "Omar was physically present in the office at 09:39, 11:17, 12:26, 15:55, and 17:57. His desk items remained in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar was in the office at 11:29, 12:06, and 19:01. His items were in the office during these times.",
+     "was": {
+      "statement": "Omar was physically present in the office at 09:43, 12:34, 13:39, 16:37, and 20:15. His desk items remained in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar was seen in the office at 15:00, 16:35, and 17:18. This supports the previous claim that he is in the office during the day.",
+     "was": {
+      "statement": "Omar is in the office in the late morning (11:29, 12:06) and evening (19:01). His desk items remain in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar was in the office at 10:50, 12:02, 13:23, and 17:56, confirming his presence in the office during these times.",
+     "was": {
+      "statement": "Omar is in the office in the late morning, afternoon, and evening. His desk items remain in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Omar was in the office at 10:17, 11:29, 14:26, and 15:20. His items were consistently on the desk. This supports the claim that he is in the office during these times.",
+     "was": {
+      "statement": "Omar is in the office in the late morning, afternoon, and evening. His desk items remain in the office during these times, though some may be moved or taken during breaks.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Omar was seen in the office at 11:05, 16:23, and 18:08 with all his work items on the desk. This confirms his primary workspace and extended presence.",
+     "was": {
+      "statement": "Omar is in the office in the late morning, afternoon, and early evening. His desk items remain in the office during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Omar was seen in the office from 09:42 to 17:23. His desk items remained largely stationary, except for a midday break at 13:40 where some items were moved or taken.",
+     "was": {
+      "statement": "Omar is in the office from late morning through the evening. His desk items (laptop, headphones, mouse, etc.) remain stationary on the office desk during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Omar's items were stationary on the office desk from 09:55 to 17:31, confirming he is working in the office during this period.",
+     "was": {
+      "statement": "Omar is in the office from late morning through the late afternoon. His desk items (laptop, headphones, mouse, etc.) remain stationary on the office desk during these times, with occasional midday breaks.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Omar was present in the office from 10:23 to 16:31 with all his items stationary on the desk, confirming his work pattern.",
+     "was": {
+      "statement": "Omar is in the office from late morning (09:55) through the late afternoon (17:31). His desk items remain stationary on the office desk during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Today's sightings (10:12-17:26) confirm Omar is in the office with his items on the desk. This supports the general pattern of him working in the office during the day.",
+     "was": {
+      "statement": "Omar is in the office from late morning (10:23) through the late afternoon (16:31). His desk items remain stationary on the office desk during these times.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Omar is in the kitchen in the late morning (08:53) for routines. He moves to the office by 09:21 for work. His personal items move with him to the office.",
+   "holds_under": "When Omar is in the kitchen (late morning) or office (day/evening).",
+   "supporting_observation_ids": [
+    "sighting_0123",
+    "sighting_0124"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar was not in the kitchen today. His items were in the office.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 12:54 and 20:13. At 12:54, his mug and water bottle were in the kitchen sink, while his office items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar was in the kitchen at 20:15, contradicting the previous note that he was not in the kitchen today. His items (mug, plate, glass, water bottle) were in the kitchen.",
+     "was": {
+      "statement": "Omar was not in the kitchen today. His items were in the office.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Omar was in the kitchen at 08:39, 13:06, and 21:35. His personal items (bowl, mug, glass, plate, water bottle, vitamins) were in the kitchen during these times.",
+     "was": {
+      "statement": "Omar was in the kitchen at 20:15. His items (mug, plate, glass, water bottle) were in the kitchen, while his work items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for evening activities.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar was in the kitchen at 07:59, 14:27, and 19:01. His items (bowl, mug, glass, plate, water bottle) were in the kitchen during these times.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning (08:39), early afternoon (13:06), and evening (21:35). His personal items are in the kitchen during these times.",
+      "holds_under": "When Omar is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar was seen in the kitchen at 12:47 and 20:58. This supports the previous claim that he is in the kitchen for meals or routines.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning (07:59), afternoon (14:27), and evening (19:01). His personal items are in the kitchen during these times, often on the table or sink.",
+      "holds_under": "When Omar is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar was in the kitchen at 08:41, 13:23, and 19:33, confirming his presence in the kitchen during these times.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning, afternoon, and evening. His personal items are in the kitchen during these times, often on the table or sink.",
+      "holds_under": "When Omar is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Omar's items were in the office, not the kitchen, at 11:05, 16:23, and 18:08. This contradicts the idea that he is in the kitchen in the afternoon/evening.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning, afternoon, and evening. His personal items are in the kitchen during these times, often on the table, sink, or counter.",
+      "holds_under": "When Omar is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Omar's items were found in the kitchen at 07:58, contradicting the claim that he is in the office in the morning. He is in the kitchen for morning routines.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning (07:40) for routines. In the afternoon and evening, he is in the office, not the kitchen. His personal items move with him to the office.",
+      "holds_under": "When Omar is in the kitchen (morning) or office (afternoon/evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Omar was seen in the kitchen at 08:53, not the office. He moved to the office by 09:21. His items moved with him.",
+     "was": {
+      "statement": "Omar is in the kitchen in the morning (approx 07:58) for routines. In the afternoon and evening, he is in the office. His personal items move with him to the office.",
+      "holds_under": "When Omar is in the kitchen (morning) or office (afternoon/evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Marco and Omar are not always in the kitchen together in the evening. They were together in the kitchen at 20:01 on Day 31, but were separate at 17:57 on Day 13.",
+   "holds_under": "Evening social time.",
+   "supporting_observation_ids": [
+    "sighting_0155",
+    "sighting_0156"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco was in the kitchen at 17:57, but Omar was in the office. Their water bottles were not together in the kitchen.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 20:13. Their water bottles were on the kitchen table at this time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "At 20:01, Marco and Omar were both in the kitchen. This contradicts the claim that they are not always together, showing they can be together in the evening.",
+     "was": {
+      "statement": "Marco and Omar were not in the kitchen together at 17:57. Marco was in the kitchen, Omar was in the office.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Omar's headphones are on the office desk during morning and late afternoon work sessions. They are not seen in the office at 13:23, suggesting they are taken or moved during midday breaks.",
+   "holds_under": "When Omar is in the office.",
+   "supporting_observation_ids": [
+    "sighting_0172"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's headphones were on the office desk at 17:57, not in bedroom_2.",
+     "was": {
+      "statement": "Omar's headphones were on the office desk during the day but were found on the nightstand in bedroom_2 at 21:57, when Omar was present in that room.",
+      "holds_under": "When Omar is in bedroom_2 at night.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar's headphones were seen on the office desk at 15:00, 16:35, and 17:18. This supports the previous claim that they stay in the office during work.",
+     "was": {
+      "statement": "Omar's headphones were on the office desk during the day and late afternoon. They were not in bedroom_2 at 17:57.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar's headphones were on the desk at 10:50 and 12:02, but not seen at 13:23 (likely taken with him or moved), then back on the desk at 17:56. This refines the time window.",
+     "was": {
+      "statement": "Omar's headphones are on the office desk during work sessions (15:00-17:18). They are not seen in other rooms during these times.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "The shared iron and ironing board were found on the bed in bedroom_2 at 21:57. They were not seen in other rooms during the day.",
+   "holds_under": "When ironing is being done or has just been done in bedroom_2.",
+   "supporting_observation_ids": [
+    "sighting_0169",
+    "sighting_0170"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "The shared iron and ironing board were not seen today. They may be in a room not checked.",
+     "was": {
+      "statement": "The shared iron and ironing board were found on the bed in bedroom_2 at 21:57. They were not seen in other rooms during the day.",
+      "holds_under": "When ironing is being done or has just been done in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Kitchen items (glasses, plates, mugs, bowls) moved from the cupboard to the kitchen table or sink between 07:53 and 17:57. They were not returned to the cupboard by 17:57.",
+   "holds_under": "Items are out during meal times and put away afterwards.",
+   "supporting_observation_ids": [
+    "sighting_0117",
+    "sighting_0149",
+    "sighting_0181"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Kitchen items moved from the cupboard to the sink between 07:53 and 17:57, and were not returned to the cupboard by 17:57.",
+     "was": {
+      "statement": "Kitchen items (glasses, plates, mugs, bowls) moved from the cupboard to the kitchen table or sink between 12:54 and 20:13, and were returned to the cupboard by 21:57.",
+      "holds_under": "Items are out during meal times and put away afterwards.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Omar's primary workspace is the office desk, holding his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. He remains in the office for extended periods with items stationary.",
+   "holds_under": "When Omar is working or resting in the office.",
+   "supporting_observation_ids": [
+    "sighting_0206",
+    "sighting_0207",
+    "sighting_0208",
+    "sighting_0209",
+    "sighting_0210",
+    "sighting_0211"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Omar's office setup is highly consistent. At 09:45 and 16:20, all his work items (laptop, mouse, headphones, etc.) were on the desk. At 14:33, he was tidying or moving items, placing mouse and notebook on the shelf, but the core workspace remains the desk.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It typically holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Omar's office setup has been static for 6 hours (10:19-14:57), confirming his workspace habit. He was present in the office during this period.",
+     "was": {
+      "statement": "Omar's primary workspace is the desk in the office. It typically holds his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. When tidying, he may move mouse/notebook to the office shelf.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Omar was observed in the office from 09:22 to 16:57 with all his work items on the desk. This confirms his primary workspace location and extended presence.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk, holding his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. He remains in the office for extended periods (e.g., 10:19-14:57) with items stationary.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Omar was observed in the office at 10:10, 11:18, and 15:12 with all his work items on the desk. This confirms his primary workspace location and routine.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk, holding his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. He remains in the office for extended periods (e.g., 09:22-16:57) with items stationary.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Omar's office items were stationary on the desk from 10:46 to 16:46, and he was present in the office during all these checks. This confirms his primary workspace location.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk, holding his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. He remains in the office for extended periods with items stationary.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's items were on the office desk at 09:39, 11:17, 12:26, 15:55, and 17:57, indicating he remains in the office for extended periods.",
+     "was": {
+      "statement": "Omar's primary workspace is the office desk, holding his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle. He remains in the office for extended periods with items stationary.",
+      "holds_under": "When Omar is working or resting in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Omar was physically present in the office at 17:57. His items were in the office, not in the kitchen.",
+   "holds_under": "When Omar is in the office.",
+   "supporting_observation_ids": [
+    "sighting_0282",
+    "sighting_0283",
+    "sighting_0284",
+    "sighting_0287"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Omar was in the kitchen at 14:33. His mug and water bottle were in the kitchen (sink), while his office items were in the office. This confirms he visits the kitchen for drinks/meals while keeping work items in the office.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 19:48. His mug, water bottle, glass, and plate were in the kitchen, while his office items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Omar's personal items (bowl, glass, plate, water bottle) were found in the kitchen at 19:54, consistent with his presence in the kitchen during the evening.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 14:33 and 19:29. His mug and water bottle are in the kitchen during these times, while his office items remain in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Omar's bowl, glass, and water bottle were in the kitchen at 20:07, while his office items remained in the office, indicating he moved to the kitchen for the evening.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 19:54. His bowl, glass, plate, and water bottle were in the kitchen during this time, while his office items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Omar's items were found in the kitchen at 07:54, contradicting the claim that he was in the kitchen at 20:07 (which is not even a time seen today). This claim is outdated and inaccurate regarding the specific time and context.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 20:07. His bowl, glass, and water bottle were in the kitchen, while his office items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar was in the office at 17:57, not in the kitchen. His items were in the office.",
+     "was": {
+      "statement": "Omar was physically present in the kitchen at 20:07. His bowl, glass, and water bottle were in the kitchen, while his office items remained in the office.",
+      "holds_under": "When Omar is in the kitchen for a drink or meal.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Marco and Omar are not always in the kitchen together in the evening. Marco may be in the kitchen while Omar is in the office.",
+   "holds_under": "Evening time.",
+   "supporting_observation_ids": [
+    "sighting_0276",
+    "sighting_0277",
+    "sighting_0278",
+    "sighting_0279",
+    "sighting_0282",
+    "sighting_0283"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Both were in the kitchen at 19:29 and 20:07. Marco's items were on the table (19:29) or cupboard (20:07), Omar's on sink/table. This supports the evening social/meal pattern.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 19:48. Marco's items were in the cupboard, while Omar's items were on the table/sink.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "At 20:10, both were in the kitchen. Items were out on the table (glasses, plates, water bottles) and sink (mug_omar, bowl_marco), indicating active meal/social time.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 19:29 and 20:07. Marco's items were on the table/cupboard, Omar's on the sink/table.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Both Marco and Omar were in the kitchen at 19:54. Their personal items (bowls, glasses, mugs, water bottles) were distributed across the sink and table, indicating active use during this evening time.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 20:10. Their items were distributed across the table (glasses, plates, water bottles) and sink (mug_omar, bowl_marco), indicating active use during evening social time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Both Marco and Omar were present in the kitchen at 20:07. Their items were distributed across the table, sink, and counter, indicating active evening use.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 19:54. Their items were distributed across the table (glasses, plates, mugs, water bottles) and sink (bowls, glasses, plates, water bottles), indicating active use during evening social/rel",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "At 19:44 and 20:15, both Marco and Omar were in the kitchen. Their items (bottles, glasses, plates) were on the table, while dirty dishes (bowls, mugs, pans) were at the sink. This indicates active evening meal/social time.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen at 20:07. Their items were distributed across the table, sink, and counter, indicating active evening social or meal time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "At 20:15, both Marco and Omar were in the kitchen. Their items (bowls, mugs, glasses, water bottles) were on the kitchen table, indicating active evening social time or meal preparation. This supports the pattern of evening kitchen activity.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen in the evening. Their items were distributed across the table (clean/active) and sink (dirty), indicating active evening social or meal time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "At 19:26 and 19:56, both Marco and Omar were in the kitchen. Their items (bottles, glasses, plates) were on the table, indicating active evening social time or meal preparation. This aligns with previous evening patterns.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen in the evening (20:15). Their items were distributed across the table (active) and sink (dirty), indicating active evening social or meal time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco was in the kitchen at 17:57, but Omar was in the office. Their items were not together in the kitchen for social time.",
+     "was": {
+      "statement": "Both Marco and Omar were present in the kitchen in the evening (19:26-19:56). Their items were distributed across the table (active) and sink (dirty), indicating active evening social or meal time.",
+      "holds_under": "Evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Kitchen items move from the cupboard to the counter/sink/table during meal times and cleanup. In the evening (20:01), many items remain on the sink/counter, suggesting ongoing use or delayed cleanup.",
+   "holds_under": "Items are out during meal preparation and cleanup.",
+   "supporting_observation_ids": [
+    "sighting_0282",
+    "sighting_0283",
+    "sighting_0284",
+    "sighting_0287"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "At 19:29, many items (knife, pan, pot, spatula) moved to the counter, suggesting active cooking. At 20:07, many items (cutting board, glass, knife, pan, plate, pot) moved to the sink, suggesting cleanup. This refines the 'meal time' pattern to include active cooking and cleanup phases.",
+     "was": {
+      "statement": "Kitchen items (glasses, plates, mugs, bowls) moved from the cupboard to the kitchen table or sink between 12:54 and 20:13, and were returned to the cupboard by 21:57.",
+      "holds_under": "Items are out during meal times and put away afterwards.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "By 21:53, kitchen items had been returned to the cupboard (bowl_marco, mug_marco, plate_marco, etc.) and dish rack (water bottles), confirming the post-meal tidy-up pattern.",
+     "was": {
+      "statement": "Kitchen items move from cupboard to counter (cooking) and sink (cleanup) during evening meal times (19:29-20:07). They are returned to the cupboard when not in use.",
+      "holds_under": "Items are out during meal preparation and cleanup.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "At 12:58, kitchen items (glasses, plates, pots) were in the cupboard. By 19:44, they had moved to the table (glasses, plates) and dish rack/sink (pots, cutting board). This supports the pattern of items being taken out for use.",
+     "was": {
+      "statement": "Kitchen items move from cupboard to counter/sink/table during meal times (e.g., 20:10) and are returned to the cupboard or dish rack by late evening (21:53) when not in use.",
+      "holds_under": "Items are out during meal preparation and cleanup, then put away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Kitchen items moved from the cupboard to the sink between 07:53 and 17:57, indicating meal preparation and cleanup.",
+     "was": {
+      "statement": "Kitchen items move from the cupboard to the counter/sink/table during meal times and are returned to the cupboard or dish rack when not in use.",
+      "holds_under": "Items are out during meal preparation and cleanup, then put away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Kitchen items (bowl, plate, mug, glass) were seen in the sink at 12:47, 15:00, and 17:18, and in the cupboard at 20:58. This supports the previous claim that they move from the cupboard to the sink/table during meal times and are returned to the cupboard when not in use.",
+     "was": {
+      "statement": "Kitchen items move from the cupboard to the counter/sink/table during meal times and are returned to the cupboard or dish rack when not in use.",
+      "holds_under": "Items are out during meal preparation and cleanup, then put away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "At 20:01, many kitchen items (pan, pot, snack bowl, spatula, knife) were on the sink or counter, not the cupboard. This suggests active use or cleanup in the evening, not just storage.",
+     "was": {
+      "statement": "Kitchen items move from the cupboard to the counter/sink/table during meal times and are returned to the cupboard or dish rack when not in use.",
+      "holds_under": "Items are out during meal preparation and cleanup, then put away.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Marco's personal items (bowl, mug, glass, plate) are found in the kitchen during the day and evening, often on the table, counter, or sink, indicating he uses the kitchen for meals and routines.",
+   "holds_under": "When Marco is in the kitchen for meals or routines.",
+   "supporting_observation_ids": [
+    "sighting_0305",
+    "sighting_0307",
+    "sighting_0308",
+    "sighting_0301",
+    "sighting_0388"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Marco was in the kitchen at 07:19 with his breakfast items (bowl, mug, vitamins) on the table, consistent with his morning routine.",
+     "was": {
+      "statement": "Marco is frequently in the kitchen in the morning (07:47) and evening (18:55). His personal items (bowl, mug, vitamins, water bottle) are found in the kitchen during these times.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Marco's personal items (bowl, glass, plate, water bottle) were found in the kitchen sink at 19:54, consistent with his presence and routine in the kitchen during the evening.",
+     "was": {
+      "statement": "Marco is frequently in the kitchen in the morning (e.g., 07:19) and evening. His personal items (bowl, mug, vitamins, water bottle) are found in the kitchen during these times, often on the table or counter.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Marco's bowl, glass, plate, and water bottle were found in the kitchen at 20:07, consistent with his evening routine.",
+     "was": {
+      "statement": "Marco is frequently in the kitchen in the morning and evening. His personal items (bowl, glass, plate, water bottle) are found in the kitchen during these times, often on the table, counter, or sink.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "At 12:58, Marco's bowl and mug were in the kitchen sink, but he was not seen in the kitchen (Omar was in the office). This suggests Marco was in the kitchen earlier or left items there, but the specific claim of 'frequently in kitchen' is supported by the presence of his items.",
+     "was": {
+      "statement": "Marco is frequently in the kitchen in the morning and evening. His personal items (bowl, glass, plate, water bottle) are found in the kitchen during these times, often on the table, counter, or sink.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "At 20:15, Marco's water bottle was on the kitchen table, consistent with his presence in the kitchen for the evening. This supports the idea that his kitchen items are active during meal/social times.",
+     "was": {
+      "statement": "Marco's personal items (bowl, mug, glass, plate, water bottle) are found in the kitchen during the day and evening, often on the table, counter, or sink, indicating he uses the kitchen for meals and routines.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's items were in the kitchen at 07:53 and 17:57, indicating he uses the kitchen for meals and routines.",
+     "was": {
+      "statement": "Marco's personal items (bowl, mug, glass, plate, water bottle) are found in the kitchen during the day and evening, often on the table, counter, or sink, indicating he uses the kitchen for meals and routines.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Omar's mouse is on the office desk during active work. It is moved to the office shelf during breaks or when he is present but not using it (e.g., 13:12).",
+   "holds_under": "When Omar is in the office.",
+   "supporting_observation_ids": [
+    "sighting_0335",
+    "sighting_0336"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "At 15:33, Omar's mouse was on the office shelf, while his other desk items (laptop, headphones, etc.) were gone. This suggests he tidied the mouse away before leaving, or it was already there. The absence of other items confirms he left the room.",
+     "was": {
+      "statement": "Omar occasionally moves his mouse and notebook from the desk to the office shelf, likely when tidying or taking a break from work.",
+      "holds_under": "When Omar is not actively working at the desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Omar's mouse was found on the office shelf at 08:01, before he moved to the desk for work. This supports the idea that the shelf is a temporary resting spot for the mouse when he is not actively using it at the desk.",
+     "was": {
+      "statement": "Omar occasionally moves his mouse to the office shelf, likely when tidying or taking a break. At 15:33, the mouse was on the shelf while his other work items were absent, indicating he had left the office.",
+      "holds_under": "When Omar is not actively working at the desk or has left the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's mouse was on the office shelf at 07:53, then on the desk by 09:39. This supports the idea that he moves it when setting up or tidying.",
+     "was": {
+      "statement": "Omar occasionally moves his mouse to the office shelf, likely when tidying or taking a break. At 08:01, the mouse was on the shelf while his other work items were on the desk, indicating he had just arrived or was setting up.",
+      "holds_under": "When Omar is not actively working at the desk or has just arrived.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar's mouse was on the office shelf at 13:39 and 20:15, while other work items were on the desk or absent. This suggests he moves the mouse when not actively using it or when tidying.",
+     "was": {
+      "statement": "Omar occasionally moves his mouse to the office shelf, likely when tidying or taking a break. At 07:53, the mouse was on the shelf while his other work items were on the desk, indicating he had just arrived or was setting up.",
+      "holds_under": "When Omar is not actively working at the desk or has just arrived.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Omar's mouse was on the office chair at 08:39, a new location compared to the desk or shelf. This suggests he might be moving around the office space.",
+     "was": {
+      "statement": "Omar occasionally moves his mouse to the office shelf, likely when tidying or taking a break. At 13:39 and 20:15, the mouse was on the shelf while his other work items were on the desk or absent.",
+      "holds_under": "When Omar is not actively working at the desk or has just arrived.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Omar's mouse moved from the desk to the office shelf by 20:59, indicating he finished working and put items away.",
+     "was": {
+      "statement": "Omar's mouse moves between the desk, office shelf, and office chair. It was on the chair at 08:39, shelf at 13:06, and desk at other times.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Omar's mouse was found on the office desk at 15:21, consistent with daytime work. It was not in the kitchen or living room at 20:11.",
+     "was": {
+      "statement": "Omar's mouse moves between the desk, office shelf, and office chair. It was on the desk during the day and on the office shelf at 20:59.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar's mouse was on the shelf at 07:59 and 14:27, but on the desk at 11:29 and 12:06. It is not always on the desk.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during the day. It was not seen in the kitchen or living room in the evening, suggesting it stays in the office.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar's mouse was seen on the office desk at 15:00, 16:35, and 17:18. It was not seen in the kitchen or living room. This supports the idea that it stays on the desk during work.",
+     "was": {
+      "statement": "Omar's mouse moves between the office desk and the office shelf. It is on the desk during active work sessions (11:29, 12:06) and on the shelf when he is away or taking a break (07:59, 14:27).",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar's mouse moved from the desk to the shelf at 13:23, contradicting the claim that it remains on the desk during work sessions.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during work sessions (15:00-17:18). It is not seen in other rooms during these times.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Omar's mouse was on the office desk until 14:55, but moved to the office shelf at 19:22. It is not in the kitchen.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during most work sessions, but was moved to the office shelf at 13:23. It is not seen in other rooms during these times.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Omar's mouse was found in the kitchen drawer at 20:44, contradicting the belief that it stays in the office or moves to the office shelf. It is put away in the kitchen drawer in the evening.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during work hours. In the evening, it is moved to the office shelf, not taken to the kitchen.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Omar's mouse was found on the office shelf, not the desk, in the evening. This contradicts the previous belief that it moves to the kitchen drawer or stays on the desk.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during work hours. In the evening, it is moved to the kitchen drawer, not left in the office.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Omar's mouse was on the office shelf at 12:53, but back on the desk at 17:37. It is not permanently on the shelf.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during work hours. In the evening, it is moved to the office shelf, not the kitchen drawer.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Omar's mouse was on the office shelf at 13:12, not the desk, while he was present. This supports the idea that it moves to the shelf during breaks or when not actively being used, even if he is in the room.",
+     "was": {
+      "statement": "Omar's mouse is on the office desk during work hours. It may be moved to the office shelf during breaks or when not in use, but returns to the desk for work.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Omar works in the office during the day. He remains in the office with his active work items (laptop, headphones, water bottle) at least until late afternoon (16:01). He may move them out later in the evening.",
+   "holds_under": "When Omar is working in the office during the day or early evening.",
+   "supporting_observation_ids": [
+    "sighting_0927",
+    "sighting_0928",
+    "sighting_0929",
+    "sighting_0930",
+    "sighting_0931",
+    "sighting_0932"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Omar's items (laptop, headphones, mug, water bottle) were present in the office from 09:57 to 14:00, but absent at 15:33. This indicates he left the office and took his work items with him, likely to the kitchen or living room, as his items were not found in the bedroom or other checked rooms.",
+     "was": {
+      "statement": "Omar works in the office from late morning through late afternoon, keeping his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle on the desk.",
+      "holds_under": "When Omar is working during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Omar's work session extended significantly later than the previous pattern (which ended around 15:33). He was present in the office from 09:14 through 17:14, with all his standard desk items stationary. This suggests a longer work block or a change in his daily routine.",
+     "was": {
+      "statement": "Omar works in the office from late morning through early afternoon (approx 09:57-14:00), keeping his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle on the desk. He leaves the office around 15:33, as",
+      "holds_under": "When Omar is working during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Omar's work session extended significantly later than the previous record (17:14), lasting until at least 15:19. His items remained stationary on the desk, confirming he was working in the office.",
+     "was": {
+      "statement": "Omar works in the office from late morning through late afternoon (approx 09:14-17:14), keeping his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle on the desk. He leaves the office after 17:14.",
+      "holds_under": "When Omar is working during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Omar's work items (laptop, headphones, mouse, mug, water bottle) moved from the office desk to the kitchen sink/pantry between 14:52 and 19:54, while his office stationery (notebook, pen, etc.) remained in the office. This contradicts the previous belief that he leaves the office after 15:19 and keeps items stationary.",
+     "was": {
+      "statement": "Omar works in the office from late morning through mid-afternoon (approx 09:20-15:19), keeping his laptop, mouse, headphones, mug, notebook, pen, pencil case, sketchbook, and water bottle on the desk. He leaves the office after 15:19.",
+      "holds_under": "When Omar is working during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's items (laptop, headphones, etc.) remained in the office until 17:57, contradicting the claim that he moves them to the kitchen in the evening. He is working late.",
+     "was": {
+      "statement": "Omar works in the office during the day. In the evening, he moves his active work items (laptop, headphones, mouse, mug, water bottle) to the kitchen, leaving his stationery (notebook, pen, pencil case, sketchbook) in the office.",
+      "holds_under": "When Omar is transitioning from work to evening leisure in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Omar's active work items (laptop, headphones, mug, water bottle) disappeared from the office desk at 19:22, while stationary items (notebook, pen, sketchbook) remained. This contradicts the previous belief that he keeps all items in the office in the evening. He likely took them to the kitchen for dinner/relaxation.",
+     "was": {
+      "statement": "Omar works in the office during the day and into the late afternoon. His active work items (laptop, headphones, mouse, mug, water bottle) remain on the office desk. He does not move them to the kitchen in the evening.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Omar's laptop was not found in the kitchen at 20:44, supporting the belief that it is not taken to the kitchen in the evening. It likely remains in the office or is moved to a different room not observed.",
+     "was": {
+      "statement": "Omar works in the office during the day. In the evening (after 19:00), he takes his active work items (laptop, headphones, mug, water bottle) out of the office, likely to the kitchen, leaving stationary items (notebook, pen, sketchbook) on.",
+      "holds_under": "When Omar is working in the office (day) or relaxing in the kitchen (evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Omar's headphones and laptop were not in the office in the evening, but his other items (mug, notebook, etc.) were. This suggests he takes active work items out but leaves stationary ones.",
+     "was": {
+      "statement": "Omar works in the office during the day. In the evening (after 19:00), he takes his active work items (headphones, mug, water bottle) out of the office to the kitchen, but leaves his laptop in the office or moves it elsewhere.",
+      "holds_under": "When Omar is working in the office (day) or relaxing in the kitchen (evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Omar's items (laptop, headphones, mug, water bottle) were in the office at 17:37 but in the living room/kitchen by 19:43/21:54. This confirms the evening transition pattern.",
+     "was": {
+      "statement": "Omar works in the office during the day. In the evening (after 19:00), he takes his active work items (headphones, laptop, water bottle) out of the office, but leaves his stationary items (mug, notebook, pen, sketchbook) on the desk.",
+      "holds_under": "When Omar is working in the office (day) or relaxing elsewhere (evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Omar's items (laptop, headphones, water bottle) were present in the office at 16:01, contradicting the claim that he moves them out in the evening. He is still working in the office at this time.",
+     "was": {
+      "statement": "Omar works in the office during the day. In the evening (after 17:37), he moves his active work items (laptop, headphones, water bottle) out of the office to the living room or kitchen, but leaves stationary items (mug, notebook, pen, etc.)",
+      "holds_under": "When Omar is working in the office (day) or relaxing elsewhere (evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Marco's kitchen items show mixed storage in the evening: bowl and mug are in the cupboard, while glass, plate, and water bottle remain on the kitchen table. This suggests he puts away some items but leaves others for evening consumption.",
+   "holds_under": "When Marco is in the kitchen in the evening.",
+   "supporting_observation_ids": [
+    "sighting_0910",
+    "sighting_0913",
+    "sighting_0982",
+    "sighting_0986"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Marco's items (bowl, mug, glass, plate) were found in the cupboard at 17:14, 19:26, and 19:56. This contradicts the idea that they are out during the evening; instead, they are put away in the cupboard, while shared items and Omar's items are on the table/sink.",
+     "was": {
+      "statement": "Marco puts his kitchen items (bowl, mug, glass, plate) away in the cupboard after using them, as seen by the transition from the table at 07:54 to the cupboard at 20:46.",
+      "holds_under": "After Marco has finished using his kitchen items.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Marco's kitchen items (bowl, glass, mug, plate) were found in the cupboard at 08:01, indicating they were put away after the previous evening's use. This supports the pattern of items being stored in the cupboard when not in use.",
+     "was": {
+      "statement": "Marco puts his kitchen items (bowl, mug, glass, plate) away in the cupboard after using them. They were found in the cupboard at 17:14, 19:26, and 19:56, even while he was present in the kitchen.",
+      "holds_under": "After Marco has finished using his kitchen items.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's glass and plate were in the cupboard at 07:53, but his bowl and mug were on the table. By 17:57, his bowl, mug, and plate were in the sink, and his glass was in the cupboard. This shows items move between cupboard, table, and sink.",
+     "was": {
+      "statement": "Marco puts his kitchen items (bowl, mug, glass, plate) away in the cupboard after using them. They were found in the cupboard at 08:01, 17:14, 19:26, and 19:56, even while he was present in the kitchen.",
+      "holds_under": "After Marco has finished using his kitchen items.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Marco's kitchen items (bowl, plate) were seen in the sink at 12:47, 15:00, and 17:18, and in the cupboard at 20:58. This supports the previous claim that they move between the sink and cupboard.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move between the cupboard, table, and sink. They are in the cupboard when not in use, on the table during meals, and in the sink when dirty.",
+      "holds_under": "After Marco has finished using his kitchen items or during meal times.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Marco's items (bowl, mug, plate) were in the cupboard at 08:41, moved to the table at 13:23, and were not seen in the kitchen at 19:33, indicating he left the kitchen or put them away.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move between the cupboard, table, and sink. They are in the cupboard when not in use, on the table during meals, and in the sink when dirty.",
+      "holds_under": "After Marco has finished using his kitchen items or during meal times.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "At 20:09, Marco's glass, plate, and water bottle were on the kitchen table, while his bowl and mug were in the sink. This shows his kitchen items are out during evening meals.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move from the cupboard to the table during the day. They are not seen in the kitchen in the evening, suggesting Marco has left the kitchen or put them away.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Marco's items were found in the kitchen cupboard at 20:44, indicating they are put away in the evening, consistent with the pattern of moving from table to cupboard.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move from the cupboard to the table/sink during the day and evening. They are out during meal times.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Marco's items were found in the cupboard in the late evening, consistent with the previous belief that they are returned to the cupboard.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move from the cupboard to the table/sink during the day and evening. They are returned to the cupboard in the late evening.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Today's sightings (19:53, 20:17) show Marco's bowl and mug in the cupboard, while his glass, plate, and water bottle are on the kitchen table. This suggests a partial return to storage or a specific routine where some items are put away while others remain out for evening use.",
+     "was": {
+      "statement": "Marco's kitchen items (bowl, mug, glass, plate) move from the cupboard to the table/sink during the day and evening. They are returned to the cupboard in the late evening.",
+      "holds_under": "When Marco is in the kitchen for meals or routines.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours (including late afternoon 16:01). It is not in the kitchen until later in the evening.",
+   "holds_under": "When Omar is in the kitchen or office.",
+   "supporting_observation_ids": [
+    "sighting_0907",
+    "sighting_0999"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Omar's water bottle was on the office desk until 17:14. At 19:26, it appeared on the kitchen table. This shows it moves from the office to the kitchen when he leaves work for the evening.",
+     "was": {
+      "statement": "Omar's water bottle moves from the dish rack to the pantry shelf in the kitchen over the course of the day.",
+      "holds_under": "When Omar's water bottle is not in active use on the counter or table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Omar's water bottle was found on the kitchen table at 08:01, while he was present in the kitchen. This suggests he may have had a drink or breakfast in the kitchen before moving to the office.",
+     "was": {
+      "statement": "Omar's water bottle stays on the office desk during work hours (until 17:14) and moves to the kitchen table in the evening (19:26) when he is in the kitchen.",
+      "holds_under": "When Omar's water bottle is not in active use on the counter or table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Omar's water bottle was found on the office desk at 18:12, not in the kitchen as previously noted for evening hours. It moved to the kitchen sink by 19:54. This suggests the bottle stays with him in the office until he leaves for the evening.",
+     "was": {
+      "statement": "Omar's water bottle stays on the office desk during work hours and moves to the kitchen table in the morning (08:01) and evening (19:26) when he is in the kitchen.",
+      "holds_under": "When Omar's water bottle is not in active use on the counter or table.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's water bottle was seen on the office desk at 17:57, not in the kitchen. It stays with him in the office.",
+     "was": {
+      "statement": "Omar's water bottle stays on the office desk during work hours and into the early evening (seen at 18:12). It moves to the kitchen (sink or table) when he joins Marco for evening activities.",
+      "holds_under": "When Omar is in the office or has moved to the kitchen for the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar's water bottle was on the office desk at 09:43, 12:34, and 16:37, but in the kitchen at 20:15. This shows it moves to the kitchen in the evening.",
+     "was": {
+      "statement": "Omar's water bottle stays on the office desk during work hours and into the late afternoon. It does not move to the kitchen in the evening.",
+      "holds_under": "When Omar is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Omar's water bottle was in the kitchen at 08:39 and 13:06, not just in the evening. It moves between the office desk and kitchen.",
+     "was": {
+      "statement": "Omar's water bottle stays on the office desk during work hours but moves to the kitchen in the evening (20:15).",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Omar's water bottle moved from the office desk to the kitchen table by 19:27, showing he took it with him when leaving the office.",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It was in the kitchen at 08:39 and 13:06, and on the office desk at 10:09 and 18:06.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Omar's water bottle was found in the office at 15:21, consistent with previous days. It was not in the kitchen at 20:11, suggesting it stays with him in the office or moves to the living room (not seen there).",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It was on the office desk in the afternoon and on the kitchen table in the evening.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar's water bottle was on the office desk at 11:29 and 12:06, but in the kitchen (dish rack/sink/table) at 07:59, 14:27, and 19:01. It is not stationary in the office.",
+     "was": {
+      "statement": "Omar's water bottle is on the office desk during the day. It was not in the kitchen at 20:11, suggesting it remains in the office or moves to the living room with him.",
+      "holds_under": "When Omar is in the office or living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar's water bottle was seen in the kitchen at 12:47 and 20:58, but on the office desk at 15:00, 16:35, and 17:18. This contradicts the previous belief that it stays in the kitchen during breaks. It appears to move with Omar between rooms.",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It is on the desk during work (11:29, 12:06) and in the kitchen during meals or breaks (07:59, 14:27, 19:01).",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar's water bottle was found in the kitchen sink at 13:23 and on the kitchen table at 19:33, showing it moves to the kitchen during breaks, not just in the evening.",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It is on the desk during work sessions (15:00-17:18) and in the kitchen during meals or breaks (12:47, 20:58).",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Omar's water bottle was in the kitchen dish rack at 07:15, on the office desk from 09:42 to 11:52, in the kitchen sink at 13:40, and on the kitchen table at 20:09. It moves with him.",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It is on the desk during work sessions and in the kitchen (sink or table) during breaks or meals.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Omar's water bottle was on the office desk at 09:55, 11:47, 14:04, 14:37, 15:17, and 17:31, confirming it stays with him in the office during work.",
+     "was": {
+      "statement": "Omar's water bottle moves between the office desk and the kitchen. It is on the desk during work sessions and in the kitchen (sink or table) during breaks or meals.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Omar's water bottle was seen in the kitchen dish rack at 08:53, then on the office desk from 09:21 to 14:55, and finally on the kitchen table at 19:22. It moves with him between rooms.",
+     "was": {
+      "statement": "Omar's water bottle is on the office desk during work sessions. It was in the kitchen dish rack at 07:58, suggesting it moves with him between rooms.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Omar's water bottle was found in the kitchen dish rack at 20:44, not the kitchen table as previously thought. It is put away in the dish rack in the evening.",
+     "was": {
+      "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours, and kitchen table in the evening.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Omar's water bottle was found on the kitchen table in the evening, not the dish rack. This contradicts the previous belief that it is put away in the dish rack.",
+     "was": {
+      "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours, and kitchen dish rack in the evening when he puts it away.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Today's sightings (19:53, 20:17) show Omar's water bottle on the kitchen table, consistent with previous observations of it moving to the kitchen in the evening.",
+     "was": {
+      "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours, and kitchen table in the evening.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Omar's water bottle was on the office desk at 17:37, but in the kitchen sink at 12:53 and on the kitchen table at 19:43. It moves with him between work and meals.",
+     "was": {
+      "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours, and kitchen table in the evening.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Omar's water bottle was on the office desk at 16:01, not in the kitchen. This contradicts the previous pattern of it being in the kitchen in the evening, suggesting the 'evening' move happens later or is variable.",
+     "was": {
+      "statement": "Omar's water bottle moves with him: kitchen in the morning, office desk during work hours, and kitchen sink/table in the evening. It is not left in the office overnight.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Omar's laptop is in the office in the morning and afternoon. It is not in the kitchen in the evening.",
+   "holds_under": "When Omar is in the office or kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1007"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's laptop was in the office at 07:53, not in the living room. This contradicts the idea that he starts his day in the living room.",
+     "was": {
+      "statement": "Omar's laptop was found on the bookshelf in the living room at 07:39, before he moved to the office for work. This suggests he may start his day in the living room.",
+      "holds_under": "When Omar is in the living room in the morning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar's laptop was in the office at 09:43, 12:34, and 16:37, but not in the kitchen at 20:15. He starts his day in the office.",
+     "was": {
+      "statement": "Omar's laptop is in the office in the morning, not in the living room. He starts his day in the office.",
+      "holds_under": "When Omar is in the office in the morning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Omar's laptop is on the office desk during morning and late afternoon work sessions. It is not seen in the office at 13:23, suggesting it is closed or moved during midday breaks.",
+   "holds_under": "When Omar is working or relaxing.",
+   "supporting_observation_ids": [
+    "sighting_1472",
+    "sighting_1481",
+    "sighting_1450",
+    "sighting_1451"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Omar's laptop and other items were in the office at 17:57, not in the kitchen. The evening kitchen social pattern did not occur today.",
+     "was": {
+      "statement": "In the evening (around 19:54), Omar brings his laptop, headphones, mug, and water bottle to the kitchen to join Marco. His stationery remains in the office.",
+      "holds_under": "During evening social time in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Omar's work items (laptop, headphones, mug, water bottle) were in the office during the day, but his mug and water bottle were in the kitchen at 20:15. He does not bring his laptop to the kitchen.",
+     "was": {
+      "statement": "Omar keeps his laptop, headphones, mug, and water bottle in the office during the day and late afternoon. He does not bring them to the kitchen for evening activities.",
+      "holds_under": "When Omar is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Omar's laptop and headphones moved to the living room bookshelf at 15:10, contradicting the belief that they stay in the office during the day. This suggests he takes them for leisure or work in the living room.",
+     "was": {
+      "statement": "Omar keeps his laptop and headphones in the office during the day. His mug and water bottle move to the kitchen in the evening, but his laptop does not.",
+      "holds_under": "When Omar is working in the office or in the kitchen in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Omar's laptop and headphones were removed from the office desk by 20:59. Headphones were found in bedroom_2, and the laptop was not in the office, suggesting he ended his work session.",
+     "was": {
+      "statement": "Omar's laptop and headphones are usually in the office but can move to the living room bookshelf during the afternoon (seen at 15:10). His mug and water bottle move to the kitchen in the evening.",
+      "holds_under": "When Omar is working in the office or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Omar's laptop was found in the living room at 20:11, contradicting the belief that it stays in the office or moves to bedroom_2. This suggests a new evening habit of working/relaxing in the living room.",
+     "was": {
+      "statement": "Omar's laptop and headphones are usually in the office but move to bedroom_2 in the evening. Headphones were on the nightstand in bedroom_2 at 20:59.",
+      "holds_under": "When Omar is working in the office or resting in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar's laptop was on the office desk at 11:29 and 12:06, but on the living room bookshelf at 13:14. It is not in the office in the late afternoon.",
+     "was": {
+      "statement": "Omar's laptop and headphones are in the office during the day. In the evening, the laptop moves to the living room (bookshelf), while headphones may stay in the office or move to bedroom_2.",
+      "holds_under": "When Omar is working in the office (day) or relaxing in the living room (evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar's laptop was seen on the office desk at 15:00, 16:35, and 17:18, but on the living room bookshelf at 12:47. This contradicts the previous belief that it moves to the living room in the late afternoon. It appears to be in the office during the main work block.",
+     "was": {
+      "statement": "Omar's laptop is on the office desk in the morning/early afternoon (11:29, 12:06) and moves to the living room bookshelf in the late afternoon (13:14). Headphones follow a similar pattern, moving to the living room or staying in the office.",
+      "holds_under": "When Omar is working (day) or relaxing (afternoon/evening).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar's laptop was on the office desk at 10:50, 12:02, and 17:56, but not seen at 13:23, suggesting it is closed or moved during midday breaks.",
+     "was": {
+      "statement": "Omar's laptop is on the office desk during work (15:00-17:18) and on the living room bookshelf during breaks (12:47). It moves with Omar's activity.",
+      "holds_under": "When Omar is working or relaxing.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Marco's vitamins are in the kitchen in the morning. His water bottle is in the kitchen dish rack in the morning, but on the kitchen table in the evening (20:01) for use.",
+   "holds_under": "When Marco is in the kitchen.",
+   "supporting_observation_ids": [
+    "sighting_1382"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Marco's water bottle was absent from the kitchen at 17:57, consistent with it not being there in the evening.",
+     "was": {
+      "statement": "Marco's water bottle is not consistently in the kitchen during the evening. It was in the dish rack in the morning but absent from the kitchen in the late afternoon and evening.",
+      "holds_under": "When Marco is in the kitchen for evening activities.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Marco's water bottle was on the nightstand in bedroom_1 at 16:05, not in the kitchen. This contradicts the previous note that it was not consistently in the kitchen.",
+     "was": {
+      "statement": "Marco's water bottle is not consistently in the kitchen during the evening. It was in the dish rack in the morning but absent from the kitchen in the late afternoon.",
+      "holds_under": "When Marco is in the kitchen for evening activities.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Marco's water bottle was on the nightstand in bedroom_1 at 09:33. It was not in the kitchen or living room.",
+     "was": {
+      "statement": "Marco's water bottle is on the nightstand in bedroom_1 during the day (16:05). It is not in the kitchen at this time.",
+      "holds_under": "When Marco is in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Marco's vitamins were on the nightstand at 08:09 but are missing at 12:46, suggesting he took them in the morning and put the bottle away or consumed the last one.",
+     "was": {
+      "statement": "Marco's water bottle is on the nightstand in bedroom_1 in the morning (09:33). It is not seen in the kitchen or living room during this time.",
+      "holds_under": "When Marco is in bedroom_1.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Marco's vitamins moved from the nightstand (07:40) to the kitchen counter (09:05) and were not in the bedroom at 09:53. This suggests he takes them in the kitchen or moves them there, contradicting the idea that they stay on the nightstand.",
+     "was": {
+      "statement": "Marco's water bottle is on the nightstand in bedroom_1 in the morning. His vitamins are also on the nightstand in the morning but are gone by midday, suggesting a morning routine.",
+      "holds_under": "When Marco is in bedroom_1 in the morning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Marco's vitamins were on the kitchen table at 07:58, not the counter as previously noted, but still in the kitchen.",
+     "was": {
+      "statement": "Marco's water bottle is on the nightstand in bedroom_1 in the morning. His vitamins are on the nightstand early morning but move to the kitchen counter by late morning, suggesting he takes them in the kitchen.",
+      "holds_under": "When Marco is in bedroom_1 (early morning) or kitchen (late morning).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Marco's water bottle was on the kitchen table at 20:01, not in the dish rack. This suggests it is out for use in the evening, consistent with other kitchen items being out.",
+     "was": {
+      "statement": "Marco's vitamins are in the kitchen in the morning (07:58 on the table). His water bottle is in the kitchen dish rack at 07:58.",
+      "holds_under": "When Marco is in the kitchen (morning).",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "The shared blanket moves between the bedroom_1 bed and the living room couch/coffee table depending on where Marco is resting or relaxing.",
+   "holds_under": "When Marco is resting in the bedroom or relaxing in the living room.",
+   "supporting_observation_ids": [
+    "sighting_1767",
+    "sighting_1789"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "The shared blanket was on the couch at 14:00 and moved to the coffee table at 15:10. It follows Marco's location in the living room.",
+     "was": {
+      "statement": "The shared blanket moves between the bed in bedroom_1 and the couch in the living room, following Marco's location. It was on the bed at 13:57 and on the couch at 16:30.",
+      "holds_under": "When Marco is resting in the bedroom or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The shared blanket was on the bed in bedroom_1 at 13:25 and on the couch in the living room at 14:16 and 20:11. It follows Marco's location.",
+     "was": {
+      "statement": "The shared blanket moves between the bed in bedroom_1 and the living room (couch or coffee table), following Marco's location. It was on the couch at 14:00 and coffee table at 15:10.",
+      "holds_under": "When Marco is resting in the bedroom or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The shared blanket was on the couch in the living room at 13:14. It was not in bedroom_1.",
+     "was": {
+      "statement": "The shared blanket moves between the bed in bedroom_1 and the couch in the living room, following Marco's location. It was on the bed at 13:25 and the couch at 14:16 and 20:11.",
+      "holds_under": "When Marco is resting in the bedroom or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "The shared blanket was on the bed in bedroom_1 at 13:30, but on the couch in the living room at 21:05. This supports the idea that the blanket moves with Marco's resting location.",
+     "was": {
+      "statement": "The shared blanket is on the couch in the living room in the afternoon (13:14). It moves between the bedroom and living room depending on where Marco is resting.",
+      "holds_under": "When Marco is relaxing in the living room or bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "At 20:09, the shared blanket was on the coffee table in the living room, not in the bedroom. This suggests it moves to the living room when Marco is relaxing there.",
+     "was": {
+      "statement": "The shared blanket moves between the bedroom_1 bed and the living room couch depending on where Marco is resting or relaxing.",
+      "holds_under": "When Marco is resting in the bedroom or relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Marco spends afternoons and evenings in the living room for leisure. His knitting bag, book, and jacket are found on the couch during these times.",
+   "holds_under": "When Marco is relaxing in the living room.",
+   "supporting_observation_ids": [
+    "sighting_1784",
+    "sighting_1787",
+    "sighting_1791"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Marco was in the living room at 14:00 and 15:10 with his mug, book, and knitting bag. This confirms his late afternoon leisure habit in the living room.",
+     "was": {
+      "statement": "Marco spends late afternoons in the living room for leisure. At 16:30, his mug, book, and knitting bag were on the coffee table or couch, indicating he is relaxing there.",
+      "holds_under": "When Marco is not working in bedroom_1 or the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Marco was seen in the living room at 14:16 and 20:11 with his book, mug, and knitting bag. This confirms his leisure pattern in the living room, extending into the evening.",
+     "was": {
+      "statement": "Marco spends late afternoons in the living room for leisure. At 14:00 and 15:10, his mug, book, and knitting bag were on the coffee table or couch.",
+      "holds_under": "When Marco is not working in bedroom_1 or the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Marco was in the living room at 13:14. His book, mug, and knitting bag were on the couch or coffee table.",
+     "was": {
+      "statement": "Marco spends afternoons and evenings in the living room for leisure. His book, mug, and knitting bag are found on the couch or coffee table during these times.",
+      "holds_under": "When Marco is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Marco was seen in the living room at 12:47. His book, mug, and knitting bag were on the couch or coffee table. This supports the previous claim that he spends afternoons in the living room.",
+     "was": {
+      "statement": "Marco spends afternoons in the living room for leisure. His book, mug, and knitting bag are found on the couch or coffee table during these times (13:14).",
+      "holds_under": "When Marco is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Marco was in the living room at 21:05 with his book, mug, and knitting bag. This confirms his evening leisure habit in the living room.",
+     "was": {
+      "statement": "Marco spends afternoons in the living room for leisure. His book, mug, and knitting bag are found on the couch or coffee table during these times.",
+      "holds_under": "When Marco is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Marco's knitting bag was seen on the couch in the living room at 14:38. This supports the afternoon leisure pattern.",
+     "was": {
+      "statement": "Marco spends afternoons and evenings in the living room for leisure. His book, mug, and knitting bag are found on the couch or coffee table during these times.",
+      "holds_under": "When Marco is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "At 20:09, Marco's book, jacket, and knitting bag were found on the couch in the living room. This supports the idea that he spends evenings in the living room for leisure.",
+     "was": {
+      "statement": "Marco spends afternoons in the living room for leisure. His knitting bag is found on the couch during these times. His book and mug are also typically in the living room.",
+      "holds_under": "When Marco is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours (including late afternoon 16:01). It is not in the kitchen until later in the evening.",
+   "holds_under": "When Omar is in the kitchen or office.",
+   "supporting_observation_ids": [
+    "sighting_2033"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Omar's mug was found in the kitchen sink at 20:11, not the pantry shelf as previously noted. This confirms the pattern of moving to the kitchen in the evening, but refines the specific location.",
+     "was": {
+      "statement": "Omar's mug moves from the office desk to the kitchen (pantry shelf) in the evening. It was on the pantry shelf at 19:27.",
+      "holds_under": "When Omar is in the kitchen in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Omar's mug was on the office desk at 11:29 and 12:06, but in the kitchen sink at 14:27 and 19:01. It moves to the kitchen in the afternoon/evening.",
+     "was": {
+      "statement": "Omar's mug moves from the office desk to the kitchen in the evening. It was found in the kitchen sink at 20:11, indicating it is used for drinks during evening relaxation.",
+      "holds_under": "When Omar is in the kitchen in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Omar's mug was seen in the kitchen at 12:47 and 20:58, but on the office desk at 15:00, 16:35, and 17:18. This contradicts the previous belief that it moves to the kitchen in the afternoon/evening. It seems to stay with Omar in the office during the work block.",
+     "was": {
+      "statement": "Omar's mug is on the office desk during work (11:29, 12:06) and moves to the kitchen sink in the afternoon/evening (14:27, 19:01), likely for washing or storage after use.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Omar's mug was found in the kitchen sink at 13:23 and on the counter at 19:33, confirming it moves to the kitchen during breaks, not just in the evening.",
+     "was": {
+      "statement": "Omar's mug is on the office desk during work (15:00-17:18) and in the kitchen during meals or breaks (12:47, 20:58). It moves with Omar between rooms.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Omar's mug was in the kitchen sink at 07:15, moved to the office desk by 09:42, and was back in the kitchen sink at 13:40 and 20:09. This shows his mug moves with him between the kitchen and office.",
+     "was": {
+      "statement": "Omar's mug is on the office desk during work and in the kitchen (sink or counter) during breaks or meals. It moves with Omar between rooms.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Omar's mug was on the office desk at 09:55, 11:47, 14:04, 14:37, 15:17, and 17:31, confirming it stays with him in the office during work.",
+     "was": {
+      "statement": "Omar's mug is on the office desk during work and in the kitchen (sink or counter) during breaks or meals. It moves with Omar between rooms.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Omar's mug was in the kitchen at 08:53, on the office desk from 09:21 to 14:55, and on the kitchen table at 19:22. It moves with him.",
+     "was": {
+      "statement": "Omar's mug is on the office desk during work sessions. It was in the kitchen sink at 07:58, suggesting it moves with him between rooms.",
+      "holds_under": "When Omar is in the office or kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Omar's items were found in the kitchen cupboard at 20:44, contradicting the belief that he moves them to the kitchen table or leaves them in the office. He is now putting them away in the cupboard in the evening.",
+     "was": {
+      "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours, and kitchen table in the evening.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Omar's mug was found on the office desk in the evening, not the kitchen cupboard. This contradicts the previous belief that it moves to the kitchen.",
+     "was": {
+      "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours, and kitchen cupboard in the evening when he puts it away.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Today's sightings (19:53, 20:17) show Omar's mug on the kitchen sink, not the office desk. This contradicts the previous belief that his mug stays in the office in the evening. It seems he moved his mug to the kitchen for the evening.",
+     "was": {
+      "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours, and remains on the office desk in the evening.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Omar's mug was on the office desk at 17:37, but in the kitchen sink at 12:53 and 19:43. It moves with him for drinks.",
+     "was": {
+      "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours, and kitchen sink in the evening. It does not remain in the office overnight.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Omar's mug was on the office desk at 16:01, not in the kitchen. This contradicts the previous pattern of it being in the kitchen in the evening, suggesting the 'evening' move happens later or is variable.",
+     "was": {
+      "statement": "Omar's mug moves with him: kitchen in the morning, office desk during work hours, and kitchen sink in the evening. It does not remain in the office overnight.",
+      "holds_under": "When Omar is in the kitchen or office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Omar remains in the office from late morning through late afternoon with all his work items (laptop, headphones, mug, etc.) stationary on the desk. He does not take them out for midday breaks.",
+   "holds_under": "When Omar is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_2843",
+    "sighting_2844",
+    "sighting_2846",
+    "sighting_2868",
+    "sighting_2869"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Today's sightings (10:12-17:26) show Omar in the office with all his items (including laptop and headphones) on the desk. This contradicts the previous belief that he takes active items out during midday breaks. The items remained stationary all day.",
+     "was": {
+      "statement": "During midday breaks (around 13:40), Omar takes his active work items (laptop, headphones, mug) out of the office, likely to the kitchen, while leaving stationary items (notebook, pen, sketchbook) on the desk.",
+      "holds_under": "When Omar is on a midday break.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Marco works or studies in bedroom_1 in the evening. His laptop, charger, and book are found on the desk or bed in bedroom_1 during this time.",
+   "holds_under": "When Marco is in bedroom_1 in the evening.",
+   "supporting_observation_ids": [
+    "sighting_3638",
+    "sighting_3637",
+    "sighting_3635"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 30,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

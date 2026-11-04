@@ -1,0 +1,11 @@
+Sonnet one-household pilot (hh_s2_t03, ten-homes banks, 8 a day, 31 days, claude-sonnet-5-5, thinking off):
+first room right per arm, and the room choices that stayed refused after the reworded retry and fell back to the
+fixed room order. Written for the public release; reads finished cells only. CPU only.
+
+    PYTHONPATH=src python3 analysis/sonnet_pilot_summary.py
+
+arm                    cell dir                               first room right questions  choices choices lost
+history only           log_only_no_notes                                 0.867       248      293            7
+ACE as published       ACE_as_published                                  0.859       248      303            1
+history and notes      the_log_and_notes_about_the_routine               0.823       248      308           14
+claim store            incremental_edits                                 0.786       248      321            1

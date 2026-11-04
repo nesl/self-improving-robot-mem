@@ -1,0 +1,655 @@
+{
+ "household": "hh_s32_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 6,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Leo works in office ~09:00-17:30. Desk: laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. Evening: moves to kitchen/living. Items leave office. At 22:19, charger/mug/water bottle gone from office; pen moved to desk",
+   "holds_under": "Leo is working from home during the day. If he is not working, his items will be in the living room or bedroom.",
+   "supporting_observation_ids": [
+    "sighting_0059",
+    "sighting_0060",
+    "sighting_0061",
+    "sighting_0062",
+    "sighting_0063",
+    "sighting_0064"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Leo's office setup is consistent during the day but disappears in the evening, indicating a work-from-home routine that ends in the evening.",
+     "was": {
+      "statement": "Leo works in the office. His desk is set up with laptop, headphones, charger, notebook, pen, mug, and water bottle. He was in the office at 11:52. By 20:33 he was in the living room, and his office items were gone from the office.",
+      "holds_under": "Leo is working or has finished work for the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated timestamps to match Day 3 sightings. Confirmed pattern of office work during day, kitchen presence in evening.",
+     "was": {
+      "statement": "Leo works in the office. His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. He is in the office during the day (seen 10:35, 17:33). By evening (19:56+), his items are gone from the office, and he is in the kitchen",
+      "holds_under": "Daytime work hours",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated timestamps to match Day 4 logs. Confirmed he leaves the office in the evening.",
+     "was": {
+      "statement": "Leo works in the office. His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. He is in the office during the day (seen 10:14-17:40). By evening (20:06), his items are gone from the office, and he is in the kitchen.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated timestamps to match Day 5 sightings. Confirmed Leo is in the office during the day with his work items.",
+     "was": {
+      "statement": "Leo works in the office during the day (seen 10:02-17:33). His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. By evening (20:05), his items are gone from the office, and he is in the kitchen with his tablet and a",
+      "holds_under": "Leo is working during the day",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Updated time range to match today's sightings. Confirmed Leo is in office during day, items move to kitchen in evening.",
+     "was": {
+      "statement": "Leo works in the office during the day (seen 09:49-16:52). His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. By evening (20:05), his items are gone from the office, and he is in the kitchen with his tablet and a",
+      "holds_under": "Daytime hours (approx 09:00-17:00). Items are static on the desk while he is present.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updated to reflect that Leo leaves the office by 13:40, not 17:38 as previously thought. His items (charger, mug) disappear from the office at 13:40, and he is seen in the kitchen at 13:40.",
+     "was": {
+      "statement": "Leo works in the office during the day (seen 10:12-17:38). His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. By evening (19:39), his items are gone from the office, and he is in the kitchen with his tablet and a",
+      "holds_under": "Daytime (approx 09:00-18:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Leo was seen in the office at 09:27, 10:22, 11:38, 16:18, and 17:02. His items remained on the desk throughout. This contradicts the previous note that he left by 13:40.",
+     "was": {
+      "statement": "Leo works in the office during the day (seen 11:07-12:00). His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle. By 13:40, his charger and mug are gone from the office, and he is in the kitchen with Elena. By evening",
+      "holds_under": "Weekday daytime routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo was seen in the office at 11:10, 13:31, and 17:27. His items remained on the desk during these times. At 19:19, he left the office, and his items were scattered (laptop on floor, notebook on shelf), indicating he stopped working.",
+     "was": {
+      "statement": "Leo works in the office all day (09:27-17:02). His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. He is present in the office during all these checks. His items are static on the desk.",
+      "holds_under": "Leo is working from home or in the office during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Leo was in the office from 09:36 to 13:47. His items (laptop, mug, water bottle) were on the desk. At 08:29, his laptop was on the floor and mug/water bottle were absent, suggesting he was setting up or had just arrived. By 18:57, he was in",
+     "was": {
+      "statement": "Leo works in the office from ~09:00 to ~17:30. His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. He is present in the office during these checks. His items are static on the desk while he is there.",
+      "holds_under": "Leo is at home and working in the office.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect the evening transition observed at 19:10 where Leo's items moved from office to kitchen.",
+     "was": {
+      "statement": "Leo works in the office from ~09:00 to ~17:30. His desk holds laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. He is present in the office during these checks. His items are static on the desk while he is there.",
+      "holds_under": "Leo works in the office from ~09:00 to ~17:30. His desk holds laptop, headphones, charger, notebook, pen, mug, water b",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Confirmed Leo in office at 11:56 and 18:07. His items remain on the desk. In the evening (20:51), he is in the kitchen with Aisha and Elena.",
+     "was": {
+      "statement": "Leo works in the office ~09:00-17:30. Desk holds laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. In the evening (~19:00), he moves to the kitchen; his mug, water bottle, and charger leave the office, and his bowl",
+      "holds_under": "Leo is present in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Leo's work setup is consistent during the day. In the evening, he leaves the office, taking his personal items (charger, mug, water bottle) with him, likely to the kitchen or living room. The pen was left on the office shelf, suggesting he",
+     "was": {
+      "statement": "Leo works in the office ~09:00-17:30. Desk holds laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. In the evening (~19:00), he moves to the kitchen; his mug, water bottle, and charger leave the office, and his bowl",
+      "holds_under": "Weekdays",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed Leo's presence and item arrangement in the office at 10:18, 12:54, and 14:21. The setup is consistent with a work-from-home routine.",
+     "was": {
+      "statement": "Leo works in office ~09:00-17:30. Desk: laptop, headphones, charger, notebook, pen, mug, water bottle, plant_pot_3. Evening: moves to kitchen/living. Items leave office. At 22:19, charger/mug/water bottle gone from office; pen moved to desk",
+      "holds_under": "Leo is home and active",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Elena is in the kitchen during the day. Her items (bowl, mug, glass) are on the kitchen table. Her phone is on the table. Her notebook is NOT in the kitchen (unlike previous days). She is not seen in the bathroom during the day.",
+   "holds_under": "Weekdays",
+   "supporting_observation_ids": [
+    "sighting_0033",
+    "sighting_0035",
+    "sighting_0101",
+    "sighting_0103",
+    "sighting_0112",
+    "sighting_0216"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Elena's presence and items are consistently tracked in the kitchen throughout the day, with specific items like the notebook appearing at specific times.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 10:11, 13:00, 16:00, 20:33, and 21:11. Her personal items (bowl, mug, glass, plate) are often in the kitchen, sometimes on the table or sink.",
+      "holds_under": "Elena is home and active in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated timestamps to match Day 3 sightings. Confirmed consistent presence in kitchen.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. Seen at 09:05, 12:59, 15:21, 19:56, 22:38. Her items (bowl, mug, glass, plate) are often on the kitchen table or cupboard. She has a notebook that appears in the kitchen at midday.",
+      "holds_under": "General daily routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Refined to focus on evening presence and item locations. Noted bathroom items are static.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. Seen at 08:47, 13:09, 20:06. Her items (bowl, mug, glass, plate) are often on the kitchen table or cupboard. She has a notebook that appears in the kitchen at midday.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Updated time to 19:39. Confirmed Elena in kitchen in evening. Bathroom items remain static in bathroom throughout the day.",
+     "was": {
+      "statement": "Elena is in the kitchen in the evening (20:05). Her items (bowl, mug, glass, plate) are often on the kitchen table or cupboard. She has a notebook that appears in the kitchen at midday. Her bathroom items (skincare, towel, hair dryer) are",
+      "holds_under": "Elena is home in the evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updated to include morning presence in kitchen. Her notebook was on the kitchen table at 08:27 but not at 13:40, suggesting she moved it or used it. Her bathroom items remain static.",
+     "was": {
+      "statement": "Elena is in the kitchen in the evening (19:39). Her items (bowl, mug, glass, plate) are often on the kitchen table or cupboard. She has a notebook that appears in the kitchen at midday. Her bathroom items (skincare, towel, hair dryer) are",
+      "holds_under": "Evening (approx 18:00-22:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Elena was seen in the kitchen at 11:38, 16:18, and 17:02. Her items were on the sink/cupboard. Bathroom items were stable.",
+     "was": {
+      "statement": "Elena is in the kitchen in the morning (08:27) and afternoon (13:40). Her items (bowl, mug, glass, plate, notebook) are often on the kitchen table or cupboard. Her bathroom items (skincare, towel, hair dryer) are consistently in the bathro",
+      "holds_under": "Daily routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Elena was seen in the kitchen at 20:19. Her items were on the sink, suggesting she was using the kitchen. Her bathroom items remained in the bathroom throughout the day.",
+     "was": {
+      "statement": "Elena is in the kitchen during the day (11:38-17:02). Her items (bowl, mug, glass, plate) are on the sink or cupboard. Her bathroom items (skincare, towel, hair dryer, toiletry bag) are consistently in the bathroom. She is present in the k",
+      "holds_under": "Elena is at home during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Elena was seen in the kitchen at 08:29 and 18:57. Her items moved from the table/sink to the cupboard/sink between these times, suggesting she used them and put them away. Her bathroom items remained static.",
+     "was": {
+      "statement": "Elena is in the kitchen during the day. Her items (bowl, mug, glass, plate) are on the sink or cupboard. Her bathroom items (skincare, towel, hair dryer, toiletry bag) are consistently in the bathroom. She is present in the kitchen in the 2",
+      "holds_under": "Elena is at home and active in the kitchen.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Added detail about notebook movement and evening presence.",
+     "was": {
+      "statement": "Elena is in the kitchen during the day. Her items (bowl, mug, glass, plate) are on the sink or cupboard. Her bathroom items (skincare, towel, hair dryer, toiletry bag) are consistently in the bathroom. She is present in the kitchen in the 2",
+      "holds_under": "Elena is home and in the kitchen during the day. Her personal items (bowl, mug, glass, plate) are typically on the sink,",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Elena's personal items are consistently on the kitchen table, not the sink/cupboard as previously noted. Her phone is present. Her notebook is absent from the kitchen, suggesting a change in routine or location.",
+     "was": {
+      "statement": "Elena is in the kitchen during the day. Her items (bowl, mug, glass, plate) are on the sink or cupboard. In the evening (~19:00), she is in the kitchen with Aisha and Leo. Her notebook was seen on the kitchen table at 09:46 but was gone by",
+      "holds_under": "Elena is present in the kitchen during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Elena seen in bathroom at 08:34. In kitchen at 11:56 and 20:51. Her items are scattered in the kitchen (cupboard/sink).",
+     "was": {
+      "statement": "Elena is in the kitchen during the day. Her items (bowl, mug, glass) are on the kitchen table. Her phone is on the table. Her notebook is NOT in the kitchen (unlike previous days). She is not seen in the bathroom during the day.",
+      "holds_under": "Daytime (08:00-18:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Aisha is not seen in the kitchen or bathroom during the day. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are in the bathroom and kitchen. In the evening (~19:00), she is present in the kitchen. Her towel moved from rack t",
+   "holds_under": "Weekdays",
+   "supporting_observation_ids": [
+    "sighting_0003",
+    "sighting_0009",
+    "sighting_0018",
+    "sighting_0020",
+    "sighting_0024",
+    "sighting_0036"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Aisha's items are distributed across multiple rooms, with a strong presence in the kitchen cupboard and bathroom shelf. Her tablet was seen in the kitchen during the day.",
+     "was": {
+      "statement": "Aisha's personal items (skincare, towel, bowl, glass, mug, plate, vitamins, camera) are found in the bathroom, kitchen, and living room. She was seen in the kitchen at 20:33 and 21:11. Her items are often in the cupboard in the kitchen.",
+      "holds_under": "Aisha is home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated timestamp for Aisha's sighting to 20:06. Confirmed item locations.",
+     "was": {
+      "statement": "Aisha's items (skincare, towel, bowl, glass, mug, plate, vitamins, camera) are found in the bathroom, kitchen, and living room. She was seen in the kitchen at 19:56. Her items are often in the kitchen cupboard. She has a tablet seen in the.",
+      "holds_under": "General daily routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated to reflect evening presence and specific item locations. Noted water bottle appearance.",
+     "was": {
+      "statement": "Aisha's items (skincare, towel, bowl, glass, mug, plate, vitamins, camera) are found in the bathroom, kitchen, and living room. She was seen in the kitchen at 20:06. Her items are often in the kitchen cupboard. She has a tablet seen in the.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Updated time to 19:39. Confirmed Aisha in kitchen in evening. Water bottle seen on kitchen table at 19:39.",
+     "was": {
+      "statement": "Aisha is in the kitchen in the evening (20:05). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are found in the bathroom and kitchen. Her kitchen items are often in the cupboard or on the table. She has a water bottle seen",
+      "holds_under": "Aisha is home in the evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Confirmed Aisha's presence in kitchen at 19:40. Her items are consistently in the kitchen cupboard or table during the day, and she appears in the kitchen in the evening.",
+     "was": {
+      "statement": "Aisha is in the kitchen in the evening (19:39). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are found in the bathroom and kitchen. Her kitchen items are often in the cupboard or on the table. She has a water bottle seen",
+      "holds_under": "Evening (approx 18:00-22:00)",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Aisha was not listed as present in any room during the day. Her items were in their usual places.",
+     "was": {
+      "statement": "Aisha is in the kitchen in the evening (19:40). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are found in the bathroom and kitchen. Her kitchen items are often in the cupboard or on the table. She has a water bottle seen",
+      "holds_under": "Daily routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Aisha was not seen in the kitchen or bathroom during the day. Her items were in the kitchen (cupboard/counter) and bathroom (shelf/towel rack). At 20:19, she was seen in the kitchen, and her water bottle appeared on the kitchen table.",
+     "was": {
+      "statement": "Aisha is not seen in the kitchen or bathroom during the day (08:05-17:02). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are in the bathroom and kitchen. Her kitchen items are in the cupboard or on the counter. She may be",
+      "holds_under": "Aisha is away from home during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Aisha was not present in any room checked today. Her items in the kitchen (cupboard/counter) and bathroom (sink/rack) remained in the same locations from morning to evening, indicating she did not use them today.",
+     "was": {
+      "statement": "Aisha is not seen in the kitchen or bathroom during the day. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are in the bathroom and kitchen. Her kitchen items are in the cupboard or on the counter. She may be out of the home",
+      "holds_under": "Aisha is at home but not in the kitchen or bathroom during the day.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect evening presence and towel movement.",
+     "was": {
+      "statement": "Aisha is not seen in the kitchen or bathroom during the day. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are in the bathroom and kitchen. Her kitchen items are in the cupboard or on the counter. She may be out of the home",
+      "holds_under": "Aisha is not seen in the kitchen or bathroom during the day. Her items (skincare, towel, bowl, glass, mug, plate, vitami",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Aisha seen in kitchen at 20:51. Her towel moved from rack to shelf by 08:34. Her items are in kitchen (dish rack/sink) and bathroom.",
+     "was": {
+      "statement": "Aisha is not seen in the kitchen or bathroom during the day. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) are in the bathroom and kitchen. In the evening (~19:00), she is present in the kitchen. Her towel moved from rack t",
+      "holds_under": "Aisha is not present in the home during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor. The dog food bag is on the pantry shelf. The dog toy is not seen in the kitchen during the day but was found in the living room at 21",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0032",
+    "sighting_0038",
+    "sighting_0054",
+    "sighting_0213"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "The dog's items are consistently present, with the food bag moving from the pantry to the chair, suggesting someone (likely Leo or Elena) moved it to feed the dog or prepare food.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor, but was on the kitchen table at 20:33. The dog toy is on the living room floor.",
+      "holds_under": "The dog is present in the home.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Updated dog food bag location observation. It was on the chair at 08:47 and pantry shelf at 13:09/20:06.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor. The dog food bag was on the pantry shelf, then moved to the kitchen chair by 19:56. The dog toy is on the liv",
+      "holds_under": "General daily routine",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Clarified dog item locations. Dog bowl on floor, food on pantry shelf.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor. The dog food bag was on the pantry shelf, then moved to the kitchen chair by 19:56. The dog toy is on the liv",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Confirmed dog bowl on kitchen floor at 17:38, moved to counter at 19:39. Dog food bag on pantry shelf. Dog toy not seen today but previously in living room.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor. The dog food bag is on the pantry shelf. The dog toy is on the living room floor. The dog is likely",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Updated to note the movement of the dog bowl and food bag by evening. The dog bowl moved from floor to dish rack, and the food bag from pantry shelf to floor, suggesting someone (likely Leo or Elena) moved them.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor. The dog food bag is on the pantry shelf. The dog toy is on the living room floor. The dog is likely",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Dog items were consistently on the kitchen floor during the day. The dog toy was not seen, possibly in another room.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared, dog_toy_shared. The dog bowl is usually on the kitchen floor (08:27, 13:40) but moved to the dish rack by 19:40. The dog food bag is on the pantry shelf (08:27, 13:40) but",
+      "holds_under": "Household pets",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Dog items (bowl, food bag) were consistently on the kitchen floor. The dog toy was found in the living room at 21:09, suggesting the dog moves between rooms.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor (11:38-17:02). The dog food bag is on the kitchen floor (11:38-17:02). The dog toy is not seen in the kitchen during the day.",
+      "holds_under": "The dog is at home.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Dog bowl and food bag were in the kitchen at 08:29 (floor) and 18:57 (floor/pantry). The food bag moved from floor to pantry shelf, suggesting someone (likely Leo or Elena) refilled the bowl or tidied up. The dog toy was not seen in the k",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor. The dog food bag is on the kitchen floor. The dog toy is not seen in the kitchen during the day but was found in the living room at 21",
+      "holds_under": "The dog is in the home.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Corrected location of dog food bag to pantry shelf based on today's sightings.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor. The dog food bag is on the kitchen floor. The dog toy is not seen in the kitchen during the day but was found in the living room at 21",
+      "holds_under": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor. The dog f",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Dog items consistently in kitchen. Dog toy not seen in kitchen today.",
+     "was": {
+      "statement": "The home has a dog. Evidence: dog_bowl_shared, dog_food_bag_shared. The dog bowl is on the kitchen floor. The dog food bag is on the pantry shelf. The dog toy is not seen in the kitchen during the day but was found in the living room at 21",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Shared items in the kitchen (kettle, toaster, knife block, plant_pot_2, wall_clock) are usually on the counter. Shared items in the pantry (baking_tray, dog_food_bag, mixing_bowl, shopping_bag) are on the pantry shelf. This seems to be the",
+   "holds_under": "The kitchen is organized by function.",
+   "supporting_observation_ids": [
+    "sighting_0013",
+    "sighting_0014",
+    "sighting_0016",
+    "sighting_0017",
+    "sighting_0037",
+    "sighting_0038"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

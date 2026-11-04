@@ -1,0 +1,183 @@
+# Object catalogue for situation_sim. Every tracked object in a home is an
+# instance of a class below. Classes are tied to the activities that use
+# them (activities.yaml `uses`), so an activity leaves a visible footprint.
+#
+# Class fields
+#   size: small | paper | dish | kitchen_tool | wearable | bag | device |
+#         bulky | textile | toiletry | static   (what spots accept it)
+#   per: resident | shared
+#   p: chance the instance exists (per resident, or for the home)
+#   roles: (per resident) only residents with one of these roles own one
+#   hobby: only a resident with that hobby owns one (shared: any resident)
+#   pet: only if the home has that pet
+#   home: spot kinds with room tokens, primary first; first that resolves
+#         in this home is used, unresolvable entries are skipped.
+#         Room tokens: bedroom (owner's; bedroom_1 for shared), workspace,
+#         kitchen, living, bathroom, entry, dining_or_kitchen,
+#         storage_or_bedroom, balcony_or_living, office_or_living
+#   after_use: spot kind a used one goes to (a dirty plate: the sink)
+#   pocket / outdoor: taken on trips out (outdoor items may be a standing
+#         omission per trip type, like carry_p in the old params)
+#   bag_candidate: may ride in the owner's bag group
+#   gym_candidate: may ride in the owner's gym bag
+#   words: plain words for the trace
+
+size_accepts:
+  # spot kind -> size classes it holds ("*" = anything). A class listed in
+  # class_overrides is accepted at that spot regardless of size.
+  counter:        [small, dish, kitchen_tool, toiletry, device, paper, bag]
+  sink:           [dish, kitchen_tool]
+  dish_rack:      [dish, kitchen_tool]
+  cupboard:       [dish, kitchen_tool, toiletry]
+  drawer_k:       [kitchen_tool, small]
+  pantry_shelf:   [dish, kitchen_tool, paper, bag, small]
+  kitchen_table:  [small, paper, device, dish, kitchen_tool, bag, textile, toiletry]
+  dining_table:   [small, paper, device, dish, kitchen_tool, bag, textile]
+  chair:          [bag, wearable, paper, device, textile]
+  chair_d:        [bag, wearable, paper, device, textile]
+  floor_k:        [small, paper, wearable, bag, device, bulky, textile]
+  couch:          [small, paper, device, textile, wearable, bag, bulky, dish]
+  armchair:       [small, paper, device, textile, wearable, bag, dish]
+  coffee_table:   [small, paper, device, dish, textile, toiletry, bulky]
+  side_table:     [small, paper, device, dish, toiletry]
+  tv_stand:       [small, device, paper]
+  bookshelf:      [paper, small, device, bulky, dish]
+  floor_l:        [small, paper, wearable, bag, device, bulky, textile]
+  entry_table:    [small, paper, device, bag, toiletry, dish]
+  entry_hook:     [wearable, bag]
+  shoe_rack:      [wearable]
+  entry_floor:    [small, paper, wearable, bag, device, bulky, textile]
+  bathroom_shelf: [toiletry, small, textile, dish]
+  towel_rack:     [textile, wearable]
+  medicine_cabinet: [toiletry]
+  sink_ba:        [toiletry, small]
+  bed:            [small, paper, device, textile, wearable, bag, bulky]
+  nightstand:     [small, paper, device, toiletry, dish]
+  desk:           [small, paper, device, dish, bag, toiletry]
+  dresser:        [small, paper, device, toiletry, textile, wearable]
+  wardrobe:       [wearable, bag, textile, bulky]
+  bedroom_floor:  [small, paper, wearable, bag, device, bulky, textile]
+  office_shelf:   [paper, small, device, bulky]
+  office_chair:   [bag, wearable, paper, device, textile]
+  floor_o:        [small, paper, wearable, bag, device, bulky, textile]
+  sideboard:      [small, paper, device, dish, bulky]
+  storage_shelf:  [bulky, bag, kitchen_tool, small, paper, device]
+  storage_floor:  [small, paper, wearable, bag, device, bulky, textile]
+  balcony_table:  [small, dish, paper, device]
+  balcony_floor:  [small, paper, wearable, bag, device, bulky, textile]
+
+class_overrides:
+  # class -> extra spot kinds it may sit on
+  keys: [entry_hook]
+  dog_leash: [entry_hook]
+  umbrella: [entry_hook, entry_floor]
+  helmet: [entry_hook]
+  watering_can: [counter, cupboard, pantry_shelf, balcony_floor, balcony_table, floor_l, floor_k, storage_shelf]
+  shoes: [entry_floor, shoe_rack, wardrobe, bedroom_floor]
+  running_shoes: [entry_floor, shoe_rack, wardrobe, bedroom_floor]
+
+classes:
+  # ---- pocket & wearables (per resident) --------------------------------
+  phone:      {size: small, per: resident, p: 1.0, home: [nightstand@bedroom, coffee_table@living, kitchen_table@kitchen], pocket: true}
+  keys:       {size: small, per: resident, p: 1.0, home: [entry_table@entry, entry_hook@entry, nightstand@bedroom], pocket: true}
+  wallet:     {size: small, per: resident, p: 1.0, home: [entry_table@entry, nightstand@bedroom, desk@workspace], pocket: true}
+  sunglasses: {size: small, per: resident, p: 0.5, home: [entry_table@entry, dresser@bedroom, nightstand@bedroom], outdoor: true}
+  jacket:     {size: wearable, per: resident, p: 1.0, home: [entry_hook@entry, wardrobe@bedroom], outdoor: true}
+  scarf:      {size: wearable, per: resident, p: 0.5, home: [entry_hook@entry, wardrobe@bedroom, dresser@bedroom], outdoor: true}
+  hat:        {size: wearable, per: resident, p: 0.4, home: [entry_hook@entry, dresser@bedroom], outdoor: true}
+  shoes:      {size: wearable, per: resident, p: 1.0, home: [shoe_rack@entry, entry_floor@entry, wardrobe@bedroom], outdoor: true, always_worn_out: true}
+  umbrella:   {size: wearable, per: resident, p: 0.7, home: [entry_floor@entry, entry_hook@entry], outdoor: true, rain_only: true}
+  backpack:   {size: bag, per: resident, p: 0.55, roles: [worker_out, student], home: [entry_hook@entry, bedroom_floor@bedroom, desk@workspace], bag_leader: true}
+  handbag:    {size: bag, per: resident, p: 0.45, roles: [worker_out, shift_worker], home: [entry_hook@entry, entry_table@entry, bedroom_floor@bedroom], bag_leader: true}
+  # ---- work / study ------------------------------------------------------
+  laptop:     {size: device, per: resident, p: 1.0, roles: [worker_out, worker_home, student], home: [desk@workspace, bookshelf@living, dining_table@dining_or_kitchen], bag_candidate: true}
+  charger:    {size: device, per: resident, p: 0.75, roles: [worker_out, worker_home, student], home: [desk@workspace, nightstand@bedroom], bag_candidate: true}
+  notebook:   {size: paper, per: resident, p: 0.55, home: [desk@workspace, bookshelf@living, kitchen_table@kitchen], bag_candidate: true}
+  pen:        {size: small, per: resident, p: 0.7, home: [desk@workspace, kitchen_table@kitchen, nightstand@bedroom], bag_candidate: true}
+  headphones: {size: device, per: resident, p: 0.65, home: [desk@workspace, nightstand@bedroom, coffee_table@living], bag_candidate: true, gym_candidate: true}
+  mouse:      {size: device, per: resident, p: 0.4, roles: [worker_home], home: [desk@workspace, office_shelf@office_or_living]}
+  textbook:   {size: paper, per: resident, p: 1.0, roles: [student], home: [desk@workspace, bed@bedroom, kitchen_table@kitchen], bag_candidate: true}
+  lunchbox:   {size: dish, per: resident, p: 0.6, roles: [worker_out, student, shift_worker], home: [cupboard@kitchen, counter@kitchen, sink@kitchen], after_use: sink, bag_candidate: true}
+  water_bottle: {size: dish, per: resident, p: 0.75, home: [dish_rack@kitchen, counter@kitchen, sink@kitchen, desk@workspace], after_use: sink, bag_candidate: true, gym_candidate: true}
+  tablet:     {size: device, per: resident, p: 0.4, home: [nightstand@bedroom, coffee_table@living, couch@living]}
+  # ---- dishes (per resident) ----------------------------------------------
+  mug:        {size: dish, per: resident, p: 1.0, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  glass:      {size: dish, per: resident, p: 1.0, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  plate:      {size: dish, per: resident, p: 1.0, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  bowl:       {size: dish, per: resident, p: 1.0, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  # ---- personal care -----------------------------------------------------
+  towel:      {size: textile, per: resident, p: 1.0, home: [towel_rack@bathroom, bathroom_shelf@bathroom, bed@bedroom]}
+  toiletry_bag: {size: bag, per: resident, p: 0.5, home: [bathroom_shelf@bathroom, dresser@bedroom, sink_ba@bathroom]}
+  skincare:   {size: toiletry, per: resident, p: 0.6, home: [bathroom_shelf@bathroom, nightstand@bedroom, dresser@bedroom]}
+  razor:      {size: toiletry, per: resident, p: 0.4, home: [sink_ba@bathroom, bathroom_shelf@bathroom, medicine_cabinet@bathroom]}
+  hair_dryer: {size: device, per: resident, p: 0.35, home: [bathroom_shelf@bathroom, dresser@bedroom, bedroom_floor@bedroom]}
+  medication: {size: toiletry, per: resident, p: 0.35, home: [medicine_cabinet@bathroom, nightstand@bedroom, counter@kitchen]}
+  vitamins:   {size: toiletry, per: resident, p: 0.4, home: [counter@kitchen, cupboard@kitchen, nightstand@bedroom]}
+  glasses:    {size: small, per: resident, p: 0.45, home: [nightstand@bedroom, desk@workspace, coffee_table@living]}
+  book:       {size: paper, per: resident, p: 0.85, home: [nightstand@bedroom, bookshelf@living, couch@living]}
+  magazine:   {size: paper, per: resident, p: 0.35, home: [coffee_table@living, bookshelf@living, bed@bedroom]}
+  # ---- hobby kit (per resident, only with the hobby) ----------------------
+  gym_bag:    {size: bag, per: resident, p: 1.0, hobby: gym, home: [wardrobe@bedroom, bedroom_floor@bedroom, entry_floor@entry], gym_leader: true}
+  running_shoes: {size: wearable, per: resident, p: 1.0, hobby: running, home: [shoe_rack@entry, entry_floor@entry, wardrobe@bedroom]}
+  yoga_mat:   {size: bulky, per: resident, p: 1.0, hobby: yoga, home: [wardrobe@bedroom, bedroom_floor@bedroom, floor_l@living]}
+  guitar:     {size: bulky, per: resident, p: 1.0, hobby: guitar, home: [bedroom_floor@bedroom, floor_l@living, couch@living]}
+  knitting_bag: {size: bag, per: resident, p: 1.0, hobby: knitting, home: [couch@living, armchair@living, bedroom_floor@bedroom]}
+  controller: {size: device, per: resident, p: 1.0, hobby: gaming, home: [tv_stand@living, coffee_table@living, couch@living]}
+  headset:    {size: device, per: resident, p: 0.7, hobby: gaming, home: [tv_stand@living, desk@workspace, couch@living]}
+  journal:    {size: paper, per: resident, p: 1.0, hobby: journaling, home: [nightstand@bedroom, desk@workspace, kitchen_table@kitchen]}
+  sketchbook: {size: paper, per: resident, p: 1.0, hobby: sketching, home: [desk@workspace, coffee_table@living, bookshelf@living]}
+  pencil_case: {size: small, per: resident, p: 1.0, hobby: sketching, home: [desk@workspace, coffee_table@living, bookshelf@living]}
+  camera:     {size: device, per: resident, p: 1.0, hobby: photography, home: [bookshelf@living, desk@workspace, dresser@bedroom]}
+  helmet:     {size: wearable, per: resident, p: 1.0, hobby: cycling, home: [entry_hook@entry, entry_floor@entry, storage_shelf@storage_or_bedroom]}
+  bike_lock:  {size: small, per: resident, p: 1.0, hobby: cycling, home: [entry_table@entry, entry_floor@entry]}
+  meditation_cushion: {size: textile, per: resident, p: 1.0, hobby: meditation, home: [bedroom_floor@bedroom, floor_l@living, wardrobe@bedroom]}
+  # ---- shared kitchen ----------------------------------------------------
+  pan:          {size: kitchen_tool, per: shared, p: 1.0, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  pot:          {size: kitchen_tool, per: shared, p: 0.8, home: [cupboard@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  cutting_board: {size: kitchen_tool, per: shared, p: 1.0, home: [counter@kitchen, dish_rack@kitchen, sink@kitchen], after_use: sink}
+  kitchen_knife: {size: kitchen_tool, per: shared, p: 1.0, home: [drawer_k@kitchen, counter@kitchen, sink@kitchen], after_use: sink}
+  spatula:      {size: kitchen_tool, per: shared, p: 0.8, home: [drawer_k@kitchen, counter@kitchen, sink@kitchen], after_use: sink}
+  mixing_bowl:  {size: kitchen_tool, per: shared, p: 1.0, hobby: baking, home: [pantry_shelf@kitchen, cupboard@kitchen, sink@kitchen], after_use: sink}
+  baking_tray:  {size: kitchen_tool, per: shared, p: 1.0, hobby: baking, home: [pantry_shelf@kitchen, cupboard@kitchen, sink@kitchen], after_use: sink}
+  recipe_book:  {size: paper, per: shared, p: 0.6, home: [pantry_shelf@kitchen, bookshelf@living, counter@kitchen]}
+  snack_bowl:   {size: dish, per: shared, p: 0.8, home: [cupboard@kitchen, coffee_table@living, sink@kitchen], after_use: sink}
+  shopping_bag: {size: bag, per: shared, p: 1.0, home: [pantry_shelf@kitchen, entry_hook@entry, entry_floor@entry]}
+  serving_dish: {size: dish, per: shared, p: 0.5, home: [cupboard@kitchen, sideboard@dining_or_kitchen, sink@kitchen], after_use: sink}
+  # ---- shared living / household ----------------------------------------
+  remote:       {size: small, per: shared, p: 1.0, home: [tv_stand@living, coffee_table@living, couch@living]}
+  blanket:      {size: textile, per: shared, p: 1.0, home: [couch@living, armchair@living, bed@bedroom]}
+  speaker:      {size: device, per: shared, p: 0.5, home: [bookshelf@living, kitchen_table@kitchen, desk@workspace]}
+  board_game:   {size: bulky, per: shared, p: 0.55, home: [bookshelf@living, sideboard@dining_or_kitchen, coffee_table@living]}
+  puzzle_box:   {size: bulky, per: shared, p: 0.35, home: [bookshelf@living, dining_table@dining_or_kitchen, coffee_table@living]}
+  laundry_basket: {size: bulky, per: shared, p: 1.0, home: [bathroom_shelf@bathroom, bedroom_floor@bedroom, wardrobe@bedroom]}
+  detergent:    {size: toiletry, per: shared, p: 0.8, home: [bathroom_shelf@bathroom, storage_shelf@storage_or_bedroom, cupboard@kitchen]}
+  iron:         {size: device, per: shared, p: 0.45, home: [storage_shelf@storage_or_bedroom, wardrobe@bedroom, dresser@bedroom]}
+  ironing_board: {size: bulky, per: shared, p: 0.45, home: [storage_floor@storage_or_bedroom, bedroom_floor@bedroom, wardrobe@bedroom]}
+  vacuum_cleaner: {size: bulky, per: shared, p: 0.9, home: [storage_floor@storage_or_bedroom, entry_floor@entry, bedroom_floor@bedroom]}
+  duster:       {size: small, per: shared, p: 0.5, home: [storage_shelf@storage_or_bedroom, cupboard@kitchen, bathroom_shelf@bathroom]}
+  watering_can: {size: kitchen_tool, per: shared, p: 0.7, home: [balcony_floor@balcony_or_living, cupboard@kitchen, floor_l@living]}
+  spray_bottle: {size: toiletry, per: shared, p: 0.5, hobby: plants, home: [balcony_table@balcony_or_living, counter@kitchen, bookshelf@living]}
+  gardening_gloves: {size: wearable, per: shared, p: 1.0, hobby: plants, home: [balcony_table@balcony_or_living, storage_shelf@storage_or_bedroom, entry_table@entry]}
+  toolbox:      {size: bulky, per: shared, p: 0.5, home: [storage_shelf@storage_or_bedroom, entry_floor@entry, wardrobe@bedroom]}
+  first_aid_kit: {size: bulky, per: shared, p: 0.5, home: [medicine_cabinet@bathroom, bathroom_shelf@bathroom, cupboard@kitchen]}
+  dog_leash:    {size: small, per: shared, p: 1.0, pet: dog, home: [entry_hook@entry, entry_table@entry, couch@living]}
+  dog_bowl:     {size: dish, per: shared, p: 1.0, pet: dog, home: [floor_k@kitchen, counter@kitchen, sink@kitchen], after_use: floor_k}
+  dog_toy:      {size: small, per: shared, p: 1.0, pet: dog, home: [floor_l@living, couch@living, bedroom_floor@bedroom]}
+  dog_food_bag: {size: bag, per: shared, p: 1.0, pet: dog, home: [pantry_shelf@kitchen, floor_k@kitchen, storage_floor@storage_or_bedroom]}
+  # ---- things that are simply there (never used, never move) ------------
+  lamp:         {size: static, per: shared, p: 1.0, static: true, home: [side_table@living, tv_stand@living, nightstand@bedroom]}
+  vase:         {size: static, per: shared, p: 0.7, static: true, home: [dining_table@dining_or_kitchen, sideboard@dining_or_kitchen, bookshelf@living]}
+  picture_frame: {size: static, per: shared, p: 0.8, static: true, home: [bookshelf@living, tv_stand@living, dresser@bedroom]}
+  wall_clock:   {size: static, per: shared, p: 0.6, static: true, home: [counter@kitchen, bookshelf@living]}
+  plant_pot:    {size: static, per: shared, p: 0.9, static: true, count: 3, home: [side_table@living, counter@kitchen, desk@workspace, balcony_table@balcony_or_living, bookshelf@living]}
+  fruit_bowl:   {size: static, per: shared, p: 0.7, static: true, home: [kitchen_table@kitchen, counter@kitchen]}
+  candle:       {size: static, per: shared, p: 0.6, static: true, home: [coffee_table@living, dining_table@dining_or_kitchen, nightstand@bedroom]}
+  tissue_box:   {size: static, per: shared, p: 0.8, static: true, home: [coffee_table@living, nightstand@bedroom, desk@workspace]}
+  kettle:       {size: static, per: shared, p: 1.0, static: true, home: [counter@kitchen]}
+  toaster:      {size: static, per: shared, p: 0.8, static: true, home: [counter@kitchen]}
+  knife_block:  {size: static, per: shared, p: 0.6, static: true, home: [counter@kitchen]}
+  soap_dispenser: {size: static, per: shared, p: 1.0, static: true, home: [sink_ba@bathroom, sink@kitchen]}
+  toothbrush_holder: {size: static, per: shared, p: 1.0, static: true, home: [sink_ba@bathroom, bathroom_shelf@bathroom]}
+  cushion:      {size: static, per: shared, p: 0.9, static: true, count: 2, home: [couch@living, armchair@living, bed@bedroom]}
+  coasters:     {size: static, per: shared, p: 0.5, static: true, home: [coffee_table@living, dining_table@dining_or_kitchen]}
+  doormat:      {size: static, per: shared, p: 0.8, static: true, home: [entry_floor@entry]}

@@ -1,0 +1,124 @@
+# Event library for the situation-driven generator (six hand-written event
+# types). Rates were halved on 2026-09-19 so that ordinary days exist; the
+# small within-day moods now live in episodes.yaml. Each event is a CAUSE that moves many objects
+# at once. Fields:
+#   scope: household (one roll per day) | resident (rolled per resident)
+#   p_day: daily occurrence probability (weekday / weekend may differ)
+#   roles: (resident scope) which roles the event can hit
+#   schedule: how the day's activities change for the affected residents
+#     remove: activities dropped;  delay: {activity: minutes};
+#     shorten: {activity: factor}; extend: {activity: minutes};
+#     add: extra blocks (start "HH:MM", duration minutes, who: owner|all|all_home)
+#   carry: extra object classes taken on every trip out of the house
+#   internal: nudges to the affected residents' internal state that day
+#   block: receptacle kinds that cannot receive objects during an activity
+#   placement: rules that override where an object class goes
+#     class: object class;  after: activities whose end triggers the rule
+#       (any_return = coming home from any trip, any = every putdown);
+#     to: receptacle kind, or "home" (the object's own primary slot);
+#     note: the plain-words reason written in the trace
+events:
+  rain:
+    scope: household
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "It rains for most of the day."
+    trace_words: "no walk; wet shoes, jackets and umbrellas get dropped at the entry instead of being put away"
+    schedule:
+      remove: [walk, run, cycle, photo_walk]
+      shorten: {errands: 0.6}
+    carry: [umbrella]
+    placement:
+      - {class: shoes, after: [any_return], to: entry_floor, note: "wet shoes left on the entry floor to dry"}
+      - {class: jacket, after: [any_return], to: entry_hook, note: "wet jacket hung on the hook"}
+      - {class: umbrella, after: [any_return], to: entry_floor, note: "wet umbrella propped by the door"}
+      - {class: backpack, after: [any_return], to: entry_floor, note: "wet bag left by the door"}
+      - {class: handbag, after: [any_return], to: entry_floor, note: "wet bag left by the door"}
+      - {class: gym_bag, after: [any_return], to: entry_floor, note: "wet bag left by the door"}
+
+  guest_visit:
+    scope: household
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "Friends come over for the evening."
+    trace_words: "the living room is tidied beforehand, dinner is late, and the couch is taken by guests all evening"
+    schedule:
+      add:
+        - {activity: tidy, room: living, start: "17:40", duration: 30, who: all_home}
+        - {activity: host_guest, start: "20:30", duration: 120, who: all}
+      delay: {cook_dinner: 30, dinner: 30}
+      remove: [evening_tv, read, gym, "slot:evening"]
+    block:
+      - {receptacle: couch, during: host_guest}
+    placement:
+      - {class: laptop, after: [tidy, host_guest], to: home, note: "cleared away before the guests"}
+      - {class: blanket, after: [tidy, host_guest], to: armchair, note: "folded onto the armchair to free the couch"}
+      - {class: mug, after: [host_guest], to: sink, note: "mugs collected into the sink after the guests"}
+      - {class: book, after: [tidy], to: bookshelf, note: "books shelved for the guests"}
+      - {class: board_game, after: [host_guest], to: coffee_table, note: "game left out after the guests"}
+      - {class: glass, after: [host_guest], to: sink, note: "glasses collected into the sink after the guests"}
+
+  late_work:
+    scope: resident
+    roles: [worker_out, worker_home, student, shift_worker]
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "A long day at work; home two hours late."
+    trace_words: "gets home late and hurried; the evening walk and cooking are dropped and things are dumped at the door"
+    schedule:
+      extend: {commute_work: 120, work_session: 90, classes: 90, shift: 60}
+      remove: [walk, gym, cook_dinner, read, "slot:late_afternoon"]
+      shorten: {evening_tv: 0.5}
+    internal: {hurriedness: 0.35, energy: -0.25}
+    placement:
+      - {class: backpack, after: [commute_work], to: entry_floor, note: "bag dumped by the door, home late"}
+      - {class: handbag, after: [commute_work], to: entry_floor, note: "bag dumped by the door, home late"}
+      - {class: jacket, after: [commute_work], to: couch, note: "jacket thrown over the couch, home late"}
+      - {class: mug, after: [work_session, break], to: desk, note: "mug left on the desk, no time to clear up on a hectic day"}
+
+  grocery_delivery:
+    scope: household
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "A grocery delivery arrives in the early evening."
+    trace_words: "someone unpacks groceries; the kitchen counter is covered with bags, so things that would go there land on the table instead"
+    schedule:
+      add:
+        - {activity: unpack_groceries, room: kitchen, start: "18:05", duration: 30, who: first_home}
+      delay: {cook_dinner: 20, dinner: 20}
+    block:
+      - {receptacle: counter, during: unpack_groceries}
+    placement:
+      - {class: water_bottle, after: [unpack_groceries, any], to: dish_rack, note: "counter full of shopping; bottle put on the dish rack"}
+      - {class: mug, after: [any], to: kitchen_table, note: "counter full of shopping; mug left on the table"}
+
+  laundry_day:
+    scope: household
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "Laundry day."
+    trace_words: "the laundry basket travels, towels and the blanket get washed and end up airing in the bedroom rather than where they live"
+    schedule:
+      add:
+        - {activity: laundry, room: bathroom, start: "10:30", duration: 90, who: one_home, mean_bouts: 2}
+    placement:
+      - {class: laundry_basket, after: [laundry], to: bedroom_floor, note: "basket left in the bedroom while things dry"}
+      - {class: towel, after: [laundry], to: bed, note: "clean towel folded on the bed"}
+      - {class: blanket, after: [laundry], to: bed, note: "washed blanket airing on the bed"}
+
+  sick_day:
+    scope: resident
+    roles: [worker_out, worker_home, retired, student, shift_worker]
+    p_day: {weekday: 0.0, weekend: 0.0}
+    description: "Off sick, resting on the couch all day."
+    trace_words: "no work or trips out; laptop, mug, medication, book and blanket all migrate to the couch and coffee table"
+    schedule:
+      remove: [commute_work, classes, shift, work_session, study, video_call, walk, run, gym, cycle, errands, groceries, chores, vacuum, lunch, lunch_out, visit_friends, photo_walk, "slot:morning", "slot:late_afternoon", "slot:weekend_morning", "slot:weekend_afternoon"]
+      add:
+        - {activity: rest_couch, room: living, start: "09:30", duration: 480, who: owner, mean_bouts: 3}
+    internal: {energy: -0.5, hurriedness: -0.3}
+    placement:
+      - {class: laptop, after: [rest_couch], to: coffee_table, note: "left on the coffee table between naps"}
+      - {class: charger, after: [rest_couch], to: coffee_table, note: "charger stays plugged in by the couch"}
+      - {class: headphones, after: [rest_couch], to: couch, note: "headphones left on the couch"}
+      - {class: glasses, after: [rest_couch], to: coffee_table, note: "glasses left on the coffee table"}
+      - {class: mug, after: [rest_couch], to: coffee_table, note: "tea mug stays by the couch"}
+      - {class: medication, after: [rest_couch], to: coffee_table, note: "medication kept within reach"}
+      - {class: book, after: [rest_couch], to: couch, note: "book dropped on the couch"}
+      - {class: phone, after: [rest_couch], to: couch, note: "phone lost in the couch cushions"}
+      - {class: blanket, after: [rest_couch], to: couch, note: "blanket stays on the couch"}

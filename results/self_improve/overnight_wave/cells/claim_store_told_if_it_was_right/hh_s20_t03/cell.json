@@ -1,0 +1,3430 @@
+{
+ "household": "hh_s20_t03",
+ "arm": "memory-guided search with claim store told if it was right",
+ "sensing_arm": "memory-guided search",
+ "how_memory_is_written": "claim store told if it was right",
+ "budget_rooms_per_question": 3,
+ "questions_per_day": 8,
+ "last_day": 31,
+ "seed": 0,
+ "the_note_writer_was_shown_everything_it_saw": true,
+ "there_was_no_patrol_and_no_warm_start": true,
+ "the_answer_was_told_what_the_search_ruled_out": true,
+ "name_the_objects_it_will_be_quizzed_on": false,
+ "the_note_writing_settings_this_arm_pinned": {
+  "name_the_objects_it_will_be_quizzed_on": false
+ },
+ "how_this_differs_from_the_patrol_runs": "The search runs differ from the patrol runs at results/self_improve/memory_factor_v1/ in TWO ways at once - no priors and search-driven looking - so no one may compare the two sets naively. The day-0 whole-house walkthrough is OFF here, so the settled fortnight is learned from scratch rather than given; and every observation comes from a search the robot made to answer a question, at up to 24 room-visits a day against the patrol's 1.26.",
+ "movers": [
+  "book_hana",
+  "charger_hana",
+  "glass_hana",
+  "glasses_hana",
+  "medication_hana",
+  "mug_hana",
+  "towel_aisha",
+  "water_bottle_aisha",
+  "water_bottle_hana"
+ ],
+ "n_asked_objects": 16,
+ "rotation_in_the_order_it_is_walked": [
+  "entry",
+  "bathroom",
+  "living",
+  "office",
+  "storage",
+  "kitchen",
+  "bedroom_1",
+  "dining"
+ ],
+ "per_day": [
+  {
+   "household": "hh_s20_t03",
+   "day": 0,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 0,
+   "n_scored": 0,
+   "n_correct_place": 0,
+   "n_correct_room": 0,
+   "n_found": 0,
+   "rooms_opened": 0,
+   "room_visits": 0,
+   "distinct_rooms": 0,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 0,
+   "distinct_asked_about_objects_observed": 0,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 0
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 1,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 4,
+   "n_correct_room": 4,
+   "n_found": 4,
+   "rooms_opened": 18,
+   "room_visits": 18,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 2,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 7,
+   "n_correct_place": 4,
+   "n_correct_room": 4,
+   "n_found": 3,
+   "rooms_opened": 18,
+   "room_visits": 18,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 51,
+   "distinct_asked_about_objects_observed": 10,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 0
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 3,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 4,
+   "n_correct_room": 5,
+   "n_found": 3,
+   "rooms_opened": 18,
+   "room_visits": 18,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 53,
+   "distinct_asked_about_objects_observed": 12,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 4,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 5,
+   "rooms_opened": 15,
+   "room_visits": 15,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 55,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 5,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 4,
+   "rooms_opened": 17,
+   "room_visits": 17,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 6,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 5,
+   "rooms_opened": 15,
+   "room_visits": 15,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 54,
+   "distinct_asked_about_objects_observed": 12,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 7,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 3,
+   "rooms_opened": 20,
+   "room_visits": 20,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 55,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 8,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 3,
+   "n_correct_room": 3,
+   "n_found": 3,
+   "rooms_opened": 18,
+   "room_visits": 18,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 52,
+   "distinct_asked_about_objects_observed": 11,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 9,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 5,
+   "rooms_opened": 16,
+   "room_visits": 16,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 52,
+   "distinct_asked_about_objects_observed": 11,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 10,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 3,
+   "n_correct_room": 3,
+   "n_found": 3,
+   "rooms_opened": 19,
+   "room_visits": 19,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 54,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 11,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 4,
+   "rooms_opened": 16,
+   "room_visits": 16,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 30,
+   "distinct_asked_about_objects_observed": 9,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 12,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 4,
+   "n_correct_room": 4,
+   "n_found": 2,
+   "rooms_opened": 20,
+   "room_visits": 20,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 54,
+   "distinct_asked_about_objects_observed": 12,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 13,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 5,
+   "rooms_opened": 15,
+   "room_visits": 15,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 53,
+   "distinct_asked_about_objects_observed": 12,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 14,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 6,
+   "n_found": 5,
+   "rooms_opened": 14,
+   "room_visits": 14,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 50,
+   "distinct_asked_about_objects_observed": 10,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 15,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 6,
+   "rooms_opened": 14,
+   "room_visits": 14,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 52,
+   "distinct_asked_about_objects_observed": 11,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 16,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 7,
+   "n_correct_room": 8,
+   "n_found": 7,
+   "rooms_opened": 13,
+   "room_visits": 13,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 58,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 17,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 7,
+   "n_correct_room": 7,
+   "n_found": 7,
+   "rooms_opened": 11,
+   "room_visits": 11,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 18,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 8,
+   "n_correct_room": 8,
+   "n_found": 8,
+   "rooms_opened": 9,
+   "room_visits": 9,
+   "distinct_rooms": 3,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 31,
+   "distinct_asked_about_objects_observed": 10,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 19,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 7,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 6,
+   "rooms_opened": 13,
+   "room_visits": 13,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 20,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 8,
+   "n_correct_room": 8,
+   "n_found": 8,
+   "rooms_opened": 8,
+   "room_visits": 8,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 36,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 21,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 8,
+   "n_correct_room": 8,
+   "n_found": 7,
+   "rooms_opened": 12,
+   "room_visits": 12,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 58,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 22,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 8,
+   "n_correct_room": 8,
+   "n_found": 8,
+   "rooms_opened": 11,
+   "room_visits": 11,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 56,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 23,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 8,
+   "n_correct_room": 8,
+   "n_found": 7,
+   "rooms_opened": 11,
+   "room_visits": 11,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 56,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 24,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 3,
+   "rooms_opened": 20,
+   "room_visits": 20,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 55,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 25,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 6,
+   "rooms_opened": 13,
+   "room_visits": 13,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 55,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 26,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 4,
+   "n_correct_room": 4,
+   "n_found": 4,
+   "rooms_opened": 17,
+   "room_visits": 17,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 27,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 3,
+   "n_correct_room": 3,
+   "n_found": 3,
+   "rooms_opened": 19,
+   "room_visits": 19,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 56,
+   "distinct_asked_about_objects_observed": 13,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 28,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 6,
+   "rooms_opened": 12,
+   "room_visits": 12,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 40,
+   "distinct_asked_about_objects_observed": 12,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 29,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 5,
+   "n_correct_room": 5,
+   "n_found": 5,
+   "rooms_opened": 16,
+   "room_visits": 16,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 56,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 30,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 6,
+   "n_correct_room": 6,
+   "n_found": 5,
+   "rooms_opened": 14,
+   "room_visits": 14,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 52,
+   "distinct_asked_about_objects_observed": 11,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  },
+  {
+   "household": "hh_s20_t03",
+   "day": 31,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "claim store told if it was right",
+   "n_questions": 8,
+   "n_scored": 8,
+   "n_correct_place": 3,
+   "n_correct_room": 3,
+   "n_found": 3,
+   "rooms_opened": 18,
+   "room_visits": 18,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 60,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 16,
+   "distinct_residents_seen": 1
+  }
+ ],
+ "nightly": [
+  {
+   "n_claims_it_was_showing": 0,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 0,
+   "how_many_edits_it_was_allowed": 32,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 0,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": false,
+   "n_claims_now": 0,
+   "n_claims_in_the_file": 0,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 0,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": null,
+    "n_that_named_no_thing_and_place": 0,
+    "verdicts": []
+   },
+   "day": 0,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 0,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 38,
+   "n_characters_if_every_look_were_restated": 38,
+   "n_look_records_described": 0
+  },
+  {
+   "n_claims_it_was_showing": 0,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 4,
+    "revise": 0,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 4,
+   "n_claims_in_the_file": 4,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 1,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 29110,
+   "n_characters_if_every_look_were_restated": 29110,
+   "n_look_records_described": 18
+  },
+  {
+   "n_claims_it_was_showing": 4,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 1,
+   "how_many_edits_it_was_allowed": 55,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 1,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 4,
+   "n_claims_in_the_file": 4,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 1,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 2,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 27977,
+   "n_characters_if_every_look_were_restated": 27977,
+   "n_look_records_described": 18
+  },
+  {
+   "n_claims_it_was_showing": 4,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 57,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 4,
+   "n_claims_in_the_file": 4,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 3,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 28324,
+   "n_characters_if_every_look_were_restated": 28324,
+   "n_look_records_described": 18
+  },
+  {
+   "n_claims_it_was_showing": 4,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 1,
+   "how_many_edits_it_was_allowed": 59,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 1,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 4,
+   "n_claims_in_the_file": 4,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 1,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 4,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 24584,
+   "n_characters_if_every_look_were_restated": 24584,
+   "n_look_records_described": 15
+  },
+  {
+   "n_claims_it_was_showing": 4,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 3,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 5,
+   "n_claims_in_the_file": 5,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 5,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 27504,
+   "n_characters_if_every_look_were_restated": 27504,
+   "n_look_records_described": 17
+  },
+  {
+   "n_claims_it_was_showing": 5,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 58,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 5,
+   "n_claims_in_the_file": 5,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.2,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glasses_hana on coffee_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 6,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 25035,
+   "n_characters_if_every_look_were_restated": 25035,
+   "n_look_records_described": 15
+  },
+  {
+   "n_claims_it_was_showing": 5,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 3,
+   "how_many_edits_it_was_allowed": 59,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 2,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 6,
+   "n_claims_in_the_file": 6,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 3,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.6666666666666666,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_aisha on dining_table_d1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on sink_k1",
+       "mug_hana on sink_k1"
+      ]
+     }
+    ]
+   },
+   "day": 7,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 34837,
+   "n_characters_if_every_look_were_restated": 34837,
+   "n_look_records_described": 20
+  },
+  {
+   "n_claims_it_was_showing": 6,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 6,
+   "n_claims_in_the_file": 6,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.75,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on counter_k1",
+       "mug_hana on dining_table_d1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on dining_table_d1"
+      ]
+     }
+    ]
+   },
+   "day": 8,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 30524,
+   "n_characters_if_every_look_were_restated": 30524,
+   "n_look_records_described": 18
+  },
+  {
+   "n_claims_it_was_showing": 6,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.8,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on dining_table_d1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on sink_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 9,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 27908,
+   "n_characters_if_every_look_were_restated": 27908,
+   "n_look_records_described": 16
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 2,
+   "how_many_edits_it_was_allowed": 58,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 2,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 2,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.5,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 10,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 33069,
+   "n_characters_if_every_look_were_restated": 33069,
+   "n_look_records_described": 19
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 34,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_hana on desk_b1"
+      ]
+     }
+    ]
+   },
+   "day": 11,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 24770,
+   "n_characters_if_every_look_were_restated": 24770,
+   "n_look_records_described": 16
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 58,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 12,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 33100,
+   "n_characters_if_every_look_were_restated": 33100,
+   "n_look_records_described": 20
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 57,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 7,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.2857142857142857,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_hana on bookshelf_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 13,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "settled",
+   "n_characters_of_look_description": 25688,
+   "n_characters_if_every_look_were_restated": 25688,
+   "n_look_records_described": 15
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 1,
+   "how_many_edits_it_was_allowed": 54,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 1,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 1,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 14,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 23431,
+   "n_characters_if_every_look_were_restated": 23431,
+   "n_look_records_described": 14
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 1,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 1,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 1,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 1.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 15,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 26454,
+   "n_characters_if_every_look_were_restated": 26454,
+   "n_look_records_described": 14
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 3,
+   "how_many_edits_it_was_allowed": 62,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 3,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 3,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 16,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 23549,
+   "n_characters_if_every_look_were_restated": 23549,
+   "n_look_records_described": 13
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.4,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on coffee_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_hana on couch_l1"
+      ]
+     }
+    ]
+   },
+   "day": 17,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 20202,
+   "n_characters_if_every_look_were_restated": 20202,
+   "n_look_records_described": 11
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 35,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 7,
+   "n_claims_in_the_file": 7,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 18,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 15266,
+   "n_characters_if_every_look_were_restated": 15266,
+   "n_look_records_described": 9
+  },
+  {
+   "n_claims_it_was_showing": 7,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 3,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 8,
+   "n_claims_in_the_file": 8,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.75,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_hana on nightstand_b1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "medication_hana on counter_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 19,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 23448,
+   "n_characters_if_every_look_were_restated": 23448,
+   "n_look_records_described": 13
+  },
+  {
+   "n_claims_it_was_showing": 8,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 40,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 4,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 9,
+   "n_claims_in_the_file": 9,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 20,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 13173,
+   "n_characters_if_every_look_were_restated": 13173,
+   "n_look_records_described": 8
+  },
+  {
+   "n_claims_it_was_showing": 9,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 62,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 8,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 9,
+   "n_claims_in_the_file": 9,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 21,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 21253,
+   "n_characters_if_every_look_were_restated": 21253,
+   "n_look_records_described": 12
+  },
+  {
+   "n_claims_it_was_showing": 9,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 9,
+   "how_many_edits_it_was_allowed": 60,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 9,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 9,
+   "n_claims_in_the_file": 9,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 9,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 22,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 19858,
+   "n_characters_if_every_look_were_restated": 19858,
+   "n_look_records_described": 11
+  },
+  {
+   "n_claims_it_was_showing": 9,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 60,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 3,
+    "revise": 5,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 12,
+   "n_claims_in_the_file": 12,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 5,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_hana on bookshelf_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 23,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "disrupted",
+   "n_characters_of_look_description": 17952,
+   "n_characters_if_every_look_were_restated": 17952,
+   "n_look_records_described": 11
+  },
+  {
+   "n_claims_it_was_showing": 12,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 59,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 12,
+   "n_claims_in_the_file": 12,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.3333333333333333,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_hana on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 24,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 35529,
+   "n_characters_if_every_look_were_restated": 35529,
+   "n_look_records_described": 20
+  },
+  {
+   "n_claims_it_was_showing": 12,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 11,
+   "how_many_edits_it_was_allowed": 59,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 5,
+    "revise": 6,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 11,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.45454545454545453,
+    "n_that_named_no_thing_and_place": 7,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_hana on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on sink_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_hana on cupboard_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on cupboard_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 25,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 23553,
+   "n_characters_if_every_look_were_restated": 23553,
+   "n_look_records_described": 13
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 8,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.125,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_hana on pantry_shelf_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 26,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 30594,
+   "n_characters_if_every_look_were_restated": 30594,
+   "n_look_records_described": 17
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 60,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 8,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "medication_hana on medicine_cabinet_ba1"
+      ]
+     }
+    ]
+   },
+   "day": 27,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 34568,
+   "n_characters_if_every_look_were_restated": 34568,
+   "n_look_records_described": 19
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 44,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.16666666666666666,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_hana on dining_table_d1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 28,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 21073,
+   "n_characters_if_every_look_were_restated": 21073,
+   "n_look_records_described": 12
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 17,
+   "how_many_edits_it_was_allowed": 60,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 17,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 17,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.17647058823529413,
+    "n_that_named_no_thing_and_place": 7,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "medication_hana on bathroom_shelf_ba1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 29,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 26553,
+   "n_characters_if_every_look_were_restated": 26553,
+   "n_look_records_described": 16
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 17,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 17,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 17,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.23529411764705882,
+    "n_that_named_no_thing_and_place": 8,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_hana on medicine_cabinet_ba1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on pantry_shelf_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 30,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 24162,
+   "n_characters_if_every_look_were_restated": 24162,
+   "n_look_records_described": 14
+  },
+  {
+   "n_claims_it_was_showing": 17,
+   "the_completion_did_not_parse": false,
+   "how_many_lines_it_was_told_it_may_carry": 48,
+   "it_was_told_it_must_join_tonight": false,
+   "model_call_failed": false,
+   "n_edits_offered": 17,
+   "how_many_edits_it_was_allowed": 64,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 17,
+    "record evidence": 0,
+    "join two claims": 0
+   },
+   "rejected": [],
+   "at_least_one_edit_was_required": true,
+   "n_claims_now": 17,
+   "n_claims_in_the_file": 17,
+   "joined_by_rule_not_by_the_model": [],
+   "were_the_edits_vacuous": {
+    "n_edits": 17,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.17647058823529413,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_hana on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_hana on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_hana on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "day": 31,
+   "how_it_judged_the_day": {
+    "model_call_failed": false,
+    "n_verdicts_offered": 0,
+    "n_verdicts_kept": 0,
+    "n_named_a_claim_that_does_not_exist": 0,
+    "the_verdicts_were_counted_by_rule_not_by_the_model": false,
+    "n_helped": 0,
+    "n_misled": 0,
+    "what_it_wants_changed": [],
+    "verdicts": []
+   },
+   "n_questions_it_was_shown_the_result_of": 8,
+   "n_model_calls_tonight": 2,
+   "period": "back to normal",
+   "n_characters_of_look_description": 32582,
+   "n_characters_if_every_look_were_restated": 32582,
+   "n_look_records_described": 18
+  }
+ ],
+ "n_looks": 470,
+ "n_sightings": 5453,
+ "n_absences_recorded": 127141,
+ "n_distinct_objects_ever_observed": 69,
+ "n_distinct_asked_about_objects_ever_observed": 16,
+ "summary": {
+  "n_questions_asked": 248,
+  "n_questions_scored": 246,
+  "n_unparsed": 2,
+  "share_correct_place": 0.6788617886178862,
+  "share_correct_room": 0.6910569105691057,
+  "share_found_within_budget": 0.6169354838709677,
+  "mean_rooms_opened_per_question": 1.8951612903225807,
+  "share_correct_place_movers": 0.5214723926380368,
+  "share_correct_place_non_movers": 0.9879518072289156,
+  "n_choice_calls_that_failed": 0,
+  "share_of_answers_naming_a_room_the_search_had_ruled_out": 0.1368421052631579,
+  "the_three_way_error_split": {
+   "n_errors": 79,
+   "never saw the object there": 75,
+   "saw it there once and did not record it": 3,
+   "saw it there repeatedly and did not record it": 1,
+   "share_never_saw_it": 0.9493670886075949
+  },
+  "observation": {
+   "total_room_visits": 470,
+   "mean_room_visits_per_day": 14.6875,
+   "mean_distinct_rooms_per_day": 4.5625,
+   "mean_distinct_objects_per_day": 50.59375,
+   "mean_distinct_asked_about_objects_per_day": 12.25,
+   "n_distinct_objects_ever_observed": 69,
+   "n_distinct_asked_about_objects_ever_observed": 16
+  }
+ },
+ "overnight_wave": {
+  "arm": "claim store told if it was right",
+  "how_memory_is_written": "claim store told if it was right",
+  "sensing_arm": "memory-guided search",
+  "household": "hh_s20_t03",
+  "bank": "results/self_improve/varied_homes/ten_homes/banks/hh_s20_t03.jsonl",
+  "read_budget_lines": null,
+  "name_the_objects_it_will_be_quizzed_on_in_the_header": false,
+  "n_questions_where_the_read_budget_bit": 0,
+  "n_nights_whose_completion_did_not_parse": 0,
+  "n_model_calls_timed": 629,
+  "seconds": 9073.0,
+  "at": "2026-09-25T05:03:21-07:00"
+ },
+ "release_note": "`searches` removed in the public release: it is identical to the kind=search rows of searches.jsonl"
+}

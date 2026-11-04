@@ -1,0 +1,216 @@
+# Episode library: small, time-bounded moods and intentions.
+#
+# An EVENT (events.yaml) rewrites a day. An EPISODE only tilts choices the
+# simulator already makes, for a window of a few hours: which habit fills a
+# free slot, how long a bout runs, what comes along to an activity, whether
+# an object is left where it was used. Episodes are resident-scoped and
+# are hidden causes like everything else: a look sees the consequence
+# (plate on the desk at 20:00), never the mood behind it.
+#
+# Fields per episode:
+#   roles:  which roles it can hit (omit = any)
+#   needs_hobby: only residents with this hobby
+#   p_day:  daily onset probability (weekday / weekend)
+#   phases: one or more windows, possibly on later days (a CHAIN: what
+#           starts tonight is still true tomorrow). Each phase has:
+#     id:        phase name (single-phase episodes use "main")
+#     day:       0 = the day it was rolled, 1 = the next day, ...
+#     start:     "HH:MM", ["HH:MM","HH:MM"] (uniform onset) or "wake"
+#     duration:  minutes or [min, max]; or  until: "HH:MM" | "sleep"
+#     words:     plain words for the trace; {name} is the resident
+#     effects:   any of
+#       flags:     [running_late | low_energy | distracted]  active only in the window
+#       state:     {energy|hurriedness|distraction: +-dv}     nudges within the window
+#       slot_bias: {habit_or_activity: factor}   weights for free slots starting in the window
+#       extend:    {activity: minutes}           blocks starting in the window
+#       shorten:   {activity: factor}
+#       shift:     {activity: minutes}           move the block (negative = earlier)
+#       skip_p:    {activity: p}                 extra chance the block is dropped
+#       surface:   {activity: receptacle_kind}   where the activity happens instead
+#       add:       [{activity, at: offset_minutes | "HH:MM", duration, room?}]  extra bout
+#       bring:     {activity: [object classes]}  extra things carried to that activity
+#       keep:      [object classes]              stay on the person between activities
+#       leave_p:   {object class: +-p}           left where it was used (negative = tidier)
+#       prefer:    [{class, after: [activities|any|any_return], to: kind, note}]
+episodes:
+
+  on_a_roll:
+    roles: [worker_out, worker_home, student]
+    p_day: {weekday: 0.08, weekend: 0.02}
+    phases:
+      - id: main
+        start: ["13:00", "15:00"]
+        duration: [180, 240]
+        words: "{name} is on a roll with work: sessions run long, breaks are short, the mug stays on the desk"
+        effects:
+          extend: {work_session: 25, study: 25}
+          shorten: {break: 0.6}
+          leave_p: {mug: 0.30, water_bottle: 0.20, notebook: 0.15}
+          state: {distraction: -0.10}
+
+  new_game_release:
+    needs_hobby: gaming
+    p_day: {weekday: 0.05, weekend: 0.08}
+    phases:
+      - id: tonight
+        start: ["18:30", "20:30"]
+        until: sleep
+        words: "{name} has a new game: the evening is gaming, and the controller, headset and glass stay by the couch"
+        effects:
+          slot_bias: {gaming: 4.0, evening_tv: 0.2, read: 0.3, movie: 0.3, movies: 0.3, reading_living: 0.3}
+          extend: {gaming: 60}
+          shift: {sleep: 30, bedtime: 30}
+          leave_p: {controller: 0.40, headset: 0.40, glass: 0.30, snack_bowl: 0.30}
+          state: {distraction: 0.10}
+      - id: next_morning
+        day: 1
+        start: wake
+        until: "12:00"
+        words: "{name} is tired after a late night of gaming: a slower, shorter morning"
+        effects:
+          state: {energy: -0.15}
+          shorten: {morning_routine: 0.8}
+
+  rough_day_at_work:
+    roles: [worker_out, shift_worker]
+    p_day: {weekday: 0.05, weekend: 0.0}
+    phases:
+      - id: main
+        start: "17:30"
+        until: sleep
+        words: "{name} had a rough day at work: goes quiet in the evening, keeps the phone close, the jacket lands on the couch"
+        effects:
+          keep: [phone]
+          slot_bias: {evening_tv: 0.5, listen_music: 2.0, music: 2.0, call_family: 2.0, family_calls: 2.0, read: 1.5}
+          leave_p: {mug: 0.25}
+          state: {energy: -0.15, distraction: 0.10}
+          prefer:
+            - {class: jacket, after: [any_return], to: couch, note: "jacket thrown over the couch after a bad day"}
+
+  long_call_with_a_friend:
+    p_day: {weekday: 0.06, weekend: 0.08}
+    phases:
+      - id: main
+        start: ["19:00", "21:00"]
+        duration: 45
+        words: "{name} gets a long call from a friend and takes it on the couch; the phone is left there afterwards"
+        effects:
+          add: [{activity: call_family, at: 0, duration: 40}]
+          leave_p: {phone: 0.50}
+
+  sore_back:
+    p_day: {weekday: 0.04, weekend: 0.04}
+    phases:
+      - id: main
+        start: wake
+        until: sleep
+        words: "{name} has a sore back today and sits in the armchair instead of the couch, so things land on the side table"
+        effects:
+          surface: {evening_tv: armchair, read_living: armchair, movie: armchair, listen_music: armchair}
+          leave_p: {blanket: 0.25}
+
+  craving_a_snack:
+    p_day: {weekday: 0.08, weekend: 0.08}
+    phases:
+      - id: main
+        start: ["14:30", "16:30"]
+        duration: 30
+        words: "{name} is craving a snack and fits one in when there is a gap; the bowl and glass tend to be left out"
+        effects:
+          add: [{activity: snack, at: 0, duration: 20}]
+          leave_p: {snack_bowl: 0.40, glass: 0.30, bowl: 0.30}
+
+  overslept:
+    roles: [worker_out, worker_home, student]
+    p_day: {weekday: 0.06, weekend: 0.03}
+    phases:
+      - id: main
+        start: wake
+        until: "10:30"
+        words: "{name} overslept: a rushed morning with things dumped at the door, then a normal day"
+        effects:
+          flags: [running_late]
+          shorten: {morning_routine: 0.7, breakfast: 0.5}
+          state: {hurriedness: 0.25}
+
+  afternoon_slump:
+    p_day: {weekday: 0.07, weekend: 0.06}
+    phases:
+      - id: main
+        start: ["14:00", "15:30"]
+        duration: [90, 150]
+        words: "{name} hits an afternoon slump: things get left where they were used for a couple of hours"
+        effects:
+          flags: [low_energy]
+          state: {energy: -0.20}
+          slot_bias: {nap: 3.0, napping: 3.0, walk: 0.5, run: 0.3, running: 0.3}
+
+  restless_evening:
+    p_day: {weekday: 0.05, weekend: 0.05}
+    phases:
+      - id: main
+        start: ["20:00", "21:30"]
+        until: sleep
+        words: "{name} can't settle this evening and wanders between rooms with things in hand"
+        effects:
+          flags: [distracted]
+          state: {distraction: 0.20}
+          leave_p: {phone: 0.25, book: 0.25}
+
+  tidy_mood:
+    p_day: {weekday: 0.04, weekend: 0.08}
+    phases:
+      - id: main
+        start: ["10:00", "16:00"]
+        duration: 120
+        words: "{name} is in a tidying mood for a while: a quick tidy of the living room, and things go back where they belong"
+        effects:
+          add: [{activity: tidy, at: 0, duration: 25, room: living}]
+          leave_p: {mug: -0.30, glass: -0.30, book: -0.30, phone: -0.20, blanket: -0.30}
+
+  early_night:
+    p_day: {weekday: 0.06, weekend: 0.04}
+    phases:
+      - id: main
+        start: "20:30"
+        until: sleep
+        words: "{name} turns in early tonight: a short evening, bed 45 minutes sooner"
+        effects:
+          shorten: {evening_tv: 0.5, read: 0.7, gaming: 0.6}
+          shift: {sleep: -45, bedtime: -45}
+
+  deadline:
+    roles: [worker_out, worker_home, student]
+    p_day: {weekday: 0.04, weekend: 0.0}
+    phases:
+      - id: looming
+        start: "18:00"
+        until: sleep
+        words: "{name} has a deadline tomorrow at noon: works into the evening, eats fast with the laptop at the table"
+        effects:
+          extend: {work_session: 45, study: 45}
+          add: [{activity: work_session, at: "20:30", duration: 60}]
+          shorten: {dinner: 0.7, evening_tv: 0.5}
+          bring: {dinner: [laptop]}
+          shift: {sleep: 30, bedtime: 30}
+          state: {hurriedness: 0.20}
+      - id: due_today
+        day: 1
+        start: wake
+        until: "12:00"
+        words: "{name}'s deadline is at noon: a hurried morning, laptop and notebook never out of reach"
+        effects:
+          flags: [running_late]
+          keep: [laptop, notebook]
+          slot_bias: {read: 0.1, walk: 0.3, run: 0.3, running: 0.3, yoga: 0.3, meditation: 0.3}
+          state: {hurriedness: 0.30, distraction: 0.10}
+      - id: relief
+        day: 1
+        start: "12:00"
+        until: sleep
+        words: "{name} made the deadline and is running on empty: things get left out, and the evening is TV"
+        effects:
+          flags: [low_energy]
+          state: {energy: -0.25}
+          slot_bias: {evening_tv: 2.0, movie: 2.0, movies: 2.0, gym: 0.3, run: 0.3, running: 0.3}
+          leave_p: {mug: 0.20, plate: 0.20}

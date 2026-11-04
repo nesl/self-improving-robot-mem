@@ -1,0 +1,47 @@
+{
+ "figure_file": "figure3_told_the_cause.pdf",
+ "size_in": [
+  5.5,
+  1.5
+ ],
+ "source": "results/self_improve/wave_the_family_reads_the_log/cells/ours_told_and_asked_what_changes/hh_s2_t03",
+ "arm": "the told variant of the log-and-notes memory (cell ours_told_and_asked_what_changes, 24 a day); the paper no longer includes that method under any name",
+ "boxes": [
+  {
+   "heading": "Night 13: told one sentence",
+   "quote": "Tomas is unwell and staying home. Expect him in bedroom_1 or living room during day/evening, not office. His laptop/mug/charger likely in bedroom_1 or living, not office desk.",
+   "from": "notes.json claim_0022, revision of day 14, `was` (the text it held on night 13)"
+  },
+  {
+   "heading": "Day 14: every prediction holds",
+   "text": "11 of 11 questions about his moved objects answered in a room the note named: 7 in bedroom_1, 4 in the living room.",
+   "from": "searches.jsonl day 14, Tomas's spell-1 movers",
+   "omitted_by_the_ellipsis": ". He moves to the living room in the evening (seen 19:48-20:50).",
+   "day14_true_rooms": {
+    "bedroom_1": 7,
+    "living": 4
+   },
+   "day14_answer_rooms": {
+    "bedroom_1": 7,
+    "living": 4
+   },
+   "day14_objects": [
+    "book_tomas",
+    "charger_tomas",
+    "glass_tomas",
+    "mug_tomas",
+    "notebook_tomas",
+    "water_bottle_tomas"
+   ]
+  },
+  {
+   "heading": "Night 14: the update removes it",
+   "retraction": "Tomas works from the office during the day (seen 14:08)… The 'unwell' hypothesis from Day 13 is not supported by Day 14 activity.",
+   "retraction_from": "claim_0022, revision of day 15, `was`; the ellipsis omits one sentence",
+   "label": "same night",
+   "glass": "Tomas's glass is on the bedroom nightstand during the day (seen 08:07-15:12).",
+   "glass_from": "claim_0024, revision of day 15, `was`"
+  }
+ ],
+ "body_size_pt": 8.0
+}

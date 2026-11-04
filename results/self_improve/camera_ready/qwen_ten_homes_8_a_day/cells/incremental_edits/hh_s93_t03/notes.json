@@ -1,0 +1,2407 @@
+{
+ "household": "hh_s93_t03",
+ "arm": "memory-guided search with incremental edits",
+ "how_memory_is_written": "incremental edits",
+ "written_up_to_day": 31,
+ "next_claim_number": 19,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is on the sink. Her towel is on the rack.",
+   "holds_under": "When Ines is not actively using the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_0002",
+    "sighting_0005",
+    "sighting_0006",
+    "sighting_0007",
+    "sighting_0045",
+    "sighting_0049"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Ines's medication moved from the medicine cabinet to the bathroom shelf, contradicting the specific location in claim_0001.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, skincare, bag) are typically on the bathroom shelf. Her medication is in the medicine cabinet. Her towel is on the rack. [sighting_0002, sighting_0005, sighting_0006, sighting_0007, sighting_0045, sight",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's medication was found in the medicine cabinet at 14:49, 18:29, and 19:02, contradicting the previous note that it was on the shelf. It appears to have been moved back to its proper storage location.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, bag) are on the bathroom shelf. Her medication is on the bathroom shelf (moved from cabinet on Day 2). Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Ines's toiletries were seen in their usual spots in the bathroom at 07:55, 12:27, and 19:30.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, bag) are on the bathroom shelf. Her medication is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Ines's toiletries were found in their usual spots (shelf, sink, rack) at 08:21, 09:35, 13:07, and 19:39. No changes observed.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, bag) are on the bathroom shelf. Her medication is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's toiletries (hair dryer, razor, bag) were on the bathroom shelf/sink at 08:31, 11:08, and 12:49. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, bag) are on the bathroom shelf. Her medication is on the sink. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's razor moved from the bathroom shelf to the medicine cabinet between 07:00 and 12:29. It remained there at 14:33. This suggests a new storage preference or a specific routine change.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, razor, bag) are on the bathroom shelf. Her razor is on the sink. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's razor moved from the bathroom shelf to the medicine cabinet between 07:12 and 08:55. This contradicts the previous claim that it was on the shelf. The new location is consistent across all subsequent sightings today.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's razor was found on the bathroom shelf in the morning but in the medicine cabinet in the evening. This contradicts the previous note that it is in the medicine cabinet. It seems she moves it to the cabinet after use or at the end of the day.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's razor moved from the shelf to the medicine cabinet between 07:27 and 09:28, and remained there for the rest of the day. This contradicts the previous note that it moves in the evening.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is on the shelf in the morning and moves to the medicine cabinet in the evening. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's toiletries were found in their usual spots in the bathroom, supporting the existing claim.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is on the medicine cabinet during the day. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's razor was observed on the sink in all bathroom sightings today, whereas previous notes claimed it was in the medicine cabinet. This suggests a change in her routine or a misremembered location.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is on the medicine cabinet during the day. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's razor moved from the sink to the bathroom shelf between 07:21 and 13:39, and remained there at 14:39. This contradicts the previous belief that it stays on the sink when not in use.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is on the sink. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's toiletries (hair dryer, bag, razor) were found on the bathroom shelf in the morning and afternoon. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag) are on the bathroom shelf. Her razor is on the shelf (moved from sink on day 18). Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's razor moved from the bathroom shelf to the medicine cabinet between 07:20 and 09:04. This is a stable new location for her razor.",
+     "was": {
+      "statement": "Ines's toiletries (hair dryer, bag, razor) are on the bathroom shelf. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's razor moved from the medicine cabinet to the bathroom shelf between 07:06 and 13:59. It has remained on the shelf since. This suggests a change in her routine or a temporary shift in where she keeps it.",
+     "was": {
+      "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Ines's razor was observed on the sink in the bathroom at 07:00, 13:11, 14:14, and 19:09. This contradicts the previous note stating it was on the bathroom shelf. It appears she has moved it to the sink, likely for easier access during her morning routine.",
+     "was": {
+      "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is on the bathroom shelf (moved from medicine cabinet on day 21). Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's razor moved from the bathroom shelf to the medicine cabinet between 07:13 and 13:26. This contradicts the previous claim that it was on the sink/shelf.",
+     "was": {
+      "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is on the bathroom sink. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Ines's razor was observed on the sink at 10:57, 13:23, and 17:08, contradicting the previous belief that it is in the medicine cabinet. It appears she uses the sink area for her razor.",
+     "was": {
+      "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is in the medicine cabinet. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Ines was in the bathroom at 07:19, and her items (hair dryer, toiletry bag, razor, towel) were in their usual places. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's hair dryer and toiletry bag are on the bathroom shelf. Her razor is on the sink. Her towel is on the rack.",
+      "holds_under": "When Ines is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink. His towel is on the rack.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0003",
+    "sighting_0009",
+    "sighting_0006",
+    "sighting_0046",
+    "sighting_0059",
+    "sighting_0063"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Kwame's skincare is consistently on the bathroom shelf, while his razor is in the medicine cabinet. Claim_0002 was vague about shelf vs cabinet for all items.",
+     "was": {
+      "statement": "Kwame's toiletries (hair dryer, razor, skincare) are typically on the bathroom shelf or medicine cabinet. His towel is on the rack. [sighting_0003, sighting_0009, sighting_0006, sighting_0046, sighting_0059, sighting_0063]",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Kwame's razor was observed on the bathroom shelf at 08:44, but moved to the sink at 09:21 and remained there for the rest of the day. This contradicts the previous claim that it is in the medicine cabinet.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is in the medicine cabinet. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Kwame's razor was seen on the sink in the bathroom at 12:27 and 19:30, consistent with the claim.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Kwame's toiletries were found in their usual spots (shelf, sink, rack) at 08:21, 09:35, 13:07, and 19:39. No changes observed.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Kwame's toiletries (hair dryer, razor, skincare) were on the bathroom shelf at 08:31, 11:08, and 12:49. This supports the existing claim.",
+     "was": {
+      "statement": "Kwame's hair dryer, razor, and skincare are on the bathroom shelf. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Kwame's bathroom items were found in their usual spots, supporting the existing claim.",
+     "was": {
+      "statement": "Kwame's hair dryer, razor, and skincare are on the bathroom shelf. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Kwame's razor was on the sink in most sightings, but moved to the shelf at 09:07 when he was present. This indicates he moves it while using the bathroom, unlike Ines who leaves it on the sink.",
+     "was": {
+      "statement": "Kwame's hair dryer, razor, and skincare are on the bathroom shelf. His towel is on the rack.",
+      "holds_under": "When Kwame is not actively using the bathroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Kwame's skincare moved from the medicine cabinet to the bathroom shelf between 07:11 and 14:04. This contradicts the previous belief that it was on the shelf (or implies the cabinet was a temporary spot). The shelf is now the consistent location.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is usually on the sink but moves to the shelf when he is in the bathroom. His towel is on the rack.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Kwame's skincare moved from the bathroom shelf to the sink between 09:04 and 13:42. It has remained on the sink since.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Kwame's skincare moved from the sink to the bathroom shelf between 07:06 and 13:59. It has remained on the shelf since. His razor remains on the sink.",
+     "was": {
+      "statement": "Kwame's hair dryer is on the bathroom shelf. His razor and skincare are on the sink. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Kwame's skincare was seen on the bathroom shelf at 08:28, but moved to the medicine cabinet by 14:50. This indicates a change in location during the day.",
+     "was": {
+      "statement": "Kwame's hair dryer is on the bathroom shelf. His razor is on the sink. His skincare is on the bathroom shelf (moved from sink on day 21). His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Kwame's razor was on the sink at 07:00 but moved to the bathroom shelf by 13:11 and remained there. This suggests he uses it in the morning and then puts it away on the shelf, or perhaps he is tidying up. The previous note said it was on the sink, which is no longer the consistent state.",
+     "was": {
+      "statement": "Kwame's hair dryer is on the bathroom shelf. His razor is on the sink. His skincare moves between the bathroom shelf and medicine cabinet. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Kwame's razor moved from the bathroom shelf to the sink between 07:13 and 13:26. This contradicts the previous claim that it was on the shelf.",
+     "was": {
+      "statement": "Kwame's hair dryer is on the bathroom shelf. His razor is on the bathroom shelf (moved from sink after morning use). His skincare is on the bathroom shelf. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Kwame's razor was observed in the medicine cabinet at 10:57, 13:23, and 17:08, contradicting the previous belief that it is on the sink. It appears he stores it in the cabinet.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Kwame's razor was found on the sink, not in the medicine cabinet. This contradicts the previous claim that it is always in the medicine cabinet. It seems he moved it to the sink, perhaps after using it or preparing to use it.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is in the medicine cabinet. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Kwame's items (hair dryer, skincare, razor, towel) were in their usual places in the bathroom at 07:19 and 13:47. This supports the existing claim.",
+     "was": {
+      "statement": "Kwame's hair dryer and skincare are on the bathroom shelf. His razor is on the sink or in the medicine cabinet. His towel is on the rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Ines uses bedroom_1. Her gym bag is in the wardrobe. Her book is on the couch in the living room, even when she is in the bedroom or office.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0014",
+    "sighting_0015",
+    "sighting_0084",
+    "sighting_0085",
+    "sighting_0143",
+    "sighting_0144"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Ines's book and gym bag were seen in bedroom_1 at 13:37, 16:48, and 17:18. Note: Gym bag is on the floor, not in the wardrobe as previously noted in claim_0003.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her book is on the nightstand and her gym bag is in the wardrobe. [sighting_0014, sighting_0015, sighting_0084, sighting_0085, sighting_0143, sighting_0144]",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Ines's book was on the nightstand all day, but at 21:01 it was on the bed. This suggests she moved it to read in bed before sleeping.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her book is on the nightstand and her gym bag is on the bedroom floor.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's book was on the nightstand in bedroom_1 at 08:31. This supports the claim that it is there during the day.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her book is on the nightstand during the day and on the bed in the evening. Her gym bag is on the bedroom floor.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's gym bag was found in the bedroom_1 wardrobe at 10:31, 12:54, and 16:28. This contradicts the previous note that it is on the bedroom floor.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her book is on the nightstand during the day. Her gym bag is on the bedroom floor.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's book was found on the couch in the living room, not the bedroom nightstand. This suggests she took it to read while relaxing.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her book is on the nightstand. Her gym bag is in the wardrobe.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's book was found on the couch in the living room at 16:21 and 21:25, not on the bedroom nightstand. This contradicts the part of the claim stating it is on the nightstand when in the bedroom.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her gym bag is in the wardrobe. Her book is on the bedroom nightstand when in the bedroom, but on the couch in the living room when relaxing there.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's gym bag was seen in the bedroom_1 wardrobe at 17:17. This supports the claim that her gym bag is in the wardrobe.",
+     "was": {
+      "statement": "Ines uses bedroom_1. Her gym bag is in the wardrobe. Her book is on the couch in the living room, even when she is in the bedroom or office.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Kwame uses bedroom_2. His book is on the nightstand and his gym bag is in the wardrobe.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0036",
+    "sighting_0037",
+    "sighting_0086",
+    "sighting_0087"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Kwame's book and gym bag were seen in bedroom_2 at 13:51, 16:48, and 17:18.",
+     "was": {
+      "statement": "Kwame uses bedroom_2. His book is on the nightstand and his gym bag is in the wardrobe. [sighting_0036, sighting_0037, sighting_0086, sighting_0087]",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Ines's plate is on the kitchen table in the evening. Her bowl is in the kitchen (table/sink). Her glass is in the kitchen (sink).",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0034",
+    "sighting_0023",
+    "sighting_0019",
+    "sighting_0097",
+    "sighting_0109",
+    "sighting_0166"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Ines's kitchen items (bowl, glass, plate) are consistently stored in the cupboard, not the sink/counter/dish rack as previously noted. The sink/counter items were likely transient or cleaned up.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate, mug, water bottle) are frequently found in the kitchen sink, on the counter, or in the dish rack. [sighting_0034, sighting_0023, sighting_0019, sighting_0097, sighting_0109, sighting_0166, sighting_",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's mug was found on the kitchen sink at 13:12, but on the office desk at 16:52. It is not consistently in the kitchen cupboard or sink.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are typically stored in the kitchen cupboard. Her vitamins are on the counter.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Ines's mug was seen on the desk in the office at 13:51 and on the sink in the kitchen at 21:09. This confirms it moves between these locations.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are typically in the kitchen cupboard or table. Her mug and water bottle move between the kitchen and office.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's mug was found in the kitchen at 20:14, consistent with the pattern of moving personal drinkware to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are typically in the kitchen cupboard or table. Her mug and water bottle move between the kitchen and office.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Ines's kitchen items (bowl, glass, plate) were in the cupboard/table at 12:33 but moved to the sink at 17:23. This supports the idea that they are moved during evening activity/cleanup.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are typically in the kitchen. Her mug and water bottle move between the office (day) and kitchen (evening).",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's kitchen items (bowl, glass, plate) were in the cupboard/sink at 09:01. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are in the cupboard or table during the day and move to the sink in the evening.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's kitchen items (bowl, glass, plate) were on the kitchen table at 08:02, but moved to the sink by 12:39. This supports the idea that they are used in the morning and then washed/moved to the sink.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are in the cupboard or sink during the day.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's kitchen items (bowl, glass, plate) were found on the kitchen cupboard at 12:34, not the kitchen table or sink. This contradicts the previous pattern of table/sink. They seem to be stored in the cupboard during the day.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are on the kitchen table in the morning and move to the sink later in the day.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's kitchen items were found on the cupboard, supporting the existing claim.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are found on the kitchen cupboard during the day. They may move to the table or sink during active use.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's bowl was on the kitchen sink at 08:08, moved to the table at 08:46, back to the sink at 09:17, and finally found on the living room coffee table at 20:19. This indicates the bowl is used for food/snacks and moves with her to where she is eating or relaxing.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are found on the kitchen cupboard during the day. They may move to the table or sink during active use.",
+      "holds_under": "When Ines is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's plate moved from the kitchen sink to the living room coffee table in the evening (20:37), consistent with her bowl moving there. This confirms the evening dining/relaxation pattern.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are found in the kitchen (sink, table, counter) during the day. Her bowl moves to the living room coffee table in the evening when she relaxes.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Ines's bowl and plate were seen on the coffee table in the living room at 08:10, 11:09, 11:45, and 20:17. This contradicts the previous belief that they move to the living room only in the evening; they appear to be there throughout the day.",
+     "was": {
+      "statement": "Ines's kitchen items (bowl, glass, plate) are in the kitchen during the day. Her bowl and plate move to the living room coffee table in the evening when she relaxes.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's bowl was seen in the living room at 08:28, but moved to the kitchen table by 09:55 and the sink by 10:42. This contradicts the claim that it stays on the coffee table all day.",
+     "was": {
+      "statement": "Ines's bowl and plate are on the coffee table in the living room throughout the day. Her glass is in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's plate was seen on the kitchen table in the afternoon and evening, not the sink as previously noted. It seems to move between the living room coffee table and kitchen table.",
+     "was": {
+      "statement": "Ines's plate is on the kitchen sink. Her bowl moves between the living room coffee table and the kitchen (table/sink) during the day. Her glass is in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Ines's plate was found on the kitchen table at 22:36, not in the living room. This supports the idea that it stays in the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's plate moves between the living room coffee table and the kitchen table. Her bowl is in the kitchen (cupboard/sink). Her glass is in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Kwame's kitchen items (bowl, mug, plate, glass) move between the kitchen table, cupboard, and sink during the day as he uses them.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0035",
+    "sighting_0024",
+    "sighting_0026",
+    "sighting_0032",
+    "sighting_0078",
+    "sighting_0103"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Kwame's kitchen items (bowl, glass, mug, plate) are consistently stored in the cupboard or sink, not the kitchen table as previously noted. The table only holds the shared fruit bowl.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, glass, plate, mug) are frequently found on the kitchen table or in the sink. [sighting_0035, sighting_0024, sighting_0026, sighting_0032, sighting_0078, sighting_0103, sighting_0124]",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Kwame's glass was in the cupboard at 12:33 but moved to the sink at 17:23. This supports the general pattern of kitchen items moving to the sink in the evening.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, glass, mug, plate) are typically stored in the kitchen cupboard or sink.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Kwame's kitchen items (bowl, glass, mug, plate) were in the cupboard at 09:01. This supports the existing claim.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, glass, mug, plate) are in the cupboard during the day and move to the sink in the evening.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Kwame's kitchen items (bowl, glass, mug, plate) were on the kitchen table at 08:02, but moved to the sink by 12:39. This mirrors Ines's pattern.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, glass, mug, plate) are in the cupboard during the day.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Kwame's kitchen items (bowl, plate) were on the cupboard, but his glass and mug were on the kitchen table and counter respectively at 12:34. This is a mixed state, unlike the previous uniform table/sink pattern. It suggests items are moved individually as used.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, glass, mug, plate) are on the kitchen table in the morning and move to the sink later in the day.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Kwame's mug was on the kitchen cupboard at 09:28, but moved to the kitchen sink by 10:31 and remained there. This suggests he uses it and leaves it at the sink.",
+     "was": {
+      "statement": "Kwame's kitchen items are mixed between the cupboard, kitchen table, and counter during the day, depending on recent use.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Kwame's kitchen items were found in the cupboard and on the table, supporting the existing claim about their mixed locations.",
+     "was": {
+      "statement": "Kwame's kitchen items are mixed between the cupboard, kitchen table, and counter. His mug moves to the sink during the day.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Kwame's kitchen items (bowl, glass, mug, plate) were found on the sink at 13:01, having been on the table/cupboard at 10:17. This supports the idea that they move to the sink during activity.",
+     "was": {
+      "statement": "Kwame's kitchen items are mixed between the cupboard, kitchen table, and counter. His mug moves to the sink during the day.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Kwame's bowl, mug, and plate were seen on the sink at 11:09 and 11:45, but on the kitchen table at 08:10. This supports the idea that his items move to the sink when he is active in the kitchen during the day.",
+     "was": {
+      "statement": "Kwame's kitchen items are mixed between the cupboard, kitchen table, and sink. They move to the sink during the day when he is active in the kitchen.",
+      "holds_under": "When Kwame is not actively cooking or cleaning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Kwame's bowl and mug were on the kitchen table at 09:55, but moved to the sink by 10:42. This supports the pattern of items moving to the sink during active kitchen use.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, mug, plate) are on the kitchen table in the early morning and move to the sink during the day when he is active in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Kwame's items (bowl, plate, glass) were seen on the cupboard and sink in the afternoon, not just the table/sink. They seem to be put away or moved during his kitchen activity.",
+     "was": {
+      "statement": "Kwame's kitchen items (bowl, mug, plate) are on the kitchen table in the early morning and move to the sink during the day when he is active in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Ines's gaming controller is usually on the tv stand in the living room, but may be on the floor if she has been playing recently.",
+   "holds_under": "When Ines is not using it.",
+   "supporting_observation_ids": [
+    "sighting_0154",
+    "sighting_0155"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sighting at 11:35 shows Ines's controller on the armchair, not the TV stand. This suggests she was using it or left it there after use, contradicting the 'kept on TV stand' claim.",
+     "was": {
+      "statement": "Ines's gaming controller and headset are kept on the TV stand in the living room. [sighting_0154, sighting_0155]",
+      "holds_under": "When Ines is not using them.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's controller was found on the TV stand at 16:52. This is consistent with previous observations.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the TV stand or the armchair in the living room, depending on recent use.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Ines's controller was found on the couch, not the TV stand, in two sightings today. This contradicts the previous claim.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the TV stand in the living room.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's controller was found on the tv stand in the living room at 12:54, not on the couch as previously noted.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the couch in the living room.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's controller was found on the tv stand, supporting the existing claim.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the tv stand in the living room.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's controller was found on the tv stand in the living room in the afternoon. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the tv stand in the living room.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Ines's controller was found on the living room floor, not the tv stand. This suggests she might have been playing and dropped it, or it fell off the stand. The previous claim said it was on the tv stand.",
+     "was": {
+      "statement": "Ines's gaming controller is found on the tv stand in the living room.",
+      "holds_under": "When Ines is not using it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Kwame's magazine is kept on the coffee table in the living room. [sighting_0148]",
+   "holds_under": "When Kwame is not reading it.",
+   "supporting_observation_ids": [
+    "sighting_0148"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Kitchen items (cutting board, knife, pot, spatula, etc.) are frequently moved to the sink during evening cleanup or cooking sessions.",
+   "holds_under": "During or immediately after kitchen activity, particularly in the evening.",
+   "supporting_observation_ids": [
+    "sighting_0163",
+    "sighting_0176",
+    "sighting_0177",
+    "sighting_0178"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "At 19:24, many kitchen items (cutting board, knife, pan, bowl, glass, mug) were found on the sink, suggesting a cleanup or cooking session was in progress or just finished. This is consistent with previous observations of similar patterns.",
+     "was": {
+      "statement": "At 19:28, many kitchen items (cutting board, knife, pot, spatula) were moved from their usual spots (counter, drawer, cupboard) to the sink and dish rack, suggesting a cleanup or cooking session was in progress or just finished.",
+      "holds_under": "During or immediately after kitchen activity.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "At 20:01, many kitchen items (cutting board, knife, pot, spatula, glass) were found on the sink, similar to the pattern observed on Day 3. This suggests a recurring cleanup or cooking activity in the evening.",
+     "was": {
+      "statement": "At 19:24, many kitchen items (cutting board, knife, pot, spatula, bowl, glass, mug) were moved from their usual spots to the sink, suggesting a cleanup or cooking session was in progress or just finished.",
+      "holds_under": "During or immediately after kitchen activity.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Kitchen items like the cutting board, knife, pot, and spatula were seen on the sink at 21:09, supporting the claim about evening cleanup.",
+     "was": {
+      "statement": "Kitchen items (cutting board, knife, pot, spatula, etc.) are frequently moved to the sink during evening cleanup or cooking sessions.",
+      "holds_under": "During or immediately after kitchen activity, particularly in the evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Ines's water bottle is on the office desk while she is working in the office. It may move to the kitchen when she leaves for a break or goes to bed.",
+   "holds_under": "When Ines is in the office working.",
+   "supporting_observation_ids": [
+    "sighting_0109",
+    "sighting_0170"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Ines's water bottle is consistently absent from the kitchen, contradicting the claim that it appears there when she is in the kitchen.",
+     "was": {
+      "statement": "Ines's water bottle was not in the kitchen at 11:15 or 13:36, but appeared in the sink at 15:31 and on the kitchen table at 19:28. [sighting_0109, sighting_0170]",
+      "holds_under": "When Ines is in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Ines's water bottle was not in the kitchen at 08:44, 09:21, 10:10, 14:26, or 17:11, but appeared on the kitchen table at 19:24. This suggests it is brought into the kitchen only during specific evening activities.",
+     "was": {
+      "statement": "Ines's water bottle was not in the kitchen at 11:15 or 13:36, but appeared in the sink at 15:31 and on the kitchen table at 19:28. [sighting_0109, sighting_0170]",
+      "holds_under": "When Ines is in the kitchen.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's water bottle was seen on the kitchen table at 13:12 and 20:01, and in the office at 16:52. It is not consistently absent during the day, nor is it only in the kitchen in the evening. It moves with her.",
+     "was": {
+      "statement": "Ines's water bottle is not in the kitchen during the day, but appears on the kitchen table in the evening (19:24).",
+      "holds_under": "When Ines is in the kitchen in the evening.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Ines's water bottle was seen in the office at 13:51 and in the kitchen at 21:09. This confirms it is mobile and supports the claim.",
+     "was": {
+      "statement": "Ines's water bottle is mobile, found in the kitchen (table/sink) or the office (desk) depending on where she is working or relaxing.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's mug and water bottle were found in the kitchen at 20:14, confirming they move to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is mobile, found in the kitchen (table/sink) or the office (desk) depending on where she is working or relaxing.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Ines's water bottle was on the office desk at 10:35, 16:46, and 17:23. It was in the kitchen sink at 12:33. This shows it moves between the office and kitchen, but the 'evening' pattern is less clear as it was back in the office at 17:23. The claim is set aside as the simple day/office vs evening/kitchen split is not holding up consistently.",
+     "was": {
+      "statement": "Ines's water bottle is mobile, found in the office (desk) during the day and in the kitchen (table) in the evening.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's water bottle was on the office desk from 09:01 to 16:00. It was not seen in the kitchen today.",
+     "was": {
+      "statement": "Ines's water bottle moves between the office desk and the kitchen. It was in the kitchen at 12:33 but back in the office by 16:46.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's water bottle was on the office desk during the day (09:53-15:02) but was found on the kitchen table at 20:11. This confirms the pattern that her water bottle moves to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It may move to the kitchen in the evening.",
+      "holds_under": "During the day",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's water bottle was found on the office desk at 11:58, consistent with the claim that it is there during the day.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It moves to the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's water bottle was on the kitchen counter at 08:02, not the office desk as previously noted for the day. It moved to the office desk by 09:10. This refines the pattern: it starts in the kitchen and moves to the office when she starts working.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It moves to the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's water bottle was found on the kitchen sink at 12:34, not the counter as previously noted. It was on the office desk at other times. The 'set aside' status from yesterday is no longer appropriate as we have new data showing it in the kitchen.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen counter in the early morning and on the office desk during the work day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's water bottle was found on the bedroom_1 nightstand at 10:31, 12:54, and 16:28. It was not in the office or kitchen during these sightings, contradicting the previous belief that it is on the office desk during work hours.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during work hours. It is found in the kitchen (sink or counter) during breaks or when she is not in the office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's water bottle was consistently found on the bedroom_1 nightstand throughout the day, supporting the existing claim.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day. It is not found in the office or kitchen during these hours.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's water bottle was on the bedroom_1 nightstand at 08:08 and 12:39. It was not found in the kitchen or office. This confirms the previous claim.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day. It is not found in the office or kitchen during these hours.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's water bottle was consistently found on the bedroom_1 nightstand during the day (10:41 and 11:37). This supports the existing claim.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's water bottle was seen on the bedroom_1 nightstand at 08:53. It was not seen in the kitchen or living room later in the day, suggesting it stays in the bedroom or is carried with her, but the nightstand is its primary resting spot when not in use.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's water bottle was seen on the bedroom_1 nightstand at 10:42 and 12:42. This confirms the previous note and brings it back from being set aside.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's water bottle was seen on the office desk all day, contradicting the previous belief that it stays on the bedroom nightstand. It appears she keeps it with her work setup now.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom_1 nightstand during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Ines's water bottle was seen on the kitchen table at 10:42, but on the office desk at 12:04, 15:36, and 17:26. This confirms the pattern that it moves with her to the office during work hours. The previous note was set aside; this evidence brings it back as active.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It was previously on the bedroom_1 nightstand, but has moved to the office.",
+      "holds_under": "When Ines is working in the office or during the day.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's water bottle was on the office desk all day until 16:57, then moved to the kitchen table by 19:26. This confirms it moves with her from the office to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day when she is working. It may be in the kitchen in the morning before she goes to the office.",
+      "holds_under": "When Ines is working in the office or during the day.",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's water bottle was seen on the office desk at 11:09 and 14:00, and on the kitchen table at 19:43. This supports the pattern of it being in the office during the day and moving to the kitchen in the evening. The claim was previously set aside, but today's data strongly supports it.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It moves to the kitchen table in the evening when she leaves the office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Ines's water bottle was in the kitchen dish rack at 08:05, contradicting the claim that it is on the office desk during the day. It moved to the office desk by 09:21. The claim needs to reflect that it starts in the kitchen in the early morning.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day. It moves to the kitchen table in the evening when she leaves the office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Ines's water bottle was consistently found on the office desk at 09:02, 15:13, and 22:36. It was not in the kitchen or on the kitchen table today.",
+     "was": {
+      "statement": "Ines's water bottle is in the kitchen (dish rack) in the early morning. It moves to the office desk during the day and to the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Ines's water bottle was found in the kitchen sink, not on the office desk. This contradicts the previous belief that it stays on the desk during the day/evening. It seems she moved it to the kitchen, perhaps to refill or wash it.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during the day and evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Ines was present in the office from 10:01 to 15:52, and her water bottle was consistently on the desk during this period. This contradicts the previous assumption that it moves to the kitchen when she leaves the office, as she did not leave the office during these sightings.",
+     "was": {
+      "statement": "Ines's water bottle is on the office desk during work hours, but moves to the kitchen (sink/counter) when she leaves the office or takes a break.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Kwame's magazine is kept on the coffee table in the living room.",
+   "holds_under": "When Kwame is not reading it.",
+   "supporting_observation_ids": [
+    "sighting_0265"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Kwame's magazine was seen on the coffee table in the living room at 16:48 and 17:18.",
+     "was": {
+      "statement": "Kwame's magazine is kept on the coffee table in the living room.",
+      "holds_under": "When Kwame is not reading it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Kwame's magazine was found on the coffee table, supporting the existing claim.",
+     "was": {
+      "statement": "Kwame's magazine is kept on the coffee table in the living room.",
+      "holds_under": "When Kwame is not reading it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Kwame's magazine was found on the coffee table in the living room in the afternoon. This supports the existing claim.",
+     "was": {
+      "statement": "Kwame's magazine is kept on the coffee table in the living room.",
+      "holds_under": "When Kwame is not reading it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Ines's glasses are on the office desk during work hours. Her headset is on the tv stand in the living room. Her book is on the couch in the living room.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_0757",
+    "sighting_0779"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Ines's glasses were found on the office desk all day, but at 21:01 they were on the bedroom_1 nightstand. This confirms they are mobile and move with her to her bedroom at night.",
+     "was": {
+      "statement": "Ines's glasses are mobile, found on the nightstand in bedroom_1 or the desk in the office.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Ines's glasses were seen on the office desk at 10:35, 12:33, 16:46, and 17:23. This contradicts the previous belief that they move to the bedroom nightstand in the evening. They appear to stay in the office.",
+     "was": {
+      "statement": "Ines's glasses are mobile, found on the desk in the office during the day and on the nightstand in bedroom_1 in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's glasses were seen on the dresser in bedroom_1 at 08:31, but on the office desk from 09:01 onwards. This contradicts the previous claim that they stay in the office.",
+     "was": {
+      "statement": "Ines's glasses are kept on the desk in the office. They do not appear to move to the bedroom at night.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's glasses were on the office desk during the day (09:53-15:02). This supports the existing claim that they are in the office during the day.",
+     "was": {
+      "statement": "Ines's glasses move between the bedroom_1 dresser and the office desk. They are in the bedroom in the early morning and in the office during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's glasses were found on the office desk at 11:58, consistent with the claim that they are in the office during the day.",
+     "was": {
+      "statement": "Ines's glasses move between the bedroom_1 dresser and the office desk. They are in the bedroom in the early morning and in the office during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's glasses were on the office desk at 09:10 and 10:03, but were NOT found in the office at 12:39. They were also not found in the kitchen or bathroom at 12:39. This suggests they might have been taken with her or moved to a room not checked (like bedroom or living room) during her break.",
+     "was": {
+      "statement": "Ines's glasses move between the bedroom_1 dresser and the office desk. They are in the bedroom in the early morning and in the office during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's glasses were on the office desk at 09:28 and 12:54. They were not found in the bedroom_1 at 10:31, 12:54, or 16:28, suggesting they stay in the office while she is working there.",
+     "was": {
+      "statement": "Ines's glasses are on the office desk while she is working. They are removed from the office during breaks or when she leaves the room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's glasses were found on the couch in the living room, not the office desk as previously believed. This suggests she moved them when she left the office to relax.",
+     "was": {
+      "statement": "Ines's glasses are on the office desk while she is working. They are not found in the bedroom_1 during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines was seen in bedroom_1 at 08:08 and 12:39, and in the living room at 20:19. Her book, glasses, and headset were consistently on the couch in the living room during all checks, even when she was not physically present in the room at that moment (e.g., 08:08, 09:17). This suggests these items are left on the couch when she is in the bedroom or office, rather than being moved to the office desk as previously thought for glasses.",
+     "was": {
+      "statement": "Ines's glasses are on the office desk while she is working. When she moves to the living room to relax, they are on the couch.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's book was found on the floor in the living room at 16:20, having been on the couch at 13:01. This suggests it is not always on the couch.",
+     "was": {
+      "statement": "Ines's glasses, book, and headset are on the couch in the living room. They remain there even when she is in the bedroom or office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's glasses, headset, and book were all found on the couch in the living room in the afternoon. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's glasses and headset are on the couch in the living room. Her book is on the couch or floor in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's glasses moved from the side table to the couch in the evening (20:37). This suggests they are kept on the couch when she is relaxing in the living room.",
+     "was": {
+      "statement": "Ines's glasses and headset are on the couch in the living room. Her book is on the couch in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Ines's glasses were seen on the couch at 08:10, 11:09, 11:45, and 20:17. This contradicts the previous belief that they are on the side table during the day; they appear to be on the couch throughout the day.",
+     "was": {
+      "statement": "Ines's headset and book are on the couch. Her glasses are on the side table during the day, but move to the couch in the evening when she relaxes.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's glasses were seen on the office desk, not the couch. They seem to be part of her work setup.",
+     "was": {
+      "statement": "Ines's headset, book, and glasses are on the couch in the living room throughout the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's glasses were seen on the office desk in the morning, moved to the bedroom_1 nightstand at 13:42, and returned to the office desk by 16:57. This suggests they move with her or are left in the bedroom during a break.",
+     "was": {
+      "statement": "Ines's headset and book are on the couch in the living room. Her glasses are on the office desk during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's glasses were seen on the office desk at 09:06, 11:09, 14:00, 14:33, and 17:17. This supports the claim that her glasses are on the office desk during work hours.",
+     "was": {
+      "statement": "Ines's headset and book are on the couch in the living room. Her glasses are on the office desk during work hours, but may be on the bedroom_1 nightstand during breaks.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Ines's glasses were found on the office desk at 15:26, 16:39, and 17:14, but were NOT found in the office at 15:26 (wait, looking at 15:26 office look: glasses_ines is NOT FOUND in office at 15:26? No, sighting_3687 is 14:46. At 15:26 office look [sighting_3692-3695], glasses_ines is NOT FOUND. At 15:26 living look, glasses_ines is NOT FOUND. At 15:26 kitchen look, glasses_ines is NOT FOUND. Where are they? They reappear in the office at 16:39 [sighting_3731]. This suggests she took them with her or put them away briefly. The previous claim said they are on the desk during work hours. This is",
+     "was": {
+      "statement": "Ines's headset and book are on the couch in the living room. Her glasses are on the office desk during work hours, but may be on the bedroom_1 nightstand during breaks.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Ines was present in the office from 10:01 to 15:52, and her glasses were consistently on the desk. This supports the existing claim that they are on the desk during work hours.",
+     "was": {
+      "statement": "Ines's headset is on the tv stand in the living room. Her book is on the couch in the living room. Her glasses are on the office desk during work hours, but may be removed or moved when she leaves the desk.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Ines's laptop and charger are on the office desk during the day while she is working. They may be displaced if she leaves abruptly.",
+   "holds_under": "When Ines is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0887",
+    "sighting_0885",
+    "sighting_0888",
+    "sighting_0890",
+    "sighting_0897",
+    "sighting_0905"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's mug and water bottle were in the office all day but are now in the kitchen, indicating she has finished working for the day and moved to the kitchen area.",
+     "was": {
+      "statement": "Ines works in the office during the day. Her laptop, charger, mug, and water bottle are on the desk while she is there.",
+      "holds_under": "During the day when Ines is working.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Ines's mug was on the office desk at 10:35, 16:46, and 17:23. It was in the kitchen counter at 12:33. Similar to the water bottle, it moves between rooms. The previous claim that she takes it to the kitchen in the evening is contradicted by it being in the office at 17:23.",
+     "was": {
+      "statement": "Ines works in the office during the day. Her laptop, charger, mug, and water bottle are on the desk while she is there. In the evening, she leaves the laptop and charger in the office but takes her mug and water bottle to the kitchen.",
+      "holds_under": "During the day when Ines is working; in the evening when she has finished work.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines was present in the office from 09:01 to 16:00, with her laptop, charger, mug, and water bottle on the desk. This supports her working in the office.",
+     "was": {
+      "statement": "Ines works in the office. Her laptop and charger stay on the desk. Her mug and water bottle move between the office desk and the kitchen, not strictly by time of day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's laptop, charger, and water bottle were on the office desk during the day. This supports the existing claim about her work setup.",
+     "was": {
+      "statement": "Ines works in the office. Her laptop, charger, mug, and water bottle stay on the desk while she is there.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's laptop, charger, and mug were found on the office desk at 11:58, consistent with the claim that they stay there while she works.",
+     "was": {
+      "statement": "Ines works in the office. Her laptop, charger, mug, and water bottle stay on the desk while she is there.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's charger was on the office desk at 09:10 and 10:03, but was found on the office floor at 12:39. It returned to the desk by 14:25. This indicates a temporary displacement, likely accidental or during a break.",
+     "was": {
+      "statement": "Ines works in the office. Her laptop, charger, mug, and water bottle stay on the desk while she is there.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's charger was on the office desk at 09:28, but moved to the bedroom_1 bed by 12:54, where it remained. This suggests she takes it with her when leaving the office.",
+     "was": {
+      "statement": "Ines's work items (laptop, charger, mug) are on the office desk while she is working. The charger may fall to the floor during breaks.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's charger was found on the bed in bedroom_1, not the office desk. This confirms it moves to the bedroom when she is not working at the desk.",
+     "was": {
+      "statement": "Ines's work items (laptop, mug) are on the office desk while working. The charger is on the office desk in the morning but moves to the bedroom_1 bed later in the day.",
+      "holds_under": "When Ines is working in the office or in her bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's charger was on the bed in bedroom_1 at 08:08 and 12:39. It was not found in the office. This supports the idea that it moves to the bedroom later in the day, but today it was already there in the morning.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk while working. Her charger is on the office desk in the morning but moves to the bedroom_1 bed later in the day.",
+      "holds_under": "When Ines is working in the office or in her bedroom.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's laptop was in the office at 21:25, but her charger was on the bed in bedroom_1 at 11:01. The previous claim grouped them together in the office in the evening, which is incorrect for the charger.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is on the bed in bedroom_1 during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's charger was found on the bed in bedroom_1 in the morning. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is on the bed in bedroom_1.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's laptop was seen in the office at 20:37, but her charger was not found there. The charger is also not in the living room or bathroom. It is likely in bedroom_1 (bed or nightstand) as per previous claims, but not confirmed today.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is on the bed in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's charger was seen on the bed in bedroom_1 at 08:53. It was not seen in the office or living room later, consistent with it being a bedroom item or being carried with her.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is typically on the bed in bedroom_1, but was not seen in the office or living room today.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Ines's laptop was seen on the office desk at 20:17. This supports the existing claim that she leaves work items in the office in the evening.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is typically on the bed in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's charger was seen on the office desk, not the bedroom bed. It seems to be part of her work setup.",
+     "was": {
+      "statement": "Ines's laptop is on the office desk. Her charger is typically on the bed in bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's laptop and charger were seen on the office desk at 09:06, 11:09, 14:00, 14:33, and 17:17. This supports the claim that they are on the office desk during the day.",
+     "was": {
+      "statement": "Ines's laptop and charger are on the office desk during the day. Her mug is also there.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Ines's laptop was on the office floor and her charger on the office chair at 13:26, suggesting she left the desk or was interrupted. This is a deviation from the usual 'on the desk' state.",
+     "was": {
+      "statement": "Ines's laptop and charger are on the office desk during the day. Her mug is also there.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Ines was present in the office from 10:01 to 15:52, and her laptop and charger were consistently on the desk. This supports the existing claim that they are on the desk during work hours.",
+     "was": {
+      "statement": "Ines's laptop and charger are on the office desk during the day. Her mug is also there. They may be displaced to the floor or chair if she leaves abruptly.",
+      "holds_under": "When Ines is working in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Ines leaves her work items (laptop, charger, mug) in the office when she goes to bed in the evening.",
+   "holds_under": "In the evening.",
+   "supporting_observation_ids": [
+    "sighting_0938",
+    "sighting_0942"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 6,
+   "last_revised_time": 603000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Ines's medication is in the bathroom medicine cabinet. Her vitamins are on the kitchen table in the evening.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_1186",
+    "sighting_1205"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's medication was on the bathroom sink at 07:00 but was not there at 12:29 or 14:33. It was found on the kitchen table at 20:11. This indicates the medication is moved to the kitchen in the evening, likely for dinner-time dosing.",
+     "was": {
+      "statement": "Ines's medication is on the bathroom sink.",
+      "holds_under": "When Ines is not actively taking it or moving it.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's medication was found in the medicine cabinet, not on the sink as previously claimed. This location has been consistent since 08:55 today.",
+     "was": {
+      "statement": "Ines's medication is on the bathroom sink in the morning. It moves to the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's medication was found on the kitchen table at 08:02, contradicting the claim that it is in the bathroom during the day. It was later found in the bathroom at 13:53 and 18:51. This suggests the location is not strictly time-based or that she moved it.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet during the day. It moves to the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's medication was found on the bathroom sink at 07:39 (morning) and 18:30 (evening). The previous note claimed it was on the kitchen table in the morning. This is incorrect based on today's evidence.",
+     "was": {
+      "statement": "Ines's medication is found on the kitchen table in the morning and in the bathroom sink area later in the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's medication was found on the bathroom sink at 07:27, but by 10:31 it had moved to the bedroom_1 nightstand, where it remained for the rest of the day. It is not in the bathroom during the day.",
+     "was": {
+      "statement": "Ines's medication is found on the bathroom sink area throughout the day. It is not found in the kitchen.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's medication was consistently found on the bedroom_1 nightstand, supporting the existing claim.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand during the day. It may be on the bathroom sink in the early morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's vitamins were seen on the bedroom nightstand at 08:08 but moved to the kitchen counter by 08:46, where they remained for the rest of the day. This suggests she takes them with breakfast or keeps them accessible in the kitchen during the day.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand during the day. It may be on the bathroom sink in the early morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's vitamins were found on the bedroom_1 nightstand at 11:01, not on the kitchen counter as previously believed. This suggests she keeps them with her other morning/night items in the bedroom.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are on the kitchen counter during the day, likely taken with meals.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's vitamins were found on the kitchen counter at 10:17 and 13:01, not on the bedroom_1 nightstand as previously believed. Her medication remained on the nightstand.",
+     "was": {
+      "statement": "Ines's medication and vitamins are on the bedroom_1 nightstand.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's vitamins were not found in the bathroom or bedroom_1 today. The previous claim that they are on the kitchen counter during the day is unverified today but not contradicted. However, the medication part is strongly supported by sightings in bedroom_1.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are on the kitchen counter during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's vitamins were seen on the kitchen counter at 09:37 and 11:47, but were not in the bedroom or bathroom at those times. This contradicts the previous note that they were not in the bedroom. They seem to be taken to the kitchen for morning intake.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are not currently in the bathroom or bedroom_1.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Ines's vitamins were seen on the kitchen counter at 08:10 but were not present in the kitchen at 11:09, 11:45, or 20:17. This suggests they are only in the kitchen during the early morning routine and are moved elsewhere (likely bedroom or office) later in the day.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are often in the kitchen during the morning (seen on counter day 21).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's vitamins were seen on the kitchen counter at 09:55 and 10:42. The previous note suggested they were moved elsewhere by late morning, but they remained on the counter.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are on the kitchen counter in the early morning (seen 08:10) but are moved elsewhere by late morning.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's medication was seen in the bathroom medicine cabinet, not the bedroom nightstand. This suggests she keeps it with her bathroom routine items.",
+     "was": {
+      "statement": "Ines's medication is on the bedroom_1 nightstand. Her vitamins are on the kitchen counter during the morning and midday.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Ines's medication was seen on the kitchen table at 10:42, but in the bathroom medicine cabinet at 07:00, 13:11, 14:14, and 19:09. This suggests she takes it in the morning (possibly in the kitchen) and then returns it to the cabinet, or the kitchen sighting was a temporary placement. The cabinet is the primary storage location.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet. Her vitamins are on the kitchen counter during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's vitamins were seen on the kitchen table at 19:26. The previous claim said they were on the kitchen counter. This is a minor location update.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet. It was temporarily on the kitchen table at 10:42, likely while she was taking it. Her vitamins are on the kitchen counter.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's medication was seen on the kitchen table at 09:06, contradicting the claim that it is in the bathroom medicine cabinet. It was later seen in the bathroom at 12:45 and 18:19. This suggests she takes it in the kitchen in the morning and stores it in the bathroom.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet. Her vitamins are on the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Ines's medication was on the kitchen table at 08:05 and moved to the kitchen counter by 11:12. The claim said it moves to the bathroom medicine cabinet later, but it was not seen there today. It seems to stay in the kitchen during the day.",
+     "was": {
+      "statement": "Ines's medication is on the kitchen table in the morning and in the bathroom medicine cabinet later in the day. Her vitamins are on the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Ines's medication was found on the bathroom shelf at 10:57, 13:23, and 17:08, not in the kitchen as previously believed. It seems she keeps it in the bathroom now.",
+     "was": {
+      "statement": "Ines's medication is in the kitchen (table or counter) during the day. Her vitamins are on the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Ines's medication was found in the medicine cabinet, not on the bathroom shelf as previously noted. This suggests a shift in storage location, possibly for better organization or security.",
+     "was": {
+      "statement": "Ines's medication is on the bathroom shelf. Her vitamins are on the kitchen table in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Ines's mug is on the office desk during the day while she is working. It often remains there in the evening if she has not gone to bed.",
+   "holds_under": "Always.",
+   "supporting_observation_ids": [
+    "sighting_1245",
+    "sighting_1251",
+    "sighting_1269",
+    "sighting_1287",
+    "sighting_1310"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's mug was found on the office desk at 11:58, consistent with the claim that it is there during the day.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day. It moves to the kitchen sink in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's mug was on the office desk at 09:10, 10:03, 12:39, 14:25, and 15:40. It was NOT found in the kitchen at 12:39. This contradicts the previous claim that it moves to the kitchen sink in the evening, or at least shows it stays in the office for a long duration.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day. It moves to the kitchen sink in the evening.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's mug was found on the coffee table in the living room, not the office desk. This indicates she brought it with her when she left the office.",
+     "was": {
+      "statement": "Ines's mug stays on the office desk throughout the day while she is working. It is not found in the kitchen during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's mug was on the coffee table in the living room at 08:08, 09:17, and 20:19. It was not found in the office or kitchen during these times. This contradicts the previous belief that it is on the office desk while working.",
+     "was": {
+      "statement": "Ines's mug is on the office desk while she is working. When she moves to the living room, it is on the coffee table.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's mug was found on the side table in the living room at 16:20, having been on the coffee table at 13:01. It is not in the kitchen or office.",
+     "was": {
+      "statement": "Ines's mug is on the coffee table in the living room. It is not found in the office or kitchen during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's mug was found on the coffee table in the living room in the afternoon. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's mug is on the coffee table or side table in the living room. It is not found in the office or kitchen during the day.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's mug was seen on the office desk all day, not the living room coffee table. It seems to be part of her work setup now.",
+     "was": {
+      "statement": "Ines's mug is on the coffee table in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Ines's mug was seen on the kitchen sink at 10:42, but on the office desk at 12:04, 15:36, and 17:26. This supports the existing claim that it is on the office desk during the day, but adds the detail that it might be in the kitchen in the morning.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day. It was previously on the living room coffee table.",
+      "holds_under": "When Ines is in the office or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's mug was on the office desk until 16:57, then moved to the kitchen sink by 19:26. This confirms it moves with her to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day when she is working. It was on the kitchen sink at 10:42, suggesting it moves with her from the kitchen to the office.",
+      "holds_under": "When Ines is in the office or during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Ines's mug was seen on the office desk at 11:09, 14:00, 14:33, and 17:17. It was seen on the kitchen table at 09:06 and in the dish rack at 19:43. This supports the pattern of it being in the office during work hours and moving to the kitchen in the evening.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day. It moves to the kitchen sink in the evening when she leaves the office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Ines's mug was found on the office desk at 19:11 (implied by office look at 17:14 and 16:39, and not in kitchen at 15:26). Wait, at 15:26 kitchen look, mug_ines is NOT FOUND. At 15:26 office look, mug_ines IS FOUND. At 17:14 office look, mug_ines IS FOUND. The previous claim said it moves to the kitchen in the evening. It seems it stayed in the office. This suggests she might be working late or just left it there.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day. It moves to the kitchen (table or dish rack) in the evening when she leaves the office.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Ines was present in the office from 10:01 to 15:52, and her mug was consistently on the desk. This supports the existing claim that it is on the desk during the day.",
+     "was": {
+      "statement": "Ines's mug is on the office desk during the day and often remains there in the evening if she is working or has not yet gone to bed.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "The shared remote is on the tv stand in the living room.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_2906",
+    "sighting_2923",
+    "sighting_2938"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "The shared remote was seen on the tv stand all day, not moving to the coffee table. The previous belief about it moving in the afternoon is not supported by today's data.",
+     "was": {
+      "statement": "The shared remote is on the tv stand in the morning, but moves to the coffee table in the afternoon when Ines is in the living room.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Kwame's mug is on the kitchen table during the day, moving to the cupboard when not in use.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_3434",
+    "sighting_3478"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 28,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

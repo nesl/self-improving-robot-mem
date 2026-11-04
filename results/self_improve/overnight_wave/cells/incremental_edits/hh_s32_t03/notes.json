@@ -1,0 +1,3527 @@
+{
+ "household": "hh_s32_t03",
+ "arm": "memory-guided search with incremental edits",
+ "how_memory_is_written": "incremental edits",
+ "written_up_to_day": 31,
+ "next_claim_number": 94,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 10:44 on Day 31.",
+   "holds_under": "When Leo is working in the office during the day.",
+   "supporting_observation_ids": [
+    "sighting_0091",
+    "sighting_0092",
+    "sighting_0093",
+    "sighting_0094",
+    "sighting_0095",
+    "sighting_0096"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Leo was consistently found in the office during work hours. His items remained on the desk throughout the day, confirming his workspace.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 11:52.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Leo was consistently found in the office with his work items throughout Day 3, confirming his routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 10:35, 17:33, 19:56, and 22:38.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Leo was consistently found in the office with his work items throughout the day, confirming his routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 10:14, 12:12, 13:09, 17:10, and 17:40 on Day 3.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated with Day 5 sightings confirming Leo's consistent presence and item arrangement in the office.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 10:02, 11:56, 14:56, and 17:33 on Day 4.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Leo was present in the office at 10:12, 13:33, and 17:38 on Day 6 with all his work items on the desk, consistent with previous days.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 09:49, 11:00, and 16:52 on Day 5.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Leo was present in the office at 11:07 and 12:00 with all his work items on the desk, consistent with previous days.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 10:12, 13:33, and 17:38 on Day 6.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Leo was present in the office for the majority of the day, and his items remained on the desk throughout all checks.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 11:07 and 12:00 on Day 7.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Leo was present in the office at 11:10, 13:31, and 17:27 on Day 9 with his standard work items on the desk.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 09:27, 10:22, 11:38, 16:18, and 17:02 on Day 8.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Leo was consistently found in the office with his full work setup throughout the morning and early afternoon of Day 10, confirming his routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 11:10, 13:31, and 17:27 on Day 9.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Leo was seen in the office at 10:39 and 15:56 with all his work items on the desk, consistent with previous days.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 09:36, 10:07, 11:38, and 13:47 on Day 10.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Leo was present in the office for three checks today with all his work items on the desk, consistent with his established routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 10:39 and 15:56 on Day 11.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Leo was consistently in the office with his work items during Day 13 checks.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 11:50, 14:19, and 17:12 on Day 12.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Leo's core work items remain in the office, but his water bottle and charger are missing from the office desk, unlike previous days. He was seen in the office at 13:35 and 19:52.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, charger, headphones, notebook, pen, and water bottle are kept on the office desk. He was seen in the office at 09:44, 11:46, and 15:19 on Day 13.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Leo's work items remained in the office throughout Day 15 checks, even when he was seen in the kitchen at 09:17. This supports the pattern that his work setup stays put while he moves around the house.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Confirmed office setup at 10:09 on Day 16. Leo was not seen in the office, but items remained.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Confirmed stable in office at 12:10 and 13:00 on Day 17.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Leo's work items remained in the office throughout Day 18, consistent with his established routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Leo's work items remained static in the office throughout Day 19 checks (07:50, 11:46, 13:53), consistent with his established work pattern.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Updated with Day 20 sightings confirming his work items remain in the office during the day.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Updated with Day 21 sighting of Leo's work items in the office.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 13:35 and 19:52 on Day 14, and in the kitchen at 09:17 on Day 15.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Updated to reflect Leo's location on Day 22. His work items remain in the office even when he is in the living room, consistent with his habit of leaving them there.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 11:34 on Day 21.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Leo's full work setup, including charger and water bottle which were previously noted as absent, is present on the desk in the office across four checks today while he is physically present.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, and pen are on the desk. His water bottle and charger are not currently in the office. He was seen in the office at 11:34 on Day 21 and in the living room at 20:41 on Day 22.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Leo was seen in the office at 11:56 and 18:07 with all his work items on the desk, consistent with his usual work pattern.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 11:14, 13:45, 15:09, and 16:50 on Day 24.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Leo was seen in the office at 13:14 with all his work items on the desk. By 19:26, his tablet and water bottle were in the kitchen, and by 21:38, his charger and book were in bedroom_1, indicating he left the office for the evening.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 11:56 and 18:07 on Day 25.",
+      "holds_under": "When Leo is working or at his desk.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Leo was seen in the office at 11:19 and 14:46 with his work items on the desk. By 22:19, his charger and phone were in bedroom_1, indicating he finished work and moved to his room.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 13:14 on Day 26. His items moved to the kitchen/bedroom by evening.",
+      "holds_under": "When Leo is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Leo was present in the office at four separate times today with his full work setup on the desk, confirming his routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 11:19 and 14:46 on Day 27. His items moved to bedroom_1 by 22:19.",
+      "holds_under": "When Leo is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Leo was physically present in the office at 14:02 and 16:02 with his full work setup on the desk, consistent with his established routine.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 09:14, 11:16, 17:10, and 17:47 on Day 28.",
+      "holds_under": "When Leo is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Leo was physically present in the office at three separate times on Day 30, and his standard work setup remained on the desk throughout these checks.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 14:02 and 16:02 on Day 29.",
+      "holds_under": "When Leo is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Confirmed Leo's presence and standard work setup in the office on Day 31.",
+     "was": {
+      "statement": "Leo works in the office. His laptop, headphones, notebook, pen, charger, and water bottle are on the desk. He was seen in the office at 10:18, 12:54, and 14:21 on Day 30.",
+      "holds_under": "When Leo is working in the office during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Elena is frequently in the kitchen. She was seen there at 09:44, 11:46, and 13:28 on Day 13. Her mug and bowl are often on the kitchen sink or table.",
+   "holds_under": "During the day and evening.",
+   "supporting_observation_ids": [
+    "sighting_0033",
+    "sighting_0035",
+    "sighting_0080",
+    "sighting_0089",
+    "sighting_0133",
+    "sighting_0144"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Elena was present in the kitchen at multiple points throughout Day 2, consistent with her habit of spending time there.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 10:11, 13:00, 16:00, 20:33, and 21:11. Her mug and bowl are often on the kitchen table or sink.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Elena was present in the kitchen at multiple points on Day 3, and her items were found there, supporting her frequent presence.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 09:05, 10:35, 12:59, 15:21, and 19:56. Her mug and bowl are often on the kitchen table or sink.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Elena was present in the kitchen at 19:39 on Day 6, consistent with her frequent presence there.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 08:47, 12:12, 13:09, and 20:06 on Day 3. Her mug and bowl are often on the kitchen table or cupboard.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Elena was present in the kitchen at three distinct times on Day 7, confirming her frequent presence.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 19:39 on Day 6. Her mug and bowl are often on the kitchen table or cupboard.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Elena was observed in the kitchen at midday. Her personal items (bowl, mug) were found on the sink, consistent with her using the kitchen.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 08:27, 13:40, and 19:40 on Day 7. Her mug and bowl are often on the kitchen table or cupboard.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Elena was present in the kitchen at 13:31 and 20:19 on Day 9, with her items on the sink.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 11:38 on Day 8. Her mug and bowl are often on the kitchen sink or cupboard.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Elena was present in the kitchen during the morning and evening checks on Day 10, with her personal items (mug, phone, plate) located there.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 13:31 and 20:19 on Day 9. Her mug and bowl are often on the kitchen sink.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Elena was present in the kitchen at multiple times on Day 11, with her items consistently located there.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 08:29 and 18:57 on Day 10. Her mug and bowl are often on the kitchen sink or table.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Elena was seen in the kitchen at 10:50, and her items were present. She was also in the bathroom in the morning.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 09:05, 09:46, 11:59, and 19:10 on Day 11. Her mug and bowl are often on the kitchen sink or table.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Elena was present in the kitchen multiple times on Day 13.",
+     "was": {
+      "statement": "Elena is frequently in the kitchen. She was seen there at 10:50 on Day 12. Her mug and bowl are often on the kitchen sink or table.",
+      "holds_under": "During the day and evening.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Aisha's skincare is on the bathroom shelf and her towel is on the towel rack. Confirmed at 07:30, 10:32, and 20:33 on Day 23. Her towel moved from shelf to rack between Day 22 and Day 23.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0003",
+    "sighting_0009",
+    "sighting_0194",
+    "sighting_0200"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Aisha's personal items were found in their usual spots in the bathroom at the start and end of the day.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf, and her towel is on the towel rack.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Aisha's items were consistently in the bathroom, though the towel location changed during the day.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf, and her towel is on the towel rack.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Aisha's items remained in the bathroom all day. The towel's location on the shelf is now consistent across multiple sightings.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel was on the towel rack at 07:33 but moved to the bathroom shelf by 20:06.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Added Day 5 sightings to confirm the stable location of Aisha's items.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel is currently on the bathroom shelf, having moved from the towel rack on Day 3.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Aisha's items remained in the bathroom throughout Day 6, even when she was seen in the kitchen at 19:39.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel is on the bathroom shelf. Confirmed present at 07:55, 09:01, 15:40, 19:42, and 20:15 on Day 5.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Aisha's items were consistently found in the bathroom at all three checks on Day 7.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel is on the bathroom shelf. Confirmed present at 07:36, 08:46, 12:20, 15:35, and 19:39 on Day 6.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Aisha's items were consistently found in their usual spots in the bathroom across multiple checks today. Note: Previous memory said towel was on shelf, but sightings show it on the rack.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the medicine cabinet. Her towel is on the bathroom shelf. Confirmed present at 07:18, 09:43, and 17:46 on Day 7.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Items consistently found in the bathroom throughout Day 9. Note: Skincare is on the shelf, not medicine cabinet as previously noted.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the medicine cabinet. Her towel is on the towel rack. Confirmed present at 08:05, 18:53, and 20:25 on Day 8.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Aisha's bathroom items were found in their usual spots (sink and rack) during both morning and evening checks on Day 10.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel is on the towel rack. Confirmed present at 08:52, 12:34, 20:19, and 21:09 on Day 9.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Aisha's items were found in the bathroom. Note the towel moved from rack to shelf between 07:07 and 09:27.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the sink. Her towel is on the towel rack. Confirmed present at 07:48 and 18:35 on Day 10.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Aisha's items remained in the bathroom throughout the morning checks, even though she was not seen in the room.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the bathroom shelf. Her towel was on the towel rack at 07:07 but moved to the shelf by 09:27. Confirmed present at 07:07 and 09:27 on Day 11.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Items remained in the same spots throughout Day 13, confirming the stable location.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Her skincare is on the sink. Her towel is on the bathroom shelf. Confirmed present at 07:25, 07:57, and 09:00 on Day 12.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Aisha's bathroom items have shifted slightly from Day 13 (skincare was on shelf, now on sink; towel was on shelf, still on shelf). They are consistently present in the bathroom.",
+     "was": {
+      "statement": "Aisha's skincare and towel are kept in the bathroom. Skincare is on the bathroom shelf; towel is on the bathroom shelf. Confirmed present at 07:36, 14:30, 19:23, and 20:14 on Day 13.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Aisha's skincare location is stable. Her towel location shifted from shelf to rack between Day 14 and Day 15 evening, suggesting a change in habit or a one-off move.",
+     "was": {
+      "statement": "Aisha's skincare is on the bathroom sink and her towel is on the bathroom shelf. Confirmed present at 07:21, 08:29, 09:45, 11:27, 17:58, and 19:01 on Day 14.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Corrected location of skincare (shelf, not cabinet) and confirmed towel location (rack) based on Day 16 sightings.",
+     "was": {
+      "statement": "Aisha's skincare is on the bathroom medicine cabinet and her towel is on the bathroom shelf. Confirmed present at 07:21 on Day 15. Note: On Day 14, her towel was on the shelf, but on Day 15 at 18:37 it moved to the towel rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Items remained in standard spots in bathroom during Day 17 morning checks.",
+     "was": {
+      "statement": "Aisha's skincare is on the bathroom shelf and her towel is on the towel rack. Confirmed present at 07:21 on Day 15. Note: On Day 14, her towel was on the shelf, but on Day 15 at 18:37 it moved to the towel rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Updated to reflect the current location of Aisha's towel (shelf) and skincare (sink) as of Day 22. The towel moved from the rack to the shelf between 07:18 and 07:53, likely by Elena or Leo, or Aisha if she was present but not detected.",
+     "was": {
+      "statement": "Aisha's skincare is on the bathroom shelf and her towel is on the towel rack. Confirmed present at 07:21 on Day 15. Note: On Day 14, her towel was on the shelf, but on Day 15 at 18:37 it moved to the towel rack.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updates location of Aisha's towel to match Day 23 sightings.",
+     "was": {
+      "statement": "Aisha's skincare is on the bathroom sink and her towel is on the bathroom shelf. Confirmed present at 07:18 on Day 22. Note: On Day 14, her towel was on the shelf, but on Day 15 at 18:37 it moved to the towel rack. On Day 22, it is back on.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Elena's toiletries are in the bathroom. Hair dryer, skincare, and toiletry bag are on the bathroom shelf. Confirmed present at 07:21, 18:37, 19:43, and 20:46 on Day 15.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_0001",
+    "sighting_0004",
+    "sighting_0005",
+    "sighting_0192",
+    "sighting_0195",
+    "sighting_0196"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Elena's toiletries remained on the bathroom shelf throughout the day, indicating a stable storage location.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Elena's toiletries remained on the bathroom shelf throughout the day.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Elena's bathroom items remained in their usual spots on the shelf throughout the day.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf. They were present at 07:33 and 20:06 on Day 3.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Added Day 5 sightings to confirm the stable location of Elena's items.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf. They were present at 07:47, 16:18, and 19:11 on Day 4.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Elena's toiletries remained in the bathroom throughout Day 6, even when she was seen in the kitchen at 19:39.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf. Confirmed present at 07:55, 09:01, 15:40, 19:42, and 20:15 on Day 5.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Elena's toiletries were consistently found in the bathroom at all three checks on Day 7.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept on the bathroom shelf. Confirmed present at 07:36, 08:46, 12:20, 15:35, and 19:39 on Day 6.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Elena's bathroom items remained in their standard locations throughout the day.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer and bag on shelf; skincare on sink. Confirmed present at 07:18, 09:43, and 17:46 on Day 7.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Items consistently found on the bathroom shelf throughout Day 9. Note: Skincare is on the shelf, not sink as previously noted.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer and bag on shelf; skincare on sink. Confirmed present at 08:05, 18:53, and 20:25 on Day 8.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Elena's bathroom items were found in their usual spots (shelf and medicine cabinet) during both morning and evening checks on Day 10.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer, skincare, and bag are on the bathroom shelf. Confirmed present at 08:52, 12:34, 20:19, and 21:09 on Day 9.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Elena's toiletries were consistently found on the bathroom shelf, correcting the previous note that placed skincare on the medicine cabinet.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer and bag are on the shelf; skincare is on the medicine cabinet. Confirmed present at 07:48 and 18:35 on Day 10.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Elena's bathroom items were consistently found in their usual spots during the morning checks.",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer and bag are on the shelf; skincare is on the shelf. Confirmed present at 07:07 and 09:27 on Day 11.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Skincare location changed from shelf (07:36) to medicine cabinet (14:30 onwards).",
+     "was": {
+      "statement": "Elena's toiletries (hair dryer, skincare, toiletry bag) are kept in the bathroom. Hair dryer and bag are on the shelf; skincare is on the shelf. Confirmed present at 07:25, 07:57, and 09:00 on Day 12.",
+      "holds_under": "Always.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Elena's items are consistently on the bathroom shelf. Note: On Day 13, skincare was noted to move to the medicine cabinet, but on Day 14 it is back on the shelf.",
+     "was": {
+      "statement": "Elena's toiletries are in the bathroom. Hair dryer and toiletry bag are on the shelf. Skincare moved from shelf to medicine cabinet by 14:30. Confirmed present at 07:36, 14:30, 19:23, and 20:14 on Day 13.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Elena's bathroom items are consistently in the same spots. She was seen in the bathroom at 07:21, likely doing her morning routine.",
+     "was": {
+      "statement": "Elena's toiletries are in the bathroom. Hair dryer, skincare, and toiletry bag are on the bathroom shelf. Confirmed present at 07:21, 08:29, 09:45, 11:27, 17:58, and 19:01 on Day 14.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Confirmed stable location of Elena's bathroom items on Day 16.",
+     "was": {
+      "statement": "Elena's toiletries are in the bathroom. Hair dryer, skincare, and toiletry bag are on the bathroom shelf. Confirmed present at 07:21, 18:37, 19:43, and 20:46 on Day 15.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Items remained in standard spots in bathroom during Day 17 morning checks.",
+     "was": {
+      "statement": "Elena's toiletries are in the bathroom. Hair dryer, skincare, and toiletry bag are on the bathroom shelf. Confirmed present at 07:21, 18:37, 19:43, and 20:46 on Day 15.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "The snack bowl is a shared item that moves between the kitchen sink, dish rack, and cupboard. It was on the sink at 11:38 on Day 8.",
+   "holds_under": "When someone is eating snacks or cleaning up.",
+   "supporting_observation_ids": [
+    "sighting_0043",
+    "sighting_0090",
+    "sighting_0145",
+    "sighting_0177",
+    "sighting_0232",
+    "sighting_0318"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "The snack bowl's location changed from the dish rack to the cupboard during the day, suggesting it was used and then put away.",
+     "was": {
+      "statement": "The snack bowl is a shared item that moves between the kitchen sink and the living room coffee table/armchair.",
+      "holds_under": "When someone is eating snacks.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "The snack bowl was consistently found on the cupboard during Day 3 checks.",
+     "was": {
+      "statement": "The snack bowl is a shared item that moves between the kitchen sink, dish rack, and cupboard. It was on the dish rack at 09:05 and 10:35, and on the cupboard at 15:21, 19:56, and 22:38.",
+      "holds_under": "When someone is eating snacks or cleaning up.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The snack bowl was found on the kitchen sink at both 10:12 and 19:39 on Day 6.",
+     "was": {
+      "statement": "The snack bowl is a shared item that moves between the kitchen sink, dish rack, and cupboard. It was on the cupboard at 08:47, 12:12, 13:09, and 20:06 on Day 3.",
+      "holds_under": "When someone is eating snacks or cleaning up.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The snack bowl's location changed throughout the day, consistent with shared usage.",
+     "was": {
+      "statement": "The snack bowl is a shared item that moves between the kitchen sink, dish rack, and cupboard. It was on the sink at 10:12 and 19:39 on Day 6.",
+      "holds_under": "When someone is eating snacks or cleaning up.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The snack bowl was found on the kitchen sink during the midday check.",
+     "was": {
+      "statement": "The snack bowl is a shared item that moves between the kitchen sink, dish rack, and cupboard. It was on the sink at 08:27 and on the cupboard at 13:40 and 19:40 on Day 7.",
+      "holds_under": "When someone is eating snacks or cleaning up.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Aisha and Elena were together in the kitchen at 20:33 and 21:11. Aisha's water bottle appeared in the kitchen at 20:33.",
+   "holds_under": "Evening of Day 1.",
+   "supporting_observation_ids": [
+    "sighting_0264",
+    "sighting_0291"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Leo was in the living room at 20:33. His water bottle was in the kitchen at 20:33 but not found in the kitchen at 21:11.",
+   "holds_under": "Evening of Day 1.",
+   "supporting_observation_ids": [
+    "sighting_0265"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 1,
+   "last_revised_time": 171000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 09:14, 11:16, 17:10, and 17:47 on Day 28. It moved to the kitchen cupboard by 20:26.",
+   "holds_under": "When Leo is in the office",
+   "supporting_observation_ids": [
+    "sighting_0418",
+    "sighting_0492",
+    "sighting_0597"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Leo's water bottle followed him from the office to the kitchen in the evening.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 10:35, 17:33, and 22:38, but was in the kitchen at 19:56.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The bottle followed Leo from the office to the kitchen in the evening, consistent with his movement.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 10:14, 12:12, 13:09, 17:10, and 17:40, but moved to the kitchen table by 20:06.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated with Day 5 sightings. The bottle remains on the desk while Leo is in the office, consistent with previous days.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 10:02, 11:56, 14:56, and 17:33, but moved to the kitchen sink by 20:05.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Leo's water bottle was in the office during the day but moved to the kitchen pantry in the evening, likely when he joined the others in the kitchen.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 09:49, 11:00, and 16:52 on Day 5. It is not in the bathroom during these times.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The bottle was in the office during Leo's work hours and in the kitchen during the evening gathering.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 10:12, 13:33, and 17:38 on Day 6. It was found in the kitchen pantry at 19:39.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "The water bottle stayed with Leo in the office all day, consistent with his work routine.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:07 and 12:00 on Day 7. It was found in the kitchen sink at 19:40.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Consistent with previous days; bottle remains on desk while Leo is in the office.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 09:27, 10:22, 11:38, 16:18, and 17:02 on Day 8.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Leo's water bottle remained on the office desk throughout his work session on Day 10.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:10, 13:31, and 17:27 on Day 9.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "The bottle was in the office during the day but was found in the kitchen in the evening, suggesting Leo left it there or moved it.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 09:36, 10:07, 11:38, and 13:47 on Day 10.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "The water bottle followed Leo from the office to the kitchen in the evening, consistent with his movement patterns.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 10:39 and 15:56 on Day 11, but moved to the kitchen table by 19:10.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Leo's water bottle is missing from the office on Day 15, unlike previous days. It might be with him or in a room not checked.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:50, 14:19, and 17:12 on Day 12, but moved to the kitchen table by 20:22.",
+      "holds_under": "When Leo is in the office.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updates the location of Leo's water bottle to the office desk for Day 24, confirming the habit described in the original claim.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:50, 14:19, and 17:12 on Day 12, but moved to the kitchen table by 20:22. On Day 15, it was not found in the office or kitchen.",
+      "holds_under": "When Leo is in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "The bottle was in the office during work hours but moved to the kitchen sink in the evening, likely when Leo joined the others for dinner.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:14, 13:45, 15:09, and 16:50 on Day 24. It was not found in the office or kitchen on Day 15.",
+      "holds_under": "When Leo is in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "The water bottle was on the office desk at 13:14 while Leo was there. It was later found on the kitchen counter at 19:26, consistent with him leaving the office.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:56 and 18:07 on Day 25. It moved to the kitchen sink by 20:51.",
+      "holds_under": "When Leo is in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "The water bottle was consistently on the office desk while Leo was working. Its absence from the office and kitchen at night suggests it was taken to bedroom_1 or the bathroom.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 13:14 on Day 26. It moved to the kitchen counter by 19:26.",
+      "holds_under": "When Leo is in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "The bottle remained on the desk throughout Leo's office visits, but was found in the kitchen at the end of the day, indicating he took it with him when he left the office.",
+     "was": {
+      "statement": "Leo's water bottle is kept on the office desk during work hours. It was found on the desk at 11:19 and 14:46 on Day 27. It was not found in the office or kitchen at 22:19.",
+      "holds_under": "When Leo is in the office",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Aisha's water bottle was found in the kitchen at 20:06 on the kitchen table. It was not present in the kitchen during earlier checks on Day 3.",
+   "holds_under": "Evening of Day 3.",
+   "supporting_observation_ids": [
+    "sighting_0582"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Aisha's water bottle appeared in the kitchen in the evening, likely when she joined the others.",
+     "was": {
+      "statement": "Aisha's water bottle was found in the kitchen at 22:38 on the dish rack. It was not present in the kitchen during earlier checks on Day 2.",
+      "holds_under": "Evening of Day 2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Leo's phone was found on the bathroom shelf at 07:33 on Day 3. It was not present in the kitchen or office during other checks on Day 3.",
+   "holds_under": "Morning of Day 3.",
+   "supporting_observation_ids": [
+    "sighting_0588"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Leo's phone was in the bathroom in the morning, possibly while he was getting ready.",
+     "was": {
+      "statement": "Leo's phone was found on the kitchen table at 22:38. It was not present in the kitchen or office during earlier checks on Day 2.",
+      "holds_under": "Evening of Day 2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The phone was not found in the bathroom, office, or kitchen on Day 4. Its location is currently unknown, so the specific Day 3 claim is no longer relevant to current state.",
+     "was": {
+      "statement": "Leo's phone was found on the bathroom shelf at 07:33 on Day 3. It was not present in the kitchen or office during other checks on Day 3.",
+      "holds_under": "Morning of Day 3.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Leo's pen fell on the office floor at 13:09 but was back on the desk by 17:10. This suggests he picked it up and returned it to its usual spot.",
+   "holds_under": "When Leo is working in the office.",
+   "supporting_observation_ids": [
+    "sighting_0697",
+    "sighting_0735"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "At 20:06, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 3.",
+   "supporting_observation_ids": [
+    "sighting_0777",
+    "sighting_0778",
+    "sighting_0779",
+    "sighting_0780",
+    "sighting_0781",
+    "sighting_0782"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "At 20:05, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 4.",
+   "supporting_observation_ids": [
+    "sighting_0874",
+    "sighting_0875",
+    "sighting_0876",
+    "sighting_0877",
+    "sighting_0878",
+    "sighting_0880"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 4,
+   "last_revised_time": 430200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "At 19:39 on Day 6, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 6.",
+   "supporting_observation_ids": [
+    "sighting_1100",
+    "sighting_1101",
+    "sighting_1102",
+    "sighting_1103",
+    "sighting_1104",
+    "sighting_1105"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 6,
+   "last_revised_time": 603000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "At 19:40 on Day 7, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 7.",
+   "supporting_observation_ids": [
+    "sighting_1255",
+    "sighting_1256",
+    "sighting_1257",
+    "sighting_1260",
+    "sighting_1261",
+    "sighting_1262"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 7,
+   "last_revised_time": 689400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Leo was in the bathroom at 08:05 on Day 8. His towel was on the rack, but his other personal items (laptop, phone, etc.) were not in the bathroom, suggesting he was just using the facilities.",
+   "holds_under": "Morning of Day 8.",
+   "supporting_observation_ids": [
+    "sighting_1274"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Aisha was not seen in any room on Day 8. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen, suggesting she was out of the house or in a room not checked.",
+   "holds_under": "Day 8.",
+   "supporting_observation_ids": [
+    "sighting_1268",
+    "sighting_1272",
+    "sighting_1298",
+    "sighting_1308",
+    "sighting_1301",
+    "sighting_1303"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 8,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "At 20:19 on Day 9, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 9.",
+   "supporting_observation_ids": [
+    "sighting_1511",
+    "sighting_1512",
+    "sighting_1513",
+    "sighting_1514",
+    "sighting_1516",
+    "sighting_1517"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 9,
+   "last_revised_time": 862200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Leo moved his laptop to the office floor and his notebook to the office shelf at 21:09 on Day 9. His charger and water bottle were no longer in the office.",
+   "holds_under": "Evening of Day 9.",
+   "supporting_observation_ids": [
+    "sighting_1556",
+    "sighting_1557"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 9,
+   "last_revised_time": 862200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Leo was in the living room at 21:09 on Day 9. His personal items (laptop, notebook) were in the office, and his water bottle was in the kitchen.",
+   "holds_under": "Evening of Day 9.",
+   "supporting_observation_ids": [
+    "sighting_1556",
+    "sighting_1557",
+    "sighting_1517"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 9,
+   "last_revised_time": 862200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Leo's tablet was found on the kitchen table at 09:05 on Day 11. It was not present in the kitchen at 09:46, 10:39, 11:59, or 19:10, nor in the office at 10:39 or 15:56.",
+   "holds_under": "When Leo is in the kitchen in the morning.",
+   "supporting_observation_ids": [
+    "sighting_1600"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 11,
+   "last_revised_time": 1035000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "The tablet appeared in the kitchen in the morning but disappeared from all checked rooms later in the day.",
+     "was": {
+      "statement": "Leo's tablet is kept on the kitchen table. It was found there at 08:29 on Day 10 but was not present in the kitchen at 13:47 or 18:57.",
+      "holds_under": "When Leo is in the kitchen in the morning.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Leo's phone was not found in the kitchen or office on Day 11. It was absent from the kitchen at 09:05, 09:46, 10:39, 11:59, 19:10, and the office at 10:39, 15:56.",
+   "holds_under": "Day 11.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 11,
+   "last_revised_time": 1035000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Consistent with Day 10, Leo's phone was not observed in any checked room on Day 11.",
+     "was": {
+      "statement": "Leo's phone was not found in the kitchen or office on Day 10. It was absent from the kitchen at 08:29, 13:47, and 18:57, and the office at 09:36-13:47.",
+      "holds_under": "Day 10.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Aisha was not seen in any room until 19:10 on Day 11. On Day 12, she was seen in the kitchen at 20:22. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen throughout the day.",
+   "holds_under": "Day 11 and Day 12.",
+   "supporting_observation_ids": [
+    "sighting_1563",
+    "sighting_1566",
+    "sighting_1577",
+    "sighting_1579",
+    "sighting_1582",
+    "sighting_1584"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Aisha was absent from the bathroom and kitchen checks until the evening gathering at 19:10.",
+     "was": {
+      "statement": "Aisha was not seen in any room on Day 10. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen.",
+      "holds_under": "Day 10.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updates Aisha's visibility record to include her appearance in the kitchen on Day 12.",
+     "was": {
+      "statement": "Aisha was not seen in any room until 19:10 on Day 11. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen throughout the day.",
+      "holds_under": "Day 11.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "At 18:57 on Day 10, Leo and Elena were in the kitchen. Several items (plates, glasses, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 10.",
+   "supporting_observation_ids": [
+    "sighting_1698",
+    "sighting_1699",
+    "sighting_1700",
+    "sighting_1701",
+    "sighting_1702"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "At 19:10 on Day 11, all three residents (Leo, Elena, Aisha) were in the kitchen. Several items (plates, glasses, mugs, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 11.",
+   "supporting_observation_ids": [
+    "sighting_1897",
+    "sighting_1898",
+    "sighting_1899",
+    "sighting_1900",
+    "sighting_1901",
+    "sighting_1902"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 11,
+   "last_revised_time": 1035000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 11,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "At 20:22 on Day 12, Leo and Aisha were in the kitchen. Several items (plates, glasses, mugs, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 12.",
+   "supporting_observation_ids": [
+    "sighting_2027",
+    "sighting_2028",
+    "sighting_2029",
+    "sighting_2031"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Aisha was not seen in any room on Day 13. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen, suggesting she was out of the house or in a room not checked.",
+   "holds_under": "Day 13.",
+   "supporting_observation_ids": [
+    "sighting_2043",
+    "sighting_2046",
+    "sighting_2081",
+    "sighting_2084",
+    "sighting_2100"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "This note is specific to Day 13. On Day 14, Aisha was seen in the kitchen at 19:52. The note remains true for Day 13 but does not apply to Day 14.",
+     "was": {
+      "statement": "Aisha was not seen in any room on Day 13. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) were found in the bathroom and kitchen, suggesting she was out of the house or in a room not checked.",
+      "holds_under": "Day 13.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "At 13:28 on Day 13, Leo and Elena were in the kitchen. Several items (plates, glasses, mugs) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Afternoon of Day 13.",
+   "supporting_observation_ids": [
+    "sighting_2157",
+    "sighting_2158",
+    "sighting_2163",
+    "sighting_2164",
+    "sighting_2165"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 13,
+   "last_revised_time": 1207800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "At 19:52 on Day 14, Leo was in the living room. His tablet, mug, bowl, and book were on the couch or coffee table. His work items (laptop, pen, etc.) remained in the office.",
+   "holds_under": "Evening of Day 14.",
+   "supporting_observation_ids": [
+    "sighting_2378",
+    "sighting_2367",
+    "sighting_2372",
+    "sighting_2371"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "At 19:52 on Day 14, Elena and Aisha were in the kitchen. Aisha's water bottle appeared on the kitchen table. Several items (plates, glasses) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 14.",
+   "supporting_observation_ids": [
+    "sighting_2344",
+    "sighting_2339",
+    "sighting_2340",
+    "sighting_2342",
+    "sighting_2343"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 14,
+   "last_revised_time": 1294200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0031",
+   "statement": "On Day 15, Aisha was not seen in any room. Her items (skincare, towel) were in the bathroom, and her kitchen items (bowl, glass, mug, plate, vitamins) were in the kitchen. This suggests she was out of the house or in a room not checked.",
+   "holds_under": "Day 15",
+   "supporting_observation_ids": [
+    "sighting_2385",
+    "sighting_2383",
+    "sighting_2396",
+    "sighting_2400",
+    "sighting_2402",
+    "sighting_2404"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0032",
+   "statement": "At 09:17 on Day 15, Leo and Elena were in the kitchen. Leo's bowl moved from the cupboard to the kitchen table, and his vitamins appeared on the table. This suggests Leo was eating or preparing food.",
+   "holds_under": "Morning of Day 15",
+   "supporting_observation_ids": [
+    "sighting_2464",
+    "sighting_2467",
+    "sighting_2418",
+    "sighting_2413"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0033",
+   "statement": "At 13:34 on Day 15, Leo was in the living room. His mug and remote were on the coffee table, and his tablet was on the side table. His work items remained in the office.",
+   "holds_under": "Afternoon of Day 15",
+   "supporting_observation_ids": [
+    "sighting_2558",
+    "sighting_2559",
+    "sighting_2567",
+    "sighting_2497"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0034",
+   "statement": "On Day 16, Aisha was not seen in the bathroom or kitchen during morning checks (08:15-10:09). She appeared in the living room at 18:25. Her items remained in their usual spots (bathroom/kitchen) until her return.",
+   "holds_under": "Day 16",
+   "supporting_observation_ids": [
+    "sighting_2603",
+    "sighting_2609",
+    "sighting_2620",
+    "sighting_2622",
+    "sighting_2624",
+    "sighting_2626"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0035",
+   "statement": "Leo moved his mug from the kitchen counter to the living room coffee table between 10:09 and 16:18 on Day 16. He was seen in the living room at 16:18 and 18:25, suggesting he spent the afternoon relaxing there.",
+   "holds_under": "Afternoon of Day 16",
+   "supporting_observation_ids": [
+    "sighting_2678",
+    "sighting_2736",
+    "sighting_2753"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0036",
+   "statement": "Elena's notebook was found on the kitchen table at 09:24 on Day 16 but was gone by 10:09. Elena was in the kitchen at 09:24 and 10:09, suggesting she took it with her or moved it to another room (possibly office or bedroom) after 09:24.",
+   "holds_under": "Morning of Day 16",
+   "supporting_observation_ids": [
+    "sighting_2667"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0037",
+   "statement": "The shared blanket was on the coffee table at 10:09 on Day 16, but moved to the couch by 18:25. This suggests it was used or adjusted during the day, possibly by Leo or Aisha who were in the living room.",
+   "holds_under": "Day 16",
+   "supporting_observation_ids": [
+    "sighting_2713",
+    "sighting_2755"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0038",
+   "statement": "On Day 17, Aisha was not seen in the bathroom or kitchen during morning checks (08:00-09:33). She appeared in the kitchen at 19:30. Her items remained in their usual spots (bathroom/kitchen) until her return.",
+   "holds_under": "Day 17",
+   "supporting_observation_ids": [
+    "sighting_2787",
+    "sighting_2793",
+    "sighting_2826",
+    "sighting_2829",
+    "sighting_2949",
+    "sighting_2951"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0039",
+   "statement": "Leo was in the living room at 15:20 on Day 17. His mug moved from the couch to the coffee table, and the remote moved from the tv stand to the coffee table. His tablet remained on the side table.",
+   "holds_under": "Afternoon of Day 17",
+   "supporting_observation_ids": [
+    "sighting_2932",
+    "sighting_2933",
+    "sighting_2941"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0040",
+   "statement": "At 19:30 on Day 17, Aisha was in the kitchen. Her water bottle appeared on the kitchen table. Several items (plates, glasses) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 17",
+   "supporting_observation_ids": [
+    "sighting_2957",
+    "sighting_2958",
+    "sighting_2959",
+    "sighting_2960"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0041",
+   "statement": "At 20:02 on Day 17, Elena and Aisha were in the kitchen. Several items (plates, glasses, mugs, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 17",
+   "supporting_observation_ids": [
+    "sighting_2991",
+    "sighting_2992",
+    "sighting_2993",
+    "sighting_2994"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 17,
+   "last_revised_time": 1553400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 17,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0042",
+   "statement": "Elena was in the kitchen at 08:31 and 09:16 on Day 18. Her bowl moved from the table to the sink, and her notebook and phone appeared on the table/floor, suggesting she was preparing food or cleaning up.",
+   "holds_under": "Morning of Day 18",
+   "supporting_observation_ids": [
+    "sighting_3030",
+    "sighting_3091",
+    "sighting_3086",
+    "sighting_3082"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0043",
+   "statement": "Leo was in the living room at 14:04 and 19:43 on Day 18. His mug and bowl were on the coffee table, and his book was on the couch, suggesting he was relaxing or eating there.",
+   "holds_under": "Afternoon and evening of Day 18",
+   "supporting_observation_ids": [
+    "sighting_3129",
+    "sighting_3133",
+    "sighting_3168",
+    "sighting_3170",
+    "sighting_3175"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0044",
+   "statement": "Aisha was in the kitchen at 19:43 and 20:03 on Day 18. Her water bottle appeared on the kitchen table, and several items (plates, glasses) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 18",
+   "supporting_observation_ids": [
+    "sighting_3232",
+    "sighting_3230",
+    "sighting_3231"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0045",
+   "statement": "Aisha's phone was found on the living room coffee table at 19:43 on Day 18. It was not present in the kitchen or office during other checks on Day 18.",
+   "holds_under": "Evening of Day 18",
+   "supporting_observation_ids": [
+    "sighting_3171"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0046",
+   "statement": "Leo was in the living room at 16:51 on Day 19. His mug was on the coffee table, and the dog toy had moved from the TV stand to the floor. His work items remained in the office.",
+   "holds_under": "Afternoon of Day 19",
+   "supporting_observation_ids": [
+    "sighting_3435",
+    "sighting_3440",
+    "sighting_3375"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0047",
+   "statement": "Elena and Aisha were in the kitchen at 20:04 on Day 19. Aisha's water bottle appeared on the kitchen table. Several items (plates, glasses, mugs) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 19",
+   "supporting_observation_ids": [
+    "sighting_3476",
+    "sighting_3474",
+    "sighting_3475",
+    "sighting_3484"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0048",
+   "statement": "Leo's mug moved from the kitchen cupboard to the living room coffee table between 13:53 and 16:51 on Day 19. He was seen in the living room at 16:51, suggesting he took it with him to relax.",
+   "holds_under": "Afternoon of Day 19",
+   "supporting_observation_ids": [
+    "sighting_3408",
+    "sighting_3435"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0049",
+   "statement": "Aisha was not seen in any room during the morning and early afternoon checks on Day 19 (07:50-13:53). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Morning and early afternoon of Day 19",
+   "supporting_observation_ids": [
+    "sighting_3301",
+    "sighting_3307",
+    "sighting_3330",
+    "sighting_3347",
+    "sighting_3332",
+    "sighting_3335"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0050",
+   "statement": "Aisha was not seen in any room during Day 20 checks (07:01-19:44). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house until the evening.",
+   "holds_under": "Day 20",
+   "supporting_observation_ids": [
+    "sighting_3489",
+    "sighting_3495",
+    "sighting_3556",
+    "sighting_3539",
+    "sighting_3560",
+    "sighting_3542"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0051",
+   "statement": "Leo was in the bathroom at 07:46 and 08:16 on Day 20. His work items (laptop, notebook, pen, headphones) remained in the office, indicating he was not working but likely getting ready for the day.",
+   "holds_under": "Morning of Day 20",
+   "supporting_observation_ids": [
+    "sighting_3508",
+    "sighting_3519",
+    "sighting_3562",
+    "sighting_3563"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0052",
+   "statement": "Leo was in the living room at 18:39 on Day 20. The shared blanket returned to the couch (it was absent at 15:04), and the remote moved from the armchair to the coffee table, suggesting he settled in to relax.",
+   "holds_under": "Evening of Day 20",
+   "supporting_observation_ids": [
+    "sighting_3647",
+    "sighting_3644",
+    "sighting_3590"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0053",
+   "statement": "Elena and Aisha were in the kitchen at 19:44 on Day 20. Aisha's water bottle appeared on the kitchen table, and several items (plates, glasses) were on the table, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 20",
+   "supporting_observation_ids": [
+    "sighting_3676",
+    "sighting_3673",
+    "sighting_3671"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0054",
+   "statement": "Aisha was not seen in any room during Day 21 checks (07:46-20:02). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 21",
+   "supporting_observation_ids": [
+    "sighting_3719",
+    "sighting_3725",
+    "sighting_3692",
+    "sighting_3695",
+    "sighting_3697",
+    "sighting_3699"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0055",
+   "statement": "Leo was in the office at 11:34 on Day 21. His laptop, notebook, pen, and headphones were on the desk/shelf. He was seen in the living room at 14:25, where his mug and tablet were present.",
+   "holds_under": "Day 21",
+   "supporting_observation_ids": [
+    "sighting_3759",
+    "sighting_3760",
+    "sighting_3761",
+    "sighting_3763",
+    "sighting_3772",
+    "sighting_3780"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0056",
+   "statement": "Elena was in the kitchen at 07:46 and 11:34 on Day 21. Her bowl and mug were on the kitchen table at 07:46, but moved to the cupboard by 11:34, suggesting she finished eating and put them away.",
+   "holds_under": "Morning of Day 21",
+   "supporting_observation_ids": [
+    "sighting_3708",
+    "sighting_3710",
+    "sighting_3737",
+    "sighting_3742"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0057",
+   "statement": "Aisha was not seen in any room during Day 22 checks (07:18-20:41). Her items (skincare, towel, bowl, glass, mug, plate, vitamins, tablet) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 22",
+   "supporting_observation_ids": [
+    "sighting_3847",
+    "sighting_3850",
+    "sighting_3901",
+    "sighting_3904",
+    "sighting_3906",
+    "sighting_3985"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0058",
+   "statement": "Leo was in the bathroom at 07:18 on Day 22. His work items (laptop, notebook, pen, headphones) remained in the office, indicating he was getting ready for the day rather than working.",
+   "holds_under": "Morning of Day 22",
+   "supporting_observation_ids": [
+    "sighting_3852",
+    "sighting_3907",
+    "sighting_3908",
+    "sighting_3909",
+    "sighting_3911"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0059",
+   "statement": "Elena was in the bathroom at 07:53 on Day 22. Her towel moved from the rack to the shelf, suggesting she used it and placed it there. Her other toiletries remained on the shelf.",
+   "holds_under": "Morning of Day 22",
+   "supporting_observation_ids": [
+    "sighting_3857",
+    "sighting_3862",
+    "sighting_3853",
+    "sighting_3855"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0060",
+   "statement": "Elena was in the kitchen at 11:24 on Day 22. Her mug was on the kitchen table, and her glass was on the cupboard. Her bowl was on the sink, suggesting she was eating or preparing food.",
+   "holds_under": "Midday of Day 22",
+   "supporting_observation_ids": [
+    "sighting_3896",
+    "sighting_3883",
+    "sighting_3902"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0061",
+   "statement": "Leo was in the living room at 20:41 on Day 22. His mug, bowl, and plate moved from the kitchen to the coffee table, and his book was on the couch, suggesting he was relaxing and eating there.",
+   "holds_under": "Evening of Day 22",
+   "supporting_observation_ids": [
+    "sighting_3969",
+    "sighting_3967",
+    "sighting_3970",
+    "sighting_3973"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0062",
+   "statement": "Aisha was in the kitchen at 20:41 on Day 22. Her water bottle appeared on the kitchen table, and her tablet was on the chair. Her bowl and mug were on the sink, suggesting she was preparing for bed or cleaning up.",
+   "holds_under": "Evening of Day 22",
+   "supporting_observation_ids": [
+    "sighting_4002",
+    "sighting_3985",
+    "sighting_4007",
+    "sighting_4011"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 22,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0063",
+   "statement": "Aisha was not seen in any room during Day 23 checks (07:30-21:55). Her items remained in the bathroom and kitchen, suggesting she was out of the house until the evening.",
+   "holds_under": "Day 23",
+   "supporting_observation_ids": [
+    "sighting_4017",
+    "sighting_4034",
+    "sighting_4050",
+    "sighting_4154",
+    "sighting_4171",
+    "sighting_4174"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0064",
+   "statement": "Leo was in the bathroom at 07:30 on Day 23. His work items (laptop, notebook, pen, headphones) were not in the bathroom, indicating he was getting ready for the day.",
+   "holds_under": "Morning of Day 23",
+   "supporting_observation_ids": [
+    "sighting_4025"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0065",
+   "statement": "Elena was in the bathroom at 07:30 and 10:32 on Day 23. Her skincare moved from the shelf to the sink between these times, suggesting she was using it.",
+   "holds_under": "Morning of Day 23",
+   "supporting_observation_ids": [
+    "sighting_4018",
+    "sighting_4080"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0066",
+   "statement": "Leo was in the living room at 14:13 on Day 23. His mug, tablet, and book were present, suggesting he was relaxing. The shared blanket was absent from the living room.",
+   "holds_under": "Afternoon of Day 23",
+   "supporting_observation_ids": [
+    "sighting_4126",
+    "sighting_4134",
+    "sighting_4129"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0067",
+   "statement": "Aisha was in the kitchen at 21:25 and 21:55 on Day 23. Her water bottle appeared on the kitchen table, and several items were moved, suggesting she was cleaning up or preparing for bed.",
+   "holds_under": "Evening of Day 23",
+   "supporting_observation_ids": [
+    "sighting_4182",
+    "sighting_4214"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0068",
+   "statement": "The shared blanket was on the floor in the living room at 10:32 on Day 23, but moved to the couch by 15:53. This suggests it was used or adjusted during the day.",
+   "holds_under": "Day 23",
+   "supporting_observation_ids": [
+    "sighting_4070",
+    "sighting_4144"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0069",
+   "statement": "Aisha was not seen in any room during Day 24 checks (08:10-18:56). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 24",
+   "supporting_observation_ids": [
+    "sighting_4229",
+    "sighting_4235",
+    "sighting_4268",
+    "sighting_4270",
+    "sighting_4271",
+    "sighting_4273"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0070",
+   "statement": "Elena was in the living room at 16:50 on Day 24. Her phone was absent from the kitchen (present at 11:14), suggesting she took it with her to relax. Her bowl and mug remained on the kitchen table.",
+   "holds_under": "Afternoon of Day 24",
+   "supporting_observation_ids": [
+    "sighting_4358",
+    "sighting_4359",
+    "sighting_4384",
+    "sighting_4387"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0071",
+   "statement": "Leo's book was found on the couch in the living room at 16:50 on Day 24. It was not present in the office or kitchen during earlier checks, suggesting he moved it to the living room to read.",
+   "holds_under": "Afternoon of Day 24",
+   "supporting_observation_ids": [
+    "sighting_4359"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0072",
+   "statement": "Aisha was not seen in any room during Day 25 checks (07:20-20:51) until 20:51. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 25",
+   "supporting_observation_ids": [
+    "sighting_4418",
+    "sighting_4424",
+    "sighting_4479",
+    "sighting_4480",
+    "sighting_4481",
+    "sighting_4468"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0073",
+   "statement": "Elena was in the bathroom at 08:34 on Day 25. Her towel moved from the rack to the shelf between 07:20 and 08:34, suggesting she used it and placed it there. She was later seen in the kitchen at 11:56 and 20:51.",
+   "holds_under": "Day 25",
+   "supporting_observation_ids": [
+    "sighting_4432",
+    "sighting_4436"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0074",
+   "statement": "All three residents (Leo, Elena, Aisha) were in the kitchen at 20:51 on Day 25. Several items (plates, glasses, mugs, water bottles) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 25",
+   "supporting_observation_ids": [
+    "sighting_4551",
+    "sighting_4552",
+    "sighting_4553",
+    "sighting_4554",
+    "sighting_4555",
+    "sighting_4566"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 25,
+   "last_revised_time": 2244600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0075",
+   "statement": "Aisha was not seen in any room during Day 26 checks (07:19-21:38) until 19:26. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 26",
+   "supporting_observation_ids": [
+    "sighting_4574",
+    "sighting_4577",
+    "sighting_4580",
+    "sighting_4582",
+    "sighting_4572",
+    "sighting_4602"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0076",
+   "statement": "Elena was in the kitchen at 07:19, 09:27, and 19:26 on Day 26. Her bowl and mug were on the kitchen table in the morning, but moved to the sink by 19:26, suggesting she finished eating and cleaned up.",
+   "holds_under": "Day 26",
+   "supporting_observation_ids": [
+    "sighting_4591",
+    "sighting_4593",
+    "sighting_4633",
+    "sighting_4635",
+    "sighting_4693",
+    "sighting_4706"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0077",
+   "statement": "Leo was in the living room at 21:38 on Day 26. The shared blanket, remote, and snack bowl were on the coffee table, suggesting he was relaxing. His book and charger were in bedroom_1, and his journal was on the bed.",
+   "holds_under": "Evening of Day 26",
+   "supporting_observation_ids": [
+    "sighting_4716",
+    "sighting_4718",
+    "sighting_4719",
+    "sighting_4729",
+    "sighting_4730",
+    "sighting_4726"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0078",
+   "statement": "Elena was in bedroom_2 at 21:38 on Day 26. Her book was on the bed, and her headphones, notebook, and pen were on the desk, suggesting she was reading or studying.",
+   "holds_under": "Evening of Day 26",
+   "supporting_observation_ids": [
+    "sighting_4731",
+    "sighting_4732",
+    "sighting_4733",
+    "sighting_4734"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0079",
+   "statement": "Aisha and Elena were in the kitchen at 19:26 on Day 26. Several items (plates, glasses, mugs) were on the kitchen table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 26",
+   "supporting_observation_ids": [
+    "sighting_4693",
+    "sighting_4694",
+    "sighting_4695",
+    "sighting_4696",
+    "sighting_4697",
+    "sighting_4698"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 26,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0080",
+   "statement": "Aisha was not seen in any room during Day 29 checks until 20:09. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+   "holds_under": "Day 29",
+   "supporting_observation_ids": [
+    "sighting_4737",
+    "sighting_4740",
+    "sighting_4781",
+    "sighting_4773",
+    "sighting_4793",
+    "sighting_4775"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Aisha was absent from all rooms checked in the morning and afternoon. Her personal items were undisturbed in their usual spots until she appeared in the kitchen at 20:26.",
+     "was": {
+      "statement": "Aisha was not seen in any room during Day 27 checks (07:00-22:19). Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+      "holds_under": "Day 27",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Aisha's personal items were static in their usual locations throughout the day, and she was only seen in the kitchen at the final check at 20:09, mirroring her pattern of being out during the day.",
+     "was": {
+      "statement": "Aisha was not seen in any room during Day 28 checks until 20:26. Her items (skincare, towel, bowl, glass, mug, plate, vitamins) remained in the bathroom and kitchen, suggesting she was out of the house.",
+      "holds_under": "Day 28",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0081",
+   "statement": "Elena was in the kitchen at 08:20, 14:34, and 17:10 on Day 28. Her bowl and mug moved from the table to the cupboard between 08:20 and 14:34, suggesting she finished eating and cleaned up.",
+   "holds_under": "Day 28",
+   "supporting_observation_ids": [
+    "sighting_4791",
+    "sighting_4794",
+    "sighting_4836",
+    "sighting_4840"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Elena was present in the kitchen multiple times. The movement of her dishes from the table to the cupboard indicates a transition from eating to tidying up.",
+     "was": {
+      "statement": "Elena was in the kitchen at 12:27 and 18:37 on Day 27. Her bowl and mug were on the sink, and her glass moved from the table to the sink, suggesting she was eating and cleaning up.",
+      "holds_under": "Day 27",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0082",
+   "statement": "Leo was in bedroom_1 at 09:14 and 17:47 on Day 28. His book, journal, and tablet were on the nightstand. An iron and ironing board were present, suggesting he was ironing or relaxing.",
+   "holds_under": "Afternoon and evening of Day 28",
+   "supporting_observation_ids": [
+    "sighting_4797",
+    "sighting_4798",
+    "sighting_4800",
+    "sighting_4801",
+    "sighting_4854",
+    "sighting_4855"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Leo's personal reading and leisure items were consistently found in bedroom_1. The presence of the iron and ironing board (which moved from floor to bed) suggests he was using the room for these activities.",
+     "was": {
+      "statement": "Leo was in bedroom_1 at 14:46 and 22:19 on Day 27. His book, journal, and tablet were on the nightstand/dresser. An iron and ironing board were on the floor, suggesting he was ironing or relaxing.",
+      "holds_under": "Afternoon and evening of Day 27",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0083",
+   "statement": "Leo's charger and phone moved from the office desk to the bedroom_1 nightstand between 14:46 and 22:19 on Day 27. This suggests he finished work and prepared for bed.",
+   "holds_under": "Evening of Day 27",
+   "supporting_observation_ids": [
+    "sighting_4858",
+    "sighting_4860"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 27,
+   "last_revised_time": 2417400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0084",
+   "statement": "Aisha was in the kitchen at 20:26 on Day 28. Her water bottle appeared on the kitchen table, and her glass and plate moved to the table/sink, suggesting she was eating or preparing for bed.",
+   "holds_under": "Evening of Day 28",
+   "supporting_observation_ids": [
+    "sighting_5051",
+    "sighting_5052",
+    "sighting_5053"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 28,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0085",
+   "statement": "Leo's tablet moved from the kitchen table (08:20) to the bedroom_1 nightstand (09:14) and remained there until 17:47. This suggests he took it to his room for leisure after breakfast.",
+   "holds_under": "Day 28",
+   "supporting_observation_ids": [
+    "sighting_4890",
+    "sighting_4899",
+    "sighting_5018"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 28,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0086",
+   "statement": "Leo was in bedroom_1 at 08:13 on Day 29. His book, journal, and charger were on the nightstand, and an iron/ironing board were present, suggesting he was getting ready or relaxing before work.",
+   "holds_under": "Morning of Day 29",
+   "supporting_observation_ids": [
+    "sighting_5063",
+    "sighting_5064",
+    "sighting_5065",
+    "sighting_5066",
+    "sighting_5062"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0087",
+   "statement": "Elena was in the kitchen at 12:20 on Day 29. Her bowl was on the dish rack and her notebook on the table, suggesting she was eating or working in the kitchen.",
+   "holds_under": "Midday of Day 29",
+   "supporting_observation_ids": [
+    "sighting_5133",
+    "sighting_5141"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0088",
+   "statement": "Leo and Aisha were in the kitchen at 20:09 on Day 29. Several items (plates, glasses, mugs, water bottles) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 29",
+   "supporting_observation_ids": [
+    "sighting_5192",
+    "sighting_5193",
+    "sighting_5189",
+    "sighting_5190",
+    "sighting_5196",
+    "sighting_5197"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 29,
+   "last_revised_time": 2590200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0089",
+   "statement": "Aisha was not seen in any room during Day 30 checks (07:50-19:43). Her items (skincare, towel) remained in the bathroom, suggesting she was out of the house.",
+   "holds_under": "Day 30",
+   "supporting_observation_ids": [
+    "sighting_5211",
+    "sighting_5217",
+    "sighting_5222",
+    "sighting_5228",
+    "sighting_5233",
+    "sighting_5239"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 30,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0090",
+   "statement": "Elena was not seen in any room during Day 30 checks (07:50-19:43). Her items (hair dryer, skincare, toiletry bag, towel) remained in the bathroom, suggesting she was out of the house.",
+   "holds_under": "Day 30",
+   "supporting_observation_ids": [
+    "sighting_5209",
+    "sighting_5212",
+    "sighting_5213",
+    "sighting_5218",
+    "sighting_5220",
+    "sighting_5223"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 30,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0091",
+   "statement": "Aisha was not seen in any room during Day 31 checks (07:35-19:18) until 19:18. Her items (skincare, towel) remained in the bathroom, suggesting she was out of the house.",
+   "holds_under": "Day 31",
+   "supporting_observation_ids": [
+    "sighting_5293",
+    "sighting_5296",
+    "sighting_5304",
+    "sighting_5307",
+    "sighting_5323",
+    "sighting_5326"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 31,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0092",
+   "statement": "Elena was in the kitchen at 19:18 and in bedroom_2 at 21:01 on Day 31. Her book, headphones, notebook, and pen were on the bed/desk in bedroom_2, suggesting she was studying or reading.",
+   "holds_under": "Evening of Day 31",
+   "supporting_observation_ids": [
+    "sighting_5383",
+    "sighting_5385",
+    "sighting_5386",
+    "sighting_5387"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 31,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0093",
+   "statement": "All three residents (Leo, Elena, Aisha) were in the kitchen at 19:18 on Day 31. Several items (plates, glasses, mugs, water bottles) were on the table or sink, suggesting a shared meal or gathering.",
+   "holds_under": "Evening of Day 31",
+   "supporting_observation_ids": [
+    "sighting_5369",
+    "sighting_5370",
+    "sighting_5371",
+    "sighting_5372",
+    "sighting_5373",
+    "sighting_5380"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 31,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

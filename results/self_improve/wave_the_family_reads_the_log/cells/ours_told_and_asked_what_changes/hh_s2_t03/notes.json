@@ -1,0 +1,3582 @@
+{
+ "household": "hh_s2_t03",
+ "arm": "memory-guided search with the log and notes, told and asked what will change",
+ "how_memory_is_written": "the log and notes, told and asked what will change",
+ "written_up_to_day": 31,
+ "next_claim_number": 34,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Tomas works from the office desk during the day and into the evening (09:32-22:59). He is in the bedroom in the evening (21:55-22:59).",
+   "holds_under": "Weekday daytime and evening.",
+   "supporting_observation_ids": [
+    "sighting_0057",
+    "sighting_0058",
+    "sighting_0059",
+    "sighting_0060",
+    "sighting_0061",
+    "sighting_0062"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 confirms the pattern: Tomas is in the office from 07:00 to 15:55, with his full work setup (laptop, mouse, etc.) on the desk. This extends the start time earlier than Day 1.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day. His laptop, mouse, notebook, pen, and charger are consistently found there from 09:22 to 17:02. He is physically present in the office during these times.",
+      "holds_under": "Weekday daytime hours (approx 09:00-17:00).",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas was in the office from 09:42 to 16:41. His items (laptop, mouse, etc.) remained on the desk. He left the office by 20:05.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day. His laptop, mouse, notebook, pen, and charger are consistently found there from 07:00 to 15:55. He is physically present in the office during these times.",
+      "holds_under": "Weekday daytime hours (approx 07:00-16:00).",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's presence based on Day 6 sightings.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day (09:42-16:41). His laptop, mouse, notebook, pen, and charger are consistently found there. He leaves the office by 20:05.",
+      "holds_under": "Weekday daytime hours.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Tomas was seen in the office from 08:22 to 15:26, extending the start of his work day earlier than the previous 09:26.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day (09:26-14:37). He is in the dining room for dinner (19:53-20:19).",
+      "holds_under": "Weekday daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's work hours have extended significantly into the evening, contradicting the previous 15:26 cutoff.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day (08:22-15:26). He is in the dining room for dinner (19:53-20:19).",
+      "holds_under": "Weekday daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Tomas's laptop moved from the office desk to the bedroom (implied by absence in office and presence of other items) or remains in office? Wait, laptop is in office at 22:59. It was in office all day. No change.",
+     "was": {
+      "statement": "Tomas works from the office desk during the day and into the evening (09:32-22:51). He is in the dining room for lunch (12:41-13:22).",
+      "holds_under": "Weekday daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Tomas's charger is on the office desk during work hours. It moves to the bedroom nightstand in the evening.",
+   "holds_under": "Weekday daytime and evening.",
+   "supporting_observation_ids": [
+    "sighting_0182",
+    "sighting_0223",
+    "sighting_0238",
+    "sighting_0244"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Tomas's charger on the office desk from 07:00 to 15:55, but on the bedroom nightstand at 18:26 and 20:35. It is not in the office at 22:59. This confirms the evening move to the bedroom.",
+     "was": {
+      "statement": "Tomas's charger is usually on the office desk, but was moved to the bedroom nightstand between 19:37 and 20:15, then returned to the office desk by 22:49. This suggests he takes it with him when leaving the office for the evening.",
+      "holds_under": "Evening transition period.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's charger moved from the office desk to the bedroom nightstand at 20:05, confirming the evening transition.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours (07:00-15:55) and moves to the bedroom nightstand in the evening (18:26-20:35). It is not in the office at night (22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's charger based on Day 6 sightings.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours (07:00-16:41) and moves to the bedroom nightstand in the evening (20:05-22:13). It is not in the office at night.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Tomas's charger was not in the office at 12:37, contradicting the previous claim that it stays there until 14:37. It returned by 13:48.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours (09:26-13:47) and moves to the bedroom nightstand by 14:37. It is not in the office in the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's charger is no longer absent in the evening; it is on the office desk.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours, but was absent at 12:37 [sighting_1589]. It returned by 13:48 [sighting_1643]. It is not in the office in the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Tomas's charger moved from the office desk to the bedroom bed in the evening, indicating a change in his routine or location.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours. It was absent at 12:41 but returned by 14:30. It remains on the office desk in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's charger was seen in bedroom_1 at 20:23, not office. Previous claim said it moves to bedroom bed in evening. Today it was on bedroom desk. Need to update location.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours. It moves to the bedroom bed in the evening (21:55-22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's charger was seen on the bedroom floor at 15:12, not the office desk or bedroom desk as previously noted.",
+     "was": {
+      "statement": "Tomas's charger is on the office desk during work hours. It moves to the bedroom desk in the evening (seen 20:23).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's charger moved from the floor (AM) to the bed (PM). The previous note said it was on the floor in the afternoon, which is now incorrect.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom floor in the afternoon (seen 15:12). It was on the bed at 13:08. Not seen in the office.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Tomas's charger was seen on the bed at 09:36, 09:37, 11:26, and 13:51. It was not on the floor. The previous note about it being on the floor in the morning is incorrect.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom floor in the morning and moves to the bed by midday.",
+      "holds_under": "Morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's charger was seen on the bedroom bed at 10:54, 10:57, 11:56, 12:03, and 12:53. This supports the existing claim.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom bed from late morning through the afternoon.",
+      "holds_under": "Late morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's charger was on the bedroom bed from 09:45 to 22:59. Previous note said late morning to early afternoon.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom bed from late morning through the early afternoon.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's charger was on the bed in the midday, not just late morning.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom bed from late morning through the evening.",
+      "holds_under": "Late morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's charger was on the bedroom bed at 08:16, 09:41, 12:38, and 12:51. The previous claim said it was on the bed from midday through evening, which is consistent.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom bed from midday through the evening.",
+      "holds_under": "Midday to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's charger was on the office desk all day, not the bedroom bed.",
+     "was": {
+      "statement": "Tomas's charger is on the bedroom bed from morning through midday.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Tomas's water bottle is on the office desk during work hours (09:00-17:00). It moves to the dining table in the evening.",
+   "holds_under": "Weekday daytime and evening.",
+   "supporting_observation_ids": [
+    "sighting_0064",
+    "sighting_0111",
+    "sighting_0143",
+    "sighting_0159",
+    "sighting_0189"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Tomas's water bottle on the office desk from 07:00 to 15:55, but it is missing at 13:03 (when he is not in the office) and 22:59. This refines the previous uncertainty about its location.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during the day but was missing from the office at 15:27 and 19:37. It was not found in the bedroom at 19:37 or 20:15. It may be carried with him or left in another room not yet checked.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's water bottle was on the office desk until 16:41, then moved to the kitchen counter by 13:32 (wait, 13:32 is before 16:41? No, 13:32 is earlier. Let's re-check. 13:32 kitchen: water_bottle_tomas on counter. 14:21 office: water_bottle_tomas on desk. 16:41 office: water_bottle_tomas on desk. 20:05 kitchen: NOT FOUND. 20:20 dining: water_bottle_tomas on table. So it moves to dining in evening.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during his work hours (07:00-15:55). It is removed from the desk when he leaves the office (e.g., 13:03, 22:59), likely carried with him or left in another room.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's water bottle based on Day 6 sightings.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours (07:00-16:41). It moves to the dining table in the evening (20:20). It was briefly on the kitchen counter at 13:32.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Tomas's water bottle was not in the office at 12:37, contradicting the previous claim that it stays there until 13:47. It returned by 13:48.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours (09:26-13:47). It moves to the dining table for dinner (19:53) and is in the kitchen dish rack by 22:59.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's water bottle is no longer in the kitchen dish rack in the evening; it is back on the office desk.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours, but was absent at 12:37 [sighting_1589]. It returned by 13:48 [sighting_1650]. It is in the kitchen sink in the evening [sighting_1708].",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Tomas's water bottle moved from the office desk to the kitchen dish rack in the evening.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It was absent at 12:41 but returned by 14:30. It remains on the office desk in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Tomas's water bottle was on the office desk all day but is now on the dining table in the evening, contradicting the previous note about it moving to the kitchen dish rack.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It moves to the kitchen dish rack in the evening (22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Tomas's water bottle was seen on the dining table at 20:46, extending the evening location window.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It moves to the dining table in the evening (19:40-20:32).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's water bottle was seen in dining at 20:23, not office. Previous claim said it moves to dining in evening, but today it was in dining at 20:23 while he was there. Need to update location logic.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It moves to the dining table in the evening (20:46).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's water bottle was seen on dining table at 20:23, then in kitchen dish rack at 22:32. Previous claim said it moves to dining in evening. Today it moved to kitchen. Need to update.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It moves to the dining table in the evening (seen 20:23).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's water bottle is on the bedroom nightstand from 11:32 to 15:12, not the office desk or dining table.",
+     "was": {
+      "statement": "Tomas's water bottle is on the office desk during work hours. It moves to the dining table in the evening (seen 20:23), then to the kitchen dish rack (seen 22:32).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's water bottle was on the nightstand in the AM, moved to the bed in the midday, and back to the nightstand by late afternoon. The previous note only covered the nightstand.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand during the day (seen 11:32-15:12). It was on the kitchen dish rack at 08:07.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's water bottle was seen on the bedroom nightstand at 10:54, 10:57, 11:56, 12:03, and 12:53. This supports the existing claim.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand, briefly on the bed around midday, then back on the nightstand.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's water bottle was on the bedroom nightstand from 09:45 to 22:59. Previous note said late morning to early afternoon.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand from late morning through the early afternoon.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's water bottle was on the nightstand in the midday, not just late morning.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand from late morning through the evening.",
+      "holds_under": "Late morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's water bottle was on the bedroom nightstand at 08:16, 09:41, 12:38, and 12:51. The previous claim said it was on the nightstand from midday through evening, which is consistent.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand from midday through the evening.",
+      "holds_under": "Midday to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's water bottle was on the office desk all day, not the bedroom nightstand as previously noted.",
+     "was": {
+      "statement": "Tomas's water bottle is on the bedroom nightstand from morning through midday.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Ines's water bottle is on the kitchen counter in the morning and on the bedroom wardrobe in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_0030",
+    "sighting_0078",
+    "sighting_0227",
+    "sighting_0243"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Ines's water bottle in the kitchen dish rack at 12:19 and 13:03, but on the dining table at 18:26 and 20:35. It was not in the bedroom at 18:26 or 20:35. This contradicts the Day 1 claim that it moved to the bedroom wardrobe.",
+     "was": {
+      "statement": "Ines's water bottle was in the kitchen dish rack at 09:19 and 09:25, but was moved to the bedroom wardrobe by 19:37. This suggests she takes it with her when moving to the bedroom in the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's water bottle was on the kitchen counter at 08:21 and 13:32, and on the dining table at 20:20. Previous claim said dish rack, which is incorrect for today.",
+     "was": {
+      "statement": "Ines's water bottle is in the kitchen dish rack during the day (12:19-13:03) and moves to the dining table in the evening (18:26-20:35). It is not stored in the bedroom wardrobe.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Ines's water bottle based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen counter during the day (08:21-13:32) and moves to the dining table in the evening (20:20).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's water bottle is no longer in the kitchen dish rack in the evening; it is in the kitchen cupboard.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom wardrobe in the afternoon (14:37), moves to the dining table for dinner (19:42), and is in the kitchen dish rack by 22:59.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's water bottle moved from the kitchen to the bedroom wardrobe in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is in the kitchen dish rack in the afternoon (14:37). It moves to the kitchen cupboard in the evening (22:51).",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's water bottle was in the kitchen during the day on previous days, but is now on the dining table in the evening, contradicting the previous note about it moving to the bedroom wardrobe.",
+     "was": {
+      "statement": "Ines's water bottle is in the kitchen during the day. It moves to the bedroom wardrobe in the evening (21:55-22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's water bottle was seen in kitchen dish rack at 22:32. Previous claim said it is on dining table in evening. Today it was in kitchen. Need to update.",
+     "was": {
+      "statement": "Ines's water bottle is on the dining table in the evening (20:32).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's water bottle is on the dining table in the evening (19:53-20:31), not the kitchen dish rack.",
+     "was": {
+      "statement": "Ines's water bottle is on the dining table in the evening (previous days). It moves to the kitchen dish rack (seen 22:32).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's water bottle was on the kitchen dish rack in the AM, moved to the bedroom wardrobe by midday, and is on the dining table in the evening. The previous note missed the AM and midday locations.",
+     "was": {
+      "statement": "Ines's water bottle is on the dining table in the evening (seen 19:53-20:31). It was on the bedroom desk at 13:08-15:12.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's water bottle was seen on the kitchen sink at 13:51, not the dish rack. It was on the dining table in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen dish rack in the morning, bedroom wardrobe in the midday, and dining table in the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's water bottle was seen on the kitchen dish rack at 12:50 and 21:09, and on the dining table at 20:02/20:32. This contradicts the previous claim of it being on the kitchen sink.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen sink in the early afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's water bottle was on the kitchen dish rack in the afternoon and dining table in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen dish rack in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's water bottle was seen on the dining table at 19:28, not the kitchen dish rack as previously noted for the afternoon.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen dish rack in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's water bottle was on the kitchen dish rack in the afternoon, not just the dining table in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the dining table in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's water bottle was on the kitchen counter at 12:51 and 13:35, and on the dining table at 19:17 and 19:49. The previous claim said it was on the kitchen dish rack in the afternoon, which is incorrect.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen dish rack in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's water bottle was on the wardrobe at 11:24, then dining table at 19:08. This contradicts the previous claim of kitchen counter in afternoon. It seems to move with her or is stored in bedroom.",
+     "was": {
+      "statement": "Ines's water bottle is on the kitchen counter in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's water bottle was on the kitchen counter in the morning, then bedroom wardrobe in the evening.",
+     "was": {
+      "statement": "Ines's water bottle is on the bedroom wardrobe in the late morning and on the dining table in the evening.",
+      "holds_under": "Late morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Ines's headphones are on the bedroom wardrobe in the evening.",
+   "holds_under": "Evening.",
+   "supporting_observation_ids": [
+    "sighting_0041",
+    "sighting_0226",
+    "sighting_0242"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Ines's headphones on the bedroom desk at 18:26 and 20:35. This contradicts the Day 1 claim that they moved to the wardrobe.",
+     "was": {
+      "statement": "Ines's headphones were on the bedroom desk at 09:19, but were moved to the bedroom wardrobe by 19:37. This suggests she stores them in the wardrobe when not in use or when leaving the desk area.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's headphones were not seen in the bedroom, dining, or kitchen on Day 4. Previous claim said they were on the bedroom desk, but the bedroom desk is not a spot in bedroom_1 (only nightstand, bed, etc.). They were not found in the bedroom at 20:05, 21:11, or 22:13.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the evening (18:26-20:35). They are not stored in the wardrobe.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location for Ines's headphones based on Day 6 sighting.",
+     "was": {
+      "statement": "Ines's headphones were not seen in the bedroom, dining, or kitchen on Day 4. They are not on the bedroom nightstand or bed in the evening (20:05-22:13).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's headphones were not seen in the bedroom or other rooms today, contradicting the previous location.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom wardrobe in the afternoon (14:37). They were not seen in the dining or kitchen in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's headphones were found in the bedroom wardrobe in the evening, resolving their unknown location from Day 9.",
+     "was": {
+      "statement": "Ines's headphones were not seen in the bedroom, office, kitchen, or dining room on Day 9. Location unknown.",
+      "holds_under": "Day 9.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's headphones were in the bedroom wardrobe in the evening on previous days, but are now on the bedroom desk in the evening.",
+     "was": {
+      "statement": "Ines's headphones are in the bedroom wardrobe in the evening (21:55-22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's headphones moved from the bedroom desk to the wardrobe in the evening, contradicting the previous location.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the evening (22:31).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's headphones are on the bedroom desk in the afternoon, not the wardrobe.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk during the day. They move to the bedroom wardrobe in the evening (22:57).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's headphones were on the desk in the AM, disappeared in the midday, and reappeared on the desk in the late morning/early afternoon. The previous note said they were on the desk in the afternoon, which is partially true but misses the gap.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the afternoon (seen 13:08-15:12).",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's headphones were seen on the bedroom desk at 09:36 and 09:37, but were not present in the bedroom at 11:26 or later. This confirms they are only in the bedroom in the morning.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the morning and late morning, but are not present in the midday.",
+      "holds_under": "Morning to late morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's headphones were seen on the bedroom desk at 11:56, 12:03, and 12:53. This contradicts the previous claim that they were not present after 10:00.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the morning and are not present in the bedroom after 10:00.",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's headphones were on the wardrobe today, not the desk as previously noted.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the late morning and early afternoon.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's headphones were present in the bedroom wardrobe until 12:37 but were gone by 22:59. They are not in the living room or kitchen.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom wardrobe from late morning through the early afternoon.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's headphones were on the desk today, not the wardrobe.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom wardrobe in the morning and midday. They are removed from the home by the evening.",
+      "holds_under": "Morning to midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's headphones were on the bedroom desk at 08:16, 09:41, 12:38, and 12:51. They were not seen in the evening sightings (18:40-19:49 bathroom/dining). The previous claim said they are removed by evening, which is consistent, but the midday presence is confirmed.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk in the midday. They are removed from the home by the evening.",
+      "holds_under": "Midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's headphones were on the wardrobe at 11:24, not the desk. Previous claim said desk. Wardrobe seems to be her storage spot for them during the day.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom desk from morning through midday. They are not present in the home by the evening.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's headphones were on the bedroom wardrobe in the evening, not absent.",
+     "was": {
+      "statement": "Ines's headphones are on the bedroom wardrobe from late morning through midday. They are not present in the home by the evening.",
+      "holds_under": "Late morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Ines's mug is on the dining table in the morning and on the kitchen dish rack in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_0038",
+    "sighting_0086",
+    "sighting_0204"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Ines's mug in the kitchen cupboard at 12:19, 13:03, 13:36, 18:26, and 20:35. It was not on the dining table or kitchen table. This contradicts the Day 1 claim about it moving between dining and kitchen table.",
+     "was": {
+      "statement": "Ines's mug was on the dining table at 09:19 and 09:25, but was moved to the kitchen table by 19:37. This suggests she moves her mug between the dining and kitchen areas depending on her activity.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's mug was on the dining table at 08:21 and 10:25, then moved to the kitchen dish rack by 13:32 and 20:05. Previous claim said cupboard, which is incorrect.",
+     "was": {
+      "statement": "Ines's mug is stored in the kitchen cupboard during the day and evening (12:19-20:35). It is not typically on the dining or kitchen table.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Ines's mug based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning (08:21-10:25) and moves to the kitchen dish rack in the afternoon and evening (13:32-20:05).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's mug was in the kitchen cupboard at 08:22, not the dining table as previously noted for morning. It moved to the sink by 12:37.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning (08:48) and moves to the kitchen cupboard by 22:59.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's mug is no longer in the kitchen sink in the evening; it is in the kitchen cupboard.",
+     "was": {
+      "statement": "Ines's mug is in the kitchen cupboard in the early morning (08:22) [sighting_1445]. It moves to the kitchen sink by midday (12:37) [sighting_1586] and remains there in the evening [sighting_1705].",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's mug moved from the kitchen sink to the dining table in the morning, then to the kitchen pantry shelf in the evening.",
+     "was": {
+      "statement": "Ines's mug is in the kitchen sink during the day (12:41-14:30). It moves to the kitchen cupboard in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's mug was seen on the dining table at 08:23 and 09:59, not in the kitchen sink as previously noted for the day.",
+     "was": {
+      "statement": "Ines's mug is in the kitchen sink during the day. It is on the dining table in the morning (09:07) and moves to the kitchen pantry shelf in the evening (22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's mug was seen on dining table at 10:04. Previous claim said it is on dining table in morning. Consistent.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning (08:23-09:59). It was in the kitchen sink on previous days.",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's mug is on the dining table in the evening (19:53-20:31), not just the morning.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning (seen 10:04).",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's mug was on the dining table in the AM, but was not seen in the evening dining room sightings. The previous note said it was on the dining table in the evening, which is contradicted by today's data.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the evening (seen 19:53-20:31). It was on the kitchen cupboard at 08:07.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's mug was seen on the dining table in the morning (08:20-08:52) and on the dining sideboard in the evening (19:10-19:42). The previous note said it was not present in the evening dining room, which is incorrect.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning, but is not present in the evening dining room.",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's mug was seen on the dining table at 09:12 and 09:55, and on the kitchen cupboard at 12:50 and 21:09. This contradicts the previous claim of it being on the dining sideboard in the evening.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning and on the dining sideboard in the evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's mug was on the dining table in the morning and kitchen sink in the afternoon, not cupboard.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning and on the kitchen cupboard in the afternoon and evening.",
+      "holds_under": "Morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's mug was seen on the dining table at 08:52, not the kitchen sink as previously noted for the morning.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning and on the kitchen sink in the afternoon.",
+      "holds_under": "Morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's mug was on the kitchen cupboard today, not the dining table or sink.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the morning and on the kitchen sink in the afternoon.",
+      "holds_under": "Morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's mug was on the dining table at 12:41, 19:17, and 19:49. The previous claim said it was on the kitchen cupboard in the afternoon, which is contradicted by the dining table sightings.",
+     "was": {
+      "statement": "Ines's mug is on the kitchen cupboard in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's mug was on the dining table in the morning, then kitchen dish rack in the evening.",
+     "was": {
+      "statement": "Ines's mug is on the dining table in the afternoon and evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Tomas's mug is on the office desk during work hours.",
+   "holds_under": "Weekday daytime.",
+   "supporting_observation_ids": [
+    "sighting_0060",
+    "sighting_0091",
+    "sighting_0107",
+    "sighting_0115",
+    "sighting_0139",
+    "sighting_0147"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Tomas's mug on the office desk from 07:00 to 15:55, but in the kitchen (pantry shelf/dish rack) at 18:26 and 20:35. This confirms the evening move to the kitchen.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during the day, but was moved to the kitchen table by 19:37. This suggests he takes his mug to the kitchen in the evening, possibly for a drink or meal.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's mug was on the office desk until 16:41, then moved to the kitchen sink by 13:32 (wait, 13:32 is before 16:41? No. 13:32 kitchen: mug_tomas on sink. 14:21 office: mug_tomas on desk. 16:41 office: mug_tomas on desk. 20:05 kitchen: mug_tomas on sink. So it goes back and forth or I misread. 13:32 kitchen has mug_tomas on sink. 14:21 office has mug_tomas on desk. This implies he moved it. 20:05 kitchen has mug_tomas on sink. So evening it is in kitchen sink.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours (07:00-15:55) and moves to the kitchen (pantry shelf or dish rack) in the evening (18:26-20:35).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's mug based on Day 6 sightings.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours (07:00-16:41). It moves to the kitchen sink in the evening (20:05). It was also seen on the kitchen sink at 13:32.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Tomas's mug was not in the office at 12:37, contradicting the previous claim that it stays there until 14:37. It returned by 13:48.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours (09:26-14:37). It is in the kitchen cupboard by 22:59.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's mug is no longer in the kitchen pantry shelf in the evening; it is on the office desk.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours, but was absent at 12:37 [sighting_1589]. It returned by 13:48 [sighting_1646]. It is in the kitchen pantry shelf in the evening [sighting_1582].",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Tomas's mug moved from the office desk to the kitchen cupboard in the evening.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours. It was absent at 12:41 but returned by 14:30. It remains on the office desk in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's mug was seen on office desk all day, then not seen in office at 22:32. Previous claim said it moves to kitchen cupboard in evening. Today it was not in kitchen at 22:32. Need to check where it went. It was not in bedroom_1 at 20:23. It was not in dining at 20:23. It was not in bathroom. It was not in living. It was not in entry. It was not in storage. It was not in balcony. It was not in kitchen at 22:32. It was not in office at 22:32. It was not in bedroom_1 at 20:23. It was not in dining at 20:23. It was not in bathroom. It was not in living. It was not in entry. It was not in store.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours. It moves to the kitchen cupboard in the evening (22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's mug is on the living room coffee table in the evening (14:08-20:50), not the office desk.",
+     "was": {
+      "statement": "Tomas's mug is on the office desk during work hours. It is not seen in the office, kitchen, bedroom, dining, or bathroom in the evening (22:32). Location unknown.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's mug was on the living room coffee table in the evening, consistent with previous notes. It was not seen in the kitchen in the AM.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table in the afternoon and evening (seen 14:08-20:50). It was on the kitchen table at 08:07.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's mug was seen on the living room coffee table at 14:22, on the bookshelf at 14:54, and on the kitchen cupboard at 21:09. This contradicts the previous claim of it being on the coffee table in the evening.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Tomas's mug was on the living room coffee table in the afternoon, not bookshelf.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table or bookshelf in the afternoon, and on the kitchen cupboard in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's mug was on the coffee table in the midday, not just the afternoon.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Tomas's mug was on the coffee table at 16:20 and 16:48. Previous claim said midday and evening. It is in the living room in the late afternoon.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table in the midday and evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's mug was on the office desk all day, not the living room coffee table.",
+     "was": {
+      "statement": "Tomas's mug is on the living room coffee table in the late afternoon. It was previously on the coffee table in the midday and evening.",
+      "holds_under": "Late afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Shared kitchen items (cutting board, recipe book) are on the kitchen table in the evening (22:51). Pot is on the dish rack. Most dishes are in the cupboard.",
+   "holds_under": "Evening.",
+   "supporting_observation_ids": [
+    "sighting_0017",
+    "sighting_0031",
+    "sighting_0029",
+    "sighting_0032",
+    "sighting_0211",
+    "sighting_0213"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 9,
+   "last_revised_time": 862200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows shared kitchen items (cutting board, knife, pot, spatula) on the counter/drawer during the day (12:19-13:36) and on the sink in the evening (18:26-20:35). This confirms the evening cleaning pattern.",
+     "was": {
+      "statement": "Shared kitchen items like the cutting board, knife, pot, and spatula were on the counter/drawer at 09:19 and 09:25, but were moved to the sink by 19:37. This suggests Ines was doing dishes or cleaning up in the kitchen in the evening.",
+      "holds_under": "Evening cleaning time.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for kitchen items based on Day 6 sighting.",
+     "was": {
+      "statement": "Shared kitchen items (cutting board, knife, pot, spatula) are on the counter/drawer during the day and move to the sink in the evening (18:26-20:35), indicating cleaning or dishwashing.",
+      "holds_under": "Evening cleaning time.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Shared kitchen items have moved from counter/drawer to cupboard/table/dish rack in the evening.",
+     "was": {
+      "statement": "Shared kitchen items (cutting board, knife, pot, spatula) are on the counter/drawer in the evening (22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Tomas's phone is on the bedroom nightstand in the evening (22:31). It was not seen in the office during the day.",
+   "holds_under": "Evening.",
+   "supporting_observation_ids": [
+    "sighting_0240"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 11,
+   "last_revised_time": 1035000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's phone was not seen in the office or bedroom during the day. It was not in the bedroom at 20:05, 21:11, or 22:13. This contradicts the previous claim that it moves to the nightstand in the evening.",
+     "was": {
+      "statement": "Tomas's phone was not seen in the bedroom at 09:19, but was on the bedroom nightstand by 20:15. It was not in the office at 22:49. This suggests he keeps his phone with him during the day and brings it to the bedroom in the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Tomas's phone was not seen in the office or bedroom during the day, but is now on the bedroom nightstand in the evening, contradicting the previous note that it was not there.",
+     "was": {
+      "statement": "Tomas's phone was not seen in the office or bedroom on Day 4. It is not on the bedroom nightstand in the evening (20:05-22:13).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Ines's phone is on the bedroom nightstand in the evening.",
+   "holds_under": "Evening.",
+   "supporting_observation_ids": [
+    "sighting_0043",
+    "sighting_0224",
+    "sighting_0239"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines's phone was not seen in the bedroom, dining, or kitchen on Day 4. Previous claim said it was on the nightstand, but it was not found in the bedroom at 20:05, 21:11, or 22:13.",
+     "was": {
+      "statement": "Ines's phone was on the bedroom nightstand at 09:19, 19:37, and 20:15. It was not in the office at 22:49. This suggests she keeps her phone in the bedroom, even when she is in other parts of the house.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's phone was seen on the bedroom nightstand at 22:57, contradicting the note that it was not there in the evening.",
+     "was": {
+      "statement": "Ines's phone was not seen in the bedroom, dining, or kitchen on Day 4. It is not on the bedroom nightstand in the evening (20:05-22:13).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's phone is on the bedroom nightstand in the morning/afternoon, not the bed.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the evening (22:57). It was on the bed in the morning (09:09).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's phone was on the bedroom nightstand in the late morning, consistent with previous notes. It was not seen in the evening.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the morning and afternoon (seen 11:02-11:43). It was not seen in the evening.",
+      "holds_under": "Morning and afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's phone was seen on the armchair in the living room at 17:23, contradicting the previous note that it was only on the nightstand in the late morning and absent in the evening.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the late morning, but is not present in the evening.",
+      "holds_under": "Late morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's phone was on the nightstand today, not the armchair.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the late morning and on the living room armchair in the late afternoon.",
+      "holds_under": "Late morning to late afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's phone was seen on the bedroom nightstand at 22:59, not late morning as previously noted.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the late morning.",
+      "holds_under": "Late morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's phone was on the bedroom nightstand at 08:16, 09:41, 12:38, and 12:51. The previous claim said it was on the nightstand in the evening, which is not supported by today's evening sightings (not seen in bathroom/dining).",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's phone was on the bathroom shelf at 08:21, then bedroom nightstand at 11:24. This confirms her morning routine involves the bathroom.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand from morning through midday.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's phone was on the bedroom nightstand in the evening, not just morning/midday.",
+     "was": {
+      "statement": "Ines's phone is on the bedroom nightstand from mid-morning through midday. It may be in the bathroom during early morning routine.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Tomas's book is on the living room couch in the late afternoon. It was previously on the couch in the midday and evening.",
+   "holds_under": "Late afternoon.",
+   "supporting_observation_ids": [
+    "sighting_0042",
+    "sighting_0222",
+    "sighting_0237"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 shows Tomas's book on the bedroom nightstand at 18:26 and 20:35. It is not in the office at 22:59. This confirms the bedroom storage pattern.",
+     "was": {
+      "statement": "Tomas's book was on the bedroom nightstand at 09:19, 19:37, and 20:15. It was not in the office at 22:49. This suggests he keeps his book in the bedroom, even when he is in other parts of the house.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's book was on the nightstand at 20:05 but moved to the bed by 21:11 and 22:13. Previous claim said nightstand only.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom nightstand in the evening (18:26-20:35). It is not in the office at night (22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's book based on Day 6 sighting.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom nightstand in the early evening (20:05) and moves to the bed in the late evening (21:11-22:13).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's book was not seen in the bedroom or other rooms today, contradicting the previous location.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom nightstand in the afternoon (14:37). It was not seen in the office or dining room.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Tomas's book was found on the bedroom bed in the evening, resolving its unknown location from Day 9.",
+     "was": {
+      "statement": "Tomas's book was not seen in the bedroom, office, kitchen, or dining room on Day 9. Location unknown.",
+      "holds_under": "Day 9.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Tomas's book was on the bedroom bed in the evening on previous days, but is now on the bedroom nightstand in the evening.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom bed in the evening (21:55-22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's book was seen in bedroom_1 at 20:23. Previous claim said it is on bedroom nightstand in evening. Today it was on nightstand. Consistent.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom nightstand in the evening (22:31).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's book moved from the bedroom nightstand to the living room couch in the evening.",
+     "was": {
+      "statement": "Tomas's book is on the bedroom nightstand in the evening (seen 20:23).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's book was on the living room couch in the evening, consistent with previous notes. It was not seen in the bedroom in the AM.",
+     "was": {
+      "statement": "Tomas's book is on the living room couch in the evening (seen 19:48-20:50). It was on the bedroom nightstand during the day (08:07-15:12).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Tomas's book was seen on the couch at 13:51 and 14:21, but on the armchair at 21:04, 21:34, and 22:11. It moves from couch to armchair in the evening.",
+     "was": {
+      "statement": "Tomas's book is on the living room couch in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's book was seen on the living room armchair at 14:22 and 14:54, and on the couch at 21:09. This contradicts the previous claim of it being on the couch in the afternoon.",
+     "was": {
+      "statement": "Tomas's book is on the living room couch in the afternoon and on the armchair in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Tomas's book was on the living room couch in the afternoon, not armchair.",
+     "was": {
+      "statement": "Tomas's book is on the living room armchair in the afternoon and on the couch in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's book was on the couch in the midday, not just the afternoon.",
+     "was": {
+      "statement": "Tomas's book is on the living room couch in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Tomas's book was on the couch at 16:20 and 16:48. Previous claim said midday and evening. It is in the living room in the late afternoon.",
+     "was": {
+      "statement": "Tomas's book is on the living room couch in the midday and evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Ines is in the dining room for breakfast and dinner, and in the kitchen in the afternoon.",
+   "holds_under": "Breakfast, afternoon, and dinner.",
+   "supporting_observation_ids": [
+    "sighting_0361",
+    "sighting_0362",
+    "sighting_0503",
+    "sighting_0504",
+    "sighting_0508"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Ines was in the dining room at 10:25 and 13:32, and with Tomas at 20:20. Her items (bowl, plate, glass) are on the dining table/sideboard.",
+     "was": {
+      "statement": "Ines is frequently in the dining room during the day and evening (12:19, 18:26, 20:35). Her personal items (glass, plate, water bottle) are on the dining table during these times.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Ines's presence based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines is frequently in the dining room during the day (10:25-13:32) and evening (20:20). Her personal items (bowl, plate, glass) are on the dining table or sideboard during these times.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines was seen in the dining room at 08:35, 12:58, and 21:44, confirming her presence in the dining area during these times.",
+     "was": {
+      "statement": "Ines is in the dining room in the morning (08:48), midday (12:14), and evening (19:42-20:19).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines is in the dining room for lunch, not just morning/evening.",
+     "was": {
+      "statement": "Ines is in the dining room in the morning (08:35), midday (12:58), and evening (21:44).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines was seen in the dining room at 08:20, 08:52, 19:10, and 19:42. She is in the dining room for breakfast and dinner.",
+     "was": {
+      "statement": "Ines is in the dining room for lunch (13:22). She was not seen in the office or kitchen during the day.",
+      "holds_under": "Lunch.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines was in the dining room for breakfast and dinner, and kitchen in the afternoon.",
+     "was": {
+      "statement": "Ines is in the dining room for breakfast (08:20-08:52) and dinner (19:10-19:42).",
+      "holds_under": "Breakfast and dinner.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Ines's gym bag is on the bedroom wardrobe from late morning through midday.",
+   "holds_under": "Late morning and midday.",
+   "supporting_observation_ids": [
+    "sighting_0498",
+    "sighting_0502",
+    "sighting_0549",
+    "sighting_0553"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Tomas's gym bag was on the bedroom floor at 20:05, 21:11, and 22:13. Previous claim mentioned Ines's bag in wardrobe, but Ines's bag was not seen today. Tomas's bag location is consistent.",
+     "was": {
+      "statement": "Tomas's gym bag is on the bedroom floor and Ines's gym bag is in the bedroom wardrobe in the evening (18:26-20:35). They store gym gear in the bedroom.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for gym bags based on Day 6 sighting.",
+     "was": {
+      "statement": "Tomas's gym bag is on the bedroom floor in the evening (20:05-22:13). Ines's gym bag was not seen today.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Gym bags were not seen in the bedroom or other rooms today, contradicting the previous location.",
+     "was": {
+      "statement": "Both Ines's and Tomas's gym bags are on the bedroom wardrobe in the afternoon (14:37).",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Ines's and Tomas's gym bags were found in the bedroom wardrobe in the evening, resolving their unknown location from Day 9.",
+     "was": {
+      "statement": "Ines's and Tomas's gym bags were not seen in the bedroom, office, kitchen, or dining room on Day 9. Location unknown.",
+      "holds_under": "Day 9.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Tomas's gym bag was seen on the bedroom desk in the evening, not the wardrobe as previously noted for both bags.",
+     "was": {
+      "statement": "Ines's and Tomas's gym bags are in the bedroom wardrobe in the evening (21:55-22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's gym bag was seen in bedroom_1 wardrobe at 20:23. Previous claim said it is on bedroom desk in evening. Today it was in wardrobe. Need to update.",
+     "was": {
+      "statement": "Ines's gym bag is in the bedroom wardrobe in the evening. Tomas's gym bag is on the bedroom desk in the evening (22:57).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's gym bag is on the bedroom desk in the afternoon, not the wardrobe.",
+     "was": {
+      "statement": "Ines's gym bag is in the bedroom wardrobe in the evening. Tomas's gym bag is in the bedroom wardrobe in the evening (seen 20:23).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's gym bag moved from the desk (AM) to the wardrobe (PM), indicating she packed it for the day. This contradicts the previous note about it being on the desk in the afternoon.",
+     "was": {
+      "statement": "Ines's gym bag is on the bedroom desk in the afternoon (seen 13:08-15:12). Tomas's gym bag is in the bedroom wardrobe.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's gym bag was seen on the bedroom wardrobe at 10:54, 10:57, 11:56, 12:03, and 12:53. This supports the existing claim.",
+     "was": {
+      "statement": "Ines's gym bag is on the bedroom desk in the morning and moves to the wardrobe by midday. Tomas's gym bag is in the bedroom wardrobe.",
+      "holds_under": "Morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's gym bag was present in the bedroom wardrobe until 12:37 but was gone by 22:59. It is not in the living room or kitchen.",
+     "was": {
+      "statement": "Ines's gym bag is on the bedroom wardrobe from late morning through the early afternoon. Tomas's gym bag is also in the bedroom wardrobe.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's gym bag was not seen in the bedroom today, contradicting the previous claim of it being there in the morning/midday.",
+     "was": {
+      "statement": "Ines's gym bag is on the bedroom wardrobe in the morning and midday. It is removed from the home by the evening.",
+      "holds_under": "Morning to midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's gym bag was on the wardrobe at 11:24, 12:12, 12:14, 12:51, 13:28. Previous claim said not present in bedroom. It is clearly there.",
+     "was": {
+      "statement": "Ines's gym bag is not present in the bedroom during the day.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "The dog bowl is on the kitchen floor throughout the day. The dog food bag is on the pantry shelf from midday through evening (22:51).",
+   "holds_under": "Daytime and evening.",
+   "supporting_observation_ids": [
+    "sighting_0357",
+    "sighting_0358",
+    "sighting_0381",
+    "sighting_0382",
+    "sighting_0409",
+    "sighting_0410"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 9,
+   "last_revised_time": 862200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "The dog bowl and food bag were on the kitchen floor at 08:21, 13:32, and 20:05. This is consistent with previous claims.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor and the dog food bag is in the pantry or on the kitchen chair throughout the day (12:19-20:35). The dog is fed in the kitchen.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for dog items based on Day 6 sighting.",
+     "was": {
+      "statement": "The dog bowl and dog food bag are on the kitchen floor throughout the day (08:21-20:05). The dog is fed in the kitchen.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The dog food bag moved from the kitchen table to the pantry shelf by 08:35, and to the kitchen floor by 21:44. The previous claim only covered the evening location.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor and the dog food bag is on the kitchen table in the evening (22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Dog food bag is on the pantry shelf in the evening, not just midday.",
+     "was": {
+      "statement": "The dog bowl is on the kitchen floor throughout the day [sighting_1455, sighting_1699]. The dog food bag is on the kitchen table in the early morning (08:22) [sighting_1456], moves to the pantry shelf by midday (08:35) [sighting_1479], and",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Gardening gloves and a watering can are on the balcony at 13:03, suggesting gardening activity in the early afternoon.",
+   "holds_under": "Early afternoon.",
+   "supporting_observation_ids": [
+    "sighting_0386",
+    "sighting_0387"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 2,
+   "last_revised_time": 257400,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "The shared vase is on the dining table in the morning and evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_0541",
+    "sighting_0543",
+    "sighting_0544"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for shared items based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines is in the living room at 20:35, with shared items (blanket, remote, snack bowl) on the coffee table. She relaxes in the living room in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Vase is on the dining table during lunch, not just evening.",
+     "was": {
+      "statement": "Shared items (vase, serving dish) are on the dining table in the evening (19:42-20:19).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "The shared vase was on the dining table at 08:20, 08:52, 19:10, and 19:42. It is present in the dining room in the morning and evening.",
+     "was": {
+      "statement": "Shared items (vase) are on the dining table during lunch (12:41-13:22) and evening.",
+      "holds_under": "Lunch and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Ines's toiletry bag is on the bathroom sink in the morning and on the bathroom shelf in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_0815",
+    "sighting_0965",
+    "sighting_0997"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Ines's toiletry bag based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines's toiletry bag is on the bathroom sink in the morning (08:32) and evening (20:03-20:07).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's toiletry bag remains on the bathroom shelf in the evening.",
+     "was": {
+      "statement": "Ines's toiletry bag is on the bathroom shelf throughout the day (07:00-19:25).",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Ines's toiletry bag was seen on the bathroom sink at 07:35 and later, not on the shelf as previously noted.",
+     "was": {
+      "statement": "Ines's toiletry bag is on the bathroom shelf throughout the day and evening (10:01-19:09).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's toiletry bag was seen on bathroom shelf at 08:48, 09:23, 09:24, 12:28, 12:29, 13:18, 17:47, 18:49. Previous claim said it is on sink in morning/evening. Today it was on shelf. Need to update.",
+     "was": {
+      "statement": "Ines's toiletry bag is on the bathroom sink in the morning and evening (07:35-20:46). It was on the shelf on previous days.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's toiletry bag was on the sink in the morning and shelf in the evening.",
+     "was": {
+      "statement": "Ines's toiletry bag is on the bathroom shelf during the day and evening (seen 08:48-18:49).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Tomas's vitamins are on the kitchen cupboard during the day.",
+   "holds_under": "Daytime.",
+   "supporting_observation_ids": [
+    "sighting_0875",
+    "sighting_0980"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Tomas's vitamins based on Day 6 sighting.",
+     "was": {
+      "statement": "Tomas's vitamins are on the kitchen counter in the afternoon (13:32) and evening (20:05).",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Tomas's vitamins were not in the kitchen in the morning (08:22-08:35). They appeared on the kitchen counter by 12:37 and remained there in the evening.",
+     "was": {
+      "statement": "Tomas's vitamins are on the kitchen counter in the evening (22:59).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Tomas's vitamins are no longer on the kitchen counter in the evening; they are in the kitchen cupboard.",
+     "was": {
+      "statement": "Tomas's vitamins are not in the kitchen in the morning (08:22-08:35). They appear on the kitchen counter by midday (12:37) [sighting_1571] and remain there in the evening [sighting_1695].",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Tomas's vitamins were on the bedroom nightstand in the afternoon, not kitchen counter.",
+     "was": {
+      "statement": "Tomas's vitamins are on the kitchen counter during the day (12:41-14:30). They move to the kitchen cupboard in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's vitamins were seen on the kitchen counter at 14:33, not the bedroom nightstand as previously noted.",
+     "was": {
+      "statement": "Tomas's vitamins are on the bedroom nightstand in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's vitamins were on the nightstand today, not the kitchen counter.",
+     "was": {
+      "statement": "Tomas's vitamins are on the kitchen counter in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's vitamins were on the nightstand at 08:16 but on the kitchen counter at 12:38 and 13:35. This contradicts the previous claim that they stay on the nightstand through the evening.",
+     "was": {
+      "statement": "Tomas's vitamins are on the bedroom nightstand from late morning through the evening.",
+      "holds_under": "Late morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Tomas's vitamins were on the nightstand at 11:24, 12:12, 12:14, 12:51, 13:28. Previous claim said kitchen counter in afternoon. They seem to stay on the nightstand.",
+     "was": {
+      "statement": "Tomas's vitamins are on the bedroom nightstand in the morning and on the kitchen counter in the afternoon.",
+      "holds_under": "Morning and afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's vitamins were on the kitchen cupboard all day, not the bedroom nightstand.",
+     "was": {
+      "statement": "Tomas's vitamins are on the bedroom nightstand from late morning through midday.",
+      "holds_under": "Late morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Ines's plate is on the dining table in the morning and on the kitchen pantry shelf in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_0803",
+    "sighting_0839",
+    "sighting_0896",
+    "sighting_1009"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Update location and time for Ines's bowl based on Day 6 sightings.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning (08:21) and moves to the dining sideboard in the afternoon and evening (10:25-20:20).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's bowl was in the kitchen cupboard at 08:22, not the dining table as previously noted for morning. It moved to the sink by 12:37.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning (08:48) and moves to the kitchen cupboard by 22:59.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Ines's bowl is no longer in the kitchen sink in the evening; it is in the kitchen cupboard.",
+     "was": {
+      "statement": "Ines's bowl is in the kitchen cupboard in the early morning (08:22) [sighting_1442]. It moves to the kitchen sink by midday (12:37) [sighting_1585] and remains there in the evening [sighting_1702].",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Ines's plate was in the kitchen sink during the day on previous days, but is now on the dining table in the evening, contradicting the previous note about it moving to the kitchen cupboard.",
+     "was": {
+      "statement": "Ines's bowl is in the kitchen sink during the day (12:41-14:30). It moves to the kitchen cupboard in the evening (22:51).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Ines's plate was seen on dining table at 16:50, then in kitchen sink at 20:23, then in kitchen sink at 22:32. Previous claim said it is on dining table in evening. Today it moved to kitchen. Need to update.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the evening (20:32).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's plate is on the dining table in the evening, not the kitchen sink.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the afternoon (seen 16:50). It moves to the kitchen sink in the evening (seen 20:23, 22:32).",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's plate was on the kitchen cupboard in the AM, and on the dining table in the evening. The previous note said it was on the dining table in the evening, which is true, but misses the AM location.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the evening (seen 19:53-20:31). It was on the kitchen sink at 08:07.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's plate was seen on the kitchen dish rack at 13:51, not the cupboard as previously noted. It was on the dining table in the evening.",
+     "was": {
+      "statement": "Ines's plate is on the kitchen cupboard in the morning and on the dining table in the evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's plate was seen on the dining table at 12:50 and 20:02/20:32, and on the kitchen cupboard at 21:09. This contradicts the previous claim of it being on the kitchen dish rack.",
+     "was": {
+      "statement": "Ines's plate is on the kitchen dish rack in the early afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's plate was on the kitchen cupboard in the afternoon and dining table in the evening.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the afternoon and evening, and on the kitchen cupboard at night.",
+      "holds_under": "Afternoon to night.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's plate was seen on the dining table at 08:52, not the kitchen cupboard as previously noted for the morning.",
+     "was": {
+      "statement": "Ines's plate is on the kitchen cupboard in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's plate was on the dining table at 12:41, 19:17, and 19:49, and on the kitchen dish rack at 13:35. The previous claim said it was on the dining table in the morning and evening, which is mostly correct but misses the dish rack sighting.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the morning and evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's plate was on the dining table at 12:49, 19:08, 19:10, 19:41. Previous claim said kitchen dish rack in early afternoon. It is on the table in the evening.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the afternoon and evening, and on the kitchen dish rack in the early afternoon.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's plate was on the dining table in the morning, then pantry shelf in the evening.",
+     "was": {
+      "statement": "Ines's plate is on the dining table in the evening. It was previously on the kitchen dish rack in the early afternoon.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Tomas's pen is on the office desk during work hours.",
+   "holds_under": "Weekday daytime.",
+   "supporting_observation_ids": [
+    "sighting_2416"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Tomas's pen was on the office desk during work hours, but is not seen in the office in the evening (22:31), contradicting the previous note that it moves to the office floor.",
+     "was": {
+      "statement": "Tomas's pen is on the office desk during work hours. It moves to the office floor in the evening (22:59).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's pen was seen on office desk all day, then not seen in office at 22:32. Previous claim said it is not in office in evening. Today it was not in office at 22:32. Consistent.",
+     "was": {
+      "statement": "Tomas's pen is on the office desk during work hours. It is not in the office in the evening (22:31).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's pen is on the office desk during the day (14:08).",
+     "was": {
+      "statement": "Tomas's pen is on the office desk during work hours. It is not seen in the office in the evening (22:32). Location unknown.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's pen was not seen in the office today. The previous note said it was on the office desk during the day, which is not supported by today's data.",
+     "was": {
+      "statement": "Tomas's pen is on the office desk during the day (seen 14:08).",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's pen was on the office desk all day, contradicting the note that it was not present.",
+     "was": {
+      "statement": "Tomas's pen is not present in the office during the day.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Tomas's mouse is on the office desk during work hours. It was seen on the office chair in the evening.",
+   "holds_under": "Weekday daytime and evening.",
+   "supporting_observation_ids": [
+    "sighting_2681",
+    "sighting_2857"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Tomas's mouse was seen on office desk all day, then not seen in office at 22:32. Previous claim said it moves to office floor in evening. Today it was not in office at 22:32. Need to check where it went. It was not in bedroom_1 at 20:23. It was not in dining at 20:23. It was not in bathroom. It was not in living. It was not in entry. It was not in storage. It was not in balcony. It was not in kitchen at 22:32. It was not in office at 22:32. It was not in bedroom_1 at 20:23. It was not in dining at 20:23. It was not in bathroom. It was not in living. It was not in entry. It was not in store.",
+     "was": {
+      "statement": "Tomas's mouse is on the office desk during work hours. It moves to the office floor in the evening (22:57).",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's mouse is on the office desk during the day (14:08).",
+     "was": {
+      "statement": "Tomas's mouse is on the office desk during work hours. It is not seen in the office, kitchen, bedroom, dining, or bathroom in the evening (22:32). Location unknown.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's mouse was not seen in the office today. The previous note said it was on the office desk during the day, which is not supported by today's data.",
+     "was": {
+      "statement": "Tomas's mouse is on the office desk during the day (seen 14:08).",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's mouse was on the office desk all day, contradicting the note that it was not present.",
+     "was": {
+      "statement": "Tomas's mouse is not present in the office during the day.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Tomas is in the bathroom in the early morning, bedroom in the midday, and living room in the late afternoon. (Note: Day 23 showed him in bedroom midday, living late afternoon. Routine return implies office in morning/afternoon.)",
+   "holds_under": "Daytime.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas is in the office at 14:08, contradicting the 'unwell/staying home' hypothesis from Day 13. He is working.",
+     "was": {
+      "statement": "Tomas is unwell and staying home. Expect him in bedroom_1 or living room during day/evening, not office. His laptop/mug/charger likely in bedroom_1 or living, not office desk.",
+      "holds_under": "While Tomas is unwell and staying home.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas was in the bathroom in the AM, bedroom in the midday, and living room in the evening. He was not seen in the office today. The previous note said he works from the office, which is not supported by today's data.",
+     "was": {
+      "statement": "Tomas works from the office during the day (seen 14:08). He moves to the living room in the evening (seen 19:48-20:50). The 'unwell' hypothesis from Day 13 is not supported by Day 14 activity.",
+      "holds_under": "Weekday daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Tomas was seen in the bathroom at 07:51, bedroom at 11:26, and living room at 13:51, 14:21, 17:23, 17:53, 21:04, 21:34, and 22:11. He is in the living room for most of the afternoon and evening.",
+     "was": {
+      "statement": "Tomas is in the bathroom in the morning, bedroom in the midday, and living room in the evening. He is not present in the office.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Tomas was in the bedroom in the afternoon, not living room.",
+     "was": {
+      "statement": "Tomas is in the bathroom in the early morning, bedroom in the midday, and living room from early afternoon through the evening.",
+      "holds_under": "Daytime and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Tomas's charger was on the bed all day today. If he is working in office, he likely takes it or leaves it, but bed is his 'home base' for sleep. However, if he is in office, his phone/charger might move. But charger is often left on bed. Let's stick to the main change: his presence.",
+     "was": {
+      "statement": "Tomas is in the bathroom in the early morning, bedroom in the midday and afternoon, and living room in the late afternoon.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Ines's glass is on the dining table in the morning and on the kitchen cupboard in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_3011",
+    "sighting_3052",
+    "sighting_3065"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Ines's glass is on the dining table in the evening, not the kitchen cupboard.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the afternoon (seen 16:50). It moves to the kitchen sink in the evening (seen 20:23), then to the kitchen cupboard (seen 22:32).",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's glass was on the kitchen cupboard in the AM, and on the dining table in the evening. The previous note said it was on the dining table in the evening, which is true, but misses the AM location.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the evening (seen 19:53-20:31). It was on the kitchen cupboard at 08:07.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's glass was seen on the kitchen sink at 13:51, not the cupboard. It was on the dining table in the evening.",
+     "was": {
+      "statement": "Ines's glass is on the kitchen cupboard in the morning and on the dining table in the evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's glass was seen on the dining table at 12:50 and 20:02/20:32, and on the kitchen cupboard at 21:09. This contradicts the previous claim of it being on the kitchen sink.",
+     "was": {
+      "statement": "Ines's glass is on the kitchen sink in the early afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's glass was on the kitchen cupboard in the afternoon and dining table in the evening.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the afternoon and evening, and on the kitchen cupboard at night.",
+      "holds_under": "Afternoon to night.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's glass was seen on the dining table at 08:52, not the kitchen cupboard as previously noted for the morning.",
+     "was": {
+      "statement": "Ines's glass is on the kitchen cupboard in the afternoon and on the dining table in the evening.",
+      "holds_under": "Afternoon to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's glass was on the dining table at 12:41, 19:17, and 19:49, and on the kitchen sink at 13:35. The previous claim said it was on the dining table in the morning and evening, which is mostly correct but misses the sink sighting.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the morning and evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's glass was on the dining table at 12:49, 19:08, 19:10, 19:41. Previous claim said kitchen sink in early afternoon. It is on the table in the evening.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the afternoon and evening, and on the kitchen sink in the early afternoon.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's glass was on the dining table in the morning, then kitchen cupboard in the evening.",
+     "was": {
+      "statement": "Ines's glass is on the dining table in the evening. It was previously on the kitchen sink in the early afternoon.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Tomas's glass is on the bedroom nightstand in the morning and on the dining table in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_3030",
+    "sighting_3066"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's glass is on the bedroom nightstand during the day, not the kitchen cupboard.",
+     "was": {
+      "statement": "Tomas's glass is on the dining table in the evening (seen 20:23). It moves to the kitchen cupboard (seen 22:32).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's glass was on the bedroom nightstand throughout the day, consistent with previous notes.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom nightstand during the day (seen 08:07-15:12).",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Tomas's glass was seen on the bedroom desk at 09:36 and 09:37, but on the nightstand at 11:26 and 13:51. It moves from desk to nightstand.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom nightstand during the day.",
+      "holds_under": "Daytime.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's glass was seen on the bedroom nightstand at 10:54, 10:57, 11:56, 12:03, and 12:53. This supports the existing claim.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom desk in the late morning and on the nightstand from midday onwards.",
+      "holds_under": "Late morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's glass moved from nightstand to desk at 11:33 and stayed there. Previous note said nightstand.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom nightstand from late morning through the early afternoon.",
+      "holds_under": "Late morning to early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's glass was on the nightstand today, not the desk as previously noted.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom desk from late morning through the evening.",
+      "holds_under": "Late morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's glass was on the bedroom nightstand at 08:16, 09:41, 12:38, and 12:51. The previous claim said it was on the nightstand from late morning through evening, which is consistent.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom nightstand from late morning through the evening.",
+      "holds_under": "Late morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's glass was on the bedroom nightstand in the morning, then dining table in the evening.",
+     "was": {
+      "statement": "Tomas's glass is on the bedroom nightstand from morning through midday.",
+      "holds_under": "Morning and midday.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Tomas's plate is on the dining table in the evening and on the kitchen sink/cupboard later.",
+   "holds_under": "Evening.",
+   "supporting_observation_ids": [
+    "sighting_3031",
+    "sighting_3068"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Tomas's plate is on the kitchen cupboard in the morning, not the dining table.",
+     "was": {
+      "statement": "Tomas's plate is on the dining table in the evening (seen 20:23). It moves to the kitchen cupboard (seen 22:32).",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Tomas's plate was on the kitchen dish rack in the AM, and on the living room coffee table in the evening. The previous note said it was on the kitchen cupboard in the morning, which is contradicted by today's data.",
+     "was": {
+      "statement": "Tomas's plate is on the kitchen cupboard in the morning (seen 08:07).",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's plate was seen on the kitchen cupboard at 12:50 and 21:09. This contradicts the previous claim of it being on the living room coffee table in the evening.",
+     "was": {
+      "statement": "Tomas's plate is on the kitchen dish rack in the morning and on the living room coffee table in the evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's plate was seen on the kitchen counter at 14:33, not the cupboard as previously noted.",
+     "was": {
+      "statement": "Tomas's plate is on the kitchen cupboard in the afternoon and evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's plate was on the coffee table in the midday, not just the evening.",
+     "was": {
+      "statement": "Tomas's plate is on the kitchen counter in the afternoon and on the living room coffee table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's plate was on the kitchen cupboard at 12:51 and 13:35. The previous claim said it was on the living room coffee table, which is contradicted.",
+     "was": {
+      "statement": "Tomas's plate is on the living room coffee table in the midday and evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's plate was on the dining table in the evening, then kitchen sink/cupboard.",
+     "was": {
+      "statement": "Tomas's plate is on the kitchen cupboard in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "The shared blanket is on the bedroom bed in the midday. It was previously on the living room floor/couch in the afternoon.",
+   "holds_under": "Midday.",
+   "supporting_observation_ids": [
+    "sighting_3640",
+    "sighting_3654",
+    "sighting_3676",
+    "sighting_3690",
+    "sighting_3727",
+    "sighting_3740"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "The shared blanket was seen on the bedroom bed at 12:53 and on the living room coffee table at 21:09. This contradicts the previous claim of it being on the armchair/couch.",
+     "was": {
+      "statement": "The shared blanket is on the living room armchair in the afternoon and on the couch in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The shared blanket moved from coffee table to couch in the late afternoon.",
+     "was": {
+      "statement": "The shared blanket is on the bedroom bed in the early afternoon and on the living room coffee table in the evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The shared blanket was seen on the bedroom bed from 11:33 to 12:37, then on the living room couch at 22:59. Previous note only covered afternoon living room.",
+     "was": {
+      "statement": "The shared blanket is on the living room coffee table in the early afternoon and on the couch in the late afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The shared blanket was on the bed in the midday, consistent with previous notes.",
+     "was": {
+      "statement": "The shared blanket is on the bedroom bed in the midday and on the living room couch in the evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The shared blanket was on the bedroom bed at 12:38 and 12:51, on the living room floor at 13:35, and on the living room couch at 14:08 and 15:10. The previous claim said it was on the bed in midday and couch in evening, which is mostly correct but misses the floor sighting.",
+     "was": {
+      "statement": "The shared blanket is on the bedroom bed in the midday and on the living room couch in the evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "The shared blanket was on the bed at 12:51. Previous claim said living room floor/couch. It seems to move to the bed at midday.",
+     "was": {
+      "statement": "The shared blanket is on the bedroom bed in the midday, on the living room floor in the early afternoon, and on the living room couch in the late afternoon.",
+      "holds_under": "Midday and afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "The shared remote is on the living room TV stand in the midday and on the coffee table in the afternoon.",
+   "holds_under": "Midday and afternoon.",
+   "supporting_observation_ids": [
+    "sighting_3648",
+    "sighting_3662",
+    "sighting_3682",
+    "sighting_3696",
+    "sighting_3726",
+    "sighting_3739"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "The shared remote was seen on the coffee table at 14:22 and 21:09, and on the couch at 14:54. This contradicts the previous claim of it being on the TV stand.",
+     "was": {
+      "statement": "The shared remote is on the living room coffee table in the afternoon, on the TV stand in the late afternoon, and back on the coffee table in the evening.",
+      "holds_under": "Afternoon to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The shared remote moved from coffee table to TV stand in the late afternoon.",
+     "was": {
+      "statement": "The shared remote is on the living room coffee table or couch in the afternoon and evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The shared remote was on the coffee table in the midday, not just the early afternoon.",
+     "was": {
+      "statement": "The shared remote is on the living room coffee table in the early afternoon and on the TV stand in the late afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The shared remote was on the living room TV stand at 12:51, and on the coffee table at 13:35, 14:08, and 15:10. The previous claim said it was on the coffee table, which is mostly correct but misses the TV stand sighting.",
+     "was": {
+      "statement": "The shared remote is on the living room coffee table in the midday and evening.",
+      "holds_under": "Midday and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Ines's bowl is on the dining table in the morning and on the kitchen cupboard in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_3540",
+    "sighting_3552",
+    "sighting_3627"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Ines's bowl was seen on the dining table at 09:12 and on the kitchen cupboard at 12:50 and 21:09. This contradicts the previous claim of it being on the kitchen sink.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning and on the kitchen sink in the early afternoon.",
+      "holds_under": "Morning and early afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Ines's bowl was on the kitchen sink in the afternoon, not cupboard.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning and on the kitchen cupboard in the afternoon and evening.",
+      "holds_under": "Morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Ines's bowl was seen on the dining table at 08:52, not the kitchen sink as previously noted for the morning.",
+     "was": {
+      "statement": "Ines's bowl is on the kitchen sink in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's bowl was on the dining table in the afternoon and evening, not the kitchen sink.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning and on the kitchen sink in the afternoon.",
+      "holds_under": "Morning to afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines's bowl was on the kitchen pantry shelf at 12:51 and 13:35. The previous claim said it was on the dining table, which is contradicted.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the afternoon and evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Ines's bowl was on the dining table at 08:30 and 09:02. Previous claim said kitchen pantry shelf in afternoon. It is on the table in the morning.",
+     "was": {
+      "statement": "Ines's bowl is on the kitchen pantry shelf in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Ines's bowl was on the dining table in the morning, then kitchen cupboard in the evening.",
+     "was": {
+      "statement": "Ines's bowl is on the dining table in the morning. It was previously on the kitchen pantry shelf in the afternoon.",
+      "holds_under": "Morning.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Tomas's bowl is on the kitchen dish rack in the morning and on the kitchen cupboard in the evening.",
+   "holds_under": "Morning and evening.",
+   "supporting_observation_ids": [
+    "sighting_3553",
+    "sighting_3705",
+    "sighting_3712"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 24,
+   "last_revised_time": 2158200,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Tomas's bowl was seen on the dining table at 09:12 and on the kitchen cupboard at 12:50 and 21:09. This contradicts the previous claim of it being on the dining table in the evening.",
+     "was": {
+      "statement": "Tomas's bowl is on the dining table in the morning and evening.",
+      "holds_under": "Morning and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Tomas's bowl was on the dining table in the afternoon, not cupboard.",
+     "was": {
+      "statement": "Tomas's bowl is on the dining table in the morning and on the kitchen cupboard in the afternoon and evening.",
+      "holds_under": "Morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Tomas's bowl was seen on the living room coffee table at 22:59, not the dining table as previously noted.",
+     "was": {
+      "statement": "Tomas's bowl is on the dining table in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Tomas's bowl was on the coffee table in the evening, consistent with previous notes.",
+     "was": {
+      "statement": "Tomas's bowl is on the living room coffee table in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Tomas's bowl was on the kitchen sink at 12:51 and 13:35. The previous claim said it was on the living room coffee table in the evening, which is contradicted by the afternoon sightings.",
+     "was": {
+      "statement": "Tomas's bowl is on the living room coffee table in the evening.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Tomas's bowl was on the dining table at 12:49, 19:08, 19:10, 19:41. Previous claim said kitchen sink in afternoon. It is on the table in the evening.",
+     "was": {
+      "statement": "Tomas's bowl is on the kitchen sink in the afternoon.",
+      "holds_under": "Afternoon.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Tomas's bowl was on the kitchen dish rack in the morning, then cupboard in the evening.",
+     "was": {
+      "statement": "Tomas's bowl is on the dining table in the evening. It was previously on the kitchen sink in the afternoon.",
+      "holds_under": "Evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "The shared serving dish is on the kitchen cupboard in the afternoon and on the dining table in the evening.",
+   "holds_under": "Afternoon and evening.",
+   "supporting_observation_ids": [
+    "sighting_4216",
+    "sighting_4285",
+    "sighting_4344",
+    "sighting_4357",
+    "sighting_4370"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The shared serving dish was on the dining table in the afternoon, not the sideboard.",
+     "was": {
+      "statement": "The shared serving dish is on the dining sideboard in the morning and afternoon, and on the dining table in the evening.",
+      "holds_under": "Morning to evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The shared serving dish was on the kitchen cupboard at 12:51 and 13:35, and on the dining table at 19:17 and 19:49. The previous claim said it was on the dining table in the afternoon, which is partially contradicted by the kitchen sightings.",
+     "was": {
+      "statement": "The shared serving dish is on the dining table in the afternoon and evening.",
+      "holds_under": "Afternoon and evening.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0031",
+   "statement": "Tomas is in the office during work hours (09:00-17:00) as he is back to his usual routine.",
+   "holds_under": "While Tomas is back to his usual routine.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0032",
+   "statement": "Tomas's laptop and mouse are on the office desk during work hours.",
+   "holds_under": "While Tomas is back to his usual routine.",
+   "supporting_observation_ids": [],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0033",
+   "statement": "Tomas's gym bag is on the bedroom wardrobe from late morning through midday.",
+   "holds_under": "Late morning and midday.",
+   "supporting_observation_ids": [
+    "sighting_5109",
+    "sighting_5145",
+    "sighting_5154",
+    "sighting_5163",
+    "sighting_5178",
+    "sighting_5186"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": [],
+ "the_block": "",
+ "profiles": {}
+}

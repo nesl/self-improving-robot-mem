@@ -1,0 +1,33 @@
+First room right, incremental_edits -> claim_store_plus_today's_sightings. Source: results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/<arm>/<home>/searches.jsonl
+hh_s109_t03  settled: 0.78->0.72  disrupted: 0.80->0.81  back to normal: 0.83->0.91  all: 0.80->0.80
+hh_s123_t03  settled: 0.88->0.88  disrupted: 0.84->0.84  back to normal: 0.84->0.80  all: 0.85->0.84
+hh_s151_t03  settled: 0.68->0.67  disrupted: 0.69->0.88  back to normal: 0.72->0.78  all: 0.69->0.77
+hh_s19_t03   settled: 0.82->0.79  disrupted: 0.75->0.75  back to normal: 0.83->0.80  all: 0.80->0.78
+hh_s20_t03   settled: 0.70->0.76  disrupted: 0.59->0.80  back to normal: 0.75->0.86  all: 0.68->0.80
+hh_s2_t03    settled: 0.82->0.85  disrupted: 0.80->0.74  back to normal: 0.69->0.83  all: 0.78->0.81
+hh_s32_t03   settled: 0.80->0.85  disrupted: 0.59->0.75  back to normal: 0.83->0.84  all: 0.74->0.81
+hh_s48_t03   settled: 0.71->0.78  disrupted: 0.91->0.88  back to normal: 0.70->0.73  all: 0.77->0.80
+hh_s63_t03   settled: 0.72->0.73  disrupted: 0.82->0.93  back to normal: 0.67->0.73  all: 0.74->0.79
+hh_s93_t03   settled: 0.70->0.82  disrupted: 0.70->0.81  back to normal: 0.81->0.73  all: 0.73->0.79
+n homes = 10; pooled 75.8 -> 79.9 (2480 questions each)
+settled         claim_store_plus_today's_sightings minus incremental_edits: +2.3 +- 3.2 pts (2 SE), same sign 6 of 10
+disrupted       claim_store_plus_today's_sightings minus incremental_edits: +6.9 +- 6.2 pts (2 SE), same sign 6 of 10
+back to normal  claim_store_plus_today's_sightings minus incremental_edits: +3.4 +- 4.4 pts (2 SE), same sign 7 of 10
+all             claim_store_plus_today's_sightings minus incremental_edits: +4.1 +- 2.8 pts (2 SE), same sign 7 of 10
+
+First room right, claim_store_plus_today's_sightings -> claim_store_plus_the_log. Source: results/self_improve/camera_ready/qwen_ten_homes_8_a_day/cells/<arm>/<home>/searches.jsonl
+hh_s109_t03  settled: 0.72->0.73  disrupted: 0.81->0.81  back to normal: 0.91->0.88  all: 0.80->0.79
+hh_s123_t03  settled: 0.88->0.91  disrupted: 0.84->0.88  back to normal: 0.80->0.81  all: 0.84->0.88
+hh_s151_t03  settled: 0.67->0.73  disrupted: 0.88->0.82  back to normal: 0.78->0.78  all: 0.77->0.77
+hh_s19_t03   settled: 0.79->0.88  disrupted: 0.75->0.79  back to normal: 0.80->0.86  all: 0.78->0.84
+hh_s20_t03   settled: 0.76->0.81  disrupted: 0.80->0.90  back to normal: 0.86->0.92  all: 0.80->0.87
+hh_s2_t03    settled: 0.85->0.93  disrupted: 0.74->0.86  back to normal: 0.83->0.88  all: 0.81->0.90
+hh_s32_t03   settled: 0.85->0.90  disrupted: 0.75->0.94  back to normal: 0.84->0.94  all: 0.81->0.92
+hh_s48_t03   settled: 0.78->0.71  disrupted: 0.88->0.91  back to normal: 0.73->0.73  all: 0.80->0.78
+hh_s63_t03   settled: 0.73->0.71  disrupted: 0.93->0.90  back to normal: 0.73->0.73  all: 0.79->0.78
+hh_s93_t03   settled: 0.82->0.87  disrupted: 0.81->0.94  back to normal: 0.73->0.83  all: 0.79->0.88
+n homes = 10; pooled 79.9 -> 84.1 (2480 questions each)
+settled         claim_store_plus_the_log minus claim_store_plus_today's_sightings: +3.5 +- 3.0 pts (2 SE), same sign 8 of 10
+disrupted       claim_store_plus_the_log minus claim_store_plus_today's_sightings: +5.7 +- 4.7 pts (2 SE), same sign 7 of 10
+back to normal  claim_store_plus_the_log minus claim_store_plus_today's_sightings: +3.4 +- 2.7 pts (2 SE), same sign 6 of 10
+all             claim_store_plus_the_log minus claim_store_plus_today's_sightings: +4.2 +- 3.0 pts (2 SE), same sign 7 of 10

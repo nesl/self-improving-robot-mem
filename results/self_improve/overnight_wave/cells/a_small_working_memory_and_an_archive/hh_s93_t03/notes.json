@@ -1,0 +1,1328 @@
+{
+ "household": "hh_s93_t03",
+ "arm": "memory-guided search with a small working memory and an archive",
+ "how_memory_is_written": "a small working memory and an archive",
+ "written_up_to_day": 31,
+ "next_claim_number": 15,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Ines is in bedroom_1. Kwame is in bedroom_2 (book on nightstand, gym bag in wardrobe). Ines's charger is on bed_b1.",
+   "holds_under": "Ines is in bedroom_1. Kwame is in bedroom_2 (book on nightstand, gym bag in wardrobe). Ines's charger is on bed_b1.",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 data shows Ines in bedroom_1 (09:35-15:54) and Kwame in kitchen (09:35-13:39). Kwame's bedroom_2 items were not seen today, so his location is uncertain. Ines's location is confirmed.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book, gym bag). Kwame is in bedroom_2 (book, gym bag).",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Consistent location of personal items and presence of Ines in bedroom_1 at night.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book, gym bag). Kwame is in bedroom_2 (book, gym bag).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "Updated to reflect Day 9 sightings. Ines's book is consistently in bedroom_1. Kwame's book is in bedroom_2. Kwame's gym bag was seen in bedroom_2 wardrobe at 11:39 but not at 16:00, suggesting it may have been moved or is not always there.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book, gym bag). Kwame is in bedroom_2 (book, gym bag). Ines is in bedroom_1 at night (21:01).",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Corrected error in previous note regarding Kwame's gym bag. Confirmed bedroom assignments via personal items.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book on nightstand). Kwame is in bedroom_2 (book on nightstand). Kwame's gym bag is in bedroom_2 wardrobe (11:39). Ines's gym bag not seen today.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updated to reflect Kwame's gym bag appearing in bedroom_2 at 15:40, confirming both are home.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book on nightstand, gym bag in wardrobe). Kwame is in bedroom_2 (book on nightstand). Kwame's gym bag not seen today.",
+      "holds_under": "Daytime (13:35-16:58). Ines's gym bag location stable.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Updated to include charger sighting and confirm gym bag presence for both.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (book on nightstand, gym bag in wardrobe). Kwame is in bedroom_2 (book on nightstand, gym bag in wardrobe). Both gym bags present today.",
+      "holds_under": "When both are home and not out.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Consistent across all bedroom_1 checks today. Ines is the primary user of bedroom_1.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, book). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "Daily routine, gym days.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines was seen in bedroom_1 multiple times today. Kwame was not seen, but his items are in bedroom_2. This is a stable pattern.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, charger on bed). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Updated to reflect Day 17 sightings. Ines's items (charger, glass, meds, vitamins, water, gym bag) are consistently in bedroom_1. Kwame's location is inferred from absence in bedroom_1 and presence of his items in bathroom/kitchen, but his",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's\u5145\u7535\u5668is",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "This is a specific morning state. Ines was seen in b1 at 08:53. Kwame was not seen in b2 today, but his items (gym bag) are likely there. This is a transient state, not a permanent rule.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's\u5145\u7535\u5668is",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Day 23 12:42 shows Ines in bedroom_1 with gym bag, meds, charger. Kwame not seen in bedroom_1. Kwame's gym bag not seen in bedroom_1. This suggests Kwame is elsewhere, likely bedroom_2 or out. The claim about Kwame being in bedroom_2 is not",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "Morning routine before leaving for work/gym. Ines is in b1, Kwame in b2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated to reflect that gym bags are in wardrobes, not just present. Confirmed locations at 14:11.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag, meds, charger). Kwame is in bedroom_2 (gym bag, book). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "When both are home and not out.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated Ines's location based on glasses sighting. Kwame's items remain in bedroom_2.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag in wardrobe). Kwame is in bedroom_2 (gym bag in wardrobe, book on nightstand). Both gym bags present. Ines's charger is on bed_b1.",
+      "holds_under": "When both gym bags are in their respective wardrobes.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Updated to reflect the specific evening locations of personal items in their respective bedrooms.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (glasses on nightstand). Kwame is in bedroom_2 (gym bag in wardrobe, book on nightstand). Ines's charger is on bed_b1.",
+      "holds_under": "Ines is in bedroom_1 and Kwame is in bedroom_2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Updated room assignments based on Day 28 sightings. Ines's gym bag is in bedroom_1 wardrobe, Kwame's book is in bedroom_2 nightstand.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (glasses on nightstand). Kwame is in bedroom_2 (gym bag in wardrobe, book on nightstand). Ines's charger is on bed_b1.",
+      "holds_under": "Evening routine. Ines puts glasses on nightstand_b1. Kwame keeps book on nightstand_b2 and gym bag in wardrobe_b2.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Bedroom 2 consistently holds Kwame's items. Bedroom 1 is empty of tracked items but is Ines's room.",
+     "was": {
+      "statement": "Ines is in bedroom_1 (gym bag in wardrobe). Kwame is in bedroom_2 (book on nightstand). Ines's charger is on bed_b1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Bedroom 1 was empty of tracked items at 10:01, 11:06, 14:11, 14:41, 15:52. Bedroom 2 had Kwame's items at 10:01. Ines was seen in bathroom at 07:19. The claim that Ines is in bedroom_1 is not supported by today's sightings of empty rooms or",
+     "was": {
+      "statement": "Ines is in bedroom_1. Kwame is in bedroom_2 (book on nightstand, gym bag in wardrobe). Ines's charger is on bed_b1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Ines is in the kitchen in the evening (21:09). Kwame is in the kitchen in the early afternoon (13:37). Both are in the bathroom in the morning (07:55). Ines is in the bathroom in the morning (08:07).",
+   "holds_under": "Daily routine",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2 sightings show Kwame in kitchen at 09:35, 11:35, 13:39. Ines was NOT seen in kitchen on Day 2; she was in bedroom_1. Previous claim about Ines in kitchen is not supported by Day 2 data.",
+     "was": {
+      "statement": "Kwame was in the kitchen at 11:15. Ines was in the kitchen at 15:31 and 19:28.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Kwame is present in kitchen/bathroom AM. Ines is present in kitchen PM. Ines is in bathroom AM.",
+     "was": {
+      "statement": "Kwame was in the kitchen at 11:15. Ines was in the kitchen at 15:31 and 19:28.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated with Day 4 sightings. Kwame was seen in kitchen at 11:01. Ines at 20:01. Both at 13:12.",
+     "was": {
+      "statement": "Kwame is in the kitchen in the morning (08:44-10:10). Ines is in the kitchen in the evening (19:24). Ines is in the bathroom in the morning (08:44-10:10).",
+      "holds_under": "Morning vs Evening routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated with Day 5 sightings. Ines was in the kitchen at 21:09 (mug, water bottle, plate on table/sink). Kwame was in the kitchen at 13:37 (glass, plate on table). Both were in the bathroom at 07:55.",
+     "was": {
+      "statement": "Kwame is in the kitchen in the morning (11:01). Ines is in the kitchen in the evening (20:01). Both are in the kitchen at midday (13:12). Ines is in the bathroom in the morning (08:07).",
+      "holds_under": "Daily routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "Bathroom items are static: Razors on sink_ba, Hair dryers/Skincare/Toiletry/Detergent/Laundry on shelf, Meds in cabinet, Towels on rack.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2: Ines's medication was in medicine cabinet at 07:11, then moved to bathroom shelf by 08:47. Kwame's razor was in medicine cabinet at 07:11 and stayed there. Previous claim about sink location is not supported by Day 2 data.",
+     "was": {
+      "statement": "Ines's medication moved from sink (08:21) to medicine cabinet (12:07+). Kwame's razor moved from sink (08:21) to medicine cabinet (12:07+).",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Medication moved to kitchen table. Razor moved to sink.",
+     "was": {
+      "statement": "Ines's medication moved from sink (08:21) to medicine cabinet (12:07+). Kwame's razor moved from sink (08:21) to medicine cabinet (12:07+).",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Medication moved from kitchen table to bathroom cabinet by 14:49. Razor remains on sink.",
+     "was": {
+      "statement": "Ines's medication is on the kitchen table (09:21+). Kwame's razor is on the bathroom sink (09:21+).",
+      "holds_under": "Current locations",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Medication location stable. Razor moved from sink to shelf between 08:47 and 10:18.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet (14:49+). Kwame's razor is on the bathroom sink (08:07+).",
+      "holds_under": "Daily routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Previous note said medication was in medicine cabinet, but it was on the sink all day. Kwame's razor was previously noted as moving, but it stayed on the shelf today.",
+     "was": {
+      "statement": "Ines's medication is in the bathroom medicine cabinet. Kwame's razor is on the bathroom shelf (moved from sink at 10:18).",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updates location of Ines's razor and medication based on Day 10 sightings.",
+     "was": {
+      "statement": "Ines's medication and razor are on the bathroom sink. Kwame's razor and skincare are on the bathroom shelf. This arrangement was stable all day (08:21-19:39).",
+      "holds_under": "Always, unless someone is actively using the bathroom.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Corrected false claim that Ines's medication was on the kitchen table. It has been consistently in the medicine cabinet.",
+     "was": {
+      "statement": "Ines's razor is in the medicine cabinet (stable 09:53-15:02). Ines's medication is on the kitchen table (stable 09:53-20:11). Kwame's razor/skincare are on the bathroom shelf.",
+      "holds_under": "Day 10 observations. Medication moved from bathroom sink to kitchen table by 09:53.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Corrected location of Ines's razor/medication from medicine cabinet to sink, as seen consistently from 09:10 onwards.",
+     "was": {
+      "statement": "Ines's razor and medication are in the bathroom medicine cabinet. Kwame's razor and skincare are on the bathroom shelf. Ines's medication is NOT on the kitchen table.",
+      "holds_under": "Stable throughout Day 11 (07:12-17:41).",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Corrected locations based on Day 14 sightings. Razors moved to cabinet, meds to bedroom.",
+     "was": {
+      "statement": "Ines's razor and medication are on the bathroom sink. Kwame's razor and skincare are on the bathroom shelf. Ines's medication is NOT on the kitchen table after 09:10.",
+      "holds_under": "General state of bathroom items.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Razors moved from cabinet to sink. Skincare moved from sink to shelf. Meds stable on nightstand.",
+     "was": {
+      "statement": "Ines's razor is in medicine_cabinet_ba1. Kwame's razor is in medicine_cabinet_ba1. Ines's medication is on nightstand_b1. Kwame's skincare is on sink_ba_ba1.",
+      "holds_under": "Current bathroom arrangement.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "These items are consistently in the same spots. Ines's medication is on the nightstand, not the bathroom shelf.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on sink_ba_ba1. Ines's medication is on nightstand_b1. Kwame's skincare is on bathroom_shelf_ba1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated locations for razor and skincare based on Day 18 sightings.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on sink_ba_ba1. Ines's medication is on nightstand_b1. Kwame's skincare is on bathroom_shelf_ba1.",
+      "holds_under": "Ines's razor is on sink_ba_ba1. Kwame's razor is on sink_ba_ba1. Ines's medication is on nightstand_b1. Kwame's skincare",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Kwame's skincare moved from medicine cabinet to shelf between 10:41 and 14:04. Other items stable.",
+     "was": {
+      "statement": "Ines's razor is on bathroom_shelf_ba1. Kwame's razor is on sink_ba_ba1. Ines's medication is on nightstand_b1. Kwame's skincare is on medicine_cabinet_ba1.",
+      "holds_under": "Stable daily state observed on Day 18.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines's razor moved from shelf to medicine cabinet between 07:20 and 13:42. Kwame's skincare moved from shelf to sink. These positions were stable for the rest of the day.",
+     "was": {
+      "statement": "Ines's razor is on bathroom_shelf_ba1. Kwame's razor is on sink_ba_ba1. Ines's medication is on nightstand_b1. Kwame's skincare is on bathroom_shelf_ba1 (moved from medicine cabinet).",
+      "holds_under": "Stable daily arrangement.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Updated locations based on Day 22 sightings. Ines's razor moved from medicine cabinet to sink. Kwame's skincare moved from sink to shelf.",
+     "was": {
+      "statement": "Ines's razor is on medicine_cabinet_ba1. Kwame's razor is on sink_ba_ba1. Kwame's skincare is on sink_ba_ba1. Ines's toiletry bag is on bathroom_shelf_ba1.",
+      "holds_under": "Stable bathroom arrangement observed on Day 20.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Corrected Ines's razor location (was sink, now shelf) and Kwame's skincare location (was cabinet, now shelf) based on 09:48 sighting.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on sink_ba_ba1. Kwame's skincare is on bathroom_shelf_ba1. Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_ba1.",
+      "holds_under": "Stable daily state observed on Day 22.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Updated locations based on Day 25 sightings. Ines's razor is now consistently on the sink, while Kwame's is on the shelf.",
+     "was": {
+      "statement": "Ines's razor is on bathroom_shelf_ba1. Kwame's razor is on sink_ba_ba1. Kwame's skincare is on bathroom_shelf_ba1 (moved from medicine cabinet). Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_ba1.",
+      "holds_under": "Standard bathroom arrangement.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's razor moved to medicine cabinet. Kwame's razor moved to sink. Updated to reflect current state.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on bathroom_shelf_ba1. Kwame's skincare is on bathroom_shelf_ba1. Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_ba1.",
+      "holds_under": "Stable pattern observed on Day 25. Ines's razor moved from shelf to sink; Kwame's razor moved from sink to shelf.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Corrected locations for razors and skincare based on consistent sightings throughout Day 28.",
+     "was": {
+      "statement": "Ines's razor is on medicine_cabinet_ba1. Kwame's razor is on sink_ba_ba1. Kwame's skincare is on bathroom_shelf_ba1. Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_ba1.",
+      "holds_under": "Bathroom items are in their standard resting places.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Kwame moved his razor to the cabinet and skincare to the shelf between 09:02 and 10:57. Ines's razor remained on the sink.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on bathroom_shelf_ba1. Kwame's skincare is on sink_ba_ba1. Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_ba1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Bathroom layout has been identical in all 4 checks today. No movement observed.",
+     "was": {
+      "statement": "Ines's razor is on sink_ba_ba1. Kwame's razor is on medicine_cabinet_ba1 (moved from shelf). Kwame's skincare is on bathroom_shelf_ba1 (moved from sink). Ines's toiletry bag is on bathroom_shelf_ba1. Both hair dryers are on bathroom_shelf_b",
+      "holds_under": "Stable since 10:57 on Day 29.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "At 21:09, Ines is in the kitchen. Items (cutting board, knife, pot, spatula) are on the sink, suggesting active cleaning or prep. Ines's mug and water bottle are also on the sink/table.",
+   "holds_under": "Current state",
+   "supporting_observation_ids": [
+    ""
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 5,
+   "last_revised_time": 516600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Day 2: Kitchen items were mostly in cupboard/counter/drawer. At 13:39 and 15:54, glass_kwame and plate_kwame were on sink, suggesting Kwame was using/washing them. No evidence of 19:28 event on Day 2.",
+     "was": {
+      "statement": "At 19:28, many kitchen items (cutting board, knife, pot, spatula) were on the sink, suggesting active cleaning or prep.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Ines is present and items are clustered on the sink.",
+     "was": {
+      "statement": "At 19:28, many kitchen items (cutting board, knife, pot, spatula) were on the sink, suggesting active cleaning or prep.",
+      "holds_under": "Always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated time to 20:01 based on Day 4 sighting. Pattern of items on sink persists.",
+     "was": {
+      "statement": "At 19:24, Ines is in the kitchen. Many items (cutting board, knife, pan, mug) are on the sink, suggesting active cleaning or prep.",
+      "holds_under": "Evening activity",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated with Day 5 21:09 sightings. Ines is present. The concentration of utensils on the sink suggests she is washing up or preparing food.",
+     "was": {
+      "statement": "At 20:01, Ines is in the kitchen. Many items (cutting board, knife, pot, glass) are on the sink, suggesting active cleaning or prep.",
+      "holds_under": "Daily routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 1,
+     "time": 171000,
+     "into_working_memory": true
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Ines's medication is on the kitchen table (09:21+). Kwame's razor is on the bathroom sink (09:21+).",
+   "holds_under": "Current locations",
+   "supporting_observation_ids": [
+    "sighting_0204",
+    "sighting_0237",
+    "sighting_0271",
+    "sighting_0285",
+    "sighting_0319",
+    "sighting_0331"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 3,
+   "last_revised_time": 343800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Duplicate of claim_0003. Moving to archive to save space.",
+     "was": {
+      "statement": "Ines's medication is on bathroom shelf (08:47+). Kwame's razor is in medicine cabinet (07:11+).",
+      "holds_under": "When Ines has moved her medication from cabinet to shelf",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 2,
+     "time": 257400,
+     "into_working_memory": true
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "into_working_memory": false
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Kitchen: Ines's items (bowl, plate, glass) are on table/counter. Kwame's items (bowl, mug, plate, glass) are on cupboard. Shared items on counter/drawer.",
+   "holds_under": "After 15:00",
+   "supporting_observation_ids": [
+    "sighting_0313",
+    "sighting_0314",
+    "sighting_0357",
+    "sighting_0358"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "Tracking specific dish locations.",
+     "was": {
+      "statement": "Kwame's glass and plate are on kitchen sink (13:39+), suggesting he is using or washing them.",
+      "holds_under": "When Kwame is in the kitchen",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "Updated positions based on Day 4 sightings. Kwame's glass moved to sink. Ines's items on table.",
+     "was": {
+      "statement": "Kwame's glass and plate are on the kitchen sink (14:26+). Ines's glass is on the kitchen table (14:26+).",
+      "holds_under": "Current locations",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Updated with Day 5 21:09 sightings. Ines's items moved to the table/sink area, suggesting she is using the kitchen. Kwame's items remained on the sink from earlier in the day.",
+     "was": {
+      "statement": "Kwame's glass is on the kitchen sink (16:52+). Ines's glass is on the kitchen table (13:12, 20:01). Ines's plate is on the kitchen table (20:01).",
+      "holds_under": "Daily routine",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "Items moved from cupboard to sink/table in the evening, suggesting active use or cleaning.",
+     "was": {
+      "statement": "Ines's glass is on the kitchen table (21:09). Kwame's glass is on the kitchen sink (13:51-17:18). Ines's plate is on the kitchen table (21:09). Kwame's plate is on the kitchen sink (13:51-17:18).",
+      "holds_under": "Current state",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "Ines's items moved from cupboard to table at 20:14, indicating she is using the kitchen table for eating/drinking in the evening. Kwame's items moved from cupboard to sink earlier in the day.",
+     "was": {
+      "statement": "Ines's glass/plate are on the kitchen sink (16:49+). Kwame's glass is on the kitchen table (16:49+). Kwame's plate is on the kitchen sink (16:49+).",
+      "holds_under": "Evening",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Captures the significant evening change in kitchen item locations and Ines's presence.",
+     "was": {
+      "statement": "Ines's glass/plate are on the kitchen cupboard (daytime). At 20:14, Ines moved them to the kitchen table. Kwame's glass is on the kitchen sink (14:23+). Kwame's plate is on the kitchen sink (14:23+). Ines's mug is on the counter (20:14). In",
+      "holds_under": "Daytime routine vs evening activity. Ines is active in kitchen at 20:14.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Updated to reflect consistent daytime kitchen arrangement observed today. Ines's items are mixed between table and sink, Kwame's are on counter/table.",
+     "was": {
+      "statement": "Daytime: Ines's glass/plate on cupboard/sink. Evening (20:11): Ines's glass/plate/mug/water_bottle on kitchen table. Kwame's glass/plate on counter. Ines present at 20:11.",
+      "holds_under": "Day 10. Evening shift indicates Ines is in kitchen, likely preparing or eating dinner.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Updated to reflect that Ines's items are consistently on the sink during the day, and noted the water bottle's presence.",
+     "was": {
+      "statement": "Daytime (11:58-16:58): Ines's glass/plate on kitchen table/sink. Kwame's glass/plate on counter/table. Ines's vitamins on counter. Mug_kwame on sink.",
+      "holds_under": "Daytime hours. Evening pattern (20:11) may differ.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Updated to reflect the transient nature of the water bottle and the stable cupboard location of Ines's dishes, correcting the previous 'sink' assumption for dishes.",
+     "was": {
+      "statement": "Daytime: Ines's glass/plate/bowl on sink. Kwame's glass/mug on sink. Ines's vitamins on counter. Ines's water bottle on counter (seen 08:02, 12:39).",
+      "holds_under": "When dishes are not being washed.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Updated to reflect Ines's glass moving from bedroom to kitchen in the afternoon, and water bottle staying in bedroom.",
+     "was": {
+      "statement": "Ines's water bottle appears in the kitchen sink around midday (seen 12:34) and is gone by 13:38. Ines's vitamins are on the kitchen counter. Kwame's mug is on the counter. Ines's glass/plate/bowl are in the cupboard.",
+      "holds_under": "Daytime kitchen state",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Ines's items stable in bedroom_1. Kwame's mug and Ines's plate moved to cupboard_k1 by midday.",
+     "was": {
+      "statement": "Ines's glass is on nightstand_b1 (AM) or kitchen_table_k1 (PM). Ines's water bottle is on nightstand_b1. Kwame's mug is on sink_k1. Ines's plate is on cupboard_k1.",
+      "holds_under": "Daily item movement.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Ines's glass and water bottle are on the nightstand. Kwame's mug and Ines's plate were seen in the kitchen today, not the cupboard.",
+     "was": {
+      "statement": "Ines's glass is on nightstand_b1. Ines's water bottle is on nightstand_b1. Kwame's mug is on cupboard_k1. Ines's plate is on cupboard_k1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Updated locations for mug and plate based on Day 18 sightings.",
+     "was": {
+      "statement": "Ines's glass is on nightstand_b1. Ines's water bottle is on nightstand_b1. Kwame's mug is on cupboard_k1. Ines's plate is on cupboard_k1.",
+      "holds_under": "Ines's glass is on nightstand_b1. Ines's water bottle is on nightstand_b1. Kwame's mug is on cupboard_k1. Ines's plate",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Ines moved her plate and bowl from kitchen sink/table to living room coffee table. Her glasses moved from side table to couch. Kwame's mug moved from kitchen table to sink.",
+     "was": {
+      "statement": "Ines's glass is on nightstand_b1. Ines's water bottle is on nightstand_b1. Kwame's mug is on sink_k1. Ines's plate is on coffee_table_l1.",
+      "holds_under": "Stable daily state observed on Day 18.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Ines moved to living room by 13:21 and stayed there. Her items followed her. Kwame's mug is in kitchen, suggesting he is there or left it there. This is a typical evening pattern.",
+     "was": {
+      "statement": "Ines's plate is on coffee_table_l1. Ines's bowl is on coffee_table_l1. Ines's glasses are on couch_l1. Ines's mug is on coffee_table_l1. Kwame's mug is on sink_k1.",
+      "holds_under": "Evening of Day 20. Ines is in living room.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Day 23 08:28 shows Ines's items in living. By 10:42, Ines's bowl and plate are in kitchen sink, and Kwame's mug is in kitchen sink. This indicates Ines moved to kitchen or items were moved. The claim is only true when Ines is in living.",
+     "was": {
+      "statement": "Ines's plate is on coffee_table_l1. Ines's bowl is on coffee_table_l1. Ines's glasses are on couch_l1. Ines's mug is on coffee_table_l1. Kwame's mug is on sink_k1.",
+      "holds_under": "Evening relaxation. Ines is in living room. Kwame is in kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated locations for Ines's plate and bowl, and Kwame's mug. Noted absence of Ines's glasses and mug in expected spots.",
+     "was": {
+      "statement": "Ines's plate is on coffee_table_l1. Ines's bowl is on coffee_table_l1. Ines's glasses are on couch_l1. Ines's mug is on coffee_table_l1. Kwame's mug is on sink_k1.",
+      "holds_under": "When Ines is in the living room relaxing.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Updated locations. Ines's plate moved from table to cupboard. Kwame's mug moved from pantry to cupboard. Ines's bowl moved from sink to cupboard.",
+     "was": {
+      "statement": "Ines's plate is on kitchen_table_k1. Ines's bowl is on cupboard_k1. Ines's glasses are NOT in living (not seen). Ines's mug is NOT in kitchen (not seen). Kwame's mug is on pantry_shelf_k1.",
+      "holds_under": "Afternoon kitchen usage.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's plate and bowl moved to kitchen table. Ines's mug appeared on sink. Glasses confirmed in bedroom.",
+     "was": {
+      "statement": "Ines's plate is on cupboard_k1. Ines's bowl is on cupboard_k1. Kwame's mug is on cupboard_k1. Ines's mug is NOT in kitchen (not seen). Ines's glasses are NOT in living (not seen).",
+      "holds_under": "Stable pattern observed on Day 25. Dishes are stored in the cupboard, not on the table or sink.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Clarified that this describes the morning state before items were moved or consumed.",
+     "was": {
+      "statement": "Ines's plate is on kitchen_table_k1. Ines's bowl is on kitchen_table_k1. Kwame's mug is on cupboard_k1. Ines's mug is on sink_k1. Ines's glasses are on nightstand_b1.",
+      "holds_under": "Kitchen items are in their current positions.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Updated kitchen item locations. Ines's plate moved to counter, Kwame's mug to sink. Ines's mug disappeared from kitchen after 08:05.",
+     "was": {
+      "statement": "Ines's plate is on kitchen_table_k1. Ines's bowl is on kitchen_table_k1. Kwame's mug is on cupboard_k1. Ines's mug is on sink_k1. Ines's glasses are on nightstand_b1.",
+      "holds_under": "Morning kitchen state. Ines's items (plate, bowl, mug) are on the table/sink. Kwame's mug is on the cupboard.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Dinner cleanup occurred. Ines's items moved to the table, Kwame's bowl moved to sink, mug to table.",
+     "was": {
+      "statement": "Ines's plate is on counter_k1. Ines's bowl is on kitchen_table_k1. Kwame's mug is on sink_k1 (as of 12:04). Ines's mug is not in kitchen (last seen 08:05 on table). Ines's glasses are on nightstand_b1.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "By 15:26, dishes were put away. Kwame's on cupboard, Ines's on table/counter. This is the current state.",
+     "was": {
+      "statement": "Ines's plate is on kitchen_table_k1 (moved from sink). Ines's bowl is on kitchen_table_k1. Kwame's mug is on kitchen_table_k1 (moved from sink). Kwame's bowl is on sink_k1 (moved from table). Ines's glasses are on nightstand_b1.",
+      "holds_under": "Stable since 22:36 on Day 29.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 2,
+     "time": 257400,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Ines's vitamins are on the kitchen counter at night. They are on the nightstand in the morning.",
+   "holds_under": "Ines's vitamins are on the kitchen counter at night. They are on the nightstand in the morning.",
+   "supporting_observation_ids": [
+    "sighting_2919",
+    "sighting_2978"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Kwame's bowl, plate, and mug are on the kitchen table or sink in the evening.",
+   "holds_under": "Kwame's bowl, plate, and mug are on the kitchen table or sink in the evening.",
+   "supporting_observation_ids": [
+    "sighting_2984",
+    "sighting_2987",
+    "sighting_2990"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 16,
+   "last_revised_time": 1467000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "Ines's living room items (glasses, headset, mug, book, controller) are on couch_l1, side_table_l1, floor_l_l1, and tv_stand_l1. Kwame's magazine is on coffee_table_l1.",
+   "holds_under": "When Ines is relaxing in the living room in the afternoon.",
+   "supporting_observation_ids": [
+    "sighting_3252",
+    "sighting_3253",
+    "sighting_3256",
+    "sighting_3254",
+    "sighting_3258",
+    "sighting_3246"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Ines is in living room in the evening (15:11-20:37). She has a book, headset, controller, and blanket. Kwame is in kitchen in the evening (20:37).",
+   "holds_under": "Evening routine on Day 20.",
+   "supporting_observation_ids": [
+    "sighting_3466",
+    "sighting_3468",
+    "sighting_3472",
+    "sighting_3498",
+    "sighting_3485"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 20,
+   "last_revised_time": 1812600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 20,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Ines's vitamins are on the kitchen counter (moved from table). Ines takes them in the kitchen.",
+   "holds_under": "After 15:00",
+   "supporting_observation_ids": [
+    "sighting_3546",
+    "sighting_3564",
+    "sighting_3582",
+    "sighting_3639"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Day 23 09:55 and 10:42 show vitamins on counter_k1. Ines is in kitchen at 09:55 and 10:42. This supports the habit of taking vitamins in kitchen.",
+     "was": {
+      "statement": "Ines's vitamins are on counter_k1. They are there from 09:37 to 19:31. Ines takes them in the kitchen, not bedroom.",
+      "holds_under": "Daily vitamin routine. Ines is in the kitchen during the day.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Confirmed consistent location on counter_k1 throughout the day.",
+     "was": {
+      "statement": "Ines's vitamins are on counter_k1. They are there from 09:37 to 19:31. Ines takes them in the kitchen, not bedroom.",
+      "holds_under": "When Ines is home and has not taken them yet.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Vitamins moved from counter to table. Consistent location in kitchen.",
+     "was": {
+      "statement": "Ines's vitamins are on counter_k1. They are there from 09:37 to 19:31. Ines takes them in the kitchen, not bedroom.",
+      "holds_under": "Daily routine.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Corrected the location change: vitamins moved from table to counter between 09:06 and 11:09.",
+     "was": {
+      "statement": "Ines's vitamins are on kitchen_table_k1. They are there from 09:17 to 19:26. Ines takes them in the kitchen.",
+      "holds_under": "Ines is taking vitamins in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Confirmed vitamins location and time window. Ines is present in kitchen during this time.",
+     "was": {
+      "statement": "Ines's vitamins are on kitchen_table_k1. They are there from 09:17 to 19:26. Ines takes them in the kitchen.",
+      "holds_under": "Vitamins are on the kitchen table in the morning, then move to the counter by 11:09. Ines takes them in the kitchen.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Vitamins moved from table to counter by 15:26. Consistent with Ines's kitchen activity.",
+     "was": {
+      "statement": "Ines's vitamins are on kitchen_table_k1. They are there from 08:05 to 12:04. Ines takes them in the kitchen.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 21,
+     "time": 1899000,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "Kwame's razor is on sink_ba_ba1. Ines's razor moved from medicine_cabinet_ba1 to bathroom_shelf_ba1 between 07:06 and 13:59.",
+   "holds_under": "Bathroom routine. Ines may have used her razor and moved it.",
+   "supporting_observation_ids": [
+    "sighting_3512",
+    "sighting_3614"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Living room is static: Ines's book/controller/headset, Kwame's magazine, shared decor. No movement observed all day.",
+   "holds_under": "Always",
+   "supporting_observation_ids": [
+    "sighting_3863",
+    "sighting_4017"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "established",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Updated to reflect that the blanket remains on the couch, and Ines's presence in the living room is consistent throughout the day.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1 in the morning, but moves to coffee_table_l1 by 15:42. Ines is in living room from 08:28 to 15:42.",
+      "holds_under": "When Ines is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Updated to reflect that Ines's plate is no longer in the living room, having been moved to the kitchen cupboard. Her other items remain in the living room.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1. Ines is in living room from 08:28 to 19:18. Book, headset, controller, and plate (until 15:36) are on couch/coffee table.",
+      "holds_under": "When Ines is relaxing in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Ines's items remain in living room. Plate is in kitchen.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1. Ines is in living room. Book, headset, and controller are on couch/tv stand. Ines's plate is NOT on couch (moved to kitchen cupboard).",
+      "holds_under": "Stable pattern observed on Day 25. Ines spends time in the living room with her book and gaming gear.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Refined to specify exact spots for Ines's items in the living room.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1. Ines is in living room. Book, headset, and controller are on couch/tv stand. Ines's plate is NOT on couch.",
+      "holds_under": "Ines is in the living room.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Confirmed living room items. Ines's book is on couch, headset on tv stand, controller on floor. Blanket on couch.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1. Ines is in living room. Book, headset, and controller are on couch/tv stand. Ines's plate is NOT on couch.",
+      "holds_under": "Living room state. Ines's book is on the couch. Controller on coffee table. Headset on tv stand. Blanket on couch.",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Ines's personal items are split between living and bedroom_1. Kwame is in living at 22:36.",
+     "was": {
+      "statement": "Ines's blanket is on couch_l1. Ines is in living room. Book, headset, and controller are on couch/tv stand/floor. Ines's plate is NOT on couch.",
+      "holds_under": "Always",
+      "status": "established",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Living room items have not moved in any of the 5 checks today. It is a stable zone.",
+     "was": {
+      "statement": "Ines's book, controller, and headset are in the living room (couch, floor, tv stand). Kwame's magazine is on coffee table. Ines's gym bag is on desk_b1. Ines is likely in bedroom_1 or living room.",
+      "holds_under": "Stable since 15:13 on Day 29.",
+      "status": "established",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": true,
+   "moved_between_memory_and_archive": [
+    {
+     "day": 23,
+     "time": 2071800,
+     "into_working_memory": true
+    }
+   ],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Kwame's skincare is on bathroom_shelf_ba1 in the morning, but moves to medicine_cabinet_ba1 by 10:42.",
+   "holds_under": "When Kwame is in the bathroom.",
+   "supporting_observation_ids": [
+    "sighting_3876",
+    "sighting_3940"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

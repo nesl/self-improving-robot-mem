@@ -1,0 +1,51 @@
+{
+ "figure_file": "figureA2_what_the_notes_held.pdf",
+ "size_in": [
+  3.4,
+  1.9
+ ],
+ "source": "paper/night31_audit.json (by_arm), from night31_audit.py on overnight_wave/cells, ten households",
+ "what": "entries held on night 31 that name an object and a room or spot it occupied on illness days 14-23, by the condition the entry attaches",
+ "bars": {
+  "claim store": {
+   "audit_key": "claim store",
+   "counts": {
+    "always": 65,
+    "a time of day": 77,
+    "a person home or away": 0,
+    "other": 28
+   },
+   "total": 170,
+   "printed_inside": {
+    "always": 65,
+    "a time of day": 77,
+    "other": 28
+   },
+   "cells": "overnight_wave/cells/incremental_edits"
+  },
+  "ACE-style": {
+   "audit_key": "reduced ACE",
+   "counts": {
+    "always": 49,
+    "a time of day": 46,
+    "a person home or away": 12,
+    "other": 7
+   },
+   "total": 114,
+   "printed_inside": {
+    "always": 49,
+    "a time of day": 46
+   },
+   "cells": "overnight_wave/cells/claim_store_told_if_it_was_right"
+  }
+ },
+ "total_over_both_bars": 284,
+ "by_condition_over_both_bars": {
+  "always": 114,
+  "a time of day": 123,
+  "a person home or away": 12,
+  "other": 35
+ },
+ "count_printed_if_segment_height_pt_at_least": 8.4,
+ "note": "The 'ACE-style' bar is the ten-household reduced ACE arm (claim_store_told_if_it_was_right); the 'claim store' bar is the older-code incremental_edits cell, as in the current figure."
+}

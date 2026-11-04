@@ -1,0 +1,20 @@
+== incremental_edits: 154 API calls | in 805309 cw 215808 cr 8970 out 56940 | $2.72 | wall 11 min
+   answer       {'calls': 9, 'reworded retry': 9, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   choice       {'calls': 132, 'reworded retry': 5, 'refused at the end': 1, 'lost': 1, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   night edits  {'calls': 13, 'reworded retry': 2, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 87, 'hit max_tokens': 0}
+   nights 32 | empty-edit nights 1 (night 0 included) | failed nights 0 | edits/night [0, 6, 5, 11, 13, 11, 5, 1, 6, 1, 12, 10, 11, 5, 12, 14, 17, 13, 13, 11, 9, 11, 18, 16, 19, 15, 15, 12, 1, 15, 1, 10]
+== log_only_no_notes: 160 API calls | in 74248 cw 750057 cr 0 out 36551 | $2.39 | wall 13 min
+   answer       {'calls': 7, 'reworded retry': 7, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   choice       {'calls': 153, 'reworded retry': 140, 'refused at the end': 7, 'lost': 7, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   nights 32 | empty-edit nights 0 (night 0 included) | failed nights 0 | edits/night [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+== the_log_and_notes_about_the_routine: 308 API calls | in 819403 cw 2678358 cr 18333 out 134661 | $9.68 | wall 31 min
+   answer       {'calls': 8, 'reworded retry': 8, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   choice       {'calls': 272, 'reworded retry': 232, 'refused at the end': 14, 'lost': 14, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   night edits  {'calls': 28, 'reworded retry': 2, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 152, 'hit max_tokens': 0}
+   nights 32 | empty-edit nights 1 (night 0 included) | failed nights 0 | edits/night [0, 9, 7, 9, 13, 13, 13, 10, 8, 12, 10, 9, 14, 7, 14, 8, 9, 11, 10, 9, 5, 6, 9, 8, 12, 11, 10, 14, 10, 13, 12, 11]
+== ACE_as_published: 309 API calls | in 1495636 cw 346832 cr 22912 out 156849 | $5.43 | wall 28 min
+   ACE judge    {'calls': 39, 'reworded retry': 2, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 154, 'hit max_tokens': 0}
+   answer       {'calls': 10, 'reworded retry': 10, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   choice       {'calls': 235, 'reworded retry': 5, 'refused at the end': 1, 'lost': 1, 'item-count retry': 0, 'strings/lists cut': 0, 'hit max_tokens': 0}
+   night edits  {'calls': 25, 'reworded retry': 0, 'refused at the end': 0, 'lost': 0, 'item-count retry': 0, 'strings/lists cut': 216, 'hit max_tokens': 0}
+   nights 32 | empty-edit nights 1 (night 0 included) | failed nights 0 | edits/night [0, 12, 5, 1, 15, 6, 11, 8, 7, 9, 10, 9, 16, 7, 12, 15, 16, 14, 17, 10, 11, 12, 8, 18, 18, 15, 14, 14, 9, 17, 7, 10]

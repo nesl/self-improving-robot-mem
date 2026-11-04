@@ -1,0 +1,6610 @@
+{
+ "household": "hh_s32_t03",
+ "arm": "memory-guided search with incremental edits",
+ "sensing_arm": "memory-guided search",
+ "how_memory_is_written": "incremental edits",
+ "budget_rooms_per_question": 3,
+ "questions_per_day": 24,
+ "last_day": 49,
+ "seed": 0,
+ "the_note_writer_was_shown_everything_it_saw": true,
+ "there_was_no_patrol_and_no_warm_start": true,
+ "the_answer_was_told_what_the_search_ruled_out": true,
+ "name_the_objects_it_will_be_quizzed_on": false,
+ "the_note_writing_settings_this_arm_pinned": {
+  "name_the_objects_it_will_be_quizzed_on": false
+ },
+ "how_this_differs_from_the_patrol_runs": "The search runs differ from the patrol runs at results/self_improve/memory_factor_v1/ in TWO ways at once - no priors and search-driven looking - so no one may compare the two sets naively. The day-0 whole-house walkthrough is OFF here, so the settled fortnight is learned from scratch rather than given; and every observation comes from a search the robot made to answer a question, at up to 24 room-visits a day against the patrol's 1.26.",
+ "movers": [
+  "book_leo",
+  "charger_leo",
+  "glass_leo",
+  "mug_leo",
+  "tablet_leo",
+  "towel_aisha",
+  "water_bottle_aisha",
+  "water_bottle_leo"
+ ],
+ "n_asked_objects": 20,
+ "rotation_in_the_order_it_is_walked": [
+  "bedroom_1",
+  "bedroom_2",
+  "entry",
+  "bathroom",
+  "living",
+  "bedroom_3",
+  "kitchen",
+  "office"
+ ],
+ "per_day": [
+  {
+   "household": "hh_s32_t03",
+   "day": 0,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 0,
+   "n_scored": 0,
+   "n_correct_place": 0,
+   "n_correct_room": 0,
+   "n_found": 0,
+   "rooms_opened": 0,
+   "room_visits": 0,
+   "distinct_rooms": 0,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 0,
+   "distinct_asked_about_objects_observed": 0,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 0
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 1,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 18,
+   "n_correct_room": 18,
+   "n_found": 14,
+   "rooms_opened": 48,
+   "room_visits": 48,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 93,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 2,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 34,
+   "room_visits": 34,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 65,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 3,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 29,
+   "room_visits": 29,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 63,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 4,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 30,
+   "room_visits": 30,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 72,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 5,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 26,
+   "room_visits": 26,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 62,
+   "distinct_asked_about_objects_observed": 18,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 6,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 27,
+   "room_visits": 27,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 72,
+   "distinct_asked_about_objects_observed": 16,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 7,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 26,
+   "room_visits": 26,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 63,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 8,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 29,
+   "room_visits": 29,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 16,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 9,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 28,
+   "room_visits": 28,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 65,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 10,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 30,
+   "room_visits": 30,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 76,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 11,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 22,
+   "rooms_opened": 31,
+   "room_visits": 31,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 64,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 12,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 59,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 13,
+   "period": "settled",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 26,
+   "room_visits": 26,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 57,
+   "distinct_asked_about_objects_observed": 16,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 14,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 21,
+   "n_correct_room": 23,
+   "n_found": 20,
+   "rooms_opened": 39,
+   "room_visits": 39,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 102,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 15,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 23,
+   "n_correct_place": 21,
+   "n_correct_room": 22,
+   "n_found": 21,
+   "rooms_opened": 42,
+   "room_visits": 42,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 79,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 16,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 39,
+   "room_visits": 39,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 79,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 17,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 22,
+   "rooms_opened": 34,
+   "room_visits": 34,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 101,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 18,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 22,
+   "n_correct_room": 23,
+   "n_found": 22,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 103,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 19,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 24,
+   "n_found": 22,
+   "rooms_opened": 34,
+   "room_visits": 34,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 102,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 20,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 33,
+   "room_visits": 33,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 81,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 21,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 29,
+   "room_visits": 29,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 100,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 22,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 22,
+   "n_correct_room": 24,
+   "n_found": 22,
+   "rooms_opened": 31,
+   "room_visits": 31,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 95,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 23,
+   "period": "disrupted",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 22,
+   "n_correct_room": 23,
+   "n_found": 22,
+   "rooms_opened": 34,
+   "room_visits": 34,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 92,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 24,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 22,
+   "n_correct_room": 22,
+   "n_found": 21,
+   "rooms_opened": 43,
+   "room_visits": 43,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 75,
+   "distinct_asked_about_objects_observed": 16,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 25,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 21,
+   "n_correct_room": 22,
+   "n_found": 21,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 103,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 26,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 33,
+   "room_visits": 33,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 88,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 27,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 29,
+   "room_visits": 29,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 76,
+   "distinct_asked_about_objects_observed": 16,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 28,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 76,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 29,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 21,
+   "n_correct_room": 21,
+   "n_found": 21,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 78,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 30,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 27,
+   "room_visits": 27,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 58,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 2
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 31,
+   "period": "back to normal",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 26,
+   "room_visits": 26,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 96,
+   "distinct_asked_about_objects_observed": 18,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 32,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 21,
+   "n_correct_room": 23,
+   "n_found": 20,
+   "rooms_opened": 37,
+   "room_visits": 37,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 93,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 33,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 24,
+   "n_found": 21,
+   "rooms_opened": 40,
+   "room_visits": 40,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 79,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 34,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 27,
+   "room_visits": 27,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 72,
+   "distinct_asked_about_objects_observed": 15,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 35,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 75,
+   "distinct_asked_about_objects_observed": 18,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 36,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 30,
+   "room_visits": 30,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 75,
+   "distinct_asked_about_objects_observed": 18,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 37,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 28,
+   "room_visits": 28,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 80,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 38,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 23,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 29,
+   "room_visits": 29,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 65,
+   "distinct_asked_about_objects_observed": 14,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 39,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 23,
+   "n_correct_place": 21,
+   "n_correct_room": 21,
+   "n_found": 21,
+   "rooms_opened": 35,
+   "room_visits": 35,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 94,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 40,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 33,
+   "room_visits": 33,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 80,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 41,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 36,
+   "room_visits": 36,
+   "distinct_rooms": 8,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 102,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 42,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 21,
+   "n_correct_room": 21,
+   "n_found": 19,
+   "rooms_opened": 44,
+   "room_visits": 44,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 84,
+   "distinct_asked_about_objects_observed": 20,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 43,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 32,
+   "room_visits": 32,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 64,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 44,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 27,
+   "room_visits": 27,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 65,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 45,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 25,
+   "room_visits": 25,
+   "distinct_rooms": 4,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 58,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 46,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 28,
+   "room_visits": 28,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 65,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 47,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 24,
+   "rooms_opened": 26,
+   "room_visits": 26,
+   "distinct_rooms": 5,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 62,
+   "distinct_asked_about_objects_observed": 17,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 48,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 23,
+   "n_correct_room": 23,
+   "n_found": 23,
+   "rooms_opened": 31,
+   "room_visits": 31,
+   "distinct_rooms": 7,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 80,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  },
+  {
+   "household": "hh_s32_t03",
+   "day": 49,
+   "period": "unknown",
+   "sensing_arm": "memory-guided search",
+   "how_memory_is_written": "incremental edits",
+   "n_questions": 24,
+   "n_scored": 24,
+   "n_correct_place": 24,
+   "n_correct_room": 24,
+   "n_found": 23,
+   "rooms_opened": 31,
+   "room_visits": 31,
+   "distinct_rooms": 6,
+   "n_rooms_in_the_house": 8,
+   "distinct_objects_observed": 64,
+   "distinct_asked_about_objects_observed": 19,
+   "n_asked_about_objects": 20,
+   "distinct_residents_seen": 3
+  }
+ ],
+ "nightly": [
+  {
+   "day": 0,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 17100,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": false,
+   "at_least_one_edit_was_required": false,
+   "n_edits_offered": 0,
+   "how_many_edits_it_was_allowed": 40,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 0,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 0,
+   "were_the_edits_vacuous": {
+    "n_edits": 0,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": null,
+    "n_that_named_no_thing_and_place": 0,
+    "verdicts": []
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 38,
+   "n_characters_if_every_look_were_restated": 38,
+   "n_look_records_described": 0
+  },
+  {
+   "day": 1,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 41040,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 13,
+   "how_many_edits_it_was_allowed": 97,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 13,
+    "revise": 0,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 13,
+   "were_the_edits_vacuous": {
+    "n_edits": 13,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.38461538461538464,
+    "n_that_named_no_thing_and_place": 8,
+    "verdicts": [
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on bed_b2"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_aisha on bed_b3"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 96976,
+   "n_characters_if_every_look_were_restated": 96976,
+   "n_look_records_described": 48
+  },
+  {
+   "day": 2,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 28020,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 13,
+   "how_many_edits_it_was_allowed": 66,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 7,
+    "record evidence": 0,
+    "set a note aside": 6
+   },
+   "rejected": [],
+   "n_claims_now": 13,
+   "were_the_edits_vacuous": {
+    "n_edits": 13,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.07692307692307693,
+    "n_that_named_no_thing_and_place": 8,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 75367,
+   "n_characters_if_every_look_were_restated": 75367,
+   "n_look_records_described": 34
+  },
+  {
+   "day": 3,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 27180,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 4,
+   "how_many_edits_it_was_allowed": 64,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 2,
+    "revise": 2,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 4,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 66117,
+   "n_characters_if_every_look_were_restated": 66117,
+   "n_look_records_described": 29
+  },
+  {
+   "day": 4,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 30960,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 73,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 7,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.14285714285714285,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 65423,
+   "n_characters_if_every_look_were_restated": 65423,
+   "n_look_records_described": 30
+  },
+  {
+   "day": 5,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 26760,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 63,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.4,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on nightstand_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_aisha on nightstand_b3"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 57687,
+   "n_characters_if_every_look_were_restated": 57687,
+   "n_look_records_described": 26
+  },
+  {
+   "day": 6,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 30120,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 71,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 2,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 62662,
+   "n_characters_if_every_look_were_restated": 62662,
+   "n_look_records_described": 27
+  },
+  {
+   "day": 7,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 26340,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 62,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.16666666666666666,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 58353,
+   "n_characters_if_every_look_were_restated": 58353,
+   "n_look_records_described": 26
+  },
+  {
+   "day": 8,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 24240,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 57,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 64899,
+   "n_characters_if_every_look_were_restated": 64899,
+   "n_look_records_described": 29
+  },
+  {
+   "day": 9,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 26760,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 63,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 15,
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 64798,
+   "n_characters_if_every_look_were_restated": 64798,
+   "n_look_records_described": 28
+  },
+  {
+   "day": 10,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32220,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 10,
+   "how_many_edits_it_was_allowed": 76,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 9,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 16,
+   "were_the_edits_vacuous": {
+    "n_edits": 10,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.3,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_b3"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on desk_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 64492,
+   "n_characters_if_every_look_were_restated": 64492,
+   "n_look_records_described": 30
+  },
+  {
+   "day": 11,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 26760,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 63,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 4,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 17,
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.4,
+    "n_that_named_no_thing_and_place": 0,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 67725,
+   "n_characters_if_every_look_were_restated": 67725,
+   "n_look_records_described": 31
+  },
+  {
+   "day": 12,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 24660,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 5,
+   "how_many_edits_it_was_allowed": 58,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 5,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 17,
+   "were_the_edits_vacuous": {
+    "n_edits": 5,
+    "n_that_carried_something_new": 0,
+    "share_that_carried_something_new": 0.0,
+    "n_that_named_no_thing_and_place": 1,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 73057,
+   "n_characters_if_every_look_were_restated": 73057,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 13,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 23820,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 16,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 9,
+    "record evidence": 0,
+    "set a note aside": 7
+   },
+   "rejected": [],
+   "n_claims_now": 17,
+   "were_the_edits_vacuous": {
+    "n_edits": 16,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 11,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on bed_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "settled",
+   "n_characters_of_look_description": 58933,
+   "n_characters_if_every_look_were_restated": 58933,
+   "n_look_records_described": 26
+  },
+  {
+   "day": 14,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 42300,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 9,
+   "how_many_edits_it_was_allowed": 100,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 8,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 18,
+   "were_the_edits_vacuous": {
+    "n_edits": 9,
+    "n_that_carried_something_new": 6,
+    "share_that_carried_something_new": 0.6666666666666666,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on nightstand_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_floor_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on coffee_table_l1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 88893,
+   "n_characters_if_every_look_were_restated": 88893,
+   "n_look_records_described": 39
+  },
+  {
+   "day": 15,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 33060,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 12,
+   "how_many_edits_it_was_allowed": 78,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 9,
+    "record evidence": 0,
+    "set a note aside": 2
+   },
+   "rejected": [],
+   "n_claims_now": 19,
+   "were_the_edits_vacuous": {
+    "n_edits": 12,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.16666666666666666,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 95018,
+   "n_characters_if_every_look_were_restated": 95018,
+   "n_look_records_described": 42
+  },
+  {
+   "day": 16,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32640,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 9,
+   "how_many_edits_it_was_allowed": 77,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 9,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 19,
+   "were_the_edits_vacuous": {
+    "n_edits": 9,
+    "n_that_carried_something_new": 7,
+    "share_that_carried_something_new": 0.7777777777777778,
+    "n_that_named_no_thing_and_place": 5,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 94902,
+   "n_characters_if_every_look_were_restated": 94902,
+   "n_look_records_described": 39
+  },
+  {
+   "day": 17,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 41040,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 12,
+   "how_many_edits_it_was_allowed": 97,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 12,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 19,
+   "were_the_edits_vacuous": {
+    "n_edits": 12,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.16666666666666666,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on couch_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 84450,
+   "n_characters_if_every_look_were_restated": 84450,
+   "n_look_records_described": 34
+  },
+  {
+   "day": 18,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 41880,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 14,
+   "how_many_edits_it_was_allowed": 99,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 14,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 19,
+   "were_the_edits_vacuous": {
+    "n_edits": 14,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.21428571428571427,
+    "n_that_named_no_thing_and_place": 8,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on bed_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on coffee_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 75469,
+   "n_characters_if_every_look_were_restated": 75469,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 19,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 41040,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 97,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 2,
+    "revise": 5,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 21,
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.42857142857142855,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on nightstand_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_leo on couch_l1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 80979,
+   "n_characters_if_every_look_were_restated": 80979,
+   "n_look_records_described": 34
+  },
+  {
+   "day": 20,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32220,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 17,
+   "how_many_edits_it_was_allowed": 76,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 17,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 21,
+   "were_the_edits_vacuous": {
+    "n_edits": 17,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.11764705882352941,
+    "n_that_named_no_thing_and_place": 9,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on side_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on bed_b1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 81866,
+   "n_characters_if_every_look_were_restated": 81866,
+   "n_look_records_described": 33
+  },
+  {
+   "day": 21,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 38940,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 21,
+   "how_many_edits_it_was_allowed": 92,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 19,
+    "record evidence": 0,
+    "set a note aside": 2
+   },
+   "rejected": [],
+   "n_claims_now": 21,
+   "were_the_edits_vacuous": {
+    "n_edits": 21,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.09523809523809523,
+    "n_that_named_no_thing_and_place": 12,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_table_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 72363,
+   "n_characters_if_every_look_were_restated": 72363,
+   "n_look_records_described": 29
+  },
+  {
+   "day": 22,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 38940,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 92,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 5,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.5,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on chair_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 75361,
+   "n_characters_if_every_look_were_restated": 75361,
+   "n_look_records_described": 31
+  },
+  {
+   "day": 23,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 36420,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 86,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 7,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.42857142857142855,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "disrupted",
+   "n_characters_of_look_description": 82889,
+   "n_characters_if_every_look_were_restated": 82889,
+   "n_look_records_described": 34
+  },
+  {
+   "day": 24,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32220,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 20,
+   "how_many_edits_it_was_allowed": 76,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 20,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 20,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 14,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on counter_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on bedroom_floor_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 106446,
+   "n_characters_if_every_look_were_restated": 106446,
+   "n_look_records_described": 43
+  },
+  {
+   "day": 25,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 41880,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 18,
+   "how_many_edits_it_was_allowed": 99,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 12,
+    "record evidence": 0,
+    "set a note aside": 6
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 18,
+    "n_that_carried_something_new": 10,
+    "share_that_carried_something_new": 0.5555555555555556,
+    "n_that_named_no_thing_and_place": 10,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on desk_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_table_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 74396,
+   "n_characters_if_every_look_were_restated": 74396,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 26,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 36420,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 11,
+   "how_many_edits_it_was_allowed": 86,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 10,
+    "record evidence": 0,
+    "set a note aside": 1
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 11,
+    "n_that_carried_something_new": 6,
+    "share_that_carried_something_new": 0.5454545454545454,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_hook_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on desk_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 78659,
+   "n_characters_if_every_look_were_restated": 78659,
+   "n_look_records_described": 33
+  },
+  {
+   "day": 27,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31800,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 75,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 7,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.42857142857142855,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_table_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 70928,
+   "n_characters_if_every_look_were_restated": 70928,
+   "n_look_records_described": 29
+  },
+  {
+   "day": 28,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32220,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 6,
+   "how_many_edits_it_was_allowed": 76,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 6,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 6,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.5,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 78769,
+   "n_characters_if_every_look_were_restated": 78769,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 29,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31800,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 22,
+   "how_many_edits_it_was_allowed": 75,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 14,
+    "record evidence": 0,
+    "set a note aside": 8
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 22,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.045454545454545456,
+    "n_that_named_no_thing_and_place": 13,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on bed_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 77715,
+   "n_characters_if_every_look_were_restated": 77715,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 30,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 23400,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 12,
+   "how_many_edits_it_was_allowed": 55,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 12,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 12,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.16666666666666666,
+    "n_that_named_no_thing_and_place": 5,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 61750,
+   "n_characters_if_every_look_were_restated": 61750,
+   "n_look_records_described": 27
+  },
+  {
+   "day": 31,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 39360,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 10,
+   "how_many_edits_it_was_allowed": 93,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 10,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 10,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.1,
+    "n_that_named_no_thing_and_place": 7,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "back to normal",
+   "n_characters_of_look_description": 62424,
+   "n_characters_if_every_look_were_restated": 62424,
+   "n_look_records_described": 26
+  },
+  {
+   "day": 32,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 38940,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 16,
+   "how_many_edits_it_was_allowed": 92,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 14,
+    "record evidence": 0,
+    "set a note aside": 2
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 16,
+    "n_that_carried_something_new": 6,
+    "share_that_carried_something_new": 0.375,
+    "n_that_named_no_thing_and_place": 9,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on desk_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on bed_b1"
+      ]
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 86942,
+   "n_characters_if_every_look_were_restated": 86942,
+   "n_look_records_described": 37
+  },
+  {
+   "day": 33,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 32640,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 10,
+   "how_many_edits_it_was_allowed": 77,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 10,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 10,
+    "n_that_carried_something_new": 7,
+    "share_that_carried_something_new": 0.7,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on side_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_leo on couch_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on dresser_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on desk_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on pantry_shelf_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on coffee_table_l1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 94936,
+   "n_characters_if_every_look_were_restated": 94936,
+   "n_look_records_described": 40
+  },
+  {
+   "day": 34,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 30120,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 11,
+   "how_many_edits_it_was_allowed": 71,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 11,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 11,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.18181818181818182,
+    "n_that_named_no_thing_and_place": 5,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on coffee_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 64922,
+   "n_characters_if_every_look_were_restated": 64922,
+   "n_look_records_described": 27
+  },
+  {
+   "day": 35,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31800,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 14,
+   "how_many_edits_it_was_allowed": 75,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 14,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 14,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.2857142857142857,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on side_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 81790,
+   "n_characters_if_every_look_were_restated": 81790,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 36,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 30960,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 15,
+   "how_many_edits_it_was_allowed": 73,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 15,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 22,
+   "were_the_edits_vacuous": {
+    "n_edits": 15,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.13333333333333333,
+    "n_that_named_no_thing_and_place": 11,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 73800,
+   "n_characters_if_every_look_were_restated": 73800,
+   "n_look_records_described": 30
+  },
+  {
+   "day": 37,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31800,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 12,
+   "how_many_edits_it_was_allowed": 75,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 5,
+    "revise": 7,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 27,
+   "were_the_edits_vacuous": {
+    "n_edits": 12,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.3333333333333333,
+    "n_that_named_no_thing_and_place": 7,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 69774,
+   "n_characters_if_every_look_were_restated": 69774,
+   "n_look_records_described": 28
+  },
+  {
+   "day": 38,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 28020,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 66,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 8,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 27,
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.125,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 70134,
+   "n_characters_if_every_look_were_restated": 70134,
+   "n_look_records_described": 29
+  },
+  {
+   "day": 39,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 36420,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 26,
+   "how_many_edits_it_was_allowed": 86,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 26,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 27,
+   "were_the_edits_vacuous": {
+    "n_edits": 26,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.15384615384615385,
+    "n_that_named_no_thing_and_place": 16,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on side_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on desk_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_leo on nightstand_b1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 81115,
+   "n_characters_if_every_look_were_restated": 81115,
+   "n_look_records_described": 35
+  },
+  {
+   "day": 40,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31380,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 9,
+   "how_many_edits_it_was_allowed": 74,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 8,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 9,
+    "n_that_carried_something_new": 3,
+    "share_that_carried_something_new": 0.3333333333333333,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on coffee_table_l1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 77287,
+   "n_characters_if_every_look_were_restated": 77287,
+   "n_look_records_described": 33
+  },
+  {
+   "day": 41,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 39780,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 28,
+   "how_many_edits_it_was_allowed": 94,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 28,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 28,
+    "n_that_carried_something_new": 4,
+    "share_that_carried_something_new": 0.14285714285714285,
+    "n_that_named_no_thing_and_place": 17,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on side_table_l1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on entry_floor_e1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 84680,
+   "n_characters_if_every_look_were_restated": 84680,
+   "n_look_records_described": 36
+  },
+  {
+   "day": 42,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 35580,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 28,
+   "how_many_edits_it_was_allowed": 84,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 27,
+    "record evidence": 0,
+    "set a note aside": 1
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 28,
+    "n_that_carried_something_new": 7,
+    "share_that_carried_something_new": 0.25,
+    "n_that_named_no_thing_and_place": 17,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on desk_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "set a note aside",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 106388,
+   "n_characters_if_every_look_were_restated": 106388,
+   "n_look_records_described": 44
+  },
+  {
+   "day": 43,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 26340,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 27,
+   "how_many_edits_it_was_allowed": 62,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 27,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 27,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.18518518518518517,
+    "n_that_named_no_thing_and_place": 18,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_elena on desk_b2"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on dish_rack_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "book_leo on bed_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_leo on counter_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 75781,
+   "n_characters_if_every_look_were_restated": 75781,
+   "n_look_records_described": 32
+  },
+  {
+   "day": 44,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 25080,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 21,
+   "how_many_edits_it_was_allowed": 59,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 21,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 21,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.23809523809523808,
+    "n_that_named_no_thing_and_place": 13,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_aisha on nightstand_b3"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "glass_leo on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on bed_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 64999,
+   "n_characters_if_every_look_were_restated": 64999,
+   "n_look_records_described": 27
+  },
+  {
+   "day": 45,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 23820,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 10,
+   "how_many_edits_it_was_allowed": 56,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 10,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 28,
+   "were_the_edits_vacuous": {
+    "n_edits": 10,
+    "n_that_carried_something_new": 6,
+    "share_that_carried_something_new": 0.6,
+    "n_that_named_no_thing_and_place": 3,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on bedroom_floor_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 58798,
+   "n_characters_if_every_look_were_restated": 58798,
+   "n_look_records_described": 25
+  },
+  {
+   "day": 46,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 25920,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 7,
+   "how_many_edits_it_was_allowed": 61,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 1,
+    "revise": 6,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 29,
+   "were_the_edits_vacuous": {
+    "n_edits": 7,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.2857142857142857,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on sink_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "add",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 64939,
+   "n_characters_if_every_look_were_restated": 64939,
+   "n_look_records_described": 28
+  },
+  {
+   "day": 47,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 25500,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 12,
+   "how_many_edits_it_was_allowed": 60,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 12,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 29,
+   "were_the_edits_vacuous": {
+    "n_edits": 12,
+    "n_that_carried_something_new": 5,
+    "share_that_carried_something_new": 0.4166666666666667,
+    "n_that_named_no_thing_and_place": 6,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": true,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "mug_aisha on cupboard_k1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "tablet_leo on nightstand_b1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 60065,
+   "n_characters_if_every_look_were_restated": 60065,
+   "n_look_records_described": 26
+  },
+  {
+   "day": 48,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 31800,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 8,
+   "how_many_edits_it_was_allowed": 75,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 8,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 29,
+   "were_the_edits_vacuous": {
+    "n_edits": 8,
+    "n_that_carried_something_new": 1,
+    "share_that_carried_something_new": 0.125,
+    "n_that_named_no_thing_and_place": 4,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_aisha on kitchen_table_k1"
+      ]
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 75914,
+   "n_characters_if_every_look_were_restated": 75914,
+   "n_look_records_described": 31
+  },
+  {
+   "day": 49,
+   "model_call_failed": false,
+   "the_prompt_asked_it_to_keep_rival_beliefs": false,
+   "the_prompt_asked_it_to_describe_the_person": false,
+   "the_message_it_was_told_tonight": null,
+   "the_token_budget_for_the_edits": 24660,
+   "the_completion_did_not_parse": false,
+   "the_look_saw_something_it_is_asked_about": true,
+   "at_least_one_edit_was_required": true,
+   "n_edits_offered": 9,
+   "how_many_edits_it_was_allowed": 58,
+   "the_edits_cap_bit": false,
+   "applied": {
+    "add": 0,
+    "revise": 9,
+    "record evidence": 0
+   },
+   "rejected": [],
+   "n_claims_now": 29,
+   "were_the_edits_vacuous": {
+    "n_edits": 9,
+    "n_that_carried_something_new": 2,
+    "share_that_carried_something_new": 0.2222222222222222,
+    "n_that_named_no_thing_and_place": 5,
+    "verdicts": [
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "charger_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": true,
+      "new_pairs": [
+       "water_bottle_leo on desk_o1"
+      ]
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": true,
+      "carried_something_new": false,
+      "new_pairs": []
+     },
+     {
+      "action": "revise",
+      "named_a_thing_and_a_place": false,
+      "carried_something_new": false,
+      "new_pairs": []
+     }
+    ]
+   },
+   "n_times_the_day_was_rendered_for_the_writer": 1,
+   "period": "unknown",
+   "n_characters_of_look_description": 71231,
+   "n_characters_if_every_look_were_restated": 71231,
+   "n_look_records_described": 31
+  }
+ ],
+ "n_looks": 1568,
+ "n_sightings": 20950,
+ "n_absences_recorded": 734851,
+ "n_distinct_objects_ever_observed": 104,
+ "n_distinct_asked_about_objects_ever_observed": 20,
+ "summary": {
+  "n_questions_asked": 1176,
+  "n_questions_scored": 1173,
+  "n_unparsed": 3,
+  "share_correct_place": 0.9582267689684569,
+  "share_correct_room": 0.96845694799659,
+  "share_found_within_budget": 0.9379251700680272,
+  "mean_rooms_opened_per_question": 1.3333333333333333,
+  "share_correct_place_movers": 0.9370503597122302,
+  "share_correct_place_non_movers": 0.9773095623987034,
+  "n_choice_calls_that_failed": 0,
+  "share_of_answers_naming_a_room_the_search_had_ruled_out": 0.0684931506849315,
+  "the_three_way_error_split": {
+   "n_errors": 49,
+   "never saw the object there": 7,
+   "saw it there once and did not record it": 1,
+   "saw it there repeatedly and did not record it": 41,
+   "share_never_saw_it": 0.14285714285714285
+  },
+  "observation": {
+   "total_room_visits": 1568,
+   "mean_room_visits_per_day": 31.36,
+   "mean_distinct_rooms_per_day": 6.2,
+   "mean_distinct_objects_per_day": 76.18,
+   "mean_distinct_asked_about_objects_per_day": 17.98,
+   "n_distinct_objects_ever_observed": 104,
+   "n_distinct_asked_about_objects_ever_observed": 20
+  }
+ },
+ "overnight_wave": {
+  "arm": "incremental edits",
+  "how_memory_is_written": "incremental edits",
+  "sensing_arm": "memory-guided search",
+  "household": "hh_s32_t03",
+  "bank": "results/self_improve/varied_homes/all_generated_v2_twice/banks/hh_s32_t03.jsonl",
+  "read_budget_lines": null,
+  "name_the_objects_it_will_be_quizzed_on_in_the_header": false,
+  "n_questions_where_the_read_budget_bit": 0,
+  "n_nights_whose_completion_did_not_parse": 0,
+  "nights_that_changed_the_memory_not_at_all": [
+   0
+  ],
+  "n_nights_that_changed_the_memory_not_at_all": 1,
+  "n_nights_whose_report_cannot_say": 0,
+  "this_arm_can_be_refused_for_a_silent_night": true,
+  "nights_whose_call_failed": [],
+  "exclude_these_days_from_accuracy": [],
+  "questions_per_day": 24,
+  "questions_per_day_in_the_header": 24,
+  "n_model_calls_timed": 1691,
+  "seconds": 7464.2,
+  "at": "2026-09-27T02:23:13-07:00"
+ },
+ "release_note": "`searches` removed in the public release: it is identical to the kind=search rows of searches.jsonl"
+}

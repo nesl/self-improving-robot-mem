@@ -1,0 +1,3829 @@
+{
+ "household": "hh_s123_t03",
+ "arm": "memory-guided search with the log and notes about the routine",
+ "how_memory_is_written": "the log and notes about the routine",
+ "written_up_to_day": 31,
+ "next_claim_number": 49,
+ "claims": [
+  {
+   "claim_id": "claim_0001",
+   "statement": "Priya is the primary morning person; she was in the bathroom at 07:00, before Sam appeared in any room.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0001"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, Sam was in the bathroom at 07:35. Priya was not seen in the bathroom at that time. This contradicts the idea that Priya is always the first one up.",
+     "was": {
+      "statement": "Priya is the primary morning person; she was in the bathroom at 07:00, before Sam appeared in any room.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0002",
+   "statement": "Sam works from the office during the day; his laptop, headphones, and textbook are kept on the office desk.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0068",
+    "sighting_0069",
+    "sighting_0073"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 16:42. Sam's work items were on the office desk.",
+     "was": {
+      "statement": "Sam works from the office during the day; his laptop, headphones, and textbook are kept on the office desk.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0003",
+   "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 20:11, 21:39, and 22:31 on Day 30. Consistent with Day 29 observations.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0044",
+    "sighting_0047"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8. The dog's bowl and food were in the kitchen.",
+     "was": {
+      "statement": "Priya and Sam share a dog; the dog's bowl and food are kept in the kitchen.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 data shows the bowl on the floor at 08:38, 18:03, and 22:09, but on the counter at 20:14. This suggests it is moved to the counter during the evening meal preparation or feeding time.",
+     "was": {
+      "statement": "Priya and Sam share a dog; the dog's bowl and food are kept in the kitchen.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings at 20:13 and 21:43 show the bowl on the floor, contradicting the Day 11 claim that it moves to the counter in the evening.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor during the day and on the kitchen counter in the evening. Observed on floor at 08:38, 18:03, 22:09, and on counter at 20:14 on Day 11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Confirmed stable location across multiple sightings on Day 13.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 20:13 and 21:43 on Day 12. Previous belief about moving to counter in evening is not supported by recent data.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on floor at 14:40 on Day 16.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 14:33, 15:45, and 20:00 on Day 13. Consistent with Day 12 observations.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Confirmed location on Day 17.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 14:40 on Day 16. Consistent with Day 13 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dog bowl consistently on kitchen floor throughout Day 22.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 15:10 and 20:59 on Day 17. Consistent with Day 16 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated location from table to floor based on evening sightings.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 15:03 and 20:04 on Day 22. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Bowl found on pantry shelf during mid-afternoon check, differing from previous floor location.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 18:57 and 22:13 on Day 23. It was on the table at 14:29, suggesting it is moved to the floor for feeding or cleaning.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed on floor in both morning and evening on Day 29, contradicting the Day 28 pantry shelf location.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen pantry shelf. Observed on pantry shelf at 15:02 on Day 28. Previously on floor (Day 23), suggesting it is moved for feeding or cleaning.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on kitchen floor across multiple evening checks on Day 30.",
+     "was": {
+      "statement": "The dog bowl is kept on the kitchen floor. Observed on floor at 08:07 and 20:35 on Day 29. Previously on pantry shelf (Day 28), suggesting it is moved for feeding or cleaning.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0004",
+   "statement": "Sam's razor is kept on the bathroom shelf. Observed on shelf at 07:00, 09:16, 18:18, and 19:18 on Day 31. Previous note about sink was incorrect; it has been on the shelf consistently in recent days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0016",
+    "sighting_0006"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 2,
+     "time": 257400,
+     "why": "Sam's razor was in the medicine cabinet on Day 1 but has been on the shelf in all Day 2 sightings. Priya's razor remains on the sink.",
+     "was": {
+      "statement": "Priya's razor is typically left on the bathroom sink, while Sam's razor is kept in the medicine cabinet.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "On Day 3 at 08:04, Sam's razor was on the shelf [sighting_0252]. By 09:07, it had moved to the sink [sighting_0265] and remained there for all subsequent checks. This suggests a habit change or a one-time move that stuck.",
+     "was": {
+      "statement": "Priya's razor is typically left on the bathroom sink, while Sam's razor is kept on the bathroom shelf (moved from medicine cabinet on Day 2).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "On Day 4 at 07:00, Sam's razor was on the sink. By 08:06, it had moved to the shelf and remained there for the rest of the day. This contradicts the previous belief that it was on the sink.",
+     "was": {
+      "statement": "Sam's razor is now consistently kept on the bathroom sink, matching Priya's razor location. It moved from the shelf to the sink on Day 3 morning.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The razor was on the shelf at 07:00 but on the sink for all subsequent checks today. This contradicts the previous belief that it was on the shelf.",
+     "was": {
+      "statement": "Sam's razor is now consistently kept on the bathroom shelf. It moved from the sink to the shelf on Day 4 morning (08:06).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The razor was on the sink at 07:12 and 08:13, but on the shelf at 08:46, 09:49, and 19:56. Sam was present at 08:46, likely moving it.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. It moved from the shelf to the sink between 07:00 and 08:36 on Day 6.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 07:35, 08:55, 18:17, and 19:03. The razor remained on the shelf throughout the day.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom shelf. It moved from the sink to the shelf between 08:13 and 08:46 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The razor was on the shelf at 07:00 but on the sink at 07:47 and remained there for the rest of the day.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom shelf. It moved from the sink to the shelf between 08:13 and 08:46 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Observed on shelf at 08:33 and 09:39, contradicting the previous belief of it being on the sink.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. It moved from the shelf to the sink between 07:00 and 07:47 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Observed on sink at 08:59, 10:04, and 19:05. Was on shelf at 07:00.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom shelf. It moved from the sink to the shelf between 07:00 and 08:33 on Day 14. Previously believed to be on the sink.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on sink at 07:08, 08:55, 09:27, 20:18, and 21:07 on Day 16. Was on shelf at 07:39.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. It moved from the shelf to the sink between 07:00 and 08:59 on Day 15. Previously believed to be on the shelf.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on sink throughout Day 17.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. It moved from the shelf to the sink between 07:39 and 08:55 on Day 16. Consistent with Day 15 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The razor moved from the shelf to the sink between 08:01 and 09:40. It remained on the sink in the evening. This suggests the sink is the primary resting place after morning use.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 07:30, 09:11, 18:27, and 19:58 on Day 17. Consistent with Day 16 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The razor has been on the shelf in all four bathroom sightings today, contradicting the previous belief that it was on the sink.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 09:40 and 19:23 on Day 18. It was on the shelf at 08:01, likely moved during morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The razor has moved from the shelf to the sink and stayed there for the rest of the day, suggesting the sink is its current resting place.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom shelf. Observed on shelf at 07:22, 08:31, 09:03, and 19:22 on Day 20. It was on the sink on Day 18, but has been on the shelf consistently since.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Razor consistently on sink throughout Day 22.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 09:11, 18:47, and 19:23 on Day 21. It was on the shelf at 07:00, likely moved during the morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Added multiple sightings from Day 26 to strengthen the claim that the razor remains on the sink throughout the day.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 08:48, 09:56, 19:31, and 21:09 on Day 22. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "The razor moved from the sink to the shelf between Day 26 and Day 27. It has remained on the shelf for all observations today.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 07:00, 07:30, 08:23, 09:04, 18:22, 19:24, and 19:57 on Day 26. Highly consistent location.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Consistent presence on sink across all bathroom checks today indicates a stable new location.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom shelf. Observed on shelf at 08:10, 09:08, 10:14, 18:08, 18:49 on Day 27. Previously on sink (Day 26), but moved to shelf.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on bathroom sink across multiple checks on Day 30.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 08:48, 09:49, 18:54, 19:25, 20:32, 21:09 on Day 28. Previously on shelf (Day 27), but moved to sink.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The razor was found on the shelf in all four bathroom sightings today, contradicting the previous claim that it was on the sink.",
+     "was": {
+      "statement": "Sam's razor is kept on the bathroom sink. Observed on sink at 08:09, 09:11, 10:14, 18:32, and 19:33 on Day 30. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0005",
+   "statement": "Priya and Sam are both present in the kitchen in the evening. Observed together at 19:45 on Day 31. They are often together in the kitchen at this time.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_0101",
+    "sighting_0126"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 at 20:00 confirms both are in the kitchen, supporting the evening social hub hypothesis.",
+     "was": {
+      "statement": "The kitchen is the main social hub in the evening; both Priya and Sam are present there after 19:00.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Both Priya and Sam were observed in the kitchen at 21:23, supporting the idea that the kitchen is a shared evening space.",
+     "was": {
+      "statement": "The kitchen is the main social hub in the evening; both Priya and Sam are present there after 19:00. Observed together at 20:00 on Day 13.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated based on Day 23 observation of separation in late evening.",
+     "was": {
+      "statement": "The kitchen is the main social hub in the evening; both Priya and Sam are present there after 19:00. Observed together at 21:23 on Day 20.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Day 24 20:13 shows both people in the kitchen, indicating a shift in their evening routine or a specific event bringing them together.",
+     "was": {
+      "statement": "The kitchen is not the main social hub in the late evening. At 22:13 on Day 23, Sam was in the office and Priya was in the living room. They are separated in the home during this time.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Day 25 shows them separated in the evening, contradicting the idea that the kitchen is always the social hub.",
+     "was": {
+      "statement": "The kitchen is the main social hub in the evening. At 20:13 on Day 24, both Priya and Sam were in the kitchen. This contradicts the previous note that they are separated in the late evening.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "They were together in the kitchen at 20:10, but by 21:27, Sam had moved to the office and Priya was not present in the kitchen, suggesting they go their separate ways after initial evening time together.",
+     "was": {
+      "statement": "The kitchen is the main social hub in the evening. At 20:13 on Day 24, both Priya and Sam were in the kitchen. However, on Day 25 at 21:40, Sam was in the kitchen while Priya was in bedroom_1, suggesting they are not always together in the.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Both observed in the kitchen at 20:35 on Day 29, consistent with previous days.",
+     "was": {
+      "statement": "The kitchen is a social hub in the early evening, but they separate later. Both in kitchen at 20:10 on Day 27, but by 21:27 Sam is in the office and Priya is not in the kitchen.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Both were seen in the kitchen at 19:45, supporting the pattern of them being together in the kitchen in the evening.",
+     "was": {
+      "statement": "Priya and Sam are both present in the kitchen in the early evening. Observed together at 20:35 on Day 29. They separate later, with Sam moving to the office by 21:20.",
+      "holds_under": "early evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0006",
+   "statement": "Sam's personal items (camera, magazine) are kept in the living room. Observed on bookshelf and coffee table at 17:04 on Day 22. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0056",
+    "sighting_0061"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 1,
+   "revision_history": [
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Consistent with previous belief. His items remain in the living room.",
+     "was": {
+      "statement": "Sam's personal items (camera, magazine) are kept in the living room, suggesting it is his relaxation space.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Camera and magazine observed in living room on Day 22.",
+     "was": {
+      "statement": "Sam's personal items (camera, magazine) are kept in the living room. Observed on bookshelf and coffee table at 15:19 and 20:40 on Day 18.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0007",
+   "statement": "Sam's work items (laptop, headphones, textbook, pen) are kept on the office desk during the day. They were not observed in the kitchen in the evening on Day 3.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0174",
+    "sighting_0175",
+    "sighting_0176",
+    "sighting_0177",
+    "sighting_0179"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "On Day 3 at 16:50, all work items were on the office desk [sighting_0304-0309]. The previous claim that they moved to the kitchen in the evening is not supported by Day 3 data, as they were still in the office at 16:50 and not seen in the '",
+     "was": {
+      "statement": "Sam's work items (laptop, headphones, textbook, pen) are moved from the office desk to the kitchen table/counter area in the evening.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 16:42. All work items were on the office desk.",
+     "was": {
+      "statement": "Sam's work items (laptop, headphones, textbook, pen) are kept on the office desk during the day. They were not observed in the kitchen in the evening on Day 3.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0008",
+   "statement": "Priya's water bottle is kept on the kitchen table in the evening. Observed on table at 19:45 on Day 31. Consistent with previous evening observations.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_0194",
+    "sighting_0244"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "On Day 3 at 16:50, the water bottle was on the dish rack [sighting_0295]. The previous claim about it moving to the table is not supported by today's observation.",
+     "was": {
+      "statement": "Priya's water bottle is moved from the dish rack to the kitchen table in the evening.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "On Day 4 at 15:05, the water bottle was on the sink. By 20:22, it had moved to the counter. This refines the previous claim that it was on the dish rack.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen dish rack. It was not observed on the kitchen table in the evening on Day 3.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Previous claim about moving to counter in evening is unsupported by Day 5 data; it was on the dish rack at 14:37.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen sink during the day and moves to the kitchen counter in the evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The bottle was on the sink at 14:42 and 18:12, contradicting the previous belief that it was on the dish rack. It moved to the table at 19:45, likely because Priya was using the table.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen dish rack during the day. It was observed there at 14:37 on Day 5.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The bottle was not in the kitchen at 15:18 or 18:59, but appeared on the table at 19:25 when both were present.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen sink during the day. It was observed there at 14:42 and 19:45 on Day 6.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, the bottle was on the dish rack at 15:01 and 16:42, moved to the table at 20:18 (evening), and returned to the dish rack by 20:49. The 'evening' condition holds for the 20:18 sighting, but the item is not consistently on the table",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen table in the evening. It was observed there at 19:25 on Day 7.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The water bottle was found on the kitchen table in the evening, consistent with its previous location at that time of day.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen table in the evening. It was observed there at 19:25 on Day 7.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0009",
+   "statement": "The dog food bag is kept on the kitchen pantry shelf. Observed on pantry shelf at 20:11, 21:39, and 22:31 on Day 30. Consistent with Day 29.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0180",
+    "sighting_0225"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 2,
+   "revision_history": [
+    {
+     "day": 3,
+     "time": 343800,
+     "why": "On Day 3 at 16:50, the dog food bag was on the chair [sighting_0280]. This supports the previous claim, though the 'evening' condition is less precise than 'always' given it was there at 16:50.",
+     "was": {
+      "statement": "Sam's dog food bag is moved from the counter to the kitchen chair in the evening.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 4,
+     "time": 430200,
+     "why": "On Day 4, the dog food bag was consistently on the pantry shelf, not the kitchen chair as previously noted.",
+     "was": {
+      "statement": "Sam's dog food bag is kept on the kitchen chair. It was observed there on Day 3 at 16:50.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The bag was on the floor at 14:42 and 18:12, contradicting the previous belief that it was on the pantry shelf. It moved to the pantry shelf at 19:45.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen pantry shelf. It was observed there on Day 4.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The bag was on the pantry shelf at 15:18 but on the floor at 18:59 and 19:25, suggesting it was taken out for feeding or refilling.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor during the day. It was observed there at 14:42 and 18:12 on Day 6.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, the bag was on the floor at 15:01 and 16:42, but moved to the kitchen table at 20:18 and 20:49. The 'evening' condition is incorrect; it is on the table in the evening.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor in the evening. It moved from the pantry shelf to the floor between 15:18 and 18:59 on Day 7.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The bag was on the table at 14:35 but on the pantry shelf at 19:22 and 20:35, suggesting it was put away.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor in the evening. It moved from the pantry shelf to the floor between 15:18 and 18:59 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 data shows the bag on the pantry shelf in the morning and late afternoon, but on the floor in the evening (20:14, 22:09). This suggests it is taken down for feeding or refilling in the evening.",
+     "was": {
+      "statement": "The dog food bag is kept on the pantry shelf in the kitchen. It moved from the floor to the pantry shelf between 14:35 and 19:22 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings at 20:13 and 21:43 show the bag on the floor, contradicting the Day 11 claim that it starts on the pantry shelf.",
+     "was": {
+      "statement": "The dog food bag is kept on the pantry shelf in the kitchen during the day, but moves to the kitchen floor in the evening. Observed on pantry shelf at 08:38 and 18:03, and on floor at 20:14 and 22:09 on Day 11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 data consistently shows it on the pantry shelf, contradicting the Day 12 claim of it being on the floor.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor. Observed on floor at 20:13 and 21:43 on Day 12. Previous belief about moving from pantry shelf to floor in evening is not supported by recent data.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on pantry shelf at 14:40 on Day 16.",
+     "was": {
+      "statement": "The dog food bag is kept on the pantry shelf. Observed on pantry shelf at 14:33, 15:45, and 20:00 on Day 13. Previous belief about floor location is incorrect.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Found on floor, not pantry shelf, on Day 17.",
+     "was": {
+      "statement": "The dog food bag is kept on the pantry shelf. Observed on pantry shelf at 14:40 on Day 16. Consistent with Day 13 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The bag was on the pantry shelf at 08:00 and 20:14, but on the floor at 16:38. The shelf location appears to be the default storage spot, with the floor being a temporary state.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor. Observed on floor at 15:10 and 20:59 on Day 17. Previous belief about pantry shelf is incorrect.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Dog food bag on floor on Day 22, previously on shelf on Day 19.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen pantry shelf. Observed on shelf at 08:00, 16:38, and 20:14 on Day 19. It was on the floor at 16:38, likely moved back to shelf.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Corrected location from floor to pantry shelf based on consistent evening sightings.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor. Observed on floor at 15:03 and 20:04 on Day 22. It was on the pantry shelf on Day 19, indicating it moves between floor and shelf.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Food bag found on floor during mid-afternoon check, differing from previous shelf location.",
+     "was": {
+      "statement": "The dog food bag is kept on the pantry shelf. Observed on pantry shelf at 18:57 and 22:13 on Day 23. It was on the chair at 14:29, indicating it is moved during the day but returned to the shelf by evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed on pantry shelf in the evening on Day 29, contradicting the Day 28 floor location.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen floor. Observed on floor at 15:02 on Day 28. Previously on pantry shelf (Day 23), indicating it is moved during the day.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on pantry shelf across multiple evening checks on Day 30.",
+     "was": {
+      "statement": "The dog food bag is kept on the kitchen pantry shelf. Observed on pantry shelf at 20:35 and 21:20 on Day 29. Previously on floor (Day 28), indicating it is moved during the day.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0010",
+   "statement": "Sam is present in the bathroom in the early morning (08:00-09:00) and in the office in the late afternoon (16:50).",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0254",
+    "sighting_0304"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 3,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8. Sam was in the bathroom at 07:35 (close to early morning) and in the office at 16:42 (late afternoon).",
+     "was": {
+      "statement": "Sam is present in the bathroom in the early morning (08:00-09:00) and in the office in the late afternoon (16:50).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0011",
+   "statement": "Sam's vitamins are kept on the kitchen counter. Observed on counter at 20:11, 21:39, and 22:31 on Day 30. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0384",
+    "sighting_0439"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 15:01, 16:42, 20:18, and 20:49. The vitamins remained on the counter throughout the day.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on counter at 14:40 on Day 16.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Confirmed location on Day 17.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter. Observed on counter at 14:40 on Day 16. Consistent with Day 8 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Vitamins consistently on kitchen counter throughout Day 22.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter. Observed on counter at 15:10 and 20:59 on Day 17. Consistent with Day 16 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Vitamins found on counter during mid-afternoon check, consistent with their usual location.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter. Observed on counter at 15:03 and 20:04 on Day 22. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on kitchen counter across multiple evening checks on Day 30.",
+     "was": {
+      "statement": "Sam's vitamins are kept on the kitchen counter. Observed on counter at 15:02 on Day 28. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0012",
+   "statement": "The shared cutting board is kept on the kitchen counter during the day, but is moved to the sink in the evening. Observed on counter at 08:10, 14:36, 15:58; on sink at 19:45 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0390",
+    "sighting_0445"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 4,
+   "revision_history": [
+    {
+     "day": 5,
+     "time": 516600,
+     "why": "Previous claim about moving to drawer in evening is unsupported by Day 5 data; it was on the counter at 14:37.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen dish rack during the day and moves to the kitchen drawer in the evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 6,
+     "time": 603000,
+     "why": "The board was on the sink at 14:42 and 18:12, contradicting the previous belief that it was on the counter. It moved to the table at 19:45.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter during the day. It was observed there at 14:37 on Day 5.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The board was on the counter at 15:18 and 18:59, but on the sink at 19:25, likely after being used for food prep.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen sink during the day. It was observed there at 14:42 and 18:12 on Day 6.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, the cutting board was on the counter at 15:01, 16:42, and 20:49, but on the sink at 20:18. It is not consistently on the sink in the evening.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen sink in the evening. It moved from the counter to the sink between 18:59 and 19:25 on Day 7.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The board was on the counter at 14:35 and 19:22, but on the sink at 20:35, indicating a shift in location later in the evening.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen sink in the evening. It moved from the counter to the sink between 18:59 and 19:25 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "The claim that the cutting board moves to the sink in the evening was based on Day 9 data. On Day 10, it remained on the counter through the evening (20:17), contradicting the previous pattern.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter during the day and moves to the sink in the evening. It moved from the counter to the sink between 19:22 and 20:35 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings at 20:13 and 21:43 show the cutting board on the sink, contradicting the Day 10 claim that it is on the counter.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter. It was observed on the counter at 07:15, 14:53, 16:47, 19:08, and 20:17 on Day 10. The previous belief that it moves to the sink in the evening is not supported by recent data.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 shows a clear transition from sink (afternoon) to counter (evening), refining the previous static belief.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen sink. Observed on sink at 20:13 and 21:43 on Day 12. Previous belief that it is on the counter is not supported by recent data.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Consistently on counter in recent observations.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen sink during the day and moves to the counter in the evening. Observed on sink at 14:33 and 15:45, and on counter at 20:00 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on counter at 14:40 on Day 16.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter. Observed on counter at 16:37 and 18:05 on Day 15. Previous belief about sink location is incorrect.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Location changed from counter to sink between 15:10 and 20:59.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter. Observed on counter at 14:40 on Day 16. Consistent with Day 15 belief.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The cutting board is used during the day and then placed in the sink for cleaning in the evening.",
+     "was": {
+      "statement": "The shared cutting board is kept on the kitchen counter in the mid-afternoon. Observed on counter at 15:10 on Day 17. Moved to sink by 20:59.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0013",
+   "statement": "Priya's towel is kept on the bathroom towel rack. Observed on rack at 08:09, 09:11, 10:14, 18:32, and 19:33 on Day 30. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0485",
+    "sighting_0519",
+    "sighting_0529",
+    "sighting_0539",
+    "sighting_0549"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 07:35, 08:55, 18:17, and 19:03. The towel remained on the shelf throughout the day.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf from mid-morning onwards. It moved from the towel rack to the shelf between 07:52 and 09:08 on Day 5.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Consistent with previous belief. The towel moves from the rack to the shelf early in the day and stays there.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf from mid-morning onwards. It moved from the towel rack to the shelf between 07:52 and 09:08 on Day 5.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The towel moved from shelf to rack between 07:00 and 09:34 and remained on the rack for the rest of the day, contradicting the previous belief that it stayed on the shelf.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf from mid-morning onwards. Observed on shelf at 08:01, 09:40, and 19:23 on Day 18. It was on the rack at 07:00.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The towel has moved from the rack to the shelf and stayed there, suggesting the shelf is its current location.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom towel rack. Observed on rack at 09:34, 18:48, and 20:46 on Day 19. It was on the shelf at 07:00, likely moved after morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Towel consistently on shelf throughout Day 22.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf. Observed on shelf at 09:11, 18:47, and 19:23 on Day 21. It was on the towel rack at 07:00, likely moved after the morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Added multiple sightings from Day 26 to confirm the towel's static location on the shelf.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf. Observed on shelf at 08:48, 09:56, 19:31, and 21:09 on Day 22. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Towel moved from shelf to rack by 08:48 and remained there, indicating the rack is the standard storage spot.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom shelf. Observed on shelf at 07:00, 07:30, 08:23, 09:04, 18:22, 19:24, and 19:57 on Day 26. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on towel rack across multiple checks on Day 30.",
+     "was": {
+      "statement": "Priya's towel is kept on the bathroom towel rack. Observed on rack at 08:48, 09:49, 18:54, 19:25, 20:32, 21:09 on Day 28. Was on shelf at 07:00, suggesting it is hung after use.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0014",
+   "statement": "Sam is present in the kitchen in the mid-afternoon (14:37).",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0490"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 5,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 15:01 and 16:42. Sam was present in the kitchen.",
+     "was": {
+      "statement": "Sam is present in the kitchen in the mid-afternoon (14:37).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0015",
+   "statement": "Sam's mug is kept on the kitchen table in the morning, moved to the sink in the mid-afternoon, and to the office desk in the late afternoon. Observed on table at 08:10; sink at 14:36; office at 15:58 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0637"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [
+    {
+     "day": 7,
+     "time": 689400,
+     "why": "The mug was on the cupboard at 15:18 but not found in the kitchen at 18:59 or 19:25, suggesting it was moved or taken.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon. It was observed there at 18:12 on Day 6.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, Sam's mug was in the office at 16:42, on the kitchen sink at 20:18, and on the dish rack at 20:49. It was not on the cupboard.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the afternoon. It was observed there at 15:18 on Day 7.",
+      "holds_under": "afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The mug was on the dish rack at 14:35 but on the cupboard at 19:22 and 20:35, suggesting it was put away after use.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the afternoon. It was observed there at 15:18 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Confirms the evening location. The mug was in the office at 16:47 and on the sink at 14:53, showing it moves with Sam's activities.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the evening. It moved from the dish rack to the cupboard between 14:35 and 19:22 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 data shows the mug on the kitchen table in the morning (08:38), on the office desk in the late afternoon (18:03) and evening (22:09), and on the kitchen sink at 20:14. This contradicts the previous belief that it was on the cupboard.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the evening. It was observed on the cupboard at 19:08 and 20:17 on Day 10. During the day, it moves to the office desk or sink.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings show the mug on the office desk at 15:51 and on the kitchen cupboard at 21:43, refining the previous pattern.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen table in the morning, on the sink in the late afternoon, and on the office desk in the evening. Observed on table at 08:38, sink at 20:14, office desk at 18:03 and 22:09 on Day 11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 confirms the pattern: mug is in the kitchen cupboard at 14:33 (before office work) and on the office desk at 15:45 (during work).",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon and on the kitchen cupboard in the evening. Observed on office desk at 15:51 and kitchen cupboard at 21:43 on Day 12.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Consistently on office desk while Sam is working.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon and on the kitchen cupboard in the mid-afternoon. Observed on office desk at 15:45 and kitchen cupboard at 14:33 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on kitchen sink at 14:40 on Day 16. Day 15 sightings showed it on office desk at 16:37/17:41.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon. Observed on desk at 16:37 and 17:41 on Day 15. Not present in kitchen at these times.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on sink in afternoon and evening.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen sink in the mid-afternoon. Observed on sink at 14:40 on Day 16. Previous belief about office desk in late afternoon is not supported by this sighting.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The mug was in the office at 15:14 but moved to the kitchen cupboard by 21:23, suggesting it is brought home and stored there.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen sink in the mid-afternoon and evening. Observed on sink at 15:10 and 20:59 on Day 17.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Mug found on cupboard at 20:04 on Day 22. Previously on sink at 15:03.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the evening. Observed there at 21:23 on Day 20. It was on the office desk at 15:14, indicating it moves with him from work to home evening routine.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated location from kitchen cupboard to office desk based on late evening sighting.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen cupboard in the evening. Observed there at 20:04 on Day 22. It was on the sink at 15:03, indicating it moves with him from work to home evening routine.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Day 24 17:45 shows mug in office, consistent with work session. Day 24 20:13 shows it in kitchen, suggesting return to shared space.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the evening. Observed on desk at 22:13 on Day 23. It was on the kitchen table at 14:29, indicating he moves it from the kitchen to the office for his evening work session.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated sighting to Day 26 to reinforce the pattern of the mug being at the office during work hours.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon. Observed on desk at 17:45 on Day 24. It was on the kitchen sink at 20:13, indicating he moves it back to the kitchen after work.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed on the sink at 21:20 on Day 29, having been on the table at 20:35.",
+     "was": {
+      "statement": "Sam's mug is kept on the office desk in the late afternoon. Observed on desk at 17:01 on Day 26. Consistent with Day 24 (17:45). He moves it to the kitchen in the evening.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Mug returned to sink after being in the office, supporting the pattern of moving it to the sink after use/office work.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen sink in the late evening. Observed on sink at 21:20 on Day 29. Previously on table (Day 29 20:35) and office desk (Day 26), suggesting it is moved to the sink after use.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The mug follows Sam's movement: left in kitchen in morning, moved to sink (perhaps rinsed), then taken to office for work in the afternoon.",
+     "was": {
+      "statement": "Sam's mug is kept on the kitchen sink in the late evening. Observed on sink at 20:11 and 22:31 on Day 30. It was in the office at 21:39, indicating he moved it back to the kitchen after working.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0016",
+   "statement": "Priya and Sam are both present in the kitchen in the evening. They were observed there at 19:45 on Day 6.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_0672"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 6,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 20:18. Both were present in the kitchen.",
+     "was": {
+      "statement": "Priya and Sam are both present in the kitchen in the evening. They were observed there at 19:45 on Day 6.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0017",
+   "statement": "Sam's book is kept on the kitchen table in the afternoon and evening. It was observed there at 15:18, 18:59, and 19:25 on Day 7.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0745",
+    "sighting_0771",
+    "sighting_0788"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 8,
+   "last_revised_time": 775800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "Confirmed on Day 8 at 15:01, 16:42, 20:18, and 20:49. The book remained on the kitchen table throughout the day.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table in the afternoon and evening. It was observed there at 15:18, 18:59, and 19:25 on Day 7.",
+      "holds_under": "afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0018",
+   "statement": "Priya's glass is kept on the kitchen cupboard during the day, but is moved to the kitchen table in the evening. Observed on cupboard at 08:10, 14:36, 15:58; on table at 19:45 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_0790"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 7,
+   "revision_history": [
+    {
+     "day": 8,
+     "time": 775800,
+     "why": "On Day 8, Priya's glass was on the cupboard at 15:01, 16:42, and 20:49, but on the kitchen table at 20:18. It is not consistently on the table in the evening.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen table in the evening. It moved from the cupboard to the table between 18:59 and 19:25 on Day 7.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 9,
+     "time": 862200,
+     "why": "The glass was on the sink at 14:35 and 19:22, but on the table at 20:35, indicating it was taken out for use in the evening.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen table in the evening. It moved from the cupboard to the table between 18:59 and 19:25 on Day 7.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updates the location history. The glass was on the cupboard at 19:08 but moved to the table by 20:17, consistent with the evening pattern.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen sink during the day and moves to the kitchen table in the evening. It moved from the sink to the table between 19:22 and 20:35 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 data contradicts the previous belief that it was on the cupboard during the day. It was on the sink at 08:38 and 18:03, and moved to the cupboard by 20:14.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen cupboard during the day and moves to the kitchen table in the evening. It was on the cupboard at 07:15, 14:53, 16:47, 19:08 and on the table at 20:17 on Day 10.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings show the glass on the table at 20:13 and on the cupboard at 21:43, indicating a move within the evening.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen sink in the morning and late afternoon, and on the cupboard in the evening. Observed on sink at 08:38 and 18:03, cupboard at 20:14 and 22:09 on Day 11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 shows the glass moving from cupboard (afternoon) to table (evening), consistent with previous evening observations.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen table in the evening and on the kitchen cupboard later in the evening. Observed on table at 20:13 and cupboard at 21:43 on Day 12.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Disappeared from kitchen cupboard after 14:08 and appeared in bedroom_1 at 21:01.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen cupboard in the afternoon and on the kitchen table in the evening. Observed on cupboard at 14:33 and 15:45, and on table at 20:00 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Found on nightstand at 12:58. Absent from kitchen in afternoon checks.",
+     "was": {
+      "statement": "Priya's glass is kept on the kitchen cupboard during the day. It was not present in the kitchen after 14:08 on Day 14, likely moved to bedroom_1 (observed on nightstand at 21:01).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on nightstand at 11:11 on Day 16. Absent from kitchen at 14:40.",
+     "was": {
+      "statement": "Priya's glass is kept on the bedroom_1 nightstand during the day. Observed there at 12:58 on Day 15. Not present in kitchen at 16:37 or 18:05.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on nightstand during daytime sightings.",
+     "was": {
+      "statement": "Priya's glass is kept on the bedroom_1 nightstand during the day. Observed there at 11:11 on Day 16. Not present in kitchen at 14:40.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Reinforces the pattern that her glass stays in the bedroom during the day, unlike her mug which moves to the living room.",
+     "was": {
+      "statement": "Priya's glass is kept on the bedroom_1 nightstand during the day. Observed there at 11:26 and 14:01 on Day 17. Not present in kitchen or living room.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Glass on nightstand in bedroom_1 on Day 22.",
+     "was": {
+      "statement": "Priya's glass is kept on the bedroom_1 nightstand during the day. Observed there at 08:54 and 11:46 on Day 18. Not present in living room in evening.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The glass follows the same pattern as the plates, being stored away during the day and used in the evening.",
+     "was": {
+      "statement": "Priya's glass is kept on the bedroom_1 nightstand during the day. Observed there at 13:11 on Day 22. Not present in living room in evening.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0019",
+   "statement": "Sam's book is kept on the kitchen table in the evening. Observed on table at 20:13 on Day 12. It was not present in the kitchen at 21:43 on Day 12.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1005",
+    "sighting_1051",
+    "sighting_1076"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "The book was in the kitchen at 07:15 but absent from 14:53 onwards. This contradicts the previous claim that it is kept on the kitchen table in the afternoon/evening. It likely moves to the office or living room.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table in the afternoon and evening. It was observed there at 14:35, 19:22, and 20:35 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Confirmed morning location on Day 11. Absent at 18:03 and 20:14, consistent with previous pattern.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table in the morning. It was observed there at 07:15 on Day 10. It is not present in the kitchen during the afternoon or evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sighting at 20:13 shows the book on the kitchen table, but it is absent at 21:43, suggesting it was moved or taken.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table in the morning. It was observed there at 08:38 on Day 11. It is not present in the kitchen during the late afternoon or evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0020",
+   "statement": "Priya's water bottle is kept on the bedroom_1 nightstand during the day. Observed there at 13:11 on Day 22. Not present in living room in evening.",
+   "holds_under": "daytime",
+   "supporting_observation_ids": [
+    "sighting_1012",
+    "sighting_1057",
+    "sighting_1080"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 9,
+   "revision_history": [
+    {
+     "day": 10,
+     "time": 948600,
+     "why": "Updates the location history. The bottle was on the dish rack at 19:08 but moved to the table by 20:17, consistent with the evening pattern.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen table in the afternoon and evening. It was observed there at 14:35, 19:22, and 20:35 on Day 9.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 11,
+     "time": 1035000,
+     "why": "Day 11 data shows it on the table in the morning (08:38) and evening (20:14), but on the sink (18:03) and dish rack (22:09) in the late afternoon/night. This refines the previous belief that it was on the dish rack during the day.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen dish rack during the day and moves to the kitchen table in the evening. It was on the dish rack at 07:15, 14:53, 16:47, 19:08 and on the table at 20:17 on Day 10.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sightings show the water bottle on the table at 20:13 and on the dish rack at 21:43, indicating a move within the evening.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen table in the morning and evening, and on the sink or dish rack in the late afternoon. Observed on table at 08:38 and 20:14, sink at 18:03, dish rack at 22:09 on Day 11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 confirms the pattern: bottle is on the dish rack during the day and moves to the table in the evening.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen table in the evening and on the dish rack later in the evening. Observed on table at 20:13 and dish rack at 21:43 on Day 12.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Disappeared from kitchen dish rack after 14:08 and appeared in bedroom_1 at 21:01.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the dish rack in the afternoon and on the kitchen table in the evening. Observed on dish rack at 14:33 and 15:45, and on table at 20:00 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Found on nightstand at 12:58. Absent from kitchen in afternoon checks.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen dish rack during the day. It was not present in the kitchen after 14:08 on Day 14, likely moved to bedroom_1 (observed on nightstand at 21:01).",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on nightstand at 11:11 on Day 16. Absent from kitchen at 14:40.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the bedroom_1 nightstand during the day. Observed there at 12:58 on Day 15. Not present in kitchen at 16:37 or 18:05.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on nightstand during daytime sightings.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the bedroom_1 nightstand during the day. Observed there at 11:11 on Day 16. Not present in kitchen at 14:40.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Consistent with Day 17. Her water bottle remains in the bedroom during the day.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the bedroom_1 nightstand during the day. Observed there at 11:26 and 14:01 on Day 17. Not present in kitchen or living room.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Water bottle on nightstand in bedroom_1 on Day 22.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the bedroom_1 nightstand during the day. Observed there at 08:54 and 11:46 on Day 18. Not present in living room in evening.",
+      "holds_under": "daytime",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0021",
+   "statement": "Sam works from the office in the late afternoon. His laptop, headphones, pen, mug, and textbook are on the office desk. Observed at 16:37 and 17:41 on Day 15.",
+   "holds_under": "late afternoon",
+   "supporting_observation_ids": [
+    "sighting_1192",
+    "sighting_1193",
+    "sighting_1194",
+    "sighting_1195"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [
+    {
+     "day": 13,
+     "time": 1207800,
+     "why": "Day 13 at 15:45 confirms Sam is in the office with all his work items, including the textbook which was also present.",
+     "was": {
+      "statement": "Sam works from the office in the late afternoon. His laptop, headphones, pen, and mug are on the office desk at 16:47 on Day 10.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "All work items present on desk during Sam's office hours.",
+     "was": {
+      "statement": "Sam works from the office in the late afternoon. His laptop, headphones, pen, mug, and textbook are on the office desk. Observed at 15:45 on Day 13.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0022",
+   "statement": "Priya and Sam are both present in the kitchen in the evening. They were observed there at 19:08 and 20:17 on Day 10.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_1198",
+    "sighting_1223"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 10,
+   "last_revised_time": 948600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 10,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0023",
+   "statement": "Priya's phone is kept on the kitchen table in the evening. Observed on table at 21:43 on Day 12. It was not present in the kitchen at 20:13 on Day 12.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_1363"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 12,
+   "last_revised_time": 1121400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 11,
+   "revision_history": [
+    {
+     "day": 12,
+     "time": 1121400,
+     "why": "Day 12 sighting at 21:43 shows the phone on the kitchen table, but it was absent at 20:13, suggesting it was brought in later.",
+     "was": {
+      "statement": "Priya's phone is kept on the kitchen table in the evening. It was observed there at 20:14 on Day 11. It was not present in the kitchen at 08:38, 18:03, or 22:09.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0024",
+   "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 13:11 on Day 22. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1511"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 12,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Observed in bedroom_1, contradicting previous location in living room.",
+     "was": {
+      "statement": "Priya has a sketchbook kept on the living room bookshelf. Observed there at 21:43 on Day 12.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Consistently found on bedroom_1 desk.",
+     "was": {
+      "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 21:01 on Day 14. Previously believed to be on the living room bookshelf.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on desk at 11:11 on Day 16.",
+     "was": {
+      "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 12:58 on Day 15. Consistent with Day 14 observation.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on desk in bedroom_1.",
+     "was": {
+      "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 11:11 on Day 16. Consistent with Day 15 observation.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Stable location for her sketchbook.",
+     "was": {
+      "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 11:26 and 14:01 on Day 17. Consistent with Day 16 observation.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Sketchbook on desk in bedroom_1 on Day 22.",
+     "was": {
+      "statement": "Priya's sketchbook is kept on the desk in bedroom_1. Observed there at 08:54 and 11:46 on Day 18. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0025",
+   "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 08:09, 09:11, 10:14, 18:32, and 19:33 on Day 30. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1541",
+    "sighting_1606",
+    "sighting_1616",
+    "sighting_1626"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 14,
+     "time": 1294200,
+     "why": "Observed on shelf at 08:33 and 09:39, contradicting the previous belief of it being on the medicine cabinet.",
+     "was": {
+      "statement": "Sam's skincare is kept on the medicine cabinet in the bathroom. Observed on medicine cabinet at 09:09, 17:25, 18:28, and 19:16 on Day 13. It was on the shelf at 07:00.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on medicine cabinet at 08:55, 09:27, 20:18, and 21:07 on Day 16. Was on shelf at 07:08 and 07:39.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. It moved from the medicine cabinet to the shelf between 07:00 and 08:33 on Day 14. Previously believed to be on the medicine cabinet.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Location changed from cabinet to shelf on Day 17.",
+     "was": {
+      "statement": "Sam's skincare is kept on the medicine cabinet. It moved from the shelf to the cabinet between 07:39 and 08:55 on Day 16. Previous belief about shelf location is incorrect.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "The skincare moved from shelf to medicine cabinet between 07:00 and 09:34 and remained there, contradicting the previous belief that it was on the shelf.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 09:11, 18:27, and 19:58 on Day 17. Moved from medicine cabinet to shelf between 07:30 and 09:11.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The skincare moved from the shelf to the medicine cabinet between 07:22 and 08:31, and remained there for the rest of the day.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom medicine cabinet. Observed on cabinet at 09:34, 18:48, and 20:46 on Day 19. It was on the shelf at 07:00, likely moved during morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The skincare item has moved from the cabinet to the shelf and remained there, indicating a shift in its storage location.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom medicine cabinet. Observed on cabinet at 08:31, 09:03, and 19:22 on Day 20. It was on the shelf at 07:22, likely moved during the morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Skincare consistently on shelf throughout Day 22.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 09:11, 18:47, and 19:23 on Day 21. It was on the medicine cabinet at 07:00, likely moved during the morning routine.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Added multiple sightings from Day 26 to confirm the skincare's static location on the shelf.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 08:48, 09:56, 19:31, and 21:09 on Day 22. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Skincare consistently found on shelf across all bathroom checks today.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 07:00, 07:30, 08:23, 09:04, 18:22, 19:24, and 19:57 on Day 26. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on bathroom shelf across multiple checks on Day 30.",
+     "was": {
+      "statement": "Sam's skincare is kept on the bathroom shelf. Observed on shelf at 07:00, 08:48, 09:49, 18:54, 19:25, 20:32, 21:09 on Day 28. Consistent with previous days.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0026",
+   "statement": "Sam's plate is kept on the kitchen cupboard during the day, but is moved to the kitchen table in the evening. Observed on cupboard at 08:10, 14:36, 15:58; on table at 19:45 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1566",
+    "sighting_1595",
+    "sighting_1655"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Found on sink in both afternoon checks.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the afternoon and on the kitchen sink in the evening. Observed on table at 14:33 and 15:45, and on sink at 20:00 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on kitchen table at 14:40 on Day 16. Day 15 sightings showed it on sink at 16:37/18:05.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen sink in the late afternoon and evening. Observed on sink at 16:37 and 18:05 on Day 15.",
+      "holds_under": "late afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on kitchen table.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the mid-afternoon. Observed on table at 14:40 on Day 16. Previous belief about sink location in late afternoon is not supported by this sighting.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The plate moved from the dish rack to the cupboard between 15:14 and 21:23, consistent with putting dishes away.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the mid-afternoon and evening. Observed on table at 15:10 and 20:59 on Day 17.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Corrected location from cupboard to table based on consistent Day 23 sightings.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen cupboard in the evening. Observed there at 21:23 on Day 20. It was on the dish rack at 15:14, indicating it is put away after use.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Consistent location on kitchen table in both morning and evening sightings on Day 24.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the evening. Observed on table at 14:29, 18:57, and 22:13 on Day 23. It has been consistently on the table, not the cupboard as previously noted.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Consistent location on cupboard across morning and evening on Day 25, contradicting previous table location.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the evening. Observed on table at 20:13 on Day 24. It was on the table at 08:05 as well, suggesting it stays on the table throughout the day.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "The plate was on the table when they were together, then moved to the sink later in the evening, likely after being used or cleaned.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen cupboard. Observed on cupboard at 08:07 and 21:40 on Day 25. Previous notes of it being on the table appear to be outdated or context-specific.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Plate found on table during mid-afternoon check, consistent with its usual location.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table in the evening, moving to the sink after use. Observed on table at 20:10 and sink at 21:27 on Day 27. Previous note of cupboard location is outdated.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Consistently observed on the cupboard on Day 29, unlike the table location on Day 28.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen table. Observed on table at 15:02 on Day 28. Consistent with previous evening observations.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on cupboard across multiple evening checks on Day 30.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen cupboard. Observed on cupboard at 08:07, 20:35, and 21:20 on Day 29. Previously on table (Day 28), suggesting it is put away after use.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The plate location changed from cupboard to table in the evening, indicating it is taken out for use or display at that time.",
+     "was": {
+      "statement": "Sam's plate is kept on the kitchen cupboard. Observed on cupboard at 20:11, 21:39, and 22:31 on Day 30. Consistent with Day 29.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0027",
+   "statement": "Sam's glass is kept on the kitchen table during the day, moved to the dish rack in the mid-afternoon, and back to the table in the evening. Observed on table at 14:36, 19:45; on dish rack at 15:58 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1565",
+    "sighting_1593",
+    "sighting_1653"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 13,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Found on sink in both afternoon checks.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen table in the afternoon and on the kitchen sink in the evening. Observed on table at 14:33 and on sink at 15:45 and 20:00 on Day 13.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed on kitchen table at 14:40 on Day 16. Day 15 sightings showed it on sink at 16:37/18:05.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen sink in the late afternoon and evening. Observed on sink at 16:37 and 18:05 on Day 15.",
+      "holds_under": "late afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Consistently on kitchen table.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen table in the mid-afternoon. Observed on table at 14:40 on Day 16. Previous belief about sink location in late afternoon is not supported by this sighting.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The glass moved from the pantry shelf to the cupboard between 15:14 and 21:23, consistent with putting dishes away.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen table in the mid-afternoon and evening. Observed on table at 15:10 and 20:59 on Day 17.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated location from cupboard to sink based on late evening sighting.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen cupboard in the evening. Observed there at 21:23 on Day 20. It was on the pantry shelf at 15:14, indicating it is put away after use.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Day 24 20:13 shows glass on table, contradicting previous 'sink in evening' pattern. Day 24 08:05 shows it on sink, consistent with morning use.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen sink in the evening. Observed on sink at 22:13 on Day 23. It was on the kitchen table at 14:29 and 18:57, indicating it is moved to the sink after use.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Location changes from cupboard to dish rack between morning and evening, suggesting use and washing.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen table in the evening. Observed on table at 20:13 on Day 24. It was on the sink at 08:05, suggesting it is moved to the table for dinner or evening use.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed on the table in the evening on Day 29, whereas it was on the cupboard in the morning.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen cupboard in the morning and dish rack in the evening. Observed on cupboard at 08:07 and dish rack at 21:40 on Day 25.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Glass moved from table to pantry shelf between 20:11 and 21:39, indicating it is stored away in the late evening.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen table in the evening. Observed on table at 20:35 and 21:20 on Day 29. Previously on cupboard (Day 25 morning), suggesting it is moved for evening use.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The glass moved from table to dish rack (likely for washing) and then back to the table, showing a cycle of use and cleaning.",
+     "was": {
+      "statement": "Sam's glass is kept on the kitchen pantry shelf in the late evening. Observed on pantry shelf at 21:39 and 22:31 on Day 30. Previously on table (20:11), suggesting it is put away after use.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0028",
+   "statement": "Priya's personal items (charger, pencil case, gym bag) are kept in bedroom_1. Observed on bed, floor, and wardrobe at 08:54 and 11:46 on Day 18.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1835",
+    "sighting_1836",
+    "sighting_1840"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Items consistently located in bedroom_1.",
+     "was": {
+      "statement": "Priya's personal items (charger, pencil case, gym bag) are kept in bedroom_1. Observed on bed, floor, and wardrobe at 21:01 on Day 14.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 16,
+     "time": 1467000,
+     "why": "Observed in bedroom_1 at 11:11 on Day 16.",
+     "was": {
+      "statement": "Priya's personal items (charger, pencil case, gym bag) are kept in bedroom_1. Observed on bed, floor, and wardrobe at 12:58 on Day 15.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Items consistently in bedroom_1.",
+     "was": {
+      "statement": "Priya's personal items (charger, pencil case, gym bag) are kept in bedroom_1. Observed on bed, floor, and wardrobe at 11:11 on Day 16.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Her items remain clustered in bedroom_1 during the day.",
+     "was": {
+      "statement": "Priya's personal items (charger, pencil case, gym bag) are kept in bedroom_1. Observed on bed, floor, and wardrobe at 11:26 and 14:01 on Day 17.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0029",
+   "statement": "Sam's book is kept on the kitchen table throughout the day and evening. Observed on table at 08:10, 14:36, 15:58, and 19:45 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_1686",
+    "sighting_1730",
+    "sighting_1752",
+    "sighting_1790"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Absent from previously known locations (kitchen table, office desk) in recent checks.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table during the day. It was not present in the kitchen after 19:13 on Day 14, likely moved to bedroom_2 or office.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The book was found on the kitchen floor in both afternoon and evening sightings, establishing a new consistent location.",
+     "was": {
+      "statement": "Sam's book is not currently located in the kitchen or office. It was not found in kitchen (16:37, 18:05) or office (16:37, 17:41) on Day 15. Likely in bedroom_2 or living room.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "The book is no longer on the floor but is being used in the kitchen, moving between the table and chair.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen floor. Observed there at 15:14 and 21:23 on Day 20. It was not in the office or kitchen table previously, but is now consistently on the floor.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Book consistently on kitchen chair on Day 22.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table or chair. Observed on table at 08:03 and on chair at 15:07 on Day 21. It was on the kitchen floor on Day 20, indicating it moves around the kitchen area.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated location from chair to table based on Day 23 sightings.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen chair. Observed on chair at 15:03 and 20:04 on Day 22. It was on the table on Day 21, indicating it moves around the kitchen area.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Present in kitchen in morning but absent in evening, indicating it is moved or taken away.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table. Observed on table at 14:29 and 18:57 on Day 23. It was not present in the kitchen at 22:13, suggesting it is taken away or put away late in the evening.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "The book remained on the kitchen table all day, suggesting it is a permanent fixture there or Sam is reading while in the kitchen.",
+     "was": {
+      "statement": "Sam's book is kept on the kitchen table in the morning. Observed on table at 08:07 on Day 25. Not present in kitchen at 21:40, suggesting it is taken away or put away late in the evening.",
+      "holds_under": "morning",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0030",
+   "statement": "Priya and Sam are in different rooms in the late afternoon. Sam is in the office (16:37, 17:41) while Priya is in the living room (18:05). They are not together in the kitchen at this time on Day 15.",
+   "holds_under": "late afternoon",
+   "supporting_observation_ids": [
+    "sighting_1760",
+    "sighting_1798"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 14,
+   "revision_history": [
+    {
+     "day": 15,
+     "time": 1380600,
+     "why": "Sam observed in office, Priya in living room. Neither in kitchen during these checks.",
+     "was": {
+      "statement": "Priya and Sam are both present in the kitchen in the late afternoon (16:35) and evening (19:13). Observed together at 16:35 and 19:13 on Day 14.",
+      "holds_under": "late afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0031",
+   "statement": "Priya's mug is kept on the living room coffee table in the evening. Observed on coffee table at 22:13 on Day 23. It was not present in the kitchen, indicating she moves it to the living room for relaxation.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_1942"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 23,
+   "last_revised_time": 2071800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Mug found in living room, not kitchen, in evening.",
+     "was": {
+      "statement": "Priya's mug is kept on the living room coffee table in the evening. Observed there at 18:05 on Day 15. Not present in kitchen at 16:37 or 18:05.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "The mug appears in the living room in the mid-afternoon and stays there in the evening. This suggests she moves to the living room around 15:00.",
+     "was": {
+      "statement": "Priya's mug is kept on the living room coffee table in the evening. Observed there at 20:59 on Day 17. Not present in kitchen at 20:59.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The mug was found in the kitchen cupboard at 21:23, contradicting the previous belief that it was on the living room coffee table in the evening.",
+     "was": {
+      "statement": "Priya's mug is kept on the living room coffee table in the evening. Observed there at 15:19 and 20:40 on Day 18. Not present in bedroom or kitchen.",
+      "holds_under": "afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Updated location from kitchen cupboard to living room coffee table based on late evening sighting.",
+     "was": {
+      "statement": "Priya's mug is kept on the kitchen cupboard in the evening. Observed there at 21:23 on Day 20. It was on the living room coffee table on Day 18, indicating a change in evening routine or location.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0032",
+   "statement": "Priya is in the living room in the early evening (18:05). Sam is in the office. They are separated in the home during this time.",
+   "holds_under": "early evening",
+   "supporting_observation_ids": [
+    "sighting_1942",
+    "sighting_1908"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 15,
+   "last_revised_time": 1380600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 15,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0033",
+   "statement": "Priya is in bedroom_1 in the late morning and early afternoon. Observed there at 13:11 on Day 22. Her items (charger, glass, gym bag, pencil case, sketchbook, water bottle) are present.",
+   "holds_under": "late morning and early afternoon",
+   "supporting_observation_ids": [
+    "sighting_1999",
+    "sighting_2000",
+    "sighting_2001",
+    "sighting_2002",
+    "sighting_2003",
+    "sighting_2004"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Priya present in bedroom_1 during these times.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the late morning (11:11). Her items (charger, pencil case, sketchbook, glass, water bottle, gym bag) are present in the room.",
+      "holds_under": "late morning",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "Refines the timeline. She is in the bedroom at 11:46 but in the living room by 15:19.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the late morning and early afternoon. Observed there at 11:26 and 14:01 on Day 17. Her items are present.",
+      "holds_under": "late morning and early afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya was observed in bedroom_1 at 09:57 and 11:10, consistent with previous days.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the late morning and early afternoon. Observed there at 11:46 on Day 18. Her items are present. She moves to the living room by 15:19.",
+      "holds_under": "late morning and early afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Priya was consistently found in bedroom_1 during this time slot, with her personal items present.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the late morning and early afternoon. Observed there at 09:57 and 11:10 on Day 20. Her items (charger, glass, gym bag, pencil case, sketchbook, water bottle) are present.",
+      "holds_under": "late morning and early afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Confirmed presence in bedroom_1 at 13:11 on Day 22. Personal items consistent with previous days.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the late morning and early afternoon. Observed there at 11:40 and 12:51 on Day 21. Her items (charger, glass, gym bag, pencil case, sketchbook, water bottle) are present.",
+      "holds_under": "late morning and early afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0034",
+   "statement": "Sam is in the kitchen in the mid-afternoon. Observed there at 15:02 on Day 28. His work items (laptop, headphones, pen, textbook) were not present, suggesting he is not working from the kitchen at this time.",
+   "holds_under": "mid-afternoon",
+   "supporting_observation_ids": [
+    "sighting_2014",
+    "sighting_2021",
+    "sighting_2023",
+    "sighting_2028",
+    "sighting_2012"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 28,
+   "last_revised_time": 2503800,
+   "status": "provisional",
+   "standing": "set aside for now",
+   "first_written_day": 16,
+   "revision_history": [
+    {
+     "day": 17,
+     "time": 1553400,
+     "why": "Sam present in kitchen during these times.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon (14:40). His items (bowl, mug, plate, glass, vitamins) are present in the room.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 18,
+     "time": 1639800,
+     "why": "On Day 18, Sam's items are in the living room, not the kitchen. This contradicts the Day 17 pattern. It is possible his routine changed or he is in the living room instead.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon and evening. Observed there at 15:10 and 20:59 on Day 17. His items are present.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 19,
+     "time": 1726200,
+     "why": "Sam was observed in the kitchen at multiple times on Day 19, including mid-afternoon and evening. The note was set aside previously but is supported by today's sightings.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon and evening. Observed there at 15:10 and 20:59 on Day 17. His items are present.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sam was observed in the office at 15:14 and 21:23, and also in the kitchen at 21:23, indicating he is present in multiple rooms or the kitchen is a shared hub.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon and evening. Observed there at 08:00, 16:38, and 20:14 on Day 19. He is also in the office at 16:38.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sam was seen in the kitchen at 15:07, but his typical office work items were absent, indicating a different activity or location for work.",
+     "was": {
+      "statement": "Sam is in the office in the mid-afternoon and evening. Observed there at 15:14 and 21:23 on Day 20. He is also in the kitchen at 21:23, suggesting he moves between rooms or the kitchen is a shared space.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Confirmed presence in kitchen at 15:03 on Day 22. Work items absent, consistent with previous days.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon. Observed there at 15:07 on Day 21. His work items (laptop, headphones, pen, textbook) were not present in the kitchen, suggesting he is not working from the kitchen at this time.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Sam was present in the kitchen at 15:02, consistent with previous mid-afternoon observations.",
+     "was": {
+      "statement": "Sam is in the kitchen in the mid-afternoon. Observed there at 15:03 on Day 22. His work items (laptop, headphones, pen, textbook) were not present, suggesting he is not working from the kitchen at this time.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "set aside for now"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0035",
+   "statement": "Priya is in the living room in the mid-afternoon. Observed there at 17:04 on Day 22. Her mug was on the coffee table, suggesting she is relaxing or socializing in the living room.",
+   "holds_under": "mid-afternoon",
+   "supporting_observation_ids": [
+    "sighting_2215",
+    "sighting_2218",
+    "sighting_2240"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Priya was observed in the kitchen at 21:23, and her items were stored in the kitchen cupboard, suggesting a shift from the living room hub to the kitchen for the evening.",
+     "was": {
+      "statement": "Priya is in the living room in the mid-afternoon and evening. Observed there at 15:19 and 20:40 on Day 18. Her mug and plate are on the coffee table/couch.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Priya was seen in the living room at 15:07, with her mug present, indicating a shift from the kitchen to the living room in the afternoon.",
+     "was": {
+      "statement": "Priya is in the kitchen in the evening. Observed there at 21:23 on Day 20 with Sam. Her mug and bowl were on the cupboard, not the living room coffee table as on Day 18.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Confirmed presence in living room at 17:04 on Day 22. Mug on coffee table.",
+     "was": {
+      "statement": "Priya is in the living room in the mid-afternoon. Observed there at 15:07 on Day 21. Her mug was on the coffee table, suggesting she is relaxing or socializing in the living room.",
+      "holds_under": "mid-afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0036",
+   "statement": "Priya's plate is kept on the living room couch in the mid-afternoon and evening. Observed there at 15:19 on Day 18. Not present at 20:40.",
+   "holds_under": "mid-afternoon",
+   "supporting_observation_ids": [
+    "sighting_2218"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 18,
+   "last_revised_time": 1639800,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0037",
+   "statement": "Priya's bowl is kept on the kitchen cupboard. Observed on cupboard at 20:11, 21:39, and 22:31 on Day 30. Consistent with previous days.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_2237"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 18,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "The bowl was found in the kitchen cupboard at 21:23, contradicting the previous belief that it was on the living room coffee table in the evening.",
+     "was": {
+      "statement": "Priya's bowl is kept on the living room coffee table in the evening. Observed there at 20:40 on Day 18. Not present at 15:19.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 23,
+     "time": 2071800,
+     "why": "Corrected location from cupboard to table based on consistent Day 23 sightings.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen cupboard in the evening. Observed there at 21:23 on Day 20. It was on the living room coffee table on Day 18, indicating a change in evening routine or location.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Consistently on cupboard in Day 24 observations, unlike previous days where it was on the table.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen table in the evening. Observed on table at 14:29, 18:57, and 22:13 on Day 23. It has been consistently on the table, not the cupboard as previously noted.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Location changes from table to cupboard between morning and evening, suggesting use and storage.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen cupboard. Observed on cupboard at 08:05 and 20:13 on Day 24. Previous notes of it being on the table appear to be outdated or context-specific.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "The bowl has been consistently found on the cupboard in the evening, suggesting it is stored there rather than left on the table.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen table in the morning and cupboard in the evening. Observed on table at 08:07 and cupboard at 21:40 on Day 25.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 28,
+     "time": 2503800,
+     "why": "Bowl found on cupboard during mid-afternoon check, consistent with its usual location.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen cupboard. Observed on cupboard at 20:10 and 21:27 on Day 27. Consistent with Day 25 evening observation.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed stable location on kitchen cupboard across multiple evening checks on Day 30.",
+     "was": {
+      "statement": "Priya's bowl is kept on the kitchen cupboard. Observed on cupboard at 15:02 on Day 28. Consistent with previous evening observations.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0038",
+   "statement": "Sam is in the kitchen in the mid-afternoon. Observed there at 15:07 on Day 21. His work items (laptop, headphones, pen, textbook) were not present in the kitchen, suggesting he is not working from the kitchen at this time.",
+   "holds_under": "mid-afternoon",
+   "supporting_observation_ids": [
+    "sighting_2324",
+    "sighting_2325",
+    "sighting_2326",
+    "sighting_2327",
+    "sighting_2329"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 21,
+   "last_revised_time": 1899000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [
+    {
+     "day": 20,
+     "time": 1812600,
+     "why": "Sam was observed in the office at 15:14 and 21:23, extending the previous 'late afternoon' window to include mid-afternoon and evening.",
+     "was": {
+      "statement": "Sam is in the office in the late afternoon. Observed there at 16:38 on Day 19 with his work items (laptop, headphones, pen, mug, textbook).",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 21,
+     "time": 1899000,
+     "why": "Sam was seen in the kitchen at 15:07, but his typical office work items were absent, indicating a different activity or location for work.",
+     "was": {
+      "statement": "Sam is in the office in the mid-afternoon and evening. Observed there at 15:14 and 21:23 on Day 20 with his work items (laptop, headphones, pen, textbook). His mug was present at 15:14 but gone by 21:23.",
+      "holds_under": "mid-afternoon and evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0039",
+   "statement": "Priya is in the bathroom in the early morning. Observed there at 07:00 on Day 19.",
+   "holds_under": "early morning",
+   "supporting_observation_ids": [
+    "sighting_2252"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 19,
+   "last_revised_time": 1726200,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 19,
+   "revision_history": [],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0040",
+   "statement": "A vacuum cleaner is present in the living room. Observed on the floor at 17:04 on Day 22. It was not present in previous days' records for the living room.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_2575"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 22,
+   "last_revised_time": 1985400,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 21,
+   "revision_history": [
+    {
+     "day": 22,
+     "time": 1985400,
+     "why": "Vacuum cleaner observed in living room on Day 22.",
+     "was": {
+      "statement": "A vacuum cleaner is present in the living room. Observed on the floor at 15:07 on Day 21. It was not present in previous days' records for the living room.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0041",
+   "statement": "Priya is in the bathroom in the early morning. Observed there at 07:00, 07:30, 08:23, and 09:04 on Day 26. She is the first person seen in the home each morning.",
+   "holds_under": "early morning",
+   "supporting_observation_ids": [
+    "sighting_2712",
+    "sighting_2721",
+    "sighting_2731"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 26,
+   "last_revised_time": 2331000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Updated with Day 26 sightings showing Priya's items (hair dryer, towel, razor) present in the bathroom during the early morning hours, supporting her presence there.",
+     "was": {
+      "statement": "Priya is in the bathroom in the early morning. Observed there at 07:11, 08:15, and 09:30 on Day 23. She is the first person seen in the home each morning.",
+      "holds_under": "early morning",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0042",
+   "statement": "Sam is in the office in the late afternoon. Observed there at 15:58 on Day 31 with his laptop, headphones, pen, and textbook. Consistent with his work pattern.",
+   "holds_under": "late afternoon",
+   "supporting_observation_ids": [
+    "sighting_2837",
+    "sighting_2838",
+    "sighting_2839",
+    "sighting_2841"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 23,
+   "revision_history": [
+    {
+     "day": 24,
+     "time": 2158200,
+     "why": "Day 24 17:45 confirms Sam in office, but 20:13 shows him in kitchen, refining the time window for his office presence.",
+     "was": {
+      "statement": "Sam is in the office in the late evening. Observed there at 22:13 on Day 23 with his laptop, headphones, mug, and textbook. This suggests he works from the office late into the night.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 26,
+     "time": 2331000,
+     "why": "Confirmed Sam's location and work setup in the office during the late afternoon slot.",
+     "was": {
+      "statement": "Sam is in the office in the late afternoon. Observed there at 17:45 on Day 24 with his laptop, headphones, mug, and textbook. He is not in the office in the evening (20:13), as he is in the kitchen.",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 27,
+     "time": 2417400,
+     "why": "Sam was found in the office at 21:27, later than his usual late afternoon work hours, indicating he works late or stays in the office into the evening.",
+     "was": {
+      "statement": "Sam is in the office in the late afternoon. Observed there at 17:01 on Day 26 with his laptop, headphones, mug, pen, and textbook. Consistent with previous days (Day 24, 15).",
+      "holds_under": "late afternoon",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 29,
+     "time": 2590200,
+     "why": "Observed in the office at 21:20 on Day 29 with his work items, consistent with previous days.",
+     "was": {
+      "statement": "Sam is in the office in the late evening. Observed there at 21:27 on Day 27 with his laptop, headphones, mug, pen, and textbook. Consistent with his late afternoon work pattern.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed presence in office with work items at 21:39 on Day 30.",
+     "was": {
+      "statement": "Sam is in the office in the late evening. Observed there at 21:20 on Day 29 with his laptop, headphones, pen, and textbook. Consistent with his late afternoon work pattern.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Sam was seen in the office at 15:58 with all his work items, confirming his habit of working from the office in the late afternoon.",
+     "was": {
+      "statement": "Sam is in the office in the late evening. Observed there at 21:39 on Day 30 with his laptop, headphones, pen, and textbook. Consistent with his work pattern.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0043",
+   "statement": "Priya's charger is kept on the desk in bedroom_1 in the evening. Observed on desk at 22:31 on Day 30. Consistent with previous notes.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_2862"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Observed on desk in evening, contradicting previous morning bed location.",
+     "was": {
+      "statement": "Priya's charger is kept on the bed in bedroom_1 in the morning. Observed on bed at 08:05 on Day 24. It was not present in the bedroom at 20:13, suggesting it is taken with her or moved during the day.",
+      "holds_under": "morning",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed location on desk in bedroom_1 at 22:31 on Day 30.",
+     "was": {
+      "statement": "Priya's charger is kept on the desk in bedroom_1 in the evening. Observed on desk at 21:40 on Day 25. Previous note of it being on the bed in the morning is outdated.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0044",
+   "statement": "Priya's headphones are kept on the desk in bedroom_1 in the evening. Observed on desk at 22:31 on Day 30. Consistent with previous notes.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_2864"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 24,
+   "revision_history": [
+    {
+     "day": 25,
+     "time": 2244600,
+     "why": "Consistent location on desk in evening.",
+     "was": {
+      "statement": "Priya's headphones are kept on the desk in bedroom_1 in the morning. Observed on desk at 08:05 on Day 24. Not present in the bedroom at 20:13, suggesting they are used elsewhere or stored differently in the evening.",
+      "holds_under": "morning",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed location on desk in bedroom_1 at 22:31 on Day 30.",
+     "was": {
+      "statement": "Priya's headphones are kept on the desk in bedroom_1 in the evening. Observed on desk at 21:40 on Day 25. Consistent with previous notes of desk location.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0045",
+   "statement": "Priya is in bedroom_1 in the evening. Observed there at 19:45 on Day 31 with her gym bag, iron, pencil case, scarf, and sketchbook. Sam is in the kitchen at the same time.",
+   "holds_under": "evening",
+   "supporting_observation_ids": [
+    "sighting_3102",
+    "sighting_3103",
+    "sighting_3104",
+    "sighting_3105",
+    "sighting_3106",
+    "sighting_3107"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 25,
+   "revision_history": [
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Priya was seen in bedroom_1 in the evening with her personal items, consistent with her habit of being in this room at that time.",
+     "was": {
+      "statement": "Priya is in bedroom_1 in the evening. Observed there at 21:40 on Day 25 with her laptop, mug, and other personal items. Sam is in the kitchen at the same time.",
+      "holds_under": "evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0046",
+   "statement": "Priya's gym bag is kept on the wardrobe in bedroom_1. Observed there at 22:31 on Day 30. Consistent with her personal items being stored in this room.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_3251"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 27,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Confirmed location on wardrobe in bedroom_1 at 22:31 on Day 30.",
+     "was": {
+      "statement": "Priya's gym bag is kept on the wardrobe in bedroom_1. Observed there at 20:10 on Day 27. Consistent with her personal items being stored in this room.",
+      "holds_under": "always",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0047",
+   "statement": "Priya's water bottle is kept on the kitchen dish rack in the early evening. Observed on dish rack at 21:39 on Day 30. It was on the table at 20:11, suggesting it is moved to the rack for washing.",
+   "holds_under": "early evening",
+   "supporting_observation_ids": [
+    "sighting_3493"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 30,
+   "last_revised_time": 2676600,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Bottle moved from table to dish rack between 20:11 and 21:39, consistent with washing routine.",
+     "was": {
+      "statement": "Priya's water bottle is kept on the kitchen dish rack in the early evening. Observed on dish rack at 20:35 on Day 29. Moved to sink by 21:20.",
+      "holds_under": "early evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  },
+  {
+   "claim_id": "claim_0048",
+   "statement": "Priya's plate is kept on the kitchen cupboard during the day, but is moved to the kitchen table in the evening. Observed on cupboard at 08:10, 14:36, 15:58; on table at 19:45 on Day 31.",
+   "holds_under": "always",
+   "supporting_observation_ids": [
+    "sighting_3526"
+   ],
+   "contradicting_observation_ids": [],
+   "last_revised_day": 31,
+   "last_revised_time": 2763000,
+   "status": "provisional",
+   "standing": "still standing",
+   "first_written_day": 29,
+   "revision_history": [
+    {
+     "day": 30,
+     "time": 2676600,
+     "why": "Plate consistently on cupboard in evening, contradicting previous note of it being on sink. It is stored away, not left for washing.",
+     "was": {
+      "statement": "Priya's plate is kept on the kitchen sink in the late evening. Observed on sink at 21:20 on Day 29. Previously on cupboard (Day 29 20:35), suggesting it is moved to the sink for washing.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    },
+    {
+     "day": 31,
+     "time": 2763000,
+     "why": "Similar to Sam's plate, Priya's plate is stored in the cupboard during the day and brought to the table in the evening.",
+     "was": {
+      "statement": "Priya's plate is kept on the kitchen cupboard in the late evening. Observed on cupboard at 20:11, 21:39, and 22:31 on Day 30. Previously on table (Day 29), suggesting it is put away after use.",
+      "holds_under": "late evening",
+      "status": "provisional",
+      "standing": "still standing"
+     }
+    }
+   ],
+   "in_working_memory": false,
+   "moved_between_memory_and_archive": [],
+   "times_it_helped": 0,
+   "times_it_misled": 0,
+   "what_it_taught": [],
+   "folded_into": null,
+   "folded_in_from": []
+  }
+ ],
+ "nightly_summaries": []
+}

@@ -1,0 +1,87 @@
+activities_file: activities_varied.yaml
+calendar:
+- day_kind: weekday
+  days:
+  - 0
+  - 13
+  name: lead
+  suppress_random_events: true
+- day_kind: weekday
+  days:
+  - 14
+  - 23
+  force_events:
+  - event: unwell_spell
+    resident: resident_1
+  name: sick
+  suppress_random_events: true
+- day_kind: weekday
+  days:
+  - 24
+  - 31
+  name: return
+  suppress_random_events: true
+- day_kind: weekday
+  days:
+  - 32
+  - 41
+  force_events:
+  - event: unwell_spell
+    resident: resident_1
+  name: sick_again
+  suppress_random_events: true
+- day_kind: weekday
+  days:
+  - 42
+  - 49
+  name: return_again
+  suppress_random_events: true
+classes:
+- book
+- water_bottle
+- tablet
+- mug
+- charger
+- glasses
+- glass
+- razor
+- medication
+- towel
+- notebook
+day0: Monday
+days: 50
+events:
+  grocery_delivery:
+    weekday: 0.0
+    weekend: 0.0
+  guest_visit:
+    weekday: 0.0
+    weekend: 0.0
+  late_work:
+    weekday: 0.0
+    weekend: 0.0
+  laundry_day:
+    weekday: 0.0
+    weekend: 0.0
+  rain:
+    weekday: 0.0
+    weekend: 0.0
+  sick_day:
+    weekday: 0.0
+    weekend: 0.0
+  unwell_spell:
+    weekday: 0.0
+    weekend: 0.0
+events_file: events_varied.yaml
+feedback_delay_min: 10
+name: varied_v2_twice
+oversample: 1024
+patrol_hours: 0
+patrol_times: 03:00
+per_day: 24
+question_min_gap_min: 30
+question_moment: during
+question_owners: null
+questions: activity
+shift_focus: 0.0
+sim_dir: ../all_generated_v2_twice/sims

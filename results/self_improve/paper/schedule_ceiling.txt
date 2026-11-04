@@ -1,0 +1,27 @@
+First-room-right ceiling from an observer that knows each household's true schedule (CPU only, no model).
+
+For every question the Qwen runs scored (from incremental_edits searches.jsonl), the observer guesses the room
+that most often held the object at the same clock time (+-0, 15, 30 min) on the OTHER days of the same period
+(settled / disrupted / back to normal). So it knows the routine, including the illness routine, exactly, but not
+that day's chance moves. Variant 'routine only' uses settled days only, i.e. it never learns the illness routine.
+Objects out of reach (carried, out of the house) count as a room 'beyond reach' that can't be right.
+
+2480 questions, 10 homes
+
+                  knows schedule  routine only  claim store (Qwen)
+settled                     79.7          79.7                76.1   n=1040
+disrupted                   88.8          57.2                74.9   n=800
+back to normal              79.8          78.9                76.7   n=640
+all                         82.7          72.3                75.8   n=2480
+
+Per home, all periods (knows schedule):
+  hh_s109_t03   77.0
+  hh_s123_t03   91.5
+  hh_s151_t03   71.4
+  hh_s19_t03    88.3
+  hh_s20_t03    75.0
+  hh_s2_t03     84.7
+  hh_s32_t03    95.6
+  hh_s48_t03    80.6
+  hh_s63_t03    69.0
+  hh_s93_t03    93.5
