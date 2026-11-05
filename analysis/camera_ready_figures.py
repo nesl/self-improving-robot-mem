@@ -9,7 +9,7 @@ the figure plots; a mismatch raises and nothing is reported as drawn.
     Figure 2     figureA1_first_illness.pdf            5.5 x 2.2
     Figure 3     figure2_both_illnesses.pdf            5.5 x 1.8
     Figure 4     figureA2_what_the_notes_held.pdf      3.4 x 1.9
-    Figure 5     figure3_told_the_cause.pdf            5.5 x 1.5
+    Figure 5     figure3_told_the_cause.pdf            5.5 x 1.9 (height from its text)
 
 CPU only, no model calls; reads finished cells only. Run from prior_work/:
 
@@ -673,6 +673,47 @@ def figure_5_checks():
             "day14_answer_rooms": dict(answer_rooms), "day14_objects": sorted(tomas)}
 
 
+# Two secondary annotations (2026-11-04: readers misread the figure). Drawn upright in the muted ink
+# at the figure's smallest size, under the quote they explain.
+RETRACTION_BASIS = "based on: his laptop still on the office desk at 14:08"
+GLASS_CONDITION = "true on day 14, but filed as a daytime fact, with no illness condition"
+
+
+def figure_5_annotation_checks():
+    """The glass claim's condition (notes.json, always checked), and what the robot saw on day 14
+    (looks.jsonl; checked when the cell's looks.jsonl is present, skipped cleanly when it is not)."""
+    claims = json.load(open(TOLD / "notes.json"))["claims"]
+    g = next(c for c in claims if c["claim_id"] == "claim_0024")
+    held = next(r for r in g["revision_history"] if r["day"] == 15)["was"]
+    if held.get("holds_under") != "Daytime.":
+        raise Mismatch(f"claim_0024 on night 14 holds under {held.get('holds_under')!r}, expected 'Daytime.'")
+    print("  ok  claim_0024 as it stood on night 14 holds under 'Daytime.' (no illness condition)")
+    looks_path = TOLD / "looks.jsonl"
+    if not looks_path.exists():
+        print(f"  SKIPPED  day-14 look check: {looks_path} is not present")
+        return
+    looks = [r for r in map(json.loads, looks_path.open()) if r.get("kind") == "look" and r["day"] == 14]
+
+    def seen(target, hhmm):
+        t = 14 * 86400 + int(hhmm[:2]) * 3600 + int(hhmm[3:]) * 60
+        return {s["object_id"]: s for r in looks if r["time"] == t
+                and any(x["name"] == target for x in r["targets"]) for s in r["sightings"]}
+    office = seen("office", "14:08")
+    for o in ("laptop_tomas", "mouse_tomas", "pen_tomas", "notebook_tomas"):
+        if o not in office or office[o]["room"] != "office":
+            raise Mismatch(f"day 14 14:08 office look did not see {o}")
+    if not office["laptop_tomas"]["place_id"].startswith("desk"):
+        raise Mismatch(f"laptop_tomas at 14:08 is on {office['laptop_tomas']['place_id']}, not a desk")
+    living = seen("living", "14:08")
+    if living.get("mug_tomas", {}).get("room") != "living":
+        raise Mismatch("day 14 14:08: mug_tomas not seen in the living room")
+    print("  ok  day 14 14:08: office look saw laptop (on the desk), mouse, pen, notebook; mug_tomas in living")
+    for hhmm in ("13:08", "15:12"):
+        if seen("bedroom_1", hhmm).get("glass_tomas", {}).get("room") != "bedroom_1":
+            raise Mismatch(f"day 14 {hhmm}: glass_tomas not seen in bedroom_1")
+    print("  ok  day 14: glass_tomas seen in bedroom_1 at 13:08 and 15:12")
+
+
 def _wrap_to(fig, text, width_px, size, style="normal"):
     """Greedy wrap at spaces by measured width, so lines fill the box at the real font."""
     renderer = fig.canvas.get_renderer()
@@ -695,9 +736,8 @@ def _wrap_to(fig, text, width_px, size, style="normal"):
 def figure_5():
     print("\nFigure 5: figure3_told_the_cause.pdf")
     facts = figure_5_checks()
-    W, H = 5.5, 1.5
-    fig = plt.figure(figsize=(W, H))
-    fig.canvas.draw()
+    figure_5_annotation_checks()
+    W = 5.5
     BODY = 8.0
     LS = 1.45
     # neutral: the arm this figure follows is the told variant of a method the paper no longer
@@ -708,49 +748,68 @@ def figure_5():
     widths = [1.58, 1.56]
     widths.append(W - 2 * margin - 2 * gap - sum(widths))
     lefts = [margin, margin + widths[0] + gap, margin + widths[0] + widths[1] + 2 * gap]
-    top, bottom = H - 0.02, 0.03
     pad = 0.06
     heads = ["Night 13: told one sentence", "Day 14: every prediction holds",
              "Night 14: the update removes it"]
+
+    def draw(H):
+        """Everything hangs from the top edge, so the text's depth does not depend on H."""
+        fig = plt.figure(figsize=(W, H))
+        fig.canvas.draw()
+        px = fig.dpi
+        top, bottom = H - 0.02, 0.03
+
+        def box(i):
+            fig.patches.append(FancyBboxPatch((lefts[i] / W, bottom / H), widths[i] / W,
+                                              (top - bottom) / H, boxstyle="round,pad=0,rounding_size=0.012",
+                                              transform=fig.transFigure, facecolor="#fbfbfa",
+                                              edgecolor=accent, lw=0.9))
+            fig.text((lefts[i] + pad) / W, (top - pad + 0.01) / H, heads[i], ha="left", va="top",
+                     fontsize=FONT, fontweight="bold")
+
+        for i in range(3):
+            box(i)
+        body_top = top - pad - 0.17
+        inner = lambda i: (widths[i] - 2 * pad) * px
+        fig.text((lefts[0] + pad) / W, body_top / H, _wrap_to(fig, NIGHT13, inner(0), BODY, "italic"),
+                 ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
+        fig.text((lefts[1] + pad) / W, body_top / H, _wrap_to(fig, DAY14, inner(1), BODY),
+                 ha="left", va="top", fontsize=BODY, linespacing=LS)
+        x3 = (lefts[2] + pad) / W
+
+        def below(t, gap_in):
+            fig.canvas.draw()
+            return t.get_window_extent().y0 / px - gap_in      # inches from the bottom
+        t1 = fig.text(x3, body_top / H, _wrap_to(fig, NIGHT14, inner(2), BODY, "italic"),
+                      ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
+        a1 = fig.text(x3, below(t1, 0.03) / H, _wrap_to(fig, RETRACTION_BASIS, inner(2), SMALL),
+                      ha="left", va="top", fontsize=SMALL, color=MUTED, linespacing=1.3)
+        label_y = below(a1, 0.06)
+        fig.text(x3, label_y / H, "same night", ha="left", va="top", fontsize=SMALL, color=MUTED)
+        rule_y = label_y - 0.065
+        fig.lines.append(plt.Line2D([(lefts[2] + pad + 0.52) / W, (lefts[2] + widths[2] - pad) / W],
+                                    [(label_y - 0.045) / H] * 2, transform=fig.transFigure,
+                                    color="#d6d6d6", lw=0.6))
+        t2 = fig.text(x3, (rule_y - 0.05) / H, _wrap_to(fig, GLASS, inner(2), BODY, "italic"),
+                      ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
+        fig.text(x3, below(t2, 0.03) / H, _wrap_to(fig, GLASS_CONDITION, inner(2), SMALL),
+                 ha="left", va="top", fontsize=SMALL, color=MUTED, linespacing=1.3)
+        for i in range(2):
+            x0 = (lefts[i] + widths[i] + 0.03) / W
+            x1 = (lefts[i + 1] - 0.03) / W
+            fig.patches.append(matplotlib.patches.FancyArrowPatch(
+                (x0, 0.5), (x1, 0.5), transform=fig.transFigure, arrowstyle="-|>,head_width=2.2,head_length=3.6",
+                mutation_scale=1.0, color="#4a4a48", lw=1.0))
+        fig.canvas.draw()
+        lowest = min(t.get_window_extent().y0 / px for t in fig.texts)
+        return fig, top, bottom, lowest
+
+    # the depth of the text from the top, then the height that keeps the old floor clearance
+    probe, top0, _, low0 = draw(3.0)
+    plt.close(probe)
+    H = round(max(1.5, (top0 - low0) + 0.02 + 0.03 + 0.07) + 0.0049, 2)
+    fig, top, bottom, lowest = draw(H)
     px = fig.dpi
-
-    def box(i):
-        fig.patches.append(FancyBboxPatch((lefts[i] / W, bottom / H), widths[i] / W,
-                                          (top - bottom) / H, boxstyle="round,pad=0,rounding_size=0.012",
-                                          transform=fig.transFigure, facecolor="#fbfbfa",
-                                          edgecolor=accent, lw=0.9))
-        fig.text((lefts[i] + pad) / W, (top - pad + 0.01) / H, heads[i], ha="left", va="top",
-                 fontsize=FONT, fontweight="bold")
-
-    for i in range(3):
-        box(i)
-    body_top = top - pad - 0.17
-    inner = lambda i: (widths[i] - 2 * pad) * px
-    fig.text((lefts[0] + pad) / W, body_top / H, _wrap_to(fig, NIGHT13, inner(0), BODY, "italic"),
-             ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
-    fig.text((lefts[1] + pad) / W, body_top / H, _wrap_to(fig, DAY14, inner(1), BODY),
-             ha="left", va="top", fontsize=BODY, linespacing=LS)
-    t1 = fig.text((lefts[2] + pad) / W, body_top / H, _wrap_to(fig, NIGHT14, inner(2), BODY, "italic"),
-                  ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
-    fig.canvas.draw()
-    y_after = t1.get_window_extent().y0 / px          # inches from the bottom
-    label_y = y_after - 0.045
-    fig.text((lefts[2] + pad) / W, label_y / H, "same night", ha="left", va="top",
-             fontsize=SMALL, color=MUTED)
-    rule_y = label_y - 0.065
-    fig.lines.append(plt.Line2D([(lefts[2] + pad + 0.52) / W, (lefts[2] + widths[2] - pad) / W],
-                                [(label_y - 0.045) / H] * 2, transform=fig.transFigure,
-                                color="#d6d6d6", lw=0.6))
-    t2 = fig.text((lefts[2] + pad) / W, (rule_y - 0.05) / H,
-                  _wrap_to(fig, GLASS, inner(2), BODY, "italic"),
-                  ha="left", va="top", fontsize=BODY, style="italic", linespacing=LS)
-    for i in range(2):
-        x0 = (lefts[i] + widths[i] + 0.03) / W
-        x1 = (lefts[i + 1] - 0.03) / W
-        fig.patches.append(matplotlib.patches.FancyArrowPatch(
-            (x0, 0.5), (x1, 0.5), transform=fig.transFigure, arrowstyle="-|>,head_width=2.2,head_length=3.6",
-            mutation_scale=1.0, color="#4a4a48", lw=1.0))
-    fig.canvas.draw()
     # every text item must sit inside its own box, with the padding kept on the right and below
     for t in fig.texts:
         bb = t.get_window_extent()
@@ -758,8 +817,10 @@ def figure_5():
         i = max(j for j in range(3) if x0 >= lefts[j] - 1e-6)
         if x1 > lefts[i] + widths[i] - pad / 2 or y0 < bottom + pad / 2 or bb.y1 / px > top:
             raise Mismatch(f"text runs out of box {i + 1}: {t.get_text()[:40]!r}")
-    lowest = min(t.get_window_extent().y0 / px for t in fig.texts)
-    print(f"  box text fills {top - lowest:.2f} of {top - bottom:.2f} in; lowest text {lowest - bottom:.2f} in above the box floor")
+        if t.get_fontsize() < SMALL - 1e-9:
+            raise Mismatch(f"{t.get_text()[:30]!r} is {t.get_fontsize()} pt, below {SMALL}")
+    print(f"  height {H:.2f} in; box text fills {top - lowest:.2f} of {top - bottom:.2f} in; "
+          f"lowest text {lowest - bottom:.2f} in above the box floor")
     payload = {
         "source": str(TOLD),
         "arm": ("the told variant of the log-and-notes memory (cell ours_told_and_asked_what_changes, 24 a day); "
@@ -771,12 +832,17 @@ def figure_5():
         "box3": {"heading": heads[2],
                  "retraction": NIGHT14,
                  "retraction_from": "claim_0022, revision of day 15, `was`; the ellipsis omits one sentence",
+                 "retraction_basis": RETRACTION_BASIS,
+                 "retraction_basis_from": ("looks.jsonl, day 14 14:08: the office look saw laptop_tomas (desk_o1), "
+                                           "mouse_tomas, pen_tomas, notebook_tomas; the living look saw mug_tomas"),
                  "label": "same night", "glass": GLASS,
-                 "glass_from": "claim_0024, revision of day 15, `was`"},
+                 "glass_from": "claim_0024, revision of day 15, `was`",
+                 "glass_condition": GLASS_CONDITION,
+                 "glass_condition_from": ("claim_0024, revision of day 15, `was`.holds_under = 'Daytime.'; "
+                                          "looks.jsonl: glass_tomas seen in bedroom_1 at 13:08 and 15:12 on day 14")},
         "body_size_pt": BODY,
     }
     payload["boxes"].append(payload.pop("box3"))
-    del t2
     save(fig, "figure3_told_the_cause", payload, (W, H))
     if " ".join(DAY14.split()) not in pdf_text(OUT / "figure3_told_the_cause.pdf"):
         raise Mismatch("the new middle-box wording is not in the written PDF")
@@ -1170,7 +1236,9 @@ def poster_figure_5(P):
     heads = [b["heading"] for b in J["boxes"]]
     q13, day14, box3 = J["boxes"][0]["quote"], J["boxes"][1]["text"], J["boxes"][2]
     for label, got, want in (("night 13 quote", q13, NIGHT13), ("day 14 text", day14, DAY14_EXPECTED),
-                             ("retraction", box3["retraction"], NIGHT14), ("glass", box3["glass"], GLASS)):
+                             ("retraction", box3["retraction"], NIGHT14), ("glass", box3["glass"], GLASS),
+                             ("retraction basis", box3["retraction_basis"], RETRACTION_BASIS),
+                             ("glass condition", box3["glass_condition"], GLASS_CONDITION)):
         if got != want:
             raise Mismatch(f"poster {label} differs from the paper figure's")
     print("  ok  the three quotes and the middle text are the paper figure's, character for character")
@@ -1195,10 +1263,17 @@ def poster_figure_5(P):
             parts.append(("body", wrap_measured(day14, inner, F), F, "normal", "normal"))
         else:
             parts.append(("body", wrap_measured(box3["retraction"], inner, F, style="italic"), F, "normal", "italic"))
+            parts.append(("annot", wrap_measured(box3["retraction_basis"], inner, S), S, "normal", "normal"))
             parts.append(("label", box3["label"], S, "normal", "normal"))
             parts.append(("body", wrap_measured(box3["glass"], inner, F, style="italic"), F, "normal", "italic"))
+            parts.append(("annot", wrap_measured(box3["glass_condition"], inner, S), S, "normal", "normal"))
+        # a single word wider than the box (e.g. "laptop/mug/charger") rules this width out
+        if any(measure(ln, sz, wt, st)[0] > inner for _, t, sz, wt, st in parts for ln in t.split("\n")):
+            return None, None, None, float("inf")
         hs = [measure(t, sz, wt, st, LS)[1] for _, t, sz, wt, st in parts]
-        sep = [0.12 * P.k] + [0.1 * P.k] * (len(parts) - 2)
+        # an annotation sits close under the quote it explains
+        sep = [0.12 * P.k] + [0.04 * P.k if parts[j + 1][0] == "annot" else 0.1 * P.k
+                              for j in range(1, len(parts) - 1)]
         return parts, hs, sep, sum(hs) + sum(sep) + 2 * pad
 
     # box widths that make the tallest box as short as possible (a 0.1 in grid)
@@ -1230,7 +1305,7 @@ def poster_figure_5(P):
         parts, hs, sep, _ = content(i, widths[i])
         y = H - margin - pad
         for j, ((kind, text, sz, wt, st), h) in enumerate(zip(parts, hs)):
-            colour = MUTED if kind == "label" else INK
+            colour = MUTED if kind in ("label", "annot") else INK
             fig.text(lefts[i] + pad, y, text, transform=T, ha="left", va="top", fontsize=sz,
                      fontweight=wt, style=st, color=colour, linespacing=LS)
             if kind == "label":

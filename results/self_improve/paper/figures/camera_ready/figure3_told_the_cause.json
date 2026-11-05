@@ -2,7 +2,7 @@
  "figure_file": "figure3_told_the_cause.pdf",
  "size_in": [
   5.5,
-  1.5
+  1.9
  ],
  "source": "results/self_improve/wave_the_family_reads_the_log/cells/ours_told_and_asked_what_changes/hh_s2_t03",
  "arm": "the told variant of the log-and-notes memory (cell ours_told_and_asked_what_changes, 24 a day); the paper no longer includes that method under any name",
@@ -38,9 +38,13 @@
    "heading": "Night 14: the update removes it",
    "retraction": "Tomas works from the office during the day (seen 14:08)… The 'unwell' hypothesis from Day 13 is not supported by Day 14 activity.",
    "retraction_from": "claim_0022, revision of day 15, `was`; the ellipsis omits one sentence",
+   "retraction_basis": "based on: his laptop still on the office desk at 14:08",
+   "retraction_basis_from": "looks.jsonl, day 14 14:08: the office look saw laptop_tomas (desk_o1), mouse_tomas, pen_tomas, notebook_tomas; the living look saw mug_tomas",
    "label": "same night",
    "glass": "Tomas's glass is on the bedroom nightstand during the day (seen 08:07-15:12).",
-   "glass_from": "claim_0024, revision of day 15, `was`"
+   "glass_from": "claim_0024, revision of day 15, `was`",
+   "glass_condition": "true on day 14, but filed as a daytime fact, with no illness condition",
+   "glass_condition_from": "claim_0024, revision of day 15, `was`.holds_under = 'Daytime.'; looks.jsonl: glass_tomas seen in bedroom_1 at 13:08 and 15:12 on day 14"
   }
  ],
  "body_size_pt": 8.0
